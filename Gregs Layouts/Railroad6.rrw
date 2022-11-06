@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout name="Railroad6" scale="3" bitmap="" zoom="5.38652" xdim="4633" ydim="9267" xoffset="0" yoffset="0" def_cars="DropKick" descr="">
+<tracks>
+<jxns>
+<jxn t="3" id="1" pt="1460,3047"></jxn>
+<jxn t="3" id="2" pt="3154,4747"></jxn>
+</jxns>
+<trks>
+<str t="1" id="1" rect="1460,3047,3154,4747" js="1" jn="2"></str>
+</trks>
+<ctrs>
+<ttb t="12" id="2" rect="1107,2697,3507,5097" pt="2307,3897" radius="600" ttrk="1"></ttb>
+</ctrs>
+</tracks>
+<trains trk="0" dists="0"></trains>
+<clock smult="6"></clock>
+<roadstyles>
+<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="1"></roadstyle>
+</roadstyles>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1874,b:842" zoom="0.185649" ctr="x:2317,y:4504" vtype="16467"></winview>
+<notes>
+<note autofit="1">
+<scn t="16" id="1" rect="558,253,1040,647" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>202,485,902,1088</wndrect>
+</note>
+</notes>
+</layout>
