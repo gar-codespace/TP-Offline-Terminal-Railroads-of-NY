@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="cnj bronx terminal 1915.jpg" zoom="6.38647" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx">
+<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="cnj bronx terminal 1915.jpg" zoom="9.20085" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="7681,6594"></jxn>
@@ -182,11 +182,11 @@
 <jxn t="3" id="32" pt="4939,3856"></jxn>
 <jxn t="3" id="33" pt="4777,3933"></jxn>
 <jxn t="3" id="34" pt="5514,3340"></jxn>
-<jxn t="3" id="35" pt="5188,3655" swp="1"></jxn>
+<jxn t="3" id="35" pt="5188,3655"></jxn>
 <jxn t="3" id="36" pt="5344,3473"></jxn>
 <jxn t="3" id="37" pt="5264,3573"></jxn>
 <jxn t="3" id="38" pt="5832,2051"></jxn>
-<jxn t="3" id="39" pt="5801,1930" swp="1"></jxn>
+<jxn t="3" id="39" pt="5801,1930"></jxn>
 <jxn t="3" id="40" pt="5754,1781"></jxn>
 <jxn t="3" id="41" pt="5855,2242"></jxn>
 <jxn t="3" id="44" pt="5829,2066" swp="1"></jxn>
@@ -477,12 +477,11 @@
 <stn t="15" id="3" rect="3778,4482,4504,4656" name="Storage"></stn>
 </stns>
 </tracks>
-<trains selno="6" trk="0" dists="0">
-<trn t="6" id="6" dspeed="0" horntype="0">
+<trains selno="0" trk="0" dists="0">
+<trn t="6" id="6" dspeed="0" horntype="0" selcarno="1">
 <cars>
-<car t="5" id="44" rect="6613,3073,7267,3557" flags="1048576" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="120" label="WCC 7970" loaded="1" loadname="coal" dest="T" collname="Default Steam" cartype="2 bay hopper" trk="252" dists="1257"></car>
-<car t="5" id="9" rect="7026,3266,7730,3780" flags="1048576" type="7" outl="134,134,134" fill="192,192,192" len="530" wid="130" label="ACL 2883" loadname="Crate" dest="T" collname="Default Steam" cartype="gondola" trk="252" dists="772"></car>
-<car t="5" id="10" rect="7486,3486,8190,4000" flags="1048576" type="7" outl="134,134,134" fill="192,192,192" len="530" wid="130" label="PRR 2418" loaded="1" loadname="Empty" dest="T" collname="Default Steam" cartype="gondola" trk="252" dists="262"></car>
+<car t="5" id="44" rect="7032,3272,7686,3756" flags="1048576" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="120" label="WCC 7970" loaded="1" loadname="coal" dest="T" collname="Default Steam" cartype="2 bay hopper" trk="252" dists="793"></car>
+<car t="5" id="9" rect="7444,3466,8148,3980" flags="1048576" type="7" outl="134,134,134" fill="192,192,192" len="530" wid="130" label="ACL 2883" loadname="Crate" dest="T" collname="Default Steam" cartype="gondola" trk="252" dists="308"></car>
 </cars>
 </trn>
 <trn t="6" id="5" dspeed="0" horntype="0">
@@ -527,7 +526,7 @@
 <car t="5" id="50" rect="6518,3937,7240,4459" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 7100" loaded="1" loadname="Empty" dest="T" collname="Default Steam" cartype="40ft wood box" trk="196" dists="1323" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="19" dspeed="0" horntype="0" selcarno="9">
+<trn t="6" id="19" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="67" rect="7440,5879,8162,6403" flags="1052672" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="PFEX 1938" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="ice reefer" trk="128" dists="303" gs="1"></car>
 <car t="5" id="21" rect="7028,5685,7682,6169" flags="1052672" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="120" label="P&amp;R 6526" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="2 bay hopper" trk="128" dists="798" gs="1"></car>
@@ -556,7 +555,8 @@
 </trn>
 <trn t="6" id="21" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="60" rect="7279,2682,7949,3002" flags="1052672" type="10" outl="102,51,0" fill="204,102,0" len="500" wid="150" label="NYC 9190" loaded="1" loadname="steel beams" carnote="Idler Flat" dest="G" collname="Default Steam" cartype="flatcar" trk="228" dists="461" gs="1"></car>
+<car t="5" id="60" rect="7195,2682,7865,3002" flags="1052672" type="10" outl="102,51,0" fill="204,102,0" len="500" wid="150" label="NYC 9190" loaded="1" loadname="steel beams" carnote="Idler Flat" dest="G" collname="Default Steam" cartype="flatcar" trk="228" dists="545" gs="1"></car>
+<car t="5" id="10" rect="6685,2692,7385,2992" flags="5242880" type="7" outl="134,134,134" fill="192,192,192" len="530" wid="130" label="PRR 2418" loaded="1" loadname="Empty" dest="T" collname="Default Steam" cartype="gondola" trk="228" dists="1040" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="2" dspeed="0" horntype="0">
@@ -688,7 +688,7 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:25,t:25,r:1965,b:912" zoom="0.156581" ctr="x:5429,y:3863" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:25,t:25,r:1965,b:912" zoom="0.108686" ctr="x:5428,y:3862" vtype="596" fit="1"></winview>
 <scripts>
 <script id="20" flags="6" cmdix="2127" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
