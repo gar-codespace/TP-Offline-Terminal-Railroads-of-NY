@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="JAWS II - Time Saver" scale="3" bitmap="JAWS II - Time Saver.jpg" zoom="3.32764" xdim="7211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" descr="">
+<layout name="Time Saver" lid="JA1" scale="3" bitmap="Time Saver.jpg" zoom="3.36805" xdim="7211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" descr="">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="528,472"></jxn>
@@ -72,7 +72,7 @@
 <scn t="16" id="12" rect="1593,1069,3077,1193" otype="3" text="Press the &apos;End&apos; key to stop the timer." bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="60,400,0,0,Arial,RRU=100" txtcolor="R:0,G:0,B:0" align="0"></scn>
 </scenery>
 </tracks>
-<trains selno="3" trk="0" dists="0">
+<trains selno="1" trk="0" dists="0">
 <trn t="6" id="7" dspeed="0" rev="1" horntype="0">
 <cars>
 <car t="5" id="12" rect="2267,116,3037,426" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" collname="North American Diesel_Electric Engines" cartype="a6 1926_AGEIR Boxcab" trk="8" dists="154" gs="1"></car>
@@ -80,9 +80,9 @@
 <car t="5" id="3" rect="1145,113,1867,425" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loaded="1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="992"></car>
 </cars>
 </trn>
-<trn t="6" id="4" dspeed="0" rev="1" horntype="0">
+<trn t="6" id="4" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="11" rect="6330,747,7068,1187" flags="4198400" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="R1" loaded="1" loadname="Empty" dest="~" collname="1930s-1940s" cartype="reefer wood ice pfe" trk="20" dists="929" gs="1"></car>
+<car t="5" id="11" rect="6181,709,6919,1149" flags="4198400" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="R1" loaded="1" loadname="Empty" dest="~" collname="1930s-1940s" cartype="reefer wood ice pfe" trk="20" dists="775"></car>
 </cars>
 </trn>
 <trn t="6" id="1" dspeed="0" horntype="0">
@@ -90,7 +90,7 @@
 <car t="5" id="2" rect="537,317,1259,627" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="B1" loaded="1" loadname="Empty" dest="B" collname="1930s-1940s" cartype="box 40 usra" trk="1" dists="370"></car>
 </cars>
 </trn>
-<trn t="6" id="2" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="2" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="10" rect="3794,114,4516,426" flags="4198400" type="9" outl="150,150,150" fill="153,255,255" len="552" wid="141" label="T1" loaded="1" loadname="Empty" dest="~" collname="1930s-1940s" cartype="tank acf27" trk="19" dists="299"></car>
 </cars>
@@ -116,40 +116,39 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.300513" ctr="x:3604,y:597" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.296908" ctr="x:3604,y:597" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="1607"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6"><![CDATA[* Master script on layout TimeSaver
 
 Let $Key = 0
 
 ** Set Up the Subroutines
 
-Call QuickKeys2 Setup
-Call SpeedSwitching3 Setup
-Call DropKick2 Setup
-** Call PhastPhunctions2 Setup
-Call JAWS1 Setup
-** Call TurnTable1 Setup
-Call HelpLanguage @xLanguage
+Call UserSettings
+Call QKSupport  ** Quick Keys support utilities
+Call SetLanguage en  ** Language choices are: en, de, fr, sp
+
+Call QuickKeys Setup
+Call SpeedSwitching Setup
+Call DropKick Setup
+Call o2o Setup 0  ** 0 = use TrainPlayer loads, 1 = use JMRI loads
+
+**Close the greeting message
 Call NoteWindow
 
 StartingPoint:
 
 On Key
 
-Let sMaxSpeed = 7
-Let sCoupleSpeed = 4 
+Let sMaxSpeed = 4
+Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
-** Call TurnTable1
-Call QuickKeys2
-Call SpeedSwitching3 $Train $Car $Speed
-Call DropKick2 $Train $Car $Speed
-** Call PhastPhunctions2
-Call JAWS1
-Call jUtils1
-Call jTimer1
+Call QuickKeys
+Call SpeedSwitching $Train $Car $Speed
+Call DropKick $Train $Car $Speed
+Call o2o
 
 EndDrive
 
@@ -157,8 +156,8 @@ GoTo StartingPoint]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="383,589,1021,1289" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="120,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>316,306,492,1231</wndrect>
+<scn t="16" id="1" rect="450,232,1133,644" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>186,23,400,867</wndrect>
 </note>
 </notes>
 </layout>

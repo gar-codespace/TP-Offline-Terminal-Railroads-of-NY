@@ -120,86 +120,86 @@
 <trks>
 <str t="1" id="3" rect="1120,1837,4212,1841" tag="P" js="1" jn="2" stnno="219"></str>
 <str t="1" id="5" rect="4212,1837,4576,1869" tag="P" js="2" jn="4" stnno="219"></str>
-<str t="1" id="7" rect="4576,1866,6084,1869" tag="~" js="4" jn="28"></str>
+<str t="1" id="7" rect="4576,1866,6084,1869" js="4" jn="28"></str>
 <str t="1" id="10" rect="1135,1979,4089,1984" tag="P" js="8" jn="9" stnno="219"></str>
 <str t="1" id="13" rect="1128,2118,4162,2121" tag="P" js="11" jn="12" stnno="219"></str>
 <str t="1" id="15" rect="4162,2092,4620,2118" tag="P" js="12" jn="14" stnno="219"></str>
 <str t="1" id="19" rect="4089,1979,4381,2003" tag="P" js="9" jn="18" stnno="219"></str>
 <str t="1" id="21" rect="4381,2003,4639,2043" tag="P" js="18" jn="20" stnno="219"></str>
-<str t="1" id="24" rect="5104,2089,6091,2091" tag="~" js="22" jn="31"></str>
+<str t="1" id="24" rect="5104,2089,6091,2091" js="22" jn="31"></str>
 <str t="1" id="27" rect="7600,2135,8035,2226" tag="T" js="25" jn="212"></str>
-<str t="1" id="29" rect="6084,1866,6486,1903" tag="~" js="26" jn="28"></str>
-<str t="1" id="30" rect="6084,1866,7190,1870" tag="~" js="28" jn="85"></str>
-<str t="1" id="33" rect="6091,2053,6486,2089" tag="~" js="31" jn="32"></str>
-<str t="1" id="34" rect="6091,2088,6333,2090" tag="~" js="31" jn="65"></str>
-<str t="1" id="36" rect="6486,1903,7220,2053" tag="~" js="32" jn="35"></str>
-<str t="1" id="38" rect="7220,1874,7620,1903" tag="~" js="35" jn="37"></str>
-<str t="1" id="39" rect="7620,1870,7820,1874" tag="~" js="37" jn="40"></str>
-<str t="1" id="42" rect="7820,1837,8150,1870" tag="~" js="40" jn="41"></str>
+<str t="1" id="29" rect="6084,1866,6486,1903" js="26" jn="28"></str>
+<str t="1" id="30" rect="6084,1866,7190,1870" js="28" jn="85"></str>
+<str t="1" id="33" rect="6091,2053,6486,2089" js="31" jn="32"></str>
+<str t="1" id="34" rect="6091,2088,6333,2090" js="31" jn="65"></str>
+<str t="1" id="36" rect="6486,1903,7220,2053" js="32" jn="35"></str>
+<str t="1" id="38" rect="7220,1874,7620,1903" js="35" jn="37"></str>
+<str t="1" id="39" rect="7620,1870,7820,1874" js="37" jn="40"></str>
+<str t="1" id="42" rect="7820,1837,8150,1870" js="40" jn="41"></str>
 <str t="1" id="43" rect="7820,1867,12640,1870" tag="T" js="40" jn="6"></str>
-<str t="1" id="45" rect="8150,1811,8296,1837" tag="~" js="41" jn="44"></str>
-<str t="1" id="47" rect="8296,1757,8492,1811" tag="~" js="44" jn="46"></str>
-<str t="1" id="49" rect="8492,1714,8696,1757" tag="~" js="46" jn="48"></str>
-<str t="1" id="51" rect="8696,1703,8900,1714" tag="~" js="48" jn="50"></str>
+<str t="1" id="45" rect="8150,1811,8296,1837" js="41" jn="44"></str>
+<str t="1" id="47" rect="8296,1757,8492,1811" js="44" jn="46"></str>
+<str t="1" id="49" rect="8492,1714,8696,1757" js="46" jn="48"></str>
+<str t="1" id="51" rect="8696,1703,8900,1714" js="48" jn="50"></str>
 <str t="1" id="53" rect="8900,1703,12645,1705" tag="T" js="50" jn="52"></str>
 <str t="1" id="55" rect="8035,2226,8296,2276" tag="T" js="25" jn="54"></str>
 <str t="1" id="57" rect="8296,2276,8496,2295" tag="T" js="54" jn="56"></str>
 <str t="1" id="59" rect="8496,2295,8773,2299" tag="T" js="56" jn="58"></str>
 <str t="1" id="61" rect="8773,2297,10056,2300" tag="T" js="58" jn="7"></str>
 <str t="1" id="64" rect="7258,2234,8081,2406" tag="T" js="62" jn="3"></str>
-<str t="1" id="66" rect="6333,2089,6633,2110" tag="~" js="63" jn="65"></str>
-<str t="1" id="67" rect="6333,2089,7193,2091" tag="~" js="65" jn="16"></str>
-<str t="1" id="72" rect="7255,2260,7469,2364" tag="~" js="69" jn="71"></str>
-<str t="1" id="74" rect="6937,2172,7255,2260" tag="~" js="71" jn="73"></str>
-<str t="1" id="75" rect="6633,2110,6937,2172" tag="~" js="73" jn="63"></str>
-<str t="1" id="80" rect="7797,1711,7954,1776" tag="~" js="77" jn="79"></str>
-<str t="1" id="82" rect="7628,1776,7797,1824" tag="~" js="79" jn="81"></str>
-<str t="1" id="84" rect="7492,1824,7628,1843" tag="~" js="81" jn="83"></str>
-<str t="1" id="86" rect="7190,1843,7492,1870" tag="~" js="83" jn="85"></str>
-<str t="1" id="87" rect="7190,1870,7620,1874" tag="~" js="85" jn="37"></str>
+<str t="1" id="66" rect="6333,2089,6633,2110" js="63" jn="65"></str>
+<str t="1" id="67" rect="6333,2089,7193,2091" js="65" jn="16"></str>
+<str t="1" id="72" rect="7255,2260,7469,2364" js="69" jn="71"></str>
+<str t="1" id="74" rect="6937,2172,7255,2260" js="71" jn="73"></str>
+<str t="1" id="75" rect="6633,2110,6937,2172" js="73" jn="63"></str>
+<str t="1" id="80" rect="7797,1711,7954,1776" js="77" jn="79"></str>
+<str t="1" id="82" rect="7628,1776,7797,1824" js="79" jn="81"></str>
+<str t="1" id="84" rect="7492,1824,7628,1843" js="81" jn="83"></str>
+<str t="1" id="86" rect="7190,1843,7492,1870" js="83" jn="85"></str>
+<str t="1" id="87" rect="7190,1870,7620,1874" js="85" jn="37"></str>
 <str t="1" id="90" rect="6181,1103,7392,1107" tag="T" js="88" jn="5" stnno="216"></str>
 <str t="1" id="93" rect="7677,1296,8177,1649" tag="C" js="91" jn="92"></str>
-<str t="1" id="95" rect="8177,1207,8346,1296" tag="~" js="92" jn="94"></str>
-<str t="1" id="97" rect="8346,1153,8538,1207" tag="~" js="94" jn="96"></str>
-<str t="1" id="99" rect="8538,1107,9007,1153" tag="~" js="96" jn="98" stnno="216"></str>
-<str t="1" id="100" rect="9007,1104,9310,1107" tag="~" js="98" jn="10" stnno="216"></str>
-<str t="1" id="102" rect="7469,2364,7743,2552" tag="~" js="69" jn="101"></str>
-<str t="1" id="104" rect="7743,2552,7947,2733" tag="~" js="101" jn="103"></str>
-<str t="1" id="106" rect="7947,2733,8170,2944" tag="~" js="103" jn="105"></str>
-<str t="1" id="108" rect="8170,2944,8346,3087" tag="~" js="105" jn="107"></str>
-<str t="1" id="110" rect="8346,3087,8608,3240" tag="~" js="107" jn="109"></str>
-<str t="1" id="114" rect="8957,3429,9176,3529" tag="~" js="111" jn="113"></str>
-<str t="1" id="118" rect="8919,3383,9130,3444" tag="~" js="115" jn="117"></str>
-<str t="1" id="120" rect="9130,3444,9326,3471" tag="~" js="117" jn="119"></str>
+<str t="1" id="95" rect="8177,1207,8346,1296" js="92" jn="94"></str>
+<str t="1" id="97" rect="8346,1153,8538,1207" js="94" jn="96"></str>
+<str t="1" id="99" rect="8538,1107,9007,1153" js="96" jn="98" stnno="216"></str>
+<str t="1" id="100" rect="9007,1104,9310,1107" js="98" jn="10" stnno="216"></str>
+<str t="1" id="102" rect="7469,2364,7743,2552" js="69" jn="101"></str>
+<str t="1" id="104" rect="7743,2552,7947,2733" js="101" jn="103"></str>
+<str t="1" id="106" rect="7947,2733,8170,2944" js="103" jn="105"></str>
+<str t="1" id="108" rect="8170,2944,8346,3087" js="105" jn="107"></str>
+<str t="1" id="110" rect="8346,3087,8608,3240" js="107" jn="109"></str>
+<str t="1" id="114" rect="8957,3429,9176,3529" js="111" jn="113"></str>
+<str t="1" id="118" rect="8919,3383,9130,3444" js="115" jn="117"></str>
+<str t="1" id="120" rect="9130,3444,9326,3471" js="117" jn="119"></str>
 <str t="1" id="122" rect="9326,3471,12636,3476" tag="F" js="119" jn="121"></str>
-<str t="1" id="124" rect="8319,2860,8512,2964" tag="~" js="68" jn="123"></str>
-<str t="1" id="126" rect="8512,2964,8696,3029" tag="~" js="123" jn="125"></str>
-<str t="1" id="128" rect="8696,3029,8888,3071" tag="~" js="125" jn="127"></str>
-<str t="1" id="130" rect="8888,3071,9126,3090" tag="~" js="127" jn="129"></str>
+<str t="1" id="124" rect="8319,2860,8512,2964" js="68" jn="123"></str>
+<str t="1" id="126" rect="8512,2964,8696,3029" js="123" jn="125"></str>
+<str t="1" id="128" rect="8696,3029,8888,3071" js="125" jn="127"></str>
+<str t="1" id="130" rect="8888,3071,9126,3090" js="127" jn="129"></str>
 <str t="1" id="132" rect="9126,3088,12645,3090" tag="T" js="129" jn="131"></str>
 <str t="1" id="135" rect="8788,2933,12652,2936" tag="T" js="133" jn="134"></str>
-<str t="1" id="137" rect="8550,2902,8788,2933" tag="~" js="134" jn="136"></str>
-<str t="1" id="139" rect="8312,2825,8550,2902" tag="~" js="136" jn="138"></str>
-<str t="1" id="142" rect="7469,2364,8008,2678" tag="~" js="140" jn="69"></str>
+<str t="1" id="137" rect="8550,2902,8788,2933" js="134" jn="136"></str>
+<str t="1" id="139" rect="8312,2825,8550,2902" js="136" jn="138"></str>
+<str t="1" id="142" rect="7469,2364,8008,2678" js="140" jn="69"></str>
 <str t="1" id="144" rect="8081,2406,8173,2426" tag="T" js="62" jn="143"></str>
 <str t="1" id="146" rect="8173,2426,8404,2456" tag="T" js="143" jn="145"></str>
 <str t="1" id="148" rect="8404,2456,8631,2460" tag="T" js="145" jn="147"></str>
 <str t="1" id="150" rect="8631,2459,9296,2462" tag="T" js="147" jn="187"></str>
 <str t="1" id="153" rect="6376,948,10553,951" tag="T" js="151" jn="13" stnno="216"></str>
-<str t="1" id="155" rect="8877,1176,9092,1253" tag="~" js="76" jn="154"></str>
-<str t="1" id="157" rect="9092,1142,9249,1176" tag="~" js="154" jn="156" stnno="216"></str>
-<str t="1" id="159" rect="9249,1107,9583,1142" tag="~" js="156" jn="158" stnno="216"></str>
-<str t="1" id="160" rect="9583,1106,9676,1108" tag="~" js="158" jn="161" stnno="216"></str>
-<str t="1" id="163" rect="9676,1088,9933,1107" tag="~" js="161" jn="162" stnno="216"></str>
+<str t="1" id="155" rect="8877,1176,9092,1253" js="76" jn="154"></str>
+<str t="1" id="157" rect="9092,1142,9249,1176" js="154" jn="156" stnno="216"></str>
+<str t="1" id="159" rect="9249,1107,9583,1142" js="156" jn="158" stnno="216"></str>
+<str t="1" id="160" rect="9583,1106,9676,1108" js="158" jn="161" stnno="216"></str>
+<str t="1" id="163" rect="9676,1088,9933,1107" js="161" jn="162" stnno="216"></str>
 <str t="1" id="164" rect="9676,1107,12644,1110" tag="T" js="161" jn="89" stnno="216"></str>
-<str t="1" id="166" rect="9933,1061,10087,1088" tag="~" js="162" jn="165" stnno="216"></str>
-<str t="1" id="168" rect="10087,1007,10298,1061" tag="~" js="165" jn="167" stnno="216"></str>
-<str t="1" id="170" rect="10298,973,10475,1007" tag="~" js="167" jn="169" stnno="216"></str>
+<str t="1" id="166" rect="9933,1061,10087,1088" js="162" jn="165" stnno="216"></str>
+<str t="1" id="168" rect="10087,1007,10298,1061" js="165" jn="167" stnno="216"></str>
+<str t="1" id="170" rect="10298,973,10475,1007" js="167" jn="169" stnno="216"></str>
 <str t="1" id="173" rect="10767,947,12651,950" tag="T" js="171" jn="152" stnno="216"></str>
 <str t="1" id="176" rect="9184,1265,12651,1268" tag="T" js="174" jn="175"></str>
-<str t="1" id="178" rect="9000,1268,9184,1280" tag="~" js="175" jn="177"></str>
-<str t="1" id="183" rect="8757,1280,9000,1338" tag="~" js="177" jn="182"></str>
-<str t="1" id="186" rect="7954,1457,8465,1711" tag="~" js="184" jn="77"></str>
+<str t="1" id="178" rect="9000,1268,9184,1280" js="175" jn="177"></str>
+<str t="1" id="183" rect="8757,1280,9000,1338" js="177" jn="182"></str>
+<str t="1" id="186" rect="7954,1457,8465,1711" js="184" jn="77"></str>
 <str t="1" id="189" rect="9296,2437,9611,2461" tag="T" js="187" jn="188"></str>
 <str t="1" id="190" rect="9296,2459,12636,2461" tag="T" js="187" jn="149"></str>
 <str t="1" id="192" rect="9611,2410,9753,2437" tag="T" js="188" jn="191"></str>
@@ -207,14 +207,14 @@
 <str t="1" id="196" rect="9980,2325,10122,2356" tag="T" js="193" jn="195"></str>
 <str t="1" id="199" rect="10410,2299,12647,2304" tag="T" js="197" jn="60"></str>
 <str t="1" id="202" rect="9826,3630,12640,3635" tag="F" js="200" jn="207"></str>
-<str t="1" id="204" rect="9176,3529,9361,3583" tag="~" js="113" jn="203"></str>
-<str t="1" id="206" rect="9361,3583,9507,3606" tag="~" js="203" jn="205"></str>
-<str t="1" id="208" rect="9507,3606,9826,3635" tag="~" js="205" jn="207"></str>
+<str t="1" id="204" rect="9176,3529,9361,3583" js="113" jn="203"></str>
+<str t="1" id="206" rect="9361,3583,9507,3606" js="203" jn="205"></str>
+<str t="1" id="208" rect="9507,3606,9826,3635" js="205" jn="207"></str>
 <str t="1" id="209" rect="8449,3634,9826,3637" tag="F" js="207" jn="201"></str>
-<str t="1" id="211" rect="7193,2091,7320,2099" tag="~" js="16" jn="210"></str>
-<str t="1" id="213" rect="7320,2099,7600,2135" tag="~" js="210" jn="212"></str>
-<str t="1" id="214" rect="6486,1903,7600,2135" tag="~" js="212" jn="26"></str>
-<str t="1" id="1" rect="6937,2172,7258,2234" tag="~" js="3" jn="73"></str>
+<str t="1" id="211" rect="7193,2091,7320,2099" js="16" jn="210"></str>
+<str t="1" id="213" rect="7320,2099,7600,2135" js="210" jn="212"></str>
+<str t="1" id="214" rect="6486,1903,7600,2135" js="212" jn="26"></str>
+<str t="1" id="1" rect="6937,2172,7258,2234" js="3" jn="73"></str>
 <str t="1" id="2" rect="7392,1103,9007,1107" tag="C" js="5" jn="98"></str>
 <str t="1" id="4" rect="10122,2299,10410,2325" js="195" jn="197"></str>
 <str t="1" id="6" rect="10056,2297,10410,2300" js="197" jn="7"></str>
@@ -224,7 +224,7 @@
 <str t="1" id="12" rect="8008,2678,8319,2860" js="68" jn="140"></str>
 <str t="1" id="14" rect="8465,1338,8757,1457" js="182" jn="184"></str>
 <str t="1" id="16" rect="8465,1253,8877,1457" js="184" jn="76"></str>
-<str t="1" id="18" rect="9310,1104,9583,1107" tag="~" js="10" jn="158"></str>
+<str t="1" id="18" rect="9310,1104,9583,1107" js="10" jn="158"></str>
 <str t="1" id="20" rect="10475,948,10767,973" js="169" jn="171"></str>
 <str t="1" id="22" rect="10553,947,10767,949" js="171" jn="13"></str>
 <str t="1" id="17" rect="4639,2043,5104,2091" js="20" jn="22"></str>
@@ -378,9 +378,9 @@
 <car t="5" id="29" rect="12011,3480,12731,3780" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P04180" loaded="1" loadname="packages" dest="F" collname="Default Steam" cartype="40ft wood box" trk="202" dists="269"></car>
 </cars>
 </trn>
-<trn t="6" id="17" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="17" dspeed="0" rev="1" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="57" rect="7576,1996,8280,2408" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="PRR5972" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="27" dists="109"></car>
+<car t="5" id="57" rect="7657,2014,8361,2424" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="PRR5972" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="27" dists="26" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -434,9 +434,9 @@ endif]]></action>
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1956,b:903" zoom="0.151373" ctr="x:7482,y:2834" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1956,b:903" zoom="0.151373" ctr="x:7482,y:2835" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="2092" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" cmdix="2127" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
 
 Let $Key = 0
@@ -480,7 +480,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,314,661</wndrect>
+<wndrect>134,15,404,661</wndrect>
 </note>
 </notes>
 </layout>

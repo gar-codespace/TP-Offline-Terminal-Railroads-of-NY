@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="JAWS II - Jay Street Connecting RR" scale="3" bitmap="JAWS II - Jay Street Connecting RR.jpg" zoom="3.80069" xdim="43321" ydim="19002" xoffset="0" yoffset="0" bmap_size="x:43321,y:19002" def_cars="DropKick" descr="Pulls to Pier 2 track 1, 2, 3. Pier 2 track 1, 2, 3  to car float. Car float to yard. Yard to industry. Industries grouped into jobs (4 of them). Artwork © 2014 GA Ritacco.">
+<layout name="Jay Street Connecting RR" lid="JA1" scale="3" bitmap="Jay Street Connecting RR.jpg" zoom="3.80069" xdim="43321" ydim="19002" xoffset="0" yoffset="0" bmap_size="x:43321,y:19002" def_cars="DropKick" descr="">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="14495,18315"></jxn>
@@ -1869,13 +1869,13 @@
 </trn>
 <trn t="6" id="6" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="47" rect="4062,8160,4582,8902" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR1047" loaded="1" loadname="Empty1" dest="DST" collname="Default Steam" cartype="40ft wood box" trk="236" dists="281"></car>
+<car t="5" id="47" rect="4062,8160,4582,8902" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR1047" loaded="1" loadname="Empty1" dest="JST" collname="Default Steam" cartype="40ft wood box" trk="236" dists="281"></car>
 </cars>
 </trn>
 <trn t="6" id="9" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="8" rect="4089,8658,4567,9310" flags="5242880" type="6" outl="134,134,134" fill="192,192,192" len="470" wid="130" label="JSCRR408" loaded="1" loadname="Empty" dest="DST" collname="Default Steam" cartype="2 bay hopper" trk="225" dists="718"></car>
-<car t="5" id="122" rect="3907,8247,4385,8899" flags="5242880" type="6" outl="134,134,134" fill="192,192,192" len="470" wid="130" label="JSCRR40122" loaded="1" loadname="Empty" dest="DST" collname="Default Steam" cartype="2 bay hopper" trk="225" dists="268"></car>
+<car t="5" id="8" rect="4089,8658,4567,9310" flags="1048576" type="6" outl="134,134,134" fill="192,192,192" len="470" wid="130" label="JSCRR408" loaded="1" loadname="Empty" dest="JST" collname="Default Steam" cartype="2 bay hopper" trk="225" dists="718"></car>
+<car t="5" id="122" rect="3907,8247,4385,8899" flags="1048576" type="6" outl="134,134,134" fill="192,192,192" len="470" wid="130" label="JSCRR40122" loaded="1" loadname="Empty" dest="JST" collname="Default Steam" cartype="2 bay hopper" trk="225" dists="268"></car>
 </cars>
 </trn>
 <trn t="6" id="78" dspeed="0" horntype="0">
@@ -1922,9 +1922,9 @@
 <car t="5" id="181" rect="2601,10963,3289,11599" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR10181" loaded="1" loadname="Bulk" dest="B" collname="Default Steam" cartype="40ft wood box" trk="135" dists="49" gs="1"></car>
 <car t="5" id="147" rect="2332,10494,2884,11228" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR10147" loaded="1" loadname="Bulk" dest="B" collname="Default Steam" cartype="40ft wood box" trk="129" dists="46" gs="1"></car>
 <car t="5" id="85" rect="2113,9995,2629,10739" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR1085" loaded="1" loadname="Bulk" dest="B" collname="Default Steam" cartype="40ft wood box" trk="127" dists="1891" gs="1"></car>
-<car t="5" id="196" rect="1890,9491,2408,10235" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR10196" loaded="1" loadname="Empty1" dest="DST" collname="Default Steam" cartype="40ft wood box" trk="127" dists="1341" gs="1"></car>
-<car t="5" id="61" rect="1668,8988,2186,9732" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR1061" loaded="1" loadname="Empty1" dest="DST" collname="Default Steam" cartype="40ft wood box" trk="127" dists="791" gs="1"></car>
-<car t="5" id="195" rect="1447,8485,1965,9229" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR10195" loaded="1" loadname="Manifest" dest="DST" collname="Default Steam" cartype="40ft wood box" trk="127" dists="241" gs="1"></car>
+<car t="5" id="196" rect="1890,9491,2408,10235" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR10196" loaded="1" loadname="Empty1" dest="B" collname="Default Steam" cartype="40ft wood box" trk="127" dists="1341" gs="1"></car>
+<car t="5" id="61" rect="1668,8988,2186,9732" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR1061" loaded="1" loadname="Empty1" dest="B" collname="Default Steam" cartype="40ft wood box" trk="127" dists="791" gs="1"></car>
+<car t="5" id="195" rect="1447,8485,1965,9229" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="JSCRR10195" loaded="1" loadname="Manifest" dest="B" collname="Default Steam" cartype="40ft wood box" trk="127" dists="241" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="84" dspeed="0" rev="1" horntype="0">
@@ -2218,7 +2218,7 @@
 </trn>
 <trn t="6" id="40" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="2" rect="31193,5155,31823,5455" flags="5242880" type="1" outl="128,128,128" fill="0,0,0" len="460" wid="130" label="E26*F2*" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" prop_str="Phast=F2" trk="636" dists="104" gs="1"></car>
+<car t="5" id="2" rect="31177,5151,31809,5459" flags="5242880" type="1" outl="128,128,128" fill="0,0,0" len="460" wid="130" label="E26*F2*" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" prop_str="Phast=F2" trk="636" dists="119" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="81" dspeed="0" horntype="0">
@@ -2344,66 +2344,48 @@ The car float can be unbalanced by a maximum of 3 cars. There is an idler flat i
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:275,t:275,r:1895,b:1156" zoom="0.26311" ctr="x:33671,y:6412" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:275,t:275,r:1895,b:1156" zoom="0.26311" ctr="x:33511,y:6329" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" wndrect="0,22,597,691"><![CDATA[** Jay St Connecting RR 1920
+<script id="11" flags="6" cmdix="2127" wndrect="0,22,597,691"><![CDATA[** Jay St Connecting RR 1920
 
 Let $Key = 0
 
 ** Set Up the Subroutines
 
-Call QuickKeys2 Setup
-Call SpeedSwitching3 Setup
-Call DropKick2 Setup
-Call PhastPhunctions2 Setup
-Call JAWS1 Setup
-** Call TurnTable1 Setup
-Call HelpLanguage @xLanguage
+Call UserSettings
+Call QKSupport  ** Quick Keys support utilities
+Call SetLanguage en  ** Language choices are: en, de, fr, sp
+
+Call QuickKeys Setup
+Call SpeedSwitching Setup
+Call DropKick Setup
+Call o2o Setup 0  ** 0 = use TrainPlayer loads, 1 = use JMRI loads
+
+**Close the greeting message
 Call NoteWindow
 
 StartingPoint:
 
 On Key
 
-Let sMaxSpeed = 11
-Let sCoupleSpeed = 4 
+Let sMaxSpeed = 10
+Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
-** Call TurnTable1
-Call QuickKeys2
-Call SpeedSwitching3 $Train $Car $Speed
-Call DropKick2 $Train $Car $Speed
-Call PhastPhunctions2
-Call JAWS1
-Call jUtils1
-** Call jTimer1
+Call QuickKeys
+Call SpeedSwitching $Train $Car $Speed
+Call DropKick $Train $Car $Speed
+Call o2o
 
 EndDrive
 
 GoTo StartingPoint]]></script>
-<script id="13" flags="8"><![CDATA[** JMRI Note 1
-
-In addition to running the JMRI jobs, the Jay Street Terminal also needs to be "managed." Care must be taken not to overload any of the yard tracks, so in addition to being the operator you are also the Terminal Manager.
-
-Start by running some of the locals. As the Outbound Yard fills up, run the "Car Float Transfer" to make more room. Cars sent to Track 99 also go anywhere they fit. The "Yard Switch" job moves cars from Track 99 to a more suitable location if room is available.
-
-The locals are grouped in pairs, one pull and one spot. One reason I do this is because a lot of prototype photos of offline terminals show short trains, so I am trying to simulate this.
-These jobs do not necessarily need to be run consecutively.
-
-The car float can be unbalanced by a maximum of 3 cars. There is an idler flat in Track 15.
-
-Artwork © 2014 GA Ritacco.]]></script>
-<script id="18" flags="8"><![CDATA[** JMRI Note 2
-
-The implementation of this layout differes from probably what is a conventional JMRI set up. In this case the Inbound and Reserve Yards are defined as spurs. For the Inbound Yard, cars coming off the float will get a custom load but not an FD. Same for the reserve tracks. Regardless of their origin, cars sent to the reserve tracks get a custom load but no FD. This improves flexibility greatly, as each local now has a much larger group of cars to select from.
-
-The Outbound Yard remains a C/I since cars sent there need the car float as a FD.]]></script>
 </scripts>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="-5,197,782,856" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>202,101,380,970</wndrect>
+<wndrect>202,101,524,970</wndrect>
 </note>
 </notes>
 </layout>

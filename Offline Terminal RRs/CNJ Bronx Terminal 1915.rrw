@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="cnj bronx terminal 1915.jpg" zoom="9.20085" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx">
+<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="cnj bronx terminal 1915.jpg" zoom="6.38647" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="7681,6594"></jxn>
@@ -237,233 +237,233 @@
 <trks>
 <str t="1" id="3" rect="4975,5302,7681,6594" tag="F" js="1" jn="2" stnno="597"></str>
 <str t="1" id="5" rect="4638,5167,4975,5302" tag="F" js="2" jn="121"></str>
-<str t="1" id="7" rect="3104,4449,4220,4980" tag="~" js="4" jn="6"></str>
+<str t="1" id="7" rect="3104,4449,4220,4980" js="4" jn="6"></str>
 <str t="1" id="10" rect="5089,5529,7618,6734" tag="F" js="8" jn="9" stnno="597"></str>
 <str t="1" id="12" rect="4870,5402,5089,5529" tag="F" js="9" jn="11" stnno="597"></str>
 <str t="1" id="14" rect="4527,5169,4870,5402" tag="F" js="11" jn="13"></str>
 <str t="1" id="15" rect="4220,4980,4527,5169" tag="F" js="13" jn="4"></str>
 <str t="1" id="18" rect="4778,5551,7536,6870" tag="F" js="16" jn="17" stnno="597"></str>
 <str t="1" id="20" rect="4334,5305,4778,5551" tag="F" js="17" jn="19" stnno="597"></str>
-<str t="1" id="22" rect="2951,4638,4334,5305" tag="~" js="19" jn="21"></str>
+<str t="1" id="22" rect="2951,4638,4334,5305" js="19" jn="21"></str>
 <str t="1" id="27" rect="5233,2972,5457,3311" tag="H" js="25" jn="26"></str>
-<str t="1" id="30" rect="3161,1604,3396,1958" tag="~" js="28" jn="29"></str>
+<str t="1" id="30" rect="3161,1604,3396,1958" js="28" jn="29"></str>
 <cur t="2" id="32" rect="3189,1052,5663,3526" tag="H" js="29" jn="26" stnno="2" ctr="4426,2289" radius="1237" ps="3396,1604" pn="5457,2972" angs="214" angn="34" rads="3.72847" radn="0.585087" alen="3.1398" len="3884" sense="0"></cur>
-<str t="1" id="52" rect="2173,3228,2204,3491" tag="~" js="49" jn="51"></str>
-<str t="1" id="54" rect="2173,3491,2208,3750" tag="~" js="51" jn="53"></str>
-<str t="1" id="56" rect="2208,3750,2270,3961" tag="~" js="53" jn="55"></str>
-<str t="1" id="58" rect="2270,3961,2353,4128" tag="~" js="55" jn="57"></str>
-<str t="1" id="60" rect="2353,4128,2490,4313" tag="~" js="57" jn="59"></str>
-<str t="1" id="62" rect="2490,4313,2656,4471" tag="~" js="59" jn="61"></str>
-<str t="1" id="63" rect="2656,4471,2951,4638" tag="~" js="61" jn="21"></str>
+<str t="1" id="52" rect="2173,3228,2204,3491" js="49" jn="51"></str>
+<str t="1" id="54" rect="2173,3491,2208,3750" js="51" jn="53"></str>
+<str t="1" id="56" rect="2208,3750,2270,3961" js="53" jn="55"></str>
+<str t="1" id="58" rect="2270,3961,2353,4128" js="55" jn="57"></str>
+<str t="1" id="60" rect="2353,4128,2490,4313" js="57" jn="59"></str>
+<str t="1" id="62" rect="2490,4313,2656,4471" js="59" jn="61"></str>
+<str t="1" id="63" rect="2656,4471,2951,4638" js="61" jn="21"></str>
 <str t="1" id="66" rect="1678,3682,1955,4118" tag="S" js="64" jn="65"></str>
-<str t="1" id="68" rect="1955,3439,2103,3682" tag="~" js="65" jn="67"></str>
-<str t="1" id="73" rect="2876,4326,3104,4449" tag="~" js="6" jn="72"></str>
-<str t="1" id="75" rect="2696,4190,2876,4326" tag="~" js="72" jn="74"></str>
-<str t="1" id="77" rect="2542,4005,2696,4190" tag="~" js="74" jn="76"></str>
-<str t="1" id="79" rect="2419,3786,2542,4005" tag="~" js="76" jn="78"></str>
-<str t="1" id="81" rect="2336,3514,2419,3786" tag="~" js="78" jn="80"></str>
-<str t="1" id="83" rect="2318,3233,2336,3514" tag="~" js="80" jn="82"></str>
-<str t="1" id="85" rect="2318,2961,2353,3233" tag="~" js="82" jn="84"></str>
+<str t="1" id="68" rect="1955,3439,2103,3682" js="65" jn="67"></str>
+<str t="1" id="73" rect="2876,4326,3104,4449" js="6" jn="72"></str>
+<str t="1" id="75" rect="2696,4190,2876,4326" js="72" jn="74"></str>
+<str t="1" id="77" rect="2542,4005,2696,4190" js="74" jn="76"></str>
+<str t="1" id="79" rect="2419,3786,2542,4005" js="76" jn="78"></str>
+<str t="1" id="81" rect="2336,3514,2419,3786" js="78" jn="80"></str>
+<str t="1" id="83" rect="2318,3233,2336,3514" js="80" jn="82"></str>
+<str t="1" id="85" rect="2318,2961,2353,3233" js="82" jn="84"></str>
 <str t="1" id="91" rect="3236,4155,8080,6471" tag="Y" js="89" jn="90" stnno="3"></str>
 <str t="1" id="93" rect="3034,4036,3236,4155" tag="Y" js="90" jn="92"></str>
 <str t="1" id="95" rect="2850,3865,3034,4036" tag="Y" js="92" jn="94"></str>
 <str t="1" id="97" rect="2692,3645,2850,3865" tag="Y" js="94" jn="96"></str>
 <str t="1" id="99" rect="2586,3404,2692,3645" tag="Y" js="96" jn="98"></str>
 <str t="1" id="101" rect="2542,3149,2586,3404" tag="Y" js="98" jn="100"></str>
-<str t="1" id="103" rect="2542,2868,2547,3149" tag="~" js="100" jn="102"></str>
-<str t="1" id="105" rect="2547,2592,2618,2868" tag="~" js="102" jn="104"></str>
-<str t="1" id="107" rect="2618,2407,2707,2592" tag="~" js="104" jn="106"></str>
-<str t="1" id="117" rect="2766,2583,2775,2802" tag="~" js="114" jn="116"></str>
-<str t="1" id="119" rect="2766,2371,2789,2583" tag="~" js="116" jn="118"></str>
+<str t="1" id="103" rect="2542,2868,2547,3149" js="100" jn="102"></str>
+<str t="1" id="105" rect="2547,2592,2618,2868" js="102" jn="104"></str>
+<str t="1" id="107" rect="2618,2407,2707,2592" js="104" jn="106"></str>
+<str t="1" id="117" rect="2766,2583,2775,2802" js="114" jn="116"></str>
+<str t="1" id="119" rect="2766,2371,2789,2583" js="116" jn="118"></str>
 <str t="1" id="128" rect="3535,4102,8075,6272" tag="Y" js="126" jn="127" stnno="3"></str>
-<str t="1" id="130" rect="3342,3975,3535,4102" tag="~" js="127" jn="129"></str>
-<str t="1" id="132" rect="3175,3817,3342,3975" tag="~" js="129" jn="131"></str>
-<str t="1" id="134" rect="3029,3628,3175,3817" tag="~" js="131" jn="133"></str>
-<str t="1" id="136" rect="2990,3523,3029,3628" tag="~" js="133" jn="135"></str>
-<str t="1" id="137" rect="2952,3438,2990,3523" tag="~" js="135" jn="111"></str>
+<str t="1" id="130" rect="3342,3975,3535,4102" js="127" jn="129"></str>
+<str t="1" id="132" rect="3175,3817,3342,3975" js="129" jn="131"></str>
+<str t="1" id="134" rect="3029,3628,3175,3817" js="131" jn="133"></str>
+<str t="1" id="136" rect="2990,3523,3029,3628" js="133" jn="135"></str>
+<str t="1" id="137" rect="2952,3438,2990,3523" js="135" jn="111"></str>
 <str t="1" id="140" rect="4634,4424,8083,6075" tag="T" js="138" jn="119" stnno="425"></str>
-<str t="1" id="144" rect="3219,3667,3385,3808" tag="~" js="141" jn="143"></str>
-<str t="1" id="146" rect="3052,3492,3219,3667" tag="~" js="143" jn="145"></str>
-<str t="1" id="148" rect="2946,3321,3052,3492" tag="~" js="145" jn="147"></str>
+<str t="1" id="144" rect="3219,3667,3385,3808" js="141" jn="143"></str>
+<str t="1" id="146" rect="3052,3492,3219,3667" js="143" jn="145"></str>
+<str t="1" id="148" rect="2946,3321,3052,3492" js="145" jn="147"></str>
 <str t="1" id="152" rect="5515,4295,8074,5519" tag="T" js="150" jn="151" stnno="425"></str>
-<str t="1" id="154" rect="5260,4207,5515,4295" tag="~" js="151" jn="153"></str>
-<str t="1" id="156" rect="4979,4154,5260,4207" tag="~" js="153" jn="155"></str>
-<str t="1" id="158" rect="4154,4064,4979,4154" tag="~" js="155" jn="5"></str>
+<str t="1" id="154" rect="5260,4207,5515,4295" js="151" jn="153"></str>
+<str t="1" id="156" rect="4979,4154,5260,4207" js="153" jn="155"></str>
+<str t="1" id="158" rect="4154,4064,4979,4154" js="155" jn="5"></str>
 <str t="1" id="164" rect="5761,4242,8076,5351" tag="T" js="162" jn="163" stnno="425"></str>
-<str t="1" id="166" rect="5528,4146,5761,4242" tag="~" js="163" jn="165"></str>
-<str t="1" id="168" rect="5300,4089,5528,4146" tag="~" js="165" jn="167"></str>
-<str t="1" id="170" rect="5084,4071,5300,4089" tag="~" js="167" jn="169"></str>
-<str t="1" id="172" rect="4803,4067,5084,4071" tag="~" js="169" jn="171"></str>
-<str t="1" id="173" rect="4279,4062,4803,4067" tag="~" js="171" jn="7"></str>
+<str t="1" id="166" rect="5528,4146,5761,4242" js="163" jn="165"></str>
+<str t="1" id="168" rect="5300,4089,5528,4146" js="165" jn="167"></str>
+<str t="1" id="170" rect="5084,4071,5300,4089" js="167" jn="169"></str>
+<str t="1" id="172" rect="4803,4067,5084,4071" js="169" jn="171"></str>
+<str t="1" id="173" rect="4279,4062,4803,4067" js="171" jn="7"></str>
 <str t="1" id="176" rect="6332,3772,8071,4609" tag="T" js="174" jn="175" stnno="421"></str>
 <str t="1" id="178" rect="6121,3685,6332,3772" tag="T" js="175" jn="177" stnno="421"></str>
-<str t="1" id="180" rect="5892,3650,6121,3685" tag="~" js="177" jn="179" stnno="421"></str>
-<str t="1" id="182" rect="5651,3650,5892,3663" tag="~" js="179" jn="181"></str>
-<str t="1" id="184" rect="5445,3663,5651,3711" tag="~" js="181" jn="183"></str>
-<str t="1" id="190" rect="4463,3983,4663,4033" tag="~" js="187" jn="189"></str>
-<str t="1" id="192" rect="4279,4033,4463,4048" tag="~" js="189" jn="10"></str>
+<str t="1" id="180" rect="5892,3650,6121,3685" js="177" jn="179" stnno="421"></str>
+<str t="1" id="182" rect="5651,3650,5892,3663" js="179" jn="181"></str>
+<str t="1" id="184" rect="5445,3663,5651,3711" js="181" jn="183"></str>
+<str t="1" id="190" rect="4463,3983,4663,4033" js="187" jn="189"></str>
+<str t="1" id="192" rect="4279,4033,4463,4048" js="189" jn="10"></str>
 <str t="1" id="196" rect="6217,3882,8074,4767" tag="T" js="194" jn="195" stnno="421"></str>
-<str t="1" id="198" rect="6007,3803,6217,3882" tag="~" js="195" jn="197" stnno="421"></str>
-<str t="1" id="200" rect="5800,3755,6007,3803" tag="~" js="197" jn="199" stnno="421"></str>
-<str t="1" id="202" rect="5559,3742,5800,3755" tag="~" js="199" jn="201"></str>
-<str t="1" id="204" rect="5287,3742,5559,3773" tag="~" js="201" jn="203"></str>
+<str t="1" id="198" rect="6007,3803,6217,3882" js="195" jn="197" stnno="421"></str>
+<str t="1" id="200" rect="5800,3755,6007,3803" js="197" jn="199" stnno="421"></str>
+<str t="1" id="202" rect="5559,3742,5800,3755" js="199" jn="201"></str>
+<str t="1" id="204" rect="5287,3742,5559,3773" js="201" jn="203"></str>
 <str t="1" id="208" rect="6631,2991,8074,2995" tag="G" js="206" jn="207" stnno="421"></str>
-<str t="1" id="210" rect="6447,2991,6631,3005" tag="~" js="207" jn="209" stnno="421"></str>
-<str t="1" id="212" rect="6297,3005,6447,3027" tag="~" js="209" jn="211" stnno="421"></str>
-<str t="1" id="214" rect="6100,3027,6297,3075" tag="~" js="211" jn="213" stnno="421"></str>
-<str t="1" id="216" rect="5889,3075,6100,3163" tag="~" js="213" jn="215" stnno="421"></str>
-<str t="1" id="218" rect="5687,3163,5889,3277" tag="~" js="215" jn="217"></str>
-<str t="1" id="220" rect="5485,3277,5687,3422" tag="~" js="217" jn="219"></str>
+<str t="1" id="210" rect="6447,2991,6631,3005" js="207" jn="209" stnno="421"></str>
+<str t="1" id="212" rect="6297,3005,6447,3027" js="209" jn="211" stnno="421"></str>
+<str t="1" id="214" rect="6100,3027,6297,3075" js="211" jn="213" stnno="421"></str>
+<str t="1" id="216" rect="5889,3075,6100,3163" js="213" jn="215" stnno="421"></str>
+<str t="1" id="218" rect="5687,3163,5889,3277" js="215" jn="217"></str>
+<str t="1" id="220" rect="5485,3277,5687,3422" js="217" jn="219"></str>
 <str t="1" id="228" rect="6653,2841,8075,2843" tag="G" js="226" jn="227" stnno="421"></str>
-<str t="1" id="230" rect="6398,2842,6653,2860" tag="~" js="227" jn="229" stnno="421"></str>
-<str t="1" id="232" rect="6179,2860,6398,2917" tag="~" js="229" jn="231" stnno="421"></str>
-<str t="1" id="234" rect="5972,2917,6179,3000" tag="~" js="231" jn="233" stnno="421"></str>
-<str t="1" id="236" rect="5779,3000,5972,3110" tag="~" js="233" jn="235"></str>
-<str t="1" id="238" rect="5621,3110,5779,3237" tag="~" js="235" jn="237"></str>
-<str t="1" id="242" rect="5739,2645,5801,2838" tag="~" js="240" jn="241"></str>
-<str t="1" id="244" rect="5674,2838,5739,2974" tag="~" js="241" jn="243"></str>
-<str t="1" id="246" rect="5458,2974,5674,3312" tag="~" js="243" jn="245"></str>
+<str t="1" id="230" rect="6398,2842,6653,2860" js="227" jn="229" stnno="421"></str>
+<str t="1" id="232" rect="6179,2860,6398,2917" js="229" jn="231" stnno="421"></str>
+<str t="1" id="234" rect="5972,2917,6179,3000" js="231" jn="233" stnno="421"></str>
+<str t="1" id="236" rect="5779,3000,5972,3110" js="233" jn="235"></str>
+<str t="1" id="238" rect="5621,3110,5779,3237" js="235" jn="237"></str>
+<str t="1" id="242" rect="5739,2645,5801,2838" js="240" jn="241"></str>
+<str t="1" id="244" rect="5674,2838,5739,2974" js="241" jn="243"></str>
+<str t="1" id="246" rect="5458,2974,5674,3312" js="243" jn="245"></str>
 <str t="1" id="252" rect="6556,3132,8075,3856" tag="T" js="250" jn="251" stnno="421"></str>
-<str t="1" id="254" rect="6416,3044,6556,3132" tag="~" js="251" jn="253" stnno="421"></str>
-<str t="1" id="256" rect="6288,2947,6416,3044" tag="~" js="253" jn="255" stnno="421"></str>
-<str t="1" id="258" rect="6144,2798,6288,2947" tag="~" js="255" jn="257" stnno="421"></str>
-<str t="1" id="260" rect="6038,2644,6144,2798" tag="~" js="257" jn="259" stnno="421"></str>
-<str t="1" id="262" rect="5959,2482,6038,2644" tag="~" js="259" jn="261" stnno="421"></str>
-<str t="1" id="264" rect="5902,2320,5959,2482" tag="~" js="261" jn="263"></str>
+<str t="1" id="254" rect="6416,3044,6556,3132" js="251" jn="253" stnno="421"></str>
+<str t="1" id="256" rect="6288,2947,6416,3044" js="253" jn="255" stnno="421"></str>
+<str t="1" id="258" rect="6144,2798,6288,2947" js="255" jn="257" stnno="421"></str>
+<str t="1" id="260" rect="6038,2644,6144,2798" js="257" jn="259" stnno="421"></str>
+<str t="1" id="262" rect="5959,2482,6038,2644" js="259" jn="261" stnno="421"></str>
+<str t="1" id="264" rect="5902,2320,5959,2482" js="261" jn="263"></str>
 <str t="1" id="269" rect="6653,3342,8081,4021" tag="T" js="267" jn="268" stnno="421"></str>
 <str t="1" id="271" rect="6469,3250,6653,3342" tag="T" js="268" jn="270" stnno="421"></str>
 <str t="1" id="273" rect="6266,3101,6469,3250" tag="T" js="270" jn="272" stnno="421"></str>
-<str t="1" id="275" rect="6157,2987,6266,3101" tag="~" js="272" jn="274" stnno="421"></str>
-<str t="1" id="277" rect="6034,2816,6157,2987" tag="~" js="274" jn="276" stnno="421"></str>
-<str t="1" id="279" rect="5950,2636,6034,2816" tag="~" js="276" jn="278" stnno="421"></str>
-<str t="1" id="281" rect="5889,2438,5950,2636" tag="~" js="278" jn="280"></str>
-<str t="1" id="284" rect="5801,2447,5840,2645" tag="~" js="240" jn="283"></str>
-<str t="1" id="286" rect="5840,2306,5849,2447" tag="~" js="283" jn="285"></str>
+<str t="1" id="275" rect="6157,2987,6266,3101" js="272" jn="274" stnno="421"></str>
+<str t="1" id="277" rect="6034,2816,6157,2987" js="274" jn="276" stnno="421"></str>
+<str t="1" id="279" rect="5950,2636,6034,2816" js="276" jn="278" stnno="421"></str>
+<str t="1" id="281" rect="5889,2438,5950,2636" js="278" jn="280"></str>
+<str t="1" id="284" rect="5801,2447,5840,2645" js="240" jn="283"></str>
+<str t="1" id="286" rect="5840,2306,5849,2447" js="283" jn="285"></str>
 <str t="1" id="296" rect="5898,851,8082,855" tag="T" js="294" jn="117" stnno="1"></str>
-<str t="1" id="300" rect="3952,880,4163,937" tag="~" js="297" jn="299"></str>
-<str t="1" id="302" rect="3763,937,3952,1012" tag="~" js="299" jn="301"></str>
+<str t="1" id="300" rect="3952,880,4163,937" js="297" jn="299"></str>
+<str t="1" id="302" rect="3763,937,3952,1012" js="299" jn="301"></str>
 <str t="1" id="305" rect="6179,1003,8073,1007" tag="T" js="303" jn="304" stnno="1"></str>
 <str t="1" id="307" rect="5902,995,6179,1003" tag="T" js="304" jn="306" stnno="421"></str>
-<str t="1" id="309" rect="5625,968,5902,995" tag="~" js="306" jn="308"></str>
-<str t="1" id="310" rect="4742,880,5625,968" tag="~" js="308" jn="60"></str>
+<str t="1" id="309" rect="5625,968,5902,995" js="306" jn="308"></str>
+<str t="1" id="310" rect="4742,880,5625,968" js="308" jn="60"></str>
 <str t="1" id="313" rect="6473,1506,8074,1509" tag="T" js="311" jn="312" stnno="1"></str>
 <str t="1" id="315" rect="6231,1499,6473,1508" tag="T" js="312" jn="314" stnno="1"></str>
-<str t="1" id="317" rect="6016,1451,6231,1499" tag="~" js="314" jn="316" stnno="421"></str>
-<str t="1" id="319" rect="5803,1360,6016,1451" tag="~" js="316" jn="318" stnno="421"></str>
+<str t="1" id="317" rect="6016,1451,6231,1499" js="314" jn="316" stnno="421"></str>
+<str t="1" id="319" rect="5803,1360,6016,1451" js="316" jn="318" stnno="421"></str>
 <str t="1" id="329" rect="6539,1661,8073,1664" tag="T" js="327" jn="328" stnno="1"></str>
 <str t="1" id="331" rect="6275,1640,6539,1661" tag="T" js="328" jn="330" stnno="1"></str>
 <str t="1" id="333" rect="6064,1587,6275,1640" tag="T" js="330" jn="332" stnno="421"></str>
-<str t="1" id="335" rect="5854,1486,6064,1587" tag="~" js="332" jn="334" stnno="421"></str>
-<str t="1" id="337" rect="5704,1385,5854,1486" tag="~" js="334" jn="336"></str>
-<str t="1" id="338" rect="5144,1062,5704,1385" tag="~" js="336" jn="356"></str>
+<str t="1" id="335" rect="5854,1486,6064,1587" js="332" jn="334" stnno="421"></str>
+<str t="1" id="337" rect="5704,1385,5854,1486" js="334" jn="336"></str>
+<str t="1" id="338" rect="5144,1062,5704,1385" js="336" jn="356"></str>
 <str t="1" id="341" rect="6815,2199,8077,2202" tag="T" js="339" jn="340" stnno="1"></str>
 <str t="1" id="343" rect="6583,2166,6815,2201" tag="T" js="340" jn="342" stnno="1"></str>
 <str t="1" id="345" rect="6359,2105,6583,2166" tag="T" js="342" jn="344" stnno="1"></str>
 <str t="1" id="347" rect="6165,2021,6359,2105" tag="T" js="344" jn="346" stnno="1"></str>
-<str t="1" id="349" rect="5990,1903,6165,2021" tag="~" js="346" jn="348" stnno="421"></str>
-<str t="1" id="351" rect="5836,1754,5990,1903" tag="~" js="348" jn="350"></str>
+<str t="1" id="349" rect="5990,1903,6165,2021" js="346" jn="348" stnno="421"></str>
+<str t="1" id="351" rect="5836,1754,5990,1903" js="348" jn="350"></str>
 <str t="1" id="361" rect="6807,2349,8079,2352" tag="T" js="359" jn="360" stnno="1"></str>
 <str t="1" id="363" rect="6574,2320,6807,2351" tag="T" js="360" jn="362" stnno="1"></str>
 <str t="1" id="365" rect="6346,2241,6574,2320" tag="T" js="362" jn="364" stnno="1"></str>
 <str t="1" id="367" rect="6135,2131,6346,2241" tag="T" js="364" jn="366" stnno="1"></str>
-<str t="1" id="369" rect="5972,1995,6135,2131" tag="~" js="366" jn="368" stnno="421"></str>
-<str t="1" id="371" rect="5854,1855,5972,1995" tag="~" js="368" jn="370"></str>
-<str t="1" id="379" rect="3605,1012,3763,1113" tag="~" js="301" jn="378"></str>
-<str t="1" id="381" rect="3482,1113,3605,1205" tag="~" js="378" jn="380"></str>
-<str t="1" id="382" rect="3375,1205,3482,1307" tag="~" js="380" jn="42"></str>
-<str t="1" id="386" rect="3117,1631,3170,1784" tag="~" js="383" jn="385"></str>
-<str t="1" id="388" rect="3069,1784,3117,1973" tag="~" js="385" jn="387"></str>
-<str t="1" id="410" rect="3068,1546,3193,1743" tag="~" js="408" jn="43"></str>
-<str t="1" id="418" rect="2353,2753,2434,2961" tag="~" js="84" jn="417"></str>
-<str t="1" id="4" rect="4663,3944,4774,3983" tag="~" js="12" jn="187"></str>
-<str t="1" id="6" rect="5286,3711,5445,3762" tag="~" js="183" jn="14"></str>
-<str t="1" id="8" rect="4774,3819,5134,3944" tag="~" js="12" jn="15"></str>
-<str t="1" id="9" rect="5134,3773,5287,3819" tag="~" js="15" jn="203"></str>
-<str t="1" id="11" rect="5134,3762,5286,3819" tag="~" js="15" jn="14"></str>
-<str t="1" id="1" rect="3688,3966,3828,4014" tag="~" js="18" jn="20"></str>
-<str t="1" id="2" rect="3828,4014,3958,4042" tag="~" js="20" jn="22"></str>
-<str t="1" id="13" rect="4035,4053,4154,4064" tag="~" js="5" jn="23"></str>
-<str t="1" id="16" rect="3958,4042,4035,4053" tag="~" js="23" jn="22"></str>
-<str t="1" id="17" rect="4156,4055,4279,4062" tag="~" js="7" jn="24"></str>
-<str t="1" id="19" rect="4035,4053,4156,4055" tag="~" js="24" jn="23"></str>
-<str t="1" id="21" rect="4156,4048,4279,4055" tag="~" js="10" jn="24"></str>
-<str t="1" id="23" rect="3385,3808,3498,3878" tag="~" js="141" jn="27"></str>
-<str t="1" id="24" rect="3498,3878,3583,3923" tag="~" js="27" jn="30"></str>
-<str t="1" id="25" rect="3583,3923,3685,3972" tag="~" js="30" jn="3"></str>
-<str t="1" id="26" rect="3583,3923,3688,3966" tag="~" js="18" jn="30"></str>
-<str t="1" id="28" rect="5096,3422,5485,3739" tag="~" js="219" jn="31"></str>
-<str t="1" id="29" rect="4939,3739,5096,3856" tag="~" js="31" jn="32"></str>
-<str t="1" id="33" rect="4777,3856,4939,3933" tag="~" js="32" jn="33"></str>
-<str t="1" id="34" rect="4663,3933,4777,3983" tag="~" js="33" jn="187"></str>
-<str t="1" id="35" rect="5514,3237,5621,3340" tag="~" js="237" jn="34"></str>
-<str t="1" id="36" rect="5188,3340,5514,3655" tag="~" js="34" jn="35"></str>
-<str t="1" id="37" rect="5096,3655,5188,3739" tag="~" js="35" jn="31"></str>
-<str t="1" id="38" rect="5344,3312,5458,3473" tag="~" js="245" jn="36"></str>
-<str t="1" id="39" rect="5264,3473,5344,3573" tag="~" js="36" jn="37"></str>
-<str t="1" id="40" rect="5188,3573,5264,3655" tag="~" js="37" jn="35"></str>
-<str t="1" id="41" rect="5832,2051,5902,2320" tag="~" js="263" jn="38"></str>
-<str t="1" id="42" rect="5801,1930,5832,2051" tag="~" js="38" jn="39"></str>
-<str t="1" id="43" rect="5754,1781,5801,1930" tag="~" js="39" jn="40"></str>
-<str t="1" id="45" rect="5855,2242,5889,2438" tag="~" js="280" jn="41"></str>
-<str t="1" id="46" rect="5829,2066,5855,2242" tag="~" js="41" jn="44"></str>
-<str t="1" id="47" rect="5801,1930,5829,2066" tag="~" js="44" jn="39"></str>
-<str t="1" id="49" rect="5837,2164,5849,2306" tag="~" js="285" jn="46"></str>
-<str t="1" id="51" rect="5829,2066,5837,2164" tag="~" js="46" jn="44"></str>
-<str t="1" id="53" rect="5517,1374,5836,1754" tag="~" js="350" jn="48"></str>
-<str t="1" id="55" rect="5419,1266,5517,1374" tag="~" js="48" jn="50"></str>
-<str t="1" id="57" rect="5763,1728,5854,1855" tag="~" js="370" jn="52"></str>
-<str t="1" id="59" rect="5597,1485,5763,1728" tag="~" js="52" jn="54"></str>
-<str t="1" id="61" rect="5517,1374,5597,1485" tag="~" js="54" jn="48"></str>
-<str t="1" id="64" rect="5661,1592,5754,1781" tag="~" js="40" jn="56"></str>
-<str t="1" id="65" rect="5597,1485,5661,1592" tag="~" js="56" jn="54"></str>
-<str t="1" id="67" rect="5141,1047,5803,1360" tag="~" js="318" jn="62"></str>
-<str t="1" id="69" rect="5026,992,5141,1047" tag="~" js="62" jn="63"></str>
-<str t="1" id="72" rect="4884,933,5026,992" tag="~" js="63" jn="66"></str>
-<str t="1" id="74" rect="5026,992,5144,1062" tag="~" js="356" jn="63"></str>
-<str t="1" id="76" rect="5249,1131,5419,1266" tag="~" js="50" jn="68"></str>
-<str t="1" id="78" rect="5144,1062,5249,1131" tag="~" js="68" jn="356"></str>
-<str t="1" id="80" rect="4163,861,4301,880" tag="~" js="297" jn="70"></str>
-<str t="1" id="82" rect="4301,858,4417,861" tag="~" js="70" jn="71"></str>
-<str t="1" id="84" rect="4417,856,4560,858" tag="~" js="71" jn="58"></str>
-<str t="1" id="86" rect="4539,866,4742,880" tag="~" js="60" jn="73"></str>
-<str t="1" id="87" rect="4417,858,4539,866" tag="~" js="73" jn="71"></str>
-<str t="1" id="89" rect="4655,882,4884,933" tag="~" js="66" jn="75"></str>
-<str t="1" id="90" rect="4539,866,4655,882" tag="~" js="75" jn="73"></str>
-<str t="1" id="44" rect="3170,1449,3268,1631" tag="~" js="383" jn="77"></str>
-<str t="1" id="92" rect="3268,1307,3375,1449" tag="~" js="77" jn="42"></str>
-<str t="1" id="94" rect="3260,1307,3375,1443" tag="~" js="42" jn="79"></str>
-<str t="1" id="96" rect="3193,1443,3260,1546" tag="~" js="79" jn="43"></str>
+<str t="1" id="369" rect="5972,1995,6135,2131" js="366" jn="368" stnno="421"></str>
+<str t="1" id="371" rect="5854,1855,5972,1995" js="368" jn="370"></str>
+<str t="1" id="379" rect="3605,1012,3763,1113" js="301" jn="378"></str>
+<str t="1" id="381" rect="3482,1113,3605,1205" js="378" jn="380"></str>
+<str t="1" id="382" rect="3375,1205,3482,1307" js="380" jn="42"></str>
+<str t="1" id="386" rect="3117,1631,3170,1784" js="383" jn="385"></str>
+<str t="1" id="388" rect="3069,1784,3117,1973" js="385" jn="387"></str>
+<str t="1" id="410" rect="3068,1546,3193,1743" js="408" jn="43"></str>
+<str t="1" id="418" rect="2353,2753,2434,2961" js="84" jn="417"></str>
+<str t="1" id="4" rect="4663,3944,4774,3983" js="12" jn="187"></str>
+<str t="1" id="6" rect="5286,3711,5445,3762" js="183" jn="14"></str>
+<str t="1" id="8" rect="4774,3819,5134,3944" js="12" jn="15"></str>
+<str t="1" id="9" rect="5134,3773,5287,3819" js="15" jn="203"></str>
+<str t="1" id="11" rect="5134,3762,5286,3819" js="15" jn="14"></str>
+<str t="1" id="1" rect="3688,3966,3828,4014" js="18" jn="20"></str>
+<str t="1" id="2" rect="3828,4014,3958,4042" js="20" jn="22"></str>
+<str t="1" id="13" rect="4035,4053,4154,4064" js="5" jn="23"></str>
+<str t="1" id="16" rect="3958,4042,4035,4053" js="23" jn="22"></str>
+<str t="1" id="17" rect="4156,4055,4279,4062" js="7" jn="24"></str>
+<str t="1" id="19" rect="4035,4053,4156,4055" js="24" jn="23"></str>
+<str t="1" id="21" rect="4156,4048,4279,4055" js="10" jn="24"></str>
+<str t="1" id="23" rect="3385,3808,3498,3878" js="141" jn="27"></str>
+<str t="1" id="24" rect="3498,3878,3583,3923" js="27" jn="30"></str>
+<str t="1" id="25" rect="3583,3923,3685,3972" js="30" jn="3"></str>
+<str t="1" id="26" rect="3583,3923,3688,3966" js="18" jn="30"></str>
+<str t="1" id="28" rect="5096,3422,5485,3739" js="219" jn="31"></str>
+<str t="1" id="29" rect="4939,3739,5096,3856" js="31" jn="32"></str>
+<str t="1" id="33" rect="4777,3856,4939,3933" js="32" jn="33"></str>
+<str t="1" id="34" rect="4663,3933,4777,3983" js="33" jn="187"></str>
+<str t="1" id="35" rect="5514,3237,5621,3340" js="237" jn="34"></str>
+<str t="1" id="36" rect="5188,3340,5514,3655" js="34" jn="35"></str>
+<str t="1" id="37" rect="5096,3655,5188,3739" js="35" jn="31"></str>
+<str t="1" id="38" rect="5344,3312,5458,3473" js="245" jn="36"></str>
+<str t="1" id="39" rect="5264,3473,5344,3573" js="36" jn="37"></str>
+<str t="1" id="40" rect="5188,3573,5264,3655" js="37" jn="35"></str>
+<str t="1" id="41" rect="5832,2051,5902,2320" js="263" jn="38"></str>
+<str t="1" id="42" rect="5801,1930,5832,2051" js="38" jn="39"></str>
+<str t="1" id="43" rect="5754,1781,5801,1930" js="39" jn="40"></str>
+<str t="1" id="45" rect="5855,2242,5889,2438" js="280" jn="41"></str>
+<str t="1" id="46" rect="5829,2066,5855,2242" js="41" jn="44"></str>
+<str t="1" id="47" rect="5801,1930,5829,2066" js="44" jn="39"></str>
+<str t="1" id="49" rect="5837,2164,5849,2306" js="285" jn="46"></str>
+<str t="1" id="51" rect="5829,2066,5837,2164" js="46" jn="44"></str>
+<str t="1" id="53" rect="5517,1374,5836,1754" js="350" jn="48"></str>
+<str t="1" id="55" rect="5419,1266,5517,1374" js="48" jn="50"></str>
+<str t="1" id="57" rect="5763,1728,5854,1855" js="370" jn="52"></str>
+<str t="1" id="59" rect="5597,1485,5763,1728" js="52" jn="54"></str>
+<str t="1" id="61" rect="5517,1374,5597,1485" js="54" jn="48"></str>
+<str t="1" id="64" rect="5661,1592,5754,1781" js="40" jn="56"></str>
+<str t="1" id="65" rect="5597,1485,5661,1592" js="56" jn="54"></str>
+<str t="1" id="67" rect="5141,1047,5803,1360" js="318" jn="62"></str>
+<str t="1" id="69" rect="5026,992,5141,1047" js="62" jn="63"></str>
+<str t="1" id="72" rect="4884,933,5026,992" js="63" jn="66"></str>
+<str t="1" id="74" rect="5026,992,5144,1062" js="356" jn="63"></str>
+<str t="1" id="76" rect="5249,1131,5419,1266" js="50" jn="68"></str>
+<str t="1" id="78" rect="5144,1062,5249,1131" js="68" jn="356"></str>
+<str t="1" id="80" rect="4163,861,4301,880" js="297" jn="70"></str>
+<str t="1" id="82" rect="4301,858,4417,861" js="70" jn="71"></str>
+<str t="1" id="84" rect="4417,856,4560,858" js="71" jn="58"></str>
+<str t="1" id="86" rect="4539,866,4742,880" js="60" jn="73"></str>
+<str t="1" id="87" rect="4417,858,4539,866" js="73" jn="71"></str>
+<str t="1" id="89" rect="4655,882,4884,933" js="66" jn="75"></str>
+<str t="1" id="90" rect="4539,866,4655,882" js="75" jn="73"></str>
+<str t="1" id="44" rect="3170,1449,3268,1631" js="383" jn="77"></str>
+<str t="1" id="92" rect="3268,1307,3375,1449" js="77" jn="42"></str>
+<str t="1" id="94" rect="3260,1307,3375,1443" js="42" jn="79"></str>
+<str t="1" id="96" rect="3193,1443,3260,1546" js="79" jn="43"></str>
 <cur t="2" id="31" rect="2957,1402,5431,3876" tag="H" js="81" jn="25" ccw="1" ctr="4194,2639" radius="1237" ps="2982,2391" pn="5233,3311" angs="192" angn="33" rads="3.34343" radn="0.574105" alen="2.76932" len="3426" sense="1"></cur>
-<str t="1" id="100" rect="2982,1973,3069,2391" tag="~" js="387" jn="81"></str>
-<str t="1" id="102" rect="2982,2242,3023,2391" tag="~" js="81" jn="85"></str>
-<str t="1" id="104" rect="3023,2092,3081,2242" tag="~" js="85" jn="87"></str>
-<str t="1" id="106" rect="3081,1958,3161,2092" tag="~" js="87" jn="28"></str>
-<str t="1" id="109" rect="2994,1743,3068,1858" tag="~" js="88" jn="408"></str>
-<str t="1" id="116" rect="2789,2211,2833,2371" tag="~" js="118" jn="93"></str>
-<str t="1" id="118" rect="2749,1858,2994,2228" tag="~" js="99" jn="88"></str>
-<str t="1" id="48" rect="2434,2617,2508,2753" tag="~" js="417" jn="47"></str>
-<str t="1" id="70" rect="2508,2228,2749,2617" tag="~" js="47" jn="99"></str>
-<str t="1" id="71" rect="2361,2617,2508,2850" tag="~" js="47" jn="69"></str>
-<str t="1" id="88" rect="2283,2850,2361,2990" tag="~" js="69" jn="86"></str>
-<str t="1" id="120" rect="2254,2990,2283,3063" tag="~" js="86" jn="101"></str>
-<str t="1" id="121" rect="2204,3063,2254,3228" tag="~" js="101" jn="49"></str>
-<str t="1" id="122" rect="2103,3324,2157,3439" tag="~" js="67" jn="103"></str>
-<str t="1" id="123" rect="2157,3233,2192,3324" tag="~" js="103" jn="105"></str>
-<str t="1" id="124" rect="2192,3063,2254,3233" tag="~" js="105" jn="101"></str>
-<str t="1" id="113" rect="2775,2802,2804,2960" tag="~" js="114" jn="107"></str>
-<str t="1" id="126" rect="2879,3185,2946,3321" tag="~" js="109" jn="147"></str>
-<str t="1" id="127" rect="2867,3182,2952,3438" tag="~" js="111" jn="110"></str>
-<str t="1" id="115" rect="2804,2960,2827,3049" tag="~" js="107" jn="108"></str>
-<str t="1" id="125" rect="2827,3049,2867,3182" tag="~" js="108" jn="110"></str>
-<str t="1" id="129" rect="2827,3049,2879,3185" tag="~" js="109" jn="108"></str>
-<str t="1" id="50" rect="6945,2577,7002,2580" flags="65536" tag="~" js="45" jn="112"></str>
-<str t="1" id="131" rect="6999,2580,7002,3103" flags="65536" tag="~" js="112" jn="113"></str>
-<str t="1" id="133" rect="6945,3102,6999,3105" flags="65536" tag="~" js="113" jn="115"></str>
-<str t="1" id="135" rect="6944,2577,6946,3104" flags="65536" tag="~" js="115" jn="45"></str>
-<str t="1" id="138" rect="4560,851,5898,856" tag="~" js="117" jn="58"></str>
-<str t="1" id="139" rect="3685,3972,4634,4424" tag="~" js="119" jn="3"></str>
+<str t="1" id="100" rect="2982,1973,3069,2391" js="387" jn="81"></str>
+<str t="1" id="102" rect="2982,2242,3023,2391" js="81" jn="85"></str>
+<str t="1" id="104" rect="3023,2092,3081,2242" js="85" jn="87"></str>
+<str t="1" id="106" rect="3081,1958,3161,2092" js="87" jn="28"></str>
+<str t="1" id="109" rect="2994,1743,3068,1858" js="88" jn="408"></str>
+<str t="1" id="116" rect="2789,2211,2833,2371" js="118" jn="93"></str>
+<str t="1" id="118" rect="2749,1858,2994,2228" js="99" jn="88"></str>
+<str t="1" id="48" rect="2434,2617,2508,2753" js="417" jn="47"></str>
+<str t="1" id="70" rect="2508,2228,2749,2617" js="47" jn="99"></str>
+<str t="1" id="71" rect="2361,2617,2508,2850" js="47" jn="69"></str>
+<str t="1" id="88" rect="2283,2850,2361,2990" js="69" jn="86"></str>
+<str t="1" id="120" rect="2254,2990,2283,3063" js="86" jn="101"></str>
+<str t="1" id="121" rect="2204,3063,2254,3228" js="101" jn="49"></str>
+<str t="1" id="122" rect="2103,3324,2157,3439" js="67" jn="103"></str>
+<str t="1" id="123" rect="2157,3233,2192,3324" js="103" jn="105"></str>
+<str t="1" id="124" rect="2192,3063,2254,3233" js="105" jn="101"></str>
+<str t="1" id="113" rect="2775,2802,2804,2960" js="114" jn="107"></str>
+<str t="1" id="126" rect="2879,3185,2946,3321" js="109" jn="147"></str>
+<str t="1" id="127" rect="2867,3182,2952,3438" js="111" jn="110"></str>
+<str t="1" id="115" rect="2804,2960,2827,3049" js="107" jn="108"></str>
+<str t="1" id="125" rect="2827,3049,2867,3182" js="108" jn="110"></str>
+<str t="1" id="129" rect="2827,3049,2879,3185" js="109" jn="108"></str>
+<str t="1" id="50" rect="6945,2577,7002,2580" flags="65536" js="45" jn="112"></str>
+<str t="1" id="131" rect="6999,2580,7002,3103" flags="65536" js="112" jn="113"></str>
+<str t="1" id="133" rect="6945,3102,6999,3105" flags="65536" js="113" jn="115"></str>
+<str t="1" id="135" rect="6944,2577,6946,3104" flags="65536" js="115" jn="45"></str>
+<str t="1" id="138" rect="4560,851,5898,856" js="117" jn="58"></str>
+<str t="1" id="139" rect="3685,3972,4634,4424" js="119" jn="3"></str>
 <str t="1" id="98" rect="2707,2324,2751,2407" js="106" jn="95"></str>
-<str t="1" id="110" rect="2903,1858,2994,2034" tag="~" js="120" jn="88"></str>
+<str t="1" id="110" rect="2903,1858,2994,2034" js="120" jn="88"></str>
 <str t="1" id="108" rect="2751,2034,2903,2324" js="95" jn="120"></str>
 <str t="1" id="111" rect="2833,2034,2903,2211" js="120" jn="93"></str>
 <str t="1" id="112" rect="4220,4980,4638,5167" tag="F" js="121" jn="4"></str>
@@ -477,7 +477,7 @@
 <stn t="15" id="3" rect="3778,4482,4504,4656" name="Storage"></stn>
 </stns>
 </tracks>
-<trains selno="4" trk="0" dists="0">
+<trains selno="18" trk="0" dists="0">
 <trn t="6" id="6" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="44" rect="7032,3272,7686,3756" flags="1048576" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="120" label="WCC 7970" loaded="1" loadname="coal" dest="T" collname="Default Steam" cartype="2 bay hopper" trk="252" dists="793"></car>
@@ -510,7 +510,7 @@
 <car t="5" id="31" rect="5638,4094,6360,4618" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 2921" loaded="1" loadname="Empty" dest="T" collname="Default Steam" cartype="40ft wood box" trk="164" dists="2302" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="9" dspeed="0" horntype="0" selcarno="4">
+<trn t="6" id="9" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="57" rect="7359,5087,8081,5611" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 1190" loaded="1" loadname="Empty" dest="T" collname="Default Steam" cartype="40ft wood box" trk="152" dists="392" gs="1"></car>
 <car t="5" id="58" rect="6881,4859,7603,5383" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYNH&amp;H 3928" loaded="1" loadname="Empty" dest="T" collname="Default Steam" cartype="40ft wood box" trk="152" dists="922" gs="1"></car>
@@ -617,9 +617,9 @@
 <car t="5" id="27" rect="4728,5103,5452,5619" flags="262144" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="FGEX 4372" loaded="1" loadname="produce" dest="F" collname="Default Steam" cartype="ice reefer" trk="3" dists="2870" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="4" dspeed="0" horntype="0">
+<trn t="6" id="4" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="84" rect="2047,3613,2565,4341" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="CNJMW744" loadname="tools" dest="~" collname="mow_odd cars" cartype="mow flat" trk="58" dists="29"></car>
+<car t="5" id="84" rect="2091,3756,2659,4470" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="CNJMW744" loadname="tools" dest="~" collname="mow_odd cars" cartype="mow flat" trk="58" dists="184"></car>
 </cars>
 </trn>
 <trn t="6" id="22" dspeed="0" horntype="0">
@@ -688,7 +688,7 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:25,t:25,r:1965,b:912" zoom="0.108686" ctr="x:5428,y:3862" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:25,t:25,r:1965,b:912" zoom="0.156581" ctr="x:5429,y:3863" vtype="596" fit="1"></winview>
 <scripts>
 <script id="20" flags="6" cmdix="2127" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 

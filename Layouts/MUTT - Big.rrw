@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="JAWS II - MUTT - Big" scale="3" bitmap="JAWS II - MUTT - Big.jpg" zoom="7.78398" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="steam" descr="">
+<layout name="MUTT - Big" lid="JA1" scale="3" bitmap="MUTT - Big.jpg" zoom="7.78398" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="steam" descr="Metropolitan Union Transfer Terminal">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="13189,7058"></jxn>
@@ -389,11 +389,10 @@
 <str t="1" id="193" rect="14011,8107,16321,10437" tag="6thC" js="190" jn="167"></str>
 </trks>
 <scenery>
-<scn t="16" id="1" rect="7795,4791,9597,5211" otype="3" text="JAWS Version" bktype="1" fill="R:147,G:160,B:174" bktype_l="1" fill_l="R:0,G:0,B:0" lwid="10" font="240,600,0,0,Adobe Caslon Pro,RRU=400" txtcolor="R:0,G:0,B:0"></scn>
 <scn t="16" id="2" rect="12621,5197,14015,5395" otype="3" text="5th Street Ware House" bktype="1" fill="R:234,G:199,B:159" bktype_l="1" fill_l="R:0,G:0,B:0" lwid="10" font="140,700,0,0,Adobe Caslon Pro Bold,RRU=233" txtcolor="R:0,G:0,B:0"></scn>
 </scenery>
 </tracks>
-<trains selno="1" trk="0" dists="0">
+<trains selno="17" trk="0" dists="0">
 <trn t="6" id="14" dspeed="0" rev="1" horntype="0">
 <cars>
 <car t="5" id="55" rect="14538,8639,15186,9291" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="X55" loaded="1" loadname="Empty" dest="6thC" collname="North American freight" cartype="box xml prr" trk="193" dists="1209"></car>
@@ -401,12 +400,12 @@
 <car t="5" id="52" rect="15284,9393,15968,10079" type="8" outl="102,51,0" fill="204,102,0" len="600" wid="130" label="X52" loaded="1" loadname="Empty" dest="6thC" collname="North American freight" cartype="box x23 prr" trk="193" dists="2294"></car>
 </cars>
 </trn>
-<trn t="6" id="1" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="1" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="33" rect="12152,4019,12512,4749" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="X12" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box xml prr" trk="6" dists="1565"></car>
-<car t="5" id="43" rect="12211,4545,12577,5325" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="600" wid="130" label="X34" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box x23 prr" trk="6" dists="1010"></car>
-<car t="5" id="37" rect="12276,5121,12638,5851" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="X3" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box xml prr" trk="6" dists="455"></car>
-<car t="5" id="25" rect="12336,5646,12710,6378" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="X31" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box xml prr" trk="163" dists="75" gs="1"></car>
+<car t="5" id="33" rect="12137,3885,12497,4615" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="X12" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box xml prr" trk="6" dists="1699"></car>
+<car t="5" id="43" rect="12196,4412,12562,5192" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="600" wid="130" label="X34" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box x23 prr" trk="6" dists="1144"></car>
+<car t="5" id="37" rect="12261,4988,12623,5718" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="X3" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box xml prr" trk="6" dists="589"></car>
+<car t="5" id="25" rect="12321,5515,12687,6245" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="X31" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box xml prr" trk="6" dists="59"></car>
 </cars>
 </trn>
 <trn t="6" id="17" dspeed="0" horntype="0">
@@ -535,7 +534,7 @@
 <car t="5" id="77" rect="13445,5215,13807,5945" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="X105" loaded="1" loadname="Empty" dest="5thW" collname="North American freight" cartype="box xml prr" trk="188" dists="1241" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="21" dspeed="0" horntype="0">
+<trn t="6" id="21" dspeed="0" horntype="0" selcarno="1">
 <cars>
 <car t="5" id="53" rect="2163,1965,2703,2425" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="345" wid="141" label="E202" dest="~" collname="North American Steam Engines" cartype="0-4-0 prr" trk="105" dists="121"></car>
 <car t="5" id="42" rect="1790,2133,2428,2767" flags="4194304" type="11" outl="95,95,95" fill="255,0,0" len="530" wid="130" label="N42" loadname="Empty" dest="~" collname="mow_odd cars" cartype="steel_flat spacer car" trk="103" dists="101"></car>
@@ -574,40 +573,39 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:104,t:104,r:1861,b:920" zoom="0.128469" ctr="x:8945,y:5006" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1911,b:981" zoom="0.128469" ctr="x:8268,y:4649" vtype="596"></winview>
 <scripts>
-<script id="1" flags="6"><![CDATA[* Master script on layout MUTT
+<script id="1" flags="6" cmdix="2127"><![CDATA[* Master script on layout MUTT
 
 Let $Key = 0
 
 ** Set Up the Subroutines
 
-Call QuickKeys2 Setup
-Call SpeedSwitching3 Setup
-Call DropKick2 Setup
-** Call PhastPhunctions2 Setup
-Call JAWS1 Setup
-** Call TurnTable1 Setup
-Call HelpLanguage @xLanguage
+Call UserSettings
+Call QKSupport  ** Quick Keys support utilities
+Call SetLanguage en  ** Language choices are: en, de, fr, sp
+
+Call QuickKeys Setup
+Call SpeedSwitching Setup
+Call DropKick Setup
+Call o2o Setup 0  ** 0 = use TrainPlayer loads, 1 = use JMRI loads
+
+**Close the greeting message
 Call NoteWindow
 
 StartingPoint:
 
 On Key
 
-Let sMaxSpeed = 11
-Let sCoupleSpeed = 4 
+Let sMaxSpeed = 10
+Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
-** Call TurnTable1
-Call QuickKeys2
-Call SpeedSwitching3 $Train $Car $Speed
-Call DropKick2 $Train $Car $Speed
-** Call PhastPhunctions2
-Call JAWS1
-Call jUtils1
-** Call jTimer1
+Call QuickKeys
+Call SpeedSwitching $Train $Car $Speed
+Call DropKick $Train $Car $Speed
+Call o2o
 
 EndDrive
 
@@ -616,7 +614,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="-712,295,-312,495" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="-80,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>352,1500,832,2107</wndrect>
+<wndrect>352,1500,640,2107</wndrect>
 </note>
 </notes>
 </layout>
