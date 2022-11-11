@@ -437,9 +437,12 @@ endif]]></action>
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1956,b:903" zoom="0.151373" ctr="x:7118,y:2835" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="2148" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" cmdix="2151" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
-Let useLayoutNote = Yes
+Let railroadParent = none
+Let railrodDescription = none
+Let railroadYear = none
+
 Let $Key = 0
 
 ** Set Up the Subroutines
@@ -465,10 +468,6 @@ Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
-If ($Key = 90) ** key z
-Call SetSwitch
-EndIf
-
 Call QuickKeys
 Call SpeedSwitching $Train $Car $Speed
 Call DropKick $Train $Car $Speed
@@ -482,7 +481,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,404,661</wndrect>
+<wndrect>134,15,314,661</wndrect>
 </note>
 </notes>
 </layout>
