@@ -239,7 +239,7 @@
 <stn t="15" id="219" rect="765,1621,4600,2275" name="*Car Float"></stn>
 </stns>
 </tracks>
-<trains selno="17" trk="0" dists="0">
+<trains selno="7" trk="0" dists="0">
 <trn t="6" id="3" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="26" rect="6285,801,7005,1101" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 7852" loadname="merchandise" dest="T" collname="Default Steam" cartype="40ft wood box" trk="153" dists="269" gs="1"></car>
@@ -296,12 +296,12 @@
 </trn>
 <trn t="6" id="2" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="54" rect="1053,1690,1793,1990" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="DL&amp;W 0224" loadname="merchandise" dest="P" collname="Default Steam" cartype="40ft wood box" trk="3" dists="303" gs="1"></car>
-<car t="5" id="39" rect="1603,1690,2383,1990" flags="1048576" type="10" outl="102,51,0" fill="204,102,0" len="610" wid="130" label="B&amp;O 1444" loadname="Tarp" dest="P" collname="Default Steam" cartype="flatcar" trk="3" dists="873" gs="1"></car>
-<car t="5" id="45" rect="2193,1689,2933,1989" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 0298" loadname="Empty" dest="P" collname="Default Steam" cartype="40ft wood box" trk="3" dists="1443" gs="1"></car>
-<car t="5" id="67" rect="2743,1688,3483,1988" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4786" loadname="Empty" dest="P" collname="Default Steam" cartype="40ft wood box" trk="3" dists="1993" gs="1"></car>
-<car t="5" id="68" rect="3293,1687,4033,1987" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 9104" loadname="Empty" dest="P" collname="Default Steam" cartype="40ft wood box" trk="3" dists="2543" gs="1"></car>
-<car t="5" id="55" rect="3840,1686,4484,2002" flags="1052672" type="6" outl="134,134,134" fill="192,192,192" len="470" wid="130" label="PGCC 1248" loadname="coal" dest="P" collname="Default Steam" cartype="2 bay hopper" trk="3" dists="3043" gs="1"></car>
+<car t="5" id="54" rect="1192,1690,1932,1990" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="DL&amp;W 0224" loadname="merchandise" dest="P" collname="Default Steam" cartype="40ft wood box" trk="3" dists="442" gs="1"></car>
+<car t="5" id="39" rect="1742,1689,2522,1989" flags="1048576" type="10" outl="102,51,0" fill="204,102,0" len="610" wid="130" label="B&amp;O 1444" loadname="Tarp" dest="P" collname="Default Steam" cartype="flatcar" trk="3" dists="1012" gs="1"></car>
+<car t="5" id="45" rect="2332,1689,3072,1989" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 0298" loadname="Empty" dest="P" collname="Default Steam" cartype="40ft wood box" trk="3" dists="1582" gs="1"></car>
+<car t="5" id="67" rect="2882,1688,3622,1988" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4786" loadname="Empty" dest="P" collname="Default Steam" cartype="40ft wood box" trk="3" dists="2132" gs="1"></car>
+<car t="5" id="68" rect="3432,1687,4172,1987" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 9104" loadname="Empty" dest="P" collname="Default Steam" cartype="40ft wood box" trk="3" dists="2682" gs="1"></car>
+<car t="5" id="55" rect="3978,1686,4624,2014" flags="1052672" type="6" outl="134,134,134" fill="192,192,192" len="470" wid="130" label="PGCC 1248" loadname="coal" dest="P" collname="Default Steam" cartype="2 bay hopper" trk="5" dists="90" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="13" dspeed="0" horntype="0">
@@ -378,7 +378,7 @@
 <car t="5" id="29" rect="12011,3480,12731,3780" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 3450" loaded="1" loadname="lcl" dest="F" collname="Default Steam" cartype="40ft wood box" trk="202" dists="269"></car>
 </cars>
 </trn>
-<trn t="6" id="17" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="17" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="57" rect="7759,2035,8463,2439" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="CNJ 982" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="55" dists="77" gs="1"></car>
 </cars>
@@ -435,13 +435,13 @@ endif]]></action>
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1956,b:903" zoom="0.151373" ctr="x:7118,y:2835" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1956,b:903" zoom="0.151373" ctr="x:5968,y:2841" vtype="596"></winview>
 <scripts>
 <script id="11" flags="6" cmdix="2151" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
-Let railroadParent = none
-Let railrodDescription = none
-Let railroadYear = none
+Let railroadParent = "PRR Eastern Division"
+Let railroadDescription = "Williamsburg, Brooklyn New York"
+Let railroadYear = "1914"
 
 Let $Key = 0
 
@@ -481,7 +481,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,314,661</wndrect>
+<wndrect>134,15,404,661</wndrect>
 </note>
 </notes>
 </layout>
