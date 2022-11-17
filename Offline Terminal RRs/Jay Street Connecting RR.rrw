@@ -2346,7 +2346,15 @@ The car float can be unbalanced by a maximum of 3 cars. There is an idler flat i
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:275,t:275,r:1895,b:1156" zoom="0.26311" ctr="x:33511,y:6329" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="2127" wndrect="0,22,597,691"><![CDATA[** Jay St Connecting RR 1920
+<script id="11" flags="6" cmdix="2148" wndrect="0,22,597,691"><![CDATA[** Jay St Connecting RR 1920
+
+** Optional railroad details
+Let OperatingRoad = ""
+Let Territory = ""
+Let Location = ""
+Let Year = ""
+Let Divisions = "" ** Separate division names with a comma, no spaces.
+Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
 Let $Key = 0
 
@@ -2385,7 +2393,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="-5,197,782,856" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>202,101,524,970</wndrect>
+<wndrect>202,101,394,970</wndrect>
 </note>
 </notes>
 </layout>

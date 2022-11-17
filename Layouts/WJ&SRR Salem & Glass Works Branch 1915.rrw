@@ -1594,7 +1594,15 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1550,b:924" zoom="0.170179" ctr="x:61115,y:34599" vtype="596"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="2124" wndrect="59,261,833,965"><![CDATA[** MASTER SCRIPT - WJ&SRR Salem & Glass Works Branch 1915
+<script id="20" flags="6" cmdix="2148" wndrect="59,261,833,965"><![CDATA[** MASTER SCRIPT - WJ&SRR Salem & Glass Works Branch 1915
+
+** Optional railroad details
+Let OperatingRoad = ""
+Let Territory = ""
+Let Location = ""
+Let Year = ""
+Let Divisions = "" ** Separate division names with a comma, no spaces.
+Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
 Let $Key = 0
 
@@ -1633,7 +1641,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="379,658,2181,2118" otype="9" text=" " bktype="3" fill="R:234,G:199,B:159" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="90,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>324,44,628,811</wndrect>
+<wndrect>324,44,504,811</wndrect>
 </note>
 </notes>
 </layout>

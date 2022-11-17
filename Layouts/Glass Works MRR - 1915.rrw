@@ -1062,7 +1062,15 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1733,b:891" zoom="0.226136" ctr="x:4697,y:7368" vtype="596"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="2127" wndrect="0,23,597,408"><![CDATA[** Master script on layout Glass Works 1915 Model RR
+<script id="1" flags="6" cmdix="2148" wndrect="0,23,597,408"><![CDATA[** Master script on layout Glass Works 1915 Model RR
+
+** Optional railroad details
+Let OperatingRoad = ""
+Let Territory = ""
+Let Location = ""
+Let Year = ""
+Let Divisions = "" ** Separate division names with a comma, no spaces.
+Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
 Let $Key = 0
 
@@ -1103,7 +1111,7 @@ GoTo StartingPoint
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="450,232,1133,644" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>182,112,504,956</wndrect>
+<wndrect>182,112,374,956</wndrect>
 </note>
 </notes>
 </layout>

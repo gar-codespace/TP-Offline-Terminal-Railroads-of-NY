@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Pittsburgh Strip District - 1915" lid="JA1" scale="3" bitmap="Pittsburgh Point - 1915.jpg" zoom="31.4722" xdim="67382" ydim="29760" xoffset="0" yoffset="0" bmap_size="x:67382,y:29760" def_cars="DropKick" descr="Pittsburg Point">
+<layout name="Pittsburgh Strip District - 1915" lid="JA1" scale="3" bitmap="Pittsburgh Point - 1915.jpg" zoom="41.8262" xdim="67382" ydim="29760" xoffset="0" yoffset="0" bmap_size="x:67382,y:29760" def_cars="DropKick" descr="Pittsburg Point">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="8700,9472"></jxn>
@@ -980,9 +980,17 @@ Tools "Check Track"
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1845,b:893" zoom="0.0317741" ctr="x:33675,y:14865" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1845,b:893" zoom="0.0239085" ctr="x:33670,y:14859" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="2124" wndrect="0,22,597,406"><![CDATA[** Master script on layout Pittsburgh Waterfront 1915
+<script id="1" flags="6" cmdix="2148" wndrect="0,22,597,406"><![CDATA[** Master script on layout Pittsburgh Waterfront 1915
+
+** Optional railroad details
+Let OperatingRoad = ""
+Let Territory = ""
+Let Location = ""
+Let Year = ""
+Let Divisions = "" ** Separate division names with a comma, no spaces.
+Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
 Let $Key = 0
 

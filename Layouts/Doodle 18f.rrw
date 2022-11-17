@@ -6257,7 +6257,15 @@ throw 1044 1
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:59,t:108,r:1103,b:896" zoom="0.115782" ctr="x:18622,y:18330" vtype="596"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="2256"><![CDATA[** Master script on Doodle 18e
+<script id="1" flags="6" cmdix="2277"><![CDATA[** Master script on Doodle 18e
+
+** Optional railroad details
+Let OperatingRoad = ""
+Let Territory = ""
+Let Location = ""
+Let Year = ""
+Let Divisions = "" ** Separate division names with a comma, no spaces.
+Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
 Let $Key = 0
 
@@ -6380,7 +6388,7 @@ GoTo Middle]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>182,9,452,873</wndrect>
+<wndrect>182,9,362,873</wndrect>
 </note>
 </notes>
 </layout>

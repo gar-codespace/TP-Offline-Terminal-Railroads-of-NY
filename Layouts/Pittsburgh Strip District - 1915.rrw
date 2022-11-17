@@ -6719,7 +6719,7 @@
 </trn>
 <trn t="6" id="67" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="310" rect="12714,29969,13146,30487" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="325" wid="131" label="ESS999" dest="~" collname="GR_Locomotives" cartype="A5s" trk="2361" dists="378"></car>
+<car t="5" id="310" rect="12714,29969,13146,30487" flags="4194304" type="8" outl="95,95,95" fill="255,0,0" len="325" wid="131" label="ESS999" dest="~" collname="GR_Locomotives" cartype="A5s" trk="2361" dists="378"></car>
 <car t="5" id="332" rect="12573,29671,13001,30195" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="331" wid="131" label="ET999" dest="~" collname="GR_Locomotives" cartype="PRR A5s Tender " trk="2361" dists="50"></car>
 <car t="5" id="55" rect="12428,29360,12858,29894" flags="4198400" type="11" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="Nd55" dest="~" collname="GR_Freight" cartype="PRR Nd" trk="2360" dists="329"></car>
 </cars>
@@ -8509,7 +8509,7 @@
 </trn>
 <trn t="6" id="145" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="10" rect="41492,16162,41920,16680" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="325" wid="131" label="ESS10" dest="~" collname="GR_Locomotives" cartype="A5s" trk="961" dists="2125"></car>
+<car t="5" id="10" rect="41492,16162,41920,16680" flags="4194304" type="8" outl="95,95,95" fill="255,0,0" len="325" wid="131" label="ESS10" dest="~" collname="GR_Locomotives" cartype="A5s" trk="961" dists="2125"></car>
 <car t="5" id="11" rect="41347,15864,41779,16388" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="331" wid="131" label="ET10" dest="~" collname="GR_Locomotives" cartype="PRR A5s Tender " trk="961" dists="1797"></car>
 </cars>
 </trn>
@@ -8950,9 +8950,17 @@ Let xTrain = $Train($X_Train, Flip)
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="2" name="Style 2" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="1"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1972,b:971" zoom="0.144727" ctr="x:29504,y:20384" vtype="724"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1972,b:971" zoom="0.144727" ctr="x:29504,y:20385" vtype="724"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="2124"><![CDATA[* Master script on layout JAWS II - Pittsburgh Strip District - 1915
+<script id="1" flags="6" cmdix="2148"><![CDATA[* Master script on layout JAWS II - Pittsburgh Strip District - 1915
+
+** Optional railroad details
+Let OperatingRoad = ""
+Let Territory = ""
+Let Location = ""
+Let Year = ""
+Let Divisions = "" ** Separate division names with a comma, no spaces.
+Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
 Let $Key = 0
 

@@ -575,7 +575,15 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1911,b:981" zoom="0.128469" ctr="x:8268,y:4649" vtype="596"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="2127"><![CDATA[* Master script on layout MUTT
+<script id="1" flags="6" cmdix="2148"><![CDATA[* Master script on layout MUTT
+
+** Optional railroad details
+Let OperatingRoad = ""
+Let Territory = ""
+Let Location = ""
+Let Year = ""
+Let Divisions = "" ** Separate division names with a comma, no spaces.
+Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
 Let $Key = 0
 
@@ -614,7 +622,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="-712,295,-312,495" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="-80,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>352,1500,640,2107</wndrect>
+<wndrect>396,657,554,1264</wndrect>
 </note>
 </notes>
 </layout>
