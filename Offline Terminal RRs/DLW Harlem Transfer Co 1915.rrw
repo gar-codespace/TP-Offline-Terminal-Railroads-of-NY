@@ -667,7 +667,7 @@
 <script id="20" flags="6" cmdix="2168" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
 
 ** Optional railroad details
-Let OperatingRoad = "DL&W RR"
+Let OperatingRoad = "DL&W Railroad"
 Let Territory = "Harlem Transfer Co."
 Let Location = "Mott Haven, the Bronx, New York"
 Let Year = "1915"
@@ -734,7 +734,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,404,661</wndrect>
+<wndrect>134,15,314,661</wndrect>
 </note>
 </notes>
 </layout>
