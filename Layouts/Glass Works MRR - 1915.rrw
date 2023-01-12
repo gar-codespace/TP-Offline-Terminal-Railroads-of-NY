@@ -772,7 +772,7 @@
 <poly t="18" id="6" rect="1906,5776,2070,6223" otype="4" bktype="1" fill="R:0,G:0,B:0" bktype_l="0" fill_l="R:0,G:0,B:128" points="1906,6217,1924,6223,2070,5782,2052,5776" closed="true"></poly>
 </scenery>
 </tracks>
-<trains selno="4" trk="0" dists="0">
+<trains selno="19" trk="0" dists="0">
 <trn t="6" id="14" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="16" rect="7377,8350,7843,9084" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 4959" loaded="1" loadname="Glassware" dest="S3P" collname="GR_Freight" cartype="PRR Xg" trk="167" dists="883"></car>
@@ -796,7 +796,7 @@
 <car t="5" id="54" rect="4254,6305,4960,6871" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="WJ&amp;S 4322" loaded="1" loadname="Glassware" dest="S3W" collname="GR_Freight" cartype="PRR Xl" trk="338" dists="197"></car>
 </cars>
 </trn>
-<trn t="6" id="3" dspeed="0" horntype="0" selcarno="4">
+<trn t="6" id="3" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="17" rect="3054,6606,3618,7300" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="540" wid="128" label="HJH 6632" loadname="Produce" dest="HK" collname="GR_Freight" cartype="Heinz Figs" trk="180" dists="61" gs="1"></car>
 <car t="5" id="53" rect="3350,6206,4002,6854" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="ER 6193" loadname="Produce" dest="HK" collname="GR_Freight" cartype="PRR Rf" trk="191" dists="125" gs="1"></car>
@@ -885,7 +885,7 @@
 <car t="5" id="86" rect="9389,8266,9853,9000" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="130" label="M&amp;P 7383" loadname="sand" dest="S3X" collname="GR_Freight" cartype="PRR Gr" trk="371" dists="1153" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="21" dspeed="0" horntype="0">
+<trn t="6" id="21" dspeed="0" horntype="0" selcarno="0">
 <cars>
 <car t="5" id="72" rect="2908,5061,3224,5715" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="480" wid="127" label="HJH 6042" loaded="1" loadname="Empty" dest="HV" collname="GR_Freight" cartype="Heinz Vinegar" trk="111" dists="576"></car>
 </cars>
@@ -980,11 +980,11 @@
 <car t="5" id="61" rect="1448,4585,1748,5235" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="480" wid="130" label="NYNH&amp;H 2651" loadname="coal" dest="Y" collname="GR_Freight" cartype="PRR Gl" trk="318" dists="4862" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="15" dspeed="0" horntype="0">
+<trn t="6" id="8" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="67" rect="1780,9483,2082,10093" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="441" wid="131" label="WJ&amp;S 928" dest="~" collname="GR_Locomotives" cartype="B6s" trk="317" dists="1019" gs="1"></car>
-<car t="5" id="68" rect="1782,9924,2082,10438" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="345" wid="131" label="ET68" dest="~" collname="GR_Locomotives" cartype="B6s Tender" trk="317" dists="1412" gs="1"></car>
-<car t="5" id="64" rect="1784,10269,2080,10783" flags="4194304" type="11" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="WJ&amp;S 693" dest="~" collname="GR_Freight" cartype="PRR Nd" trk="317" dists="1757" gs="1"></car>
+<car t="5" id="49" rect="1781,8796,2081,9406" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="441" wid="131" label="ESS49" collname="GR_Locomotives" cartype="Engine PRR B6s" trk="317" dists="332" gs="1"></car>
+<car t="5" id="63" rect="1781,9237,2081,9751" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="345" wid="131" label="ET63" collname="GR_Locomotives" cartype="PRR B6s Tender " trk="317" dists="725" gs="1"></car>
+<car t="5" id="64" rect="1783,9582,2079,10096" flags="4194304" type="11" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="WJ&amp;S 693" dest="~" collname="GR_Freight" cartype="PRR Nd" trk="317" dists="1070" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -1060,7 +1060,7 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1733,b:891" zoom="0.204319" ctr="x:5395,y:7300" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1733,b:891" zoom="0.204319" ctr="x:6080,y:6418" vtype="596"></winview>
 <scripts>
 <script id="1" flags="6" cmdix="2296" wndrect="0,23,597,408"><![CDATA[** Master script on layout Glass Works 1915 Model RR
 
@@ -1139,7 +1139,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="450,232,1133,644" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>182,112,504,956</wndrect>
+<wndrect>182,112,470,956</wndrect>
 </note>
 </notes>
 </layout>
