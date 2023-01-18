@@ -515,7 +515,7 @@
 <car t="5" id="32" rect="5781,1504,6431,1794" flags="1048576" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="120" label="PGCC 2502" loaded="1" loadname="Empty" dest="T" collname="Default Steam" cartype="2 bay hopper" trk="65" dists="2562"></car>
 </cars>
 </trn>
-<trn t="6" id="13" dspeed="0" rev="1" horntype="0" selcarno="0">
+<trn t="6" id="13" dspeed="0" rev="1" horntype="0">
 <cars>
 <car t="5" id="43" rect="8532,5191,9252,5491" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 2587" loaded="1" loadname="Empty" dest="C" collname="Default Steam" cartype="box aar1937" trk="39" dists="837" gs="1"></car>
 </cars>

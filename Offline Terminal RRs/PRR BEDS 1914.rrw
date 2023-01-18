@@ -239,7 +239,7 @@
 <stn t="15" id="219" rect="765,1621,4600,2275" name="*Car Float"></stn>
 </stns>
 </tracks>
-<trains selno="13" trk="0" dists="0">
+<trains selno="17" trk="0" dists="0">
 <trn t="6" id="3" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="26" rect="6285,801,7005,1101" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 1789" loadname="merchandise" dest="T" collname="Default Steam" cartype="40ft wood box" trk="153" dists="269" gs="1"></car>
@@ -340,7 +340,7 @@
 <car t="5" id="52" rect="12003,959,12743,1259" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 5377" loadname="merchandise" dest="T" collname="Default Steam" cartype="40ft wood box" trk="164" dists="2697" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="25" dspeed="0" horntype="0" selcarno="5">
+<trn t="6" id="25" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="14" rect="1050,1970,1790,2270" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="570" wid="130" label="MDX 0730" loadname="Produce" dest="P" collname="Default Steam" cartype="ice reefer" trk="13" dists="292" gs="1"></car>
 <car t="5" id="42" rect="1600,1970,2340,2270" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="DL&amp;W 3995" loadname="merchandise" dest="P" collname="Default Steam" cartype="40ft wood box" trk="13" dists="842" gs="1"></car>
@@ -378,9 +378,9 @@
 <car t="5" id="29" rect="12011,3480,12731,3780" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 5437" loaded="1" loadname="lcl" dest="F" collname="Default Steam" cartype="40ft wood box" trk="202" dists="269"></car>
 </cars>
 </trn>
-<trn t="6" id="17" dspeed="0" rev="1" horntype="0">
+<trn t="6" id="17" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="57" rect="7692,2022,8396,2430" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="PRR 414" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="55" dists="9"></car>
+<car t="5" id="57" rect="7526,1986,8230,2398" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="PRR 414" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="27" dists="160"></car>
 </cars>
 </trn>
 </trains>
@@ -435,7 +435,7 @@ endif]]></action>
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1956,b:903" zoom="0.148099" ctr="x:7481,y:2838" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:182,t:182,r:2012,b:990" zoom="0.148099" ctr="x:7481,y:2838" vtype="596" fit="1"></winview>
 <scripts>
 <script id="11" flags="6" cmdix="2296" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
