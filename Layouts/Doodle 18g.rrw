@@ -5084,31 +5084,31 @@
 <scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="71.935" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
 </scenery>
 </tracks>
-<trains selno="29" trk="0" dists="0">
-<trn t="6" id="10" dspeed="0" horntype="0">
+<trains selno="0" trk="0" dists="0">
+<trn t="6" id="10" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="1" rect="48758,17107,49520,17607" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="579" wid="141" label="PRR 441" dest="~" collname="o2o Locomotives" cartype="K4s" trk="397" dists="249" gs="1"></car>
-<car t="5" id="2" rect="48294,16927,48978,17409" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="497" wid="141" label="ET2" dest="~" collname="o2o Locomotives" cartype="K4s tender" trk="397" dists="787" gs="1"></car>
-<car t="5" id="122" rect="47760,16700,48516,17226" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="579" wid="141" label="PRR 427" dest="~" collname="o2o Locomotives" cartype="K4s" trk="1085" dists="510" gs="1"></car>
-<car t="5" id="123" rect="47306,16493,47986,16999" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="497" wid="141" label="ET123" dest="~" collname="o2o Locomotives" cartype="K4s tender" trk="1085" dists="1048" gs="1"></car>
-<car t="5" id="193" rect="46518,16079,47558,16797" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 9214" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1086" dists="657" gs="1"></car>
-<car t="5" id="194" rect="45761,15605,46775,16377" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 9654" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1087" dists="602" gs="1"></car>
-<car t="5" id="195" rect="45046,15071,46026,15903" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 1186" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1088" dists="717" gs="1"></car>
-<car t="5" id="196" rect="44387,14474,45323,15362" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 1763" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1089" dists="884" gs="1"></car>
-<car t="5" id="197" rect="43784,13823,44654,14743" flags="4194304" type="4" fill="128,128,0" len="890" wid="138" label="PRR 6600" loadname="mail" dest="~" collname="GR_Passenger" cartype="Mm" trk="1090" dists="886" gs="1"></car>
-<car t="5" id="198" rect="43433,13339,44057,14077" flags="4460544" type="4" fill="128,128,0" len="607" wid="128" label="PRR 4278" loadname="express" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1319" dists="73" gs="1"></car>
-<car t="5" id="199" rect="43125,12819,43709,13577" flags="4460544" type="4" fill="128,128,0" len="607" wid="128" label="PRR 1385" loadname="express" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1320" dists="36" gs="1"></car>
-<car t="5" id="200" rect="42762,12007,43420,13067" flags="4460544" type="4" fill="128,128,0" len="910" wid="141" label="PRR 3188" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1193" dists="448"></car>
-<car t="5" id="201" rect="42521,11158,43071,12242" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 9227" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1175" dists="481"></car>
-<car t="5" id="202" rect="42431,10569,42819,11357" flags="4198400" type="4" fill="128,128,0" len="607" wid="128" label="PRR 2248" loadname="*merchandise" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" prop_str="jMisc=Out of Service" trk="1174" dists="568"></car>
-<car t="5" id="203" rect="42387,9969,42723,10753" flags="4194304" type="4" fill="128,128,0" len="607" wid="128" label="PRR 1210" loadname="express" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1128" dists="899"></car>
-<car t="5" id="204" rect="42380,9084,42708,10166" flags="4194304" type="4" fill="128,128,0" len="910" wid="141" label="PRR 2927" loadname="baggage" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1128" dists="161"></car>
-<car t="5" id="205" rect="42398,8194,42804,9282" flags="4198400" type="4" fill="128,128,0" len="910" wid="141" label="PRR 1488" loadname="baggage" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1123" dists="188"></car>
-<car t="5" id="206" rect="42494,7324,43030,8410" flags="4198400" type="4" fill="128,128,0" len="910" wid="141" label="PRR 1987" loadname="baggage" dest="~" collname="North American Passenger" cartype="prr b60b baggage" prop_str="jMisc=Out of Service" trk="1122" dists="30"></car>
-<car t="5" id="207" rect="42735,6759,43255,7537" flags="4194304" type="4" fill="128,128,0" len="607" wid="128" label="PRR 3710" loadname="*merchandise" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" prop_str="jMisc=Out of Service" trk="1117" dists="502"></car>
-<car t="5" id="208" rect="42968,6217,43536,6981" flags="4198400" type="4" fill="128,128,0" len="607" wid="128" label="PRR 2524" loadname="*merchandise" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1114" dists="492"></car>
-<car t="5" id="209" rect="43256,5727,43898,6453" flags="4198400" type="4" fill="128,128,0" len="607" wid="128" label="PRR 4977" loadname="express" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1113" dists="417"></car>
-<car t="5" id="210" rect="43613,5072,44549,6000" flags="4198400" type="3" fill="128,128,0" len="938" wid="141" label="PRR 1229" loadname="passengers" dest="~" collname="North American Passenger" cartype="prr p70 coach" trk="625" dists="265"></car>
+<car t="5" id="1" rect="49007,17198,49765,17714" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="579" wid="141" label="PRR 441" dest="~" collname="o2o Locomotives" cartype="K4s" trk="396" dists="969" gs="1"></car>
+<car t="5" id="2" rect="48542,17028,49226,17500" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="497" wid="141" label="ET2" dest="~" collname="o2o Locomotives" cartype="K4s tender" trk="397" dists="520" gs="1"></car>
+<car t="5" id="122" rect="48005,16805,48763,17329" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="579" wid="141" label="PRR 427" dest="~" collname="o2o Locomotives" cartype="K4s" trk="1085" dists="243" gs="1"></car>
+<car t="5" id="123" rect="47548,16611,48230,17103" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="497" wid="141" label="ET123" dest="~" collname="o2o Locomotives" cartype="K4s tender" trk="1085" dists="781" gs="1"></car>
+<car t="5" id="193" rect="46752,16207,47794,16919" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 9214" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1086" dists="390" gs="1"></car>
+<car t="5" id="194" rect="45983,15754,47005,16512" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 9654" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1087" dists="335" gs="1"></car>
+<car t="5" id="195" rect="45252,15243,46246,16053" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 1186" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1088" dists="450" gs="1"></car>
+<car t="5" id="196" rect="44577,14664,45527,15534" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 1763" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1089" dists="617" gs="1"></car>
+<car t="5" id="197" rect="43953,14030,44843,14932" flags="4194304" type="4" fill="128,128,0" len="890" wid="138" label="PRR 6600" loadname="mail" dest="~" collname="GR_Passenger" cartype="Mm" trk="1090" dists="619" gs="1"></car>
+<car t="5" id="198" rect="43579,13561,44225,14285" flags="4460544" type="4" fill="128,128,0" len="607" wid="128" label="PRR 4278" loadname="express" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1318" dists="458" gs="1"></car>
+<car t="5" id="199" rect="43249,13054,43855,13802" flags="4460544" type="4" fill="128,128,0" len="607" wid="128" label="PRR 1385" loadname="express" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1319" dists="413" gs="1"></car>
+<car t="5" id="200" rect="42862,12253,43546,13305" flags="4460544" type="4" fill="128,128,0" len="910" wid="141" label="PRR 3188" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1320" dists="507" gs="1"></car>
+<car t="5" id="201" rect="42591,11413,43169,12493" flags="4456448" type="4" fill="128,128,0" len="910" wid="141" label="PRR 9227" loadname="express" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1175" dists="748"></car>
+<car t="5" id="202" rect="42469,10829,42891,11619" flags="4198400" type="4" fill="128,128,0" len="607" wid="128" label="PRR 2248" loadname="*merchandise" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" prop_str="jMisc=Out of Service" trk="1174" dists="835"></car>
+<car t="5" id="203" rect="42385,10233,42767,11021" flags="4194304" type="4" fill="128,128,0" len="607" wid="128" label="PRR 1210" loadname="express" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1174" dists="228"></car>
+<car t="5" id="204" rect="42380,9352,42694,10432" flags="4194304" type="4" fill="128,128,0" len="910" wid="141" label="PRR 2927" loadname="baggage" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1128" dists="428"></car>
+<car t="5" id="205" rect="42381,8460,42755,9546" flags="4198400" type="4" fill="128,128,0" len="910" wid="141" label="PRR 1488" loadname="baggage" dest="~" collname="North American Passenger" cartype="prr b60b baggage" trk="1123" dists="455"></car>
+<car t="5" id="206" rect="42442,7580,42944,8668" flags="4198400" type="4" fill="128,128,0" len="910" wid="141" label="PRR 1987" loadname="baggage" dest="~" collname="North American Passenger" cartype="prr b60b baggage" prop_str="jMisc=Out of Service" trk="1122" dists="297"></car>
+<car t="5" id="207" rect="42651,7005,43147,7789" flags="4194304" type="4" fill="128,128,0" len="607" wid="128" label="PRR 3710" loadname="*merchandise" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" prop_str="jMisc=Out of Service" trk="1121" dists="126"></car>
+<car t="5" id="208" rect="42861,6450,43403,7224" flags="4198400" type="4" fill="128,128,0" len="607" wid="128" label="PRR 2524" loadname="*merchandise" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1117" dists="162"></car>
+<car t="5" id="209" rect="43123,5931,43723,6683" flags="4198400" type="4" fill="128,128,0" len="607" wid="128" label="PRR 4977" loadname="express" dest="~" collname="GR_Passenger" cartype="X23 Adams Express Box" trk="1114" dists="152"></car>
+<car t="5" id="210" rect="43438,5249,44350,6201" flags="4198400" type="3" fill="128,128,0" len="938" wid="141" label="PRR 1229" loadname="passengers" dest="~" collname="North American Passenger" cartype="prr p70 coach" trk="625" dists="532"></car>
 </cars>
 </trn>
 <trn t="6" id="28" dspeed="0" horntype="0">
@@ -5341,7 +5341,7 @@
 <car t="5" id="97" rect="13781,13871,14241,14557" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="497" wid="141" label="ET97" dest="~" collname="o2o Locomotives" cartype="K4s tender" trk="2132" dists="1591" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="3" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="3" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="108" rect="48809,17401,49763,17981" flags="262144" type="1" outl="128,128,128" fill="0,0,0" len="786" wid="141" label="PRR 345" dest="E1" collname="o2o Locomotives" cartype="J1a" trk="496" dists="755" gs="1"></car>
 <car t="5" id="109" rect="48227,17186,49027,17704" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="621" wid="141" label="ET109" dest="~" collname="o2o Locomotives" cartype="J1a tender" trk="1035" dists="679" gs="1"></car>
@@ -5837,7 +5837,7 @@
 <trainseqs active_row="1"></trainseqs>
 <swrows>
 <sw id="1" car_id="25" sr_id="0" car="PRR 491" pullfrom="VR" dir="&gt;&gt;" spotat="~"></sw>
-<sw id="2" car_id="1" sr_id="0" car="PRR 441" pullfrom="E4" dir="&gt;&gt;" spotat="~"></sw>
+<sw id="2" car_id="1" sr_id="0" car="PRR 441" pullfrom="T396" dir="&gt;&gt;" spotat="~"></sw>
 <sw id="3" car_id="2" sr_id="0" car="ET2" pullfrom="E4" dir="&gt;&gt;" spotat="~"></sw>
 </swrows>
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
@@ -5866,7 +5866,7 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.0926259" ctr="x:26034,y:24497" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.0926259" ctr="x:43171,y:18332" vtype="596"></winview>
 <scripts>
 <script id="3" flags="6" cmdix="2440" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
