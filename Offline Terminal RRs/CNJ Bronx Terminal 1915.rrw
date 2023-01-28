@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="cnj bronx terminal 1915.jpg" zoom="6.38647" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx.">
+<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="cnj bronx terminal 1915.jpg" zoom="6.47406" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx.">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="7681,6594"></jxn>
@@ -477,7 +477,7 @@
 <stn t="15" id="3" rect="3778,4482,4504,4656" name="Storage"></stn>
 </stns>
 </tracks>
-<trains selno="18" trk="0" dists="0">
+<trains selno="15" trk="0" dists="0">
 <trn t="6" id="6" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="44" rect="7032,3272,7686,3756" flags="1048576" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="120" label="PGCC 3446" loaded="1" loadname="coal" dest="T" collname="Default Steam" cartype="2 bay hopper" trk="252" dists="793"></car>
@@ -592,7 +592,7 @@
 <car t="5" id="83" rect="6748,854,7468,1154" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYNH&amp;H 3296" loaded="1" loadname="Empty" dest="T" collname="Default Steam" cartype="40ft wood box" trk="305" dists="965"></car>
 </cars>
 </trn>
-<trn t="6" id="27" dspeed="0" horntype="0">
+<trn t="6" id="27" dspeed="0" horntype="0" selcarno="0">
 <cars>
 <car t="5" id="91" rect="1532,3562,2098,4244" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="CNJ 467" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="66" dists="255" gs="1"></car>
 </cars>
@@ -617,7 +617,7 @@
 <car t="5" id="27" rect="4728,5103,5452,5619" flags="262144" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="FGEX 2004" loaded="1" loadname="produce" dest="F" collname="Default Steam" cartype="ice reefer" trk="3" dists="2870" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="4" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="4" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="84" rect="2156,3903,2778,4589" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="CNJMoW 874" loadname="tools" dest="~" collname="mow_odd cars" cartype="mow flat" trk="60" dists="164"></car>
 </cars>
@@ -667,8 +667,8 @@
 <ind id="9" industry="T" aar="XM" s__r="S" load="goods"></ind>
 <ind id="10" industry="T" aar="RS" s__r="R" load="produce"></ind>
 <ind id="12" industry="T" aar="XM" s__r="R" load="merchandise"></ind>
-<ind id="11" industry="T" aar="XM" s__r="S" load="empty"></ind>
-<ind id="16" industry="H" aar="XM" s__r="S" load="merchandise"></ind>
+<ind id="11" industry="T" aar="XM" s__r="S" load="merchandise"></ind>
+<ind id="2" industry="H" aar="XM" s__r="S" load="lcl"></ind>
 </industries>
 <locations>
 <loc id="1" locale="Bronx Terminal;Gantry" track="G" class="industry" vs_add="3"></loc>
@@ -688,9 +688,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.156581" ctr="x:5428,y:3863" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.154463" ctr="x:5432,y:3863" vtype="596" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="2296" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" cmdix="2298" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Optional railroad details
 Let OperatingRoad = "Central Railroad of New Jersey"

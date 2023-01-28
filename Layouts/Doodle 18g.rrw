@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="13.4951" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
+<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="8.63689" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="32245,28393"></jxn>
@@ -5084,7 +5084,7 @@
 <scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="71.935" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
 </scenery>
 </tracks>
-<trains selno="0" trk="0" dists="0">
+<trains selno="16" trk="0" dists="0">
 <trn t="6" id="10" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="1" rect="48992,17193,49750,17707" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="579" wid="141" label="PRR 441" dest="~" collname="o2o Locomotives" cartype="K4s" trk="396" dists="986" gs="1"></car>
@@ -5227,10 +5227,10 @@
 <car t="5" id="18" rect="2327,17859,2687,18591" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 1454" loadname="lumber stack" dest="VP" collname="North American freight" cartype="reefer 40 am transit" prop_str="kernel=R5" trk="1507" dists="278" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="41" dspeed="0" horntype="0">
+<trn t="6" id="41" dspeed="0" horntype="0" selcarno="1">
 <cars>
-<car t="5" id="76" rect="22471,22099,23553,22651" flags="4096" type="4" fill="128,128,0" len="910" wid="141" label="PRR 8162" loadname="baggage" dest="DST" collname="North American Passenger" cartype="prr b60b baggage" prop_str="jOOS=Out of Service" trk="1846" dists="1813"></car>
-<car t="5" id="356" rect="23326,22342,24488,22918" type="3" fill="128,128,0" len="993" wid="141" label="PRR 2464" loadname="Empty" dest="DST" collname="North American Passenger" cartype="pullman2" prop_str="jOOS=Out of Service" trk="1846" dists="882"></car>
+<car t="5" id="76" rect="22469,22098,23551,22652" flags="4096" type="4" fill="128,128,0" len="910" wid="141" label="PRR 8162" loadname="baggage" dest="DST" collname="North American Passenger" cartype="prr b60b baggage" prop_str="jOOS=Out of Service" trk="1846" dists="1815"></car>
+<car t="5" id="356" rect="23324,22341,24486,22917" type="3" fill="128,128,0" len="993" wid="141" label="PRR 2464" loadname="Empty" dest="DST" collname="North American Passenger" cartype="pullman2" prop_str="jOOS=Out of Service" trk="1846" dists="884"></car>
 </cars>
 </trn>
 <trn t="6" id="56" dspeed="0" horntype="0">
@@ -5865,9 +5865,9 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.0741007" ctr="x:40408,y:14657" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.115782" ctr="x:23069,y:31971" vtype="596"></winview>
 <scripts>
-<script id="3" flags="6" cmdix="2440" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
+<script id="3" flags="6" cmdix="2442" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
 ** Optional railroad details
 Let OperatingRoad = "Pennsylvania Railroad"
