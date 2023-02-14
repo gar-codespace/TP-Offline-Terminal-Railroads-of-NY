@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="3.6632" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
+<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="3.66319" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="32245,28393"></jxn>
@@ -5084,8 +5084,8 @@
 <scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="71.935" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
 </scenery>
 </tracks>
-<trains selno="55" trk="0" dists="0">
-<trn t="6" id="10" dspeed="0" horntype="0">
+<trains selno="0" trk="0" dists="0">
+<trn t="6" id="10" dspeed="0" horntype="0" selcarno="8">
 <cars>
 <car t="5" id="1" rect="48992,17193,49750,17707" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="579" wid="141" label="PRR 441" dest="~" collname="o2o Locomotives" cartype="K4s" trk="396" dists="986" gs="1"></car>
 <car t="5" id="2" rect="48526,17022,49210,17494" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="497" wid="141" label="ET2" dest="~" collname="o2o Locomotives" cartype="K4s tender" trk="397" dists="537" gs="1"></car>
@@ -5667,7 +5667,7 @@
 <car t="5" id="219" rect="26765,24827,27637,25321" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="PRR 6293" loadname="goods" dest="C703" collname="North American freight" cartype="box x23 prr" trk="2530" dists="553"></car>
 </cars>
 </trn>
-<trn t="6" id="57" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="57" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="66" rect="48559,17849,49431,18275" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="690" wid="141" label="ESHP66" dest="~" collname="o2o Locomotives" cartype="K4s streamlined" trk="1440" dists="831" gs="1"></car>
 <car t="5" id="117" rect="49244,17964,49974,18318" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="552" wid="141" label="ET117" dest="~" collname="o2o Locomotives" cartype="K4s streamlined tender" trk="1441" dists="613" gs="1"></car>
