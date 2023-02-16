@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="3.66319" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
+<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="7.15467" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="32245,28393"></jxn>
@@ -5084,8 +5084,8 @@
 <scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="71.935" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
 </scenery>
 </tracks>
-<trains selno="0" trk="0" dists="0">
-<trn t="6" id="10" dspeed="0" horntype="0" selcarno="8">
+<trains selno="55" trk="0" dists="0">
+<trn t="6" id="10" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="1" rect="48992,17193,49750,17707" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="579" wid="141" label="PRR 441" dest="~" collname="o2o Locomotives" cartype="K4s" trk="396" dists="986" gs="1"></car>
 <car t="5" id="2" rect="48526,17022,49210,17494" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="497" wid="141" label="ET2" dest="~" collname="o2o Locomotives" cartype="K4s tender" trk="397" dists="537" gs="1"></car>
@@ -5667,7 +5667,7 @@
 <car t="5" id="219" rect="26765,24827,27637,25321" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="PRR 6293" loadname="goods" dest="C703" collname="North American freight" cartype="box x23 prr" trk="2530" dists="553"></car>
 </cars>
 </trn>
-<trn t="6" id="57" dspeed="0" horntype="0">
+<trn t="6" id="57" dspeed="0" horntype="0" selcarno="40">
 <cars>
 <car t="5" id="66" rect="48559,17849,49431,18275" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="690" wid="141" label="ESHP66" dest="~" collname="o2o Locomotives" cartype="K4s streamlined" trk="1440" dists="831" gs="1"></car>
 <car t="5" id="117" rect="49244,17964,49974,18318" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="552" wid="141" label="ET117" dest="~" collname="o2o Locomotives" cartype="K4s streamlined tender" trk="1441" dists="613" gs="1"></car>
@@ -5709,7 +5709,7 @@
 <car t="5" id="529" rect="49346,3914,50084,4346" flags="4194304" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 9403" loadname="produce" dest="~" collname="North American freight" cartype="reefer40 wood ice prr" prop_str="kernel=R1" trk="1102" dists="351" gs="1"></car>
 <car t="5" id="530" rect="48826,3824,49562,4224" flags="4194304" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 6722" loadname="produce" dest="~" collname="North American freight" cartype="reefer 40 am transit" prop_str="kernel=R1" trk="1102" dists="883" gs="1"></car>
 <car t="5" id="531" rect="48302,3787,49032,4137" flags="4194304" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 8643" loadname="produce" dest="~" collname="North American freight" cartype="reefer 40 am transit" prop_str="kernel=R1" trk="1103" dists="471" gs="1"></car>
-<car t="5" id="544" rect="47774,3785,48502,4121" flags="4194304" type="11" outl="95,95,95" fill="255,0,0" len="552" wid="141" label="PRR 297" loadname="Empty" dest="~" collname="North American freight" cartype="caboose wood centre cupola prr" trk="1104" dists="36" gs="1"></car>
+<car t="5" id="544" rect="47774,3785,48502,4121" flags="4194304" type="11" outl="95,95,95" fill="255,0,0" len="552" wid="141" label="PRR 298" loadname="Empty" dest="~" collname="North American freight" cartype="caboose wood centre cupola prr" trk="1104" dists="36" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -5744,8 +5744,8 @@
 <ind id="36" industry="PL" aar="FM" s__r="R" load="lumber stack"></ind>
 <ind id="37" industry="PFO" aar="TM" s__r="R" load="fuel"></ind>
 <ind id="38" industry="PFH" aar="XM" s__r="S" load="merchandise"></ind>
-<ind id="42" industry="JD" aar="XM" s__r="R" load="express"></ind>
-<ind id="1" industry="VD" aar="XM" s__r="S" load="express"></ind>
+<ind id="42" industry="JD" aar="XM" s__r="R" load="lcl"></ind>
+<ind id="1" industry="VD" aar="XM" s__r="S" load="lcl"></ind>
 <ind id="6" industry="PD" aar="XM" s__r="S" load="express"></ind>
 <ind id="10" industry="DX1" aar="B" s__r="R" load="express"></ind>
 <ind id="39" industry="DX2" aar="B" s__r="S" load="express"></ind>
@@ -5762,9 +5762,9 @@
 <ind id="23" industry="DX2" aar="BX" s__r="S" load="express"></ind>
 <ind id="35" industry="DX2" aar="MA" s__r="R" load="mail"></ind>
 <ind id="41" industry="DGD" aar="XM" s__r="S" load="goods"></ind>
-<ind id="43" industry="JD" aar="XM" s__r="S" load="express"></ind>
+<ind id="43" industry="JD" aar="XM" s__r="S" load="lcl"></ind>
 <ind id="45" industry="PD" aar="XM" s__r="R" load="express"></ind>
-<ind id="46" industry="VD" aar="XM" s__r="R" load="express"></ind>
+<ind id="46" industry="VD" aar="XM" s__r="R" load="lcl"></ind>
 <ind id="47" industry="VGD" aar="XM" s__r="R" load="goods"></ind>
 <ind id="48" industry="CI1" aar="RB" s__r="S" load="iced"></ind>
 <ind id="49" industry="CI1" aar="RS" s__r="R" load="produce"></ind>
@@ -5865,7 +5865,7 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.272986" ctr="x:49822,y:17823" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.139769" ctr="x:5473,y:14118" vtype="596"></winview>
 <scripts>
 <script id="3" flags="6" cmdix="2442" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
