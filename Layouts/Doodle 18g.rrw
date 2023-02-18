@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="7.15467" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
+<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="7.15466" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="32245,28393"></jxn>
@@ -5728,10 +5728,10 @@
 <ind id="27" industry="VP" aar="RB" s__r="S" load="produce"></ind>
 <ind id="29" industry="VC" aar="HK" s__r="R" load="coal2" staging="Northton"></ind>
 <ind id="13" industry="CI1" aar="RS" s__r="S" load="iced"></ind>
-<ind id="5" industry="VP" aar="RS" s__r="S" load="produce"></ind>
+<ind id="5" industry="VP" aar="RS" s__r="R" load="iced"></ind>
 <ind id="22" industry="CI1" aar="RB" s__r="S" load="produce"></ind>
 <ind id="9" industry="VP" aar="RB" s__r="R" load="iced"></ind>
-<ind id="21" industry="VP" aar="RS" s__r="R" load="iced"></ind>
+<ind id="21" industry="VP" aar="RS" s__r="S" load="Produce"></ind>
 <ind id="15" industry="DGD" aar="XM" s__r="R" load="goods"></ind>
 <ind id="18" industry="DGD" aar="FM" s__r="R" load="Tarp"></ind>
 <ind id="24" industry="DGD" aar="GB" s__r="R" load="Tarp3"></ind>
@@ -5865,7 +5865,7 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.139769" ctr="x:5473,y:14118" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.139769" ctr="x:12377,y:13860" vtype="596"></winview>
 <scripts>
 <script id="3" flags="6" cmdix="2442" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
@@ -6009,7 +6009,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,404,661</wndrect>
+<wndrect>134,15,314,661</wndrect>
 </note>
 </notes>
 </layout>
