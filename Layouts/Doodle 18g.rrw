@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="5.60272" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
+<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="5.60271" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="32245,28393"></jxn>
@@ -5946,7 +5946,7 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.178485" ctr="x:17385,y:21862" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.178485" ctr="x:17913,y:22260" vtype="596"></winview>
 <scripts>
 <script id="3" flags="6" cmdix="2448" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
@@ -5955,7 +5955,7 @@ Let OperatingRoad = "Pennsylvania Railroad"
 Let Territory = "Allegheny Region"
 Let Location = "Western Pennsylvania"
 Let Year = "1938"
-Let Divisions = "Weston Division,Easton Division,Northton Division,Valley Branch" ** Separate division names with a comma.
+Let Divisions = "Weston Divisionn,Easton Division,Northton Division,Valley Branch" ** Separate division names with a comma.
 Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
 Let $Key = 0
