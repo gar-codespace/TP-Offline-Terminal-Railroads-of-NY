@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="4.77504" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
+<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="7.46102" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="32245,28393"></jxn>
@@ -322,7 +322,7 @@
 <jxn t="3" id="463" pt="13229,26129"></jxn>
 <jxn t="3" id="464" pt="15684,31327"></jxn>
 <jxn t="3" id="465" pt="12866,25830"></jxn>
-<jxn t="3" id="466" pt="14614,29510"></jxn>
+<jxn t="3" id="466" pt="14614,29510" swp="1"></jxn>
 <jxn t="3" id="467" pt="15623,31620"></jxn>
 <jxn t="3" id="468" pt="11377,24661"></jxn>
 <jxn t="3" id="469" pt="10754,24765"></jxn>
@@ -463,7 +463,7 @@
 <jxn t="3" id="1175" pt="19598,34028"></jxn>
 <jxn t="3" id="1176" pt="19994,34145"></jxn>
 <jxn t="3" id="1177" pt="20330,34278"></jxn>
-<jxn t="3" id="1178" pt="21140,34738" swp="1"></jxn>
+<jxn t="3" id="1178" pt="21140,34738"></jxn>
 <jxn t="3" id="1179" pt="20381,34243"></jxn>
 <jxn t="3" id="1180" pt="20076,34055"></jxn>
 <jxn t="3" id="1181" pt="19858,33946"></jxn>
@@ -502,7 +502,7 @@
 <jxn t="3" id="1219" pt="9892,26773"></jxn>
 <jxn t="3" id="1220" pt="8560,29364"></jxn>
 <jxn t="3" id="1223" pt="10364,25731"></jxn>
-<jxn t="3" id="1224" pt="9760,26009"></jxn>
+<jxn t="3" id="1224" pt="9760,26009" swp="1"></jxn>
 <jxn t="3" id="1225" pt="8515,26892"></jxn>
 <jxn t="3" id="1226" pt="8629,26879"></jxn>
 <jxn t="3" id="1227" pt="8293,27298"></jxn>
@@ -818,7 +818,7 @@
 <jxn t="3" id="1774" pt="30600,25880"></jxn>
 <jxn t="3" id="1775" pt="29782,25759" swp="1"></jxn>
 <jxn t="3" id="1781" pt="28924,25576"></jxn>
-<jxn t="3" id="1782" pt="28196,25513"></jxn>
+<jxn t="3" id="1782" pt="28196,25513" swp="1"></jxn>
 <jxn t="3" id="1783" pt="12169,20790"></jxn>
 <jxn t="3" id="1784" pt="27248,25306"></jxn>
 <jxn t="3" id="1785" pt="26590,25268"></jxn>
@@ -5092,7 +5092,7 @@
 <scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="80.5442" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
 </scenery>
 </tracks>
-<trains selno="58" trk="0" dists="0">
+<trains selno="54" trk="0" dists="0">
 <trn t="6" id="10" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="1" rect="47310,16495,48064,17033" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="579" wid="141" label="PRR 053" dest="~" collname="o2o Locomotives" cartype="K4s" trk="1085" dists="1004" gs="1"></car>
@@ -5128,37 +5128,8 @@
 </trn>
 <trn t="6" id="31" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="470" rect="15971,32364,16639,33014" flags="266240" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="ACL 5093" loadname="lumber stack" dest="PL" collname="North American freight" cartype="flat40" trk="1277" dists="220"></car>
-<car t="5" id="471" rect="15675,31929,16265,32637" flags="262144" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="PRR 2643" loadname="lumber stack" dest="PL" collname="North American freight" cartype="flat40" trk="1276" dists="144"></car>
-</cars>
-</trn>
-<trn t="6" id="36" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="473" rect="14899,31369,15227,32231" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="WJ&amp;S 2774" loadname="goods" dest="PG" collname="North American freight" cartype="box x26 usra ss" trk="1265" dists="302" gs="1"></car>
-<car t="5" id="474" rect="14839,30698,15227,31568" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="B&amp;O 1529" loadname="goods" dest="PG" collname="North American freight" cartype="box x23 prr" trk="1267" dists="8" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="46" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="472" rect="15201,30933,15795,31785" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="DL&amp;W 7977" loadname="merchandise" dest="PF" collname="North American freight" cartype="box x23 prr" trk="457" dists="2050"></car>
-</cars>
-</trn>
-<trn t="6" id="47" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="475" rect="13579,27528,14171,28380" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="WJ&amp;S 3080" loadname="merchandise" dest="PF" collname="North American freight" cartype="box x23 prr" trk="456" dists="2352"></car>
-</cars>
-</trn>
-<trn t="6" id="48" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="477" rect="15397,30920,15935,31646" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="P&amp;R 7172" loadname="merchandise" dest="PF" collname="North American freight" cartype="box 40 usra ss" trk="455" dists="5702"></car>
-<car t="5" id="478" rect="15171,30440,15703,31168" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="P&amp;R 9149" loadname="merchandise" dest="PF" collname="North American freight" cartype="box 40 usra ss" trk="455" dists="5170"></car>
-<car t="5" id="479" rect="14885,29833,15475,30687" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="CS 3576" loadname="merchandise" dest="PF" collname="North American freight" cartype="box x23 prr" trk="455" dists="4569"></car>
-<car t="5" id="480" rect="14594,29219,15190,30081" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="701" wid="141" label="WJ&amp;S 8765" loadname="merchandise" dest="PF" collname="North American freight" cartype="box xm atsf" trk="455" dists="3894"></car>
-<car t="5" id="481" rect="14303,28603,14899,29465" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="701" wid="141" label="PRR 8322" loadname="merchandise" dest="PF" collname="North American freight" cartype="box 40 aar up" trk="455" dists="3213"></car>
-<car t="5" id="482" rect="14016,27997,14608,28851" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="B&amp;O 5413" loadname="merchandise" dest="PF" collname="North American freight" cartype="box m62 bo" trk="455" dists="2538"></car>
-<car t="5" id="483" rect="13790,27516,14322,28244" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="NYNH&amp;H 8947" loadname="merchandise" dest="PF" collname="North American freight" cartype="box x26 usra ss" trk="455" dists="1937"></car>
-<car t="5" id="484" rect="13563,27035,14095,27763" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="ACL 2039" loadname="merchandise" dest="PF" collname="North American freight" cartype="box x26 usra ss" trk="455" dists="1405"></car>
-<car t="5" id="485" rect="13336,26554,13868,27282" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="B&amp;O 0125" loadname="merchandise" dest="PF" collname="North American freight" cartype="box 40 usra ss" trk="455" dists="873"></car>
+<car t="5" id="470" rect="15753,32066,16365,32762" flags="266240" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="ACL 5093" loadname="lumber stack" dest="PL" collname="North American freight" cartype="flat40" trk="1276" dists="304"></car>
+<car t="5" id="471" rect="15518,31599,16050,32327" flags="262144" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="PRR 2643" loadname="lumber stack" dest="PL" collname="North American freight" cartype="flat40" trk="1275" dists="379"></car>
 </cars>
 </trn>
 <trn t="6" id="49" dspeed="0" horntype="0">
@@ -5239,7 +5210,8 @@
 </trn>
 <trn t="6" id="29" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="476" rect="13140,26605,13732,27457" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="NYNH&amp;H 0540" loadname="merchandise" dest="PF" collname="North American freight" cartype="box m62 bo" trk="456" dists="1330"></car>
+<car t="5" id="473" rect="14899,31369,15227,32231" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="WJ&amp;S 2774" loadname="goods" dest="PG" collname="North American freight" cartype="box x26 usra ss" trk="1265" dists="302" gs="1"></car>
+<car t="5" id="474" rect="14839,30698,15227,31568" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="B&amp;O 1529" loadname="goods" dest="PG" collname="North American freight" cartype="box x23 prr" trk="1267" dists="8" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="26" dspeed="0" rev="1" horntype="0" chuff="Electric">
@@ -5424,22 +5396,27 @@
 </trn>
 <trn t="6" id="4" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="215" rect="13277,21404,14015,21860" flags="4194304" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="PRR 4478" loadname="Empty" dest="C74" collname="North American freight" cartype="gond40 prr" trk="1784" dists="12643"></car>
-<car t="5" id="217" rect="13788,21550,14660,22044" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="ACL 3944" loadname="express" dest="C74" collname="North American freight" cartype="box m62 bo" trk="1784" dists="12042"></car>
-<car t="5" id="221" rect="14432,21734,15304,22228" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="P&amp;R 8518" loadname="goods" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1784" dists="11372"></car>
-<car t="5" id="225" rect="15077,21918,15815,22374" flags="4194304" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="AT&amp;SF 0204" loadname="Empty" dest="C74" collname="North American freight" cartype="gond40 prr" trk="1784" dists="10771"></car>
-<car t="5" id="226" rect="15588,22064,16460,22558" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="PRR 0618" loadname="Empty" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1784" dists="10170"></car>
-<car t="5" id="227" rect="16232,22248,16918,22688" flags="4194304" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TCX 1116" loadname="fuel" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1784" dists="9597"></car>
-<car t="5" id="229" rect="16690,22379,17562,22873" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="M&amp;P 6808" loadname="express" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1784" dists="9024"></car>
-<car t="5" id="230" rect="17334,22563,18020,23003" flags="4198400" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TCX 2904" loadname="fuel" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1784" dists="8451"></car>
-<car t="5" id="233" rect="17793,22693,18675,23191" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="701" wid="141" label="NYNH&amp;H 3502" loadname="goods" dest="C74" collname="North American freight" cartype="box 40 aar up" trk="1784" dists="7872"></car>
-<car t="5" id="239" rect="18446,22881,19318,23375" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="PRR 4752" loadname="Empty" dest="C74" collname="North American freight" cartype="box m62 bo" trk="1784" dists="7197"></car>
-<car t="5" id="242" rect="19091,23065,19963,23559" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="ER 2798" loadname="Empty" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1784" dists="6527"></car>
-<car t="5" id="240" rect="19735,23249,20607,23743" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="CNJ 5227" loadname="express" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1784" dists="5857"></car>
-<car t="5" id="329" rect="20379,23433,21065,23873" flags="4198400" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TELX 4330" loadname="Empty" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1784" dists="5284"></car>
-<car t="5" id="334" rect="20838,23564,21576,24020" flags="4194304" type="6" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="B&amp;O 3502" loadname="Empty" dest="C74" collname="North American freight" cartype="hopper 2bay prr2" trk="1784" dists="4780"></car>
-<car t="5" id="336" rect="21348,23710,22034,24150" flags="4194304" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="UTLX 7837" loadname="Empty" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1784" dists="4276"></car>
-<car t="5" id="339" rect="21807,23841,22545,24297" flags="4198400" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="B&amp;A 5607" loadname="Empty" dest="C74" collname="North American freight" cartype="gond40 gra prr" trk="1784" dists="3772"></car>
+<car t="5" id="144" rect="13693,21319,14565,21813" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="CS 1725" loadname="express" dest="C74" collname="North American freight" cartype="box m62 bo" trk="1783" dists="13641"></car>
+<car t="5" id="235" rect="14337,21503,15209,21997" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="M&amp;P 2664" loadname="express" dest="C74" collname="North American freight" cartype="box m62 bo" trk="1783" dists="12971"></car>
+<car t="5" id="218" rect="14982,21686,15864,22184" type="8" outl="102,51,0" fill="204,102,0" len="701" wid="141" label="PRR 7291" loadname="express" dest="C74" collname="North American freight" cartype="box xm atsf" trk="1783" dists="12296"></car>
+<car t="5" id="340" rect="15637,21874,16323,22314" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="PRR 7482" loadname="Empty" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1783" dists="11717"></car>
+<car t="5" id="342" rect="16095,22004,16781,22444" flags="4096" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TELX 8228" loadname="Empty" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1783" dists="11240"></car>
+<car t="5" id="215" rect="16554,22135,17292,22591" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="PRR 4478" loadname="Empty" dest="C74" collname="North American freight" cartype="gond40 prr" trk="1783" dists="10736"></car>
+<car t="5" id="217" rect="17065,22280,17937,22774" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="ACL 3944" loadname="express" dest="C74" collname="North American freight" cartype="box m62 bo" trk="1783" dists="10135"></car>
+<car t="5" id="221" rect="17709,22464,18581,22958" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="P&amp;R 8518" loadname="goods" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1783" dists="9465"></car>
+<car t="5" id="225" rect="18354,22648,19092,23104" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="AT&amp;SF 0204" loadname="Empty" dest="C74" collname="North American freight" cartype="gond40 prr" trk="1783" dists="8864"></car>
+<car t="5" id="226" rect="18865,22793,19737,23287" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="PRR 0618" loadname="Empty" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1783" dists="8263"></car>
+<car t="5" id="227" rect="19509,22977,20195,23417" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TCX 1116" loadname="fuel" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1783" dists="7690"></car>
+<car t="5" id="229" rect="19967,23108,20839,23602" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="M&amp;P 6808" loadname="express" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1783" dists="7117"></car>
+<car t="5" id="230" rect="20611,23292,21297,23732" flags="4096" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TCX 2904" loadname="fuel" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1783" dists="6544"></car>
+<car t="5" id="233" rect="21070,23423,21952,23919" type="8" outl="102,51,0" fill="204,102,0" len="701" wid="141" label="NYNH&amp;H 3502" loadname="goods" dest="C74" collname="North American freight" cartype="box 40 aar up" trk="1783" dists="5965"></car>
+<car t="5" id="239" rect="21724,23608,22596,24102" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="PRR 4752" loadname="Empty" dest="C74" collname="North American freight" cartype="box m62 bo" trk="1783" dists="5290"></car>
+<car t="5" id="242" rect="22369,23792,23241,24286" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="ER 2798" loadname="Empty" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1783" dists="4620"></car>
+<car t="5" id="240" rect="23013,23976,23885,24470" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="CNJ 5227" loadname="express" dest="C74" collname="North American freight" cartype="box x23 prr" trk="1783" dists="3950"></car>
+<car t="5" id="329" rect="23657,24160,24343,24600" flags="4096" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TELX 4330" loadname="Empty" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1783" dists="3377"></car>
+<car t="5" id="334" rect="24116,24290,24854,24746" type="6" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="B&amp;O 3502" loadname="Empty" dest="C74" collname="North American freight" cartype="hopper 2bay prr2" trk="1783" dists="2873"></car>
+<car t="5" id="336" rect="24626,24436,25312,24876" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="UTLX 7837" loadname="Empty" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1783" dists="2369"></car>
+<car t="5" id="339" rect="25085,24567,25823,25023" flags="4096" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="B&amp;A 5607" loadname="Empty" dest="C74" collname="North American freight" cartype="gond40 gra prr" trk="1783" dists="1865"></car>
 </cars>
 </trn>
 <trn t="6" id="53" dspeed="0" horntype="0">
@@ -5710,15 +5687,22 @@
 </trn>
 <trn t="6" id="14" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="235" rect="22270,23764,23142,24258" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="M&amp;P 2664" loadname="express" dest="C74" collname="North American freight" cartype="box m62 bo" trk="1783" dists="4722"></car>
-<car t="5" id="218" rect="22915,23948,23797,24444" type="8" outl="102,51,0" fill="204,102,0" len="701" wid="141" label="PRR 7291" loadname="express" dest="C74" collname="North American freight" cartype="box xm atsf" trk="1783" dists="4047"></car>
-<car t="5" id="340" rect="23570,24135,24256,24575" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="PRR 7482" loadname="Empty" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1783" dists="3468"></car>
-<car t="5" id="342" rect="24028,24266,24714,24706" flags="4096" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TELX 8228" loadname="Empty" dest="C74" collname="North American freight" cartype="tank acf 11" trk="1783" dists="2991"></car>
+<car t="5" id="480" rect="14551,29127,15147,29991" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="701" wid="141" label="WJ&amp;S 8765" loadname="merchandise" dest="PF" collname="North American freight" cartype="box xm atsf" trk="455" dists="3794"></car>
+<car t="5" id="481" rect="14260,28512,14856,29376" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="701" wid="141" label="PRR 8322" loadname="merchandise" dest="PF" collname="North American freight" cartype="box 40 aar up" trk="455" dists="3113"></car>
+<car t="5" id="482" rect="13975,27906,14565,28760" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="B&amp;O 5413" loadname="merchandise" dest="PF" collname="North American freight" cartype="box m62 bo" trk="455" dists="2438"></car>
+<car t="5" id="483" rect="13747,27426,14279,28154" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="NYNH&amp;H 8947" loadname="merchandise" dest="PF" collname="North American freight" cartype="box x26 usra ss" trk="455" dists="1837"></car>
+<car t="5" id="484" rect="13520,26945,14052,27673" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="ACL 2039" loadname="merchandise" dest="PF" collname="North American freight" cartype="box x26 usra ss" trk="455" dists="1305"></car>
+<car t="5" id="485" rect="13293,26464,13825,27192" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="B&amp;O 0125" loadname="merchandise" dest="PF" collname="North American freight" cartype="box 40 usra ss" trk="455" dists="773"></car>
 </cars>
 </trn>
 <trn t="6" id="20" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="144" rect="20921,23379,21793,23873" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="CS 1725" loadname="express" dest="C74" collname="North American freight" cartype="box m62 bo" trk="1783" dists="6125"></car>
+<car t="5" id="477" rect="23170,24230,23908,24686" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="P&amp;R 7172" loadname="merchandise" dest="C75" collname="North American freight" cartype="box 40 usra ss" trk="1784" dists="2354" gs="1"></car>
+<car t="5" id="478" rect="22659,24084,23397,24540" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="P&amp;R 9149" loadname="merchandise" dest="C75" collname="North American freight" cartype="box 40 usra ss" trk="1784" dists="2886" gs="1"></car>
+<car t="5" id="479" rect="22014,23900,22886,24394" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="CS 3576" loadname="merchandise" dest="C75" collname="North American freight" cartype="box x23 prr" trk="1784" dists="3487" gs="1"></car>
+<car t="5" id="472" rect="21370,23716,22242,24210" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="DL&amp;W 7977" loadname="merchandise" dest="C75" collname="North American freight" cartype="box x23 prr" trk="1784" dists="4157" gs="1"></car>
+<car t="5" id="475" rect="20725,23532,21597,24026" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="WJ&amp;S 3080" loadname="merchandise" dest="C75" collname="North American freight" cartype="box x23 prr" trk="1784" dists="4827" gs="1"></car>
+<car t="5" id="476" rect="20081,23348,20953,23842" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="690" wid="141" label="NYNH&amp;H 0540" loadname="merchandise" dest="C75" collname="North American freight" cartype="box m62 bo" trk="1784" dists="5497" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -5784,7 +5768,6 @@
 <ind id="12" industry="DX" aar="XM" s__r="S" load="lcl"></ind>
 <ind id="19" industry="DY" aar="B60" s__r="R" load="express"></ind>
 <ind id="40" industry="DY" aar="Bn" s__r="R" load="express"></ind>
-<ind id="60" industry="DG" aar="GB" s__r="R" load="lumber stack"></ind>
 </industries>
 <locations>
 <loc id="1" locale="Downtown;Ash" track="DA" class="industry" vs_add="1"></loc>
@@ -5794,7 +5777,7 @@
 <loc id="7" locale="Junction;Coal" track="JC" class="industry" vs_add="1"></loc>
 <loc id="9" locale="Midway;Interchange" track="M11" class="interchange"></loc>
 <loc id="10" locale="Park;Coal" track="PC" class="industry" vs_add="1"></loc>
-<loc id="11" locale="Park;Freight House" track="PF" class="industry" vs_add="12"></loc>
+<loc id="11" locale="Park;Freight House" track="PF" class="industry" vs_add="5"></loc>
 <loc id="12" locale="Park;Lumber" track="PL" class="industry" vs_add="1"></loc>
 <loc id="14" locale="Park;Power House" track="PP" class="industry" vs_add="4"></loc>
 <loc id="16" locale="Valley;Coal" track="VC" class="industry" vs_add="1"></loc>
@@ -5808,7 +5791,7 @@
 <loc id="33" locale="Train Service;Car Barn" track="S72" class="class yard"></loc>
 <loc id="28" locale="Downtown;General Delivery" track="DD" class="industry" vs_add="7"></loc>
 <loc id="30" locale="Park;General Delivery" track="PG" class="industry" vs_add="1"></loc>
-<loc id="34" locale="Park;Depott" track="PD" class="industry" vs_add="9"></loc>
+<loc id="34" locale="Park;Depot" track="PD" class="industry" vs_add="9"></loc>
 <loc id="35" locale="Valley;General Delivery" track="VG" class="industry" vs_add="1"></loc>
 <loc id="4" locale="Junction;Depot" track="JD" class="industry" vs_add="1"></loc>
 <loc id="21" locale="Valley;Roundhouse" track="V71" class="class yard"></loc>
@@ -5872,7 +5855,7 @@
 <sw id="17" car_id="18" sr_id="0" car="FGEX 8881" pullfrom="VP" dir="&gt;&gt;" spotat="VP"></sw>
 <sw id="18" car_id="89" sr_id="0" dir="&gt;&gt;"></sw>
 <sw id="19" car_id="52" sr_id="0" dir="&gt;&gt;"></sw>
-<sw id="20" car_id="215" sr_id="0" car="PRR 4478" pullfrom="C75" dir="&gt;&gt;" spotat="C74"></sw>
+<sw id="20" car_id="215" sr_id="0" car="PRR 4478" pullfrom="C74" dir="&gt;&gt;" spotat="C74"></sw>
 <sw id="21" car_id="90" sr_id="0" dir="&gt;&gt;"></sw>
 <sw id="22" car_id="122" sr_id="0" car="PRR 792" pullfrom="E3" dir="&gt;&gt;" spotat="~"></sw>
 <sw id="23" car_id="2" sr_id="0" car="ET2" pullfrom="E3" dir="&gt;&gt;" spotat="~"></sw>
@@ -5951,7 +5934,7 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.209422" ctr="x:22959,y:24154" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.13403" ctr="x:18318,y:28802" vtype="596"></winview>
 <scripts>
 <script id="3" flags="6" cmdix="2448" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
