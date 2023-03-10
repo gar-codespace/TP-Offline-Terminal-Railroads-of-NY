@@ -302,7 +302,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:2222,b:861" zoom="0.203268" ctr="x:5997,y:2976" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="2448"><![CDATA[* Master script on layout Denver & Northwestern RR
+<script id="1" flags="6" cmdix="2306"><![CDATA[* Master script on layout Denver & Northwestern RR
 
 ** Optional railroad details
 Let OperatingRoad = "Denver & Northwestern Railroad"
@@ -324,8 +324,8 @@ Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
 ** Call PhastPhunctions Setup
-Call o2o Setup 0  ** 0 = use TrainPlayer loads, 1 = use JMRI loads
-Call TurnTable Setup 445
+Call o2o Setup
+** Call TurnTable Setup
 
 **Close the greeting message
 Call NoteWindow
@@ -339,7 +339,7 @@ Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
-Call TurnTable
+** Call TurnTable
 Call QuickKeys
 Call SpeedSwitching $Train $Car $Speed
 Call DropKick $Train $Car $Speed
@@ -382,7 +382,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,404,661</wndrect>
+<wndrect>134,15,314,661</wndrect>
 </note>
 </notes>
 </layout>

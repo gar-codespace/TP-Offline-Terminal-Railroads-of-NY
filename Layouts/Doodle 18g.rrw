@@ -5938,7 +5938,7 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.209422" ctr="x:13494,y:28327" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.209422" ctr="x:13495,y:28327" vtype="596"></winview>
 <scripts>
 <script id="3" flags="6" cmdix="2448" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
@@ -5962,7 +5962,7 @@ Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
 ** Call PhastPhunctions Setup
-Call o2o Setup 0  ** 0 = use TrainPlayer loads, 1 = use JMRI loads
+Call o2o Setup
 Call TurnTable Setup 445
 
 **Close the greeting message
