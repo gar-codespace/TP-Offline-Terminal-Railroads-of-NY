@@ -1648,7 +1648,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1550,b:924" zoom="0.0238118" ctr="x:46868,y:24997" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="2298" wndrect="59,261,833,965"><![CDATA[** MASTER SCRIPT - WJ&SRR Salem & Glass Works Branch 1915
+<script id="20" flags="6" wndrect="59,261,833,965"><![CDATA[** MASTER SCRIPT - WJ&SRR Salem & Glass Works Branch 1915
 
 ** Optional railroad details
 Let OperatingRoad = "West Jersey & Seashore RR"
@@ -1663,13 +1663,15 @@ Let $Key = 0
 ** Set Up the Subroutines
 
 Call UserSettings
-Call QKSupport  ** Quick Keys support utilities
-Call SetLanguage en  ** Language choices are: en, de, fr, sp
+Call qkEntities ** Quick Keys support utilities
+Call o2oUtilities ** o2o support utilities
 
 Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
-Call o2o Setup 0  ** 0 = use TrainPlayer loads, 1 = use JMRI loads
+Call o2o Setup
+
+Call SetLanguage en  ** Language choices are: en, de, fr, sp
 
 **Close the greeting message
 Call NoteWindow
