@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Denver &amp; Northwestern RR" lid="DE1" scale="3" bitmap="L39.tpg" zoom="4.91961" xdim="11994" ydim="5957" xoffset="1204" yoffset="1186" bmap_size="x:11994,y:5957" def_cars="steam" descr="Original copyright, &quot;101 Track Plans for Model Railroaders,&quot; by Linn H. Westcott &#xA9;Kalmbach Publishing Co.">
+<layout name="Denver &amp; Northwestern RR" lid="DE1" scale="3" bitmap="L39.tpg" zoom="2.20105" xdim="11994" ydim="5957" xoffset="1204" yoffset="1186" bmap_size="x:11994,y:5957" def_cars="steam" descr="Original copyright, &quot;101 Track Plans for Model Railroaders,&quot; by Linn H. Westcott &#xA9;Kalmbach Publishing Co.">
 <tracks>
 <jxns>
 <jxn t="3" id="5" pt="9174,370"></jxn>
@@ -28,8 +28,8 @@
 <jxn t="3" id="57" pt="6991,4104"></jxn>
 <jxn t="3" id="59" pt="5400,4639" swp="1"></jxn>
 <jxn t="3" id="61" pt="4660,4886" swp="1"></jxn>
-<jxn t="3" id="67" pt="8556,2377"></jxn>
-<jxn t="3" id="68" pt="9474,1671"></jxn>
+<jxn t="3" id="67" pt="8449,2147"></jxn>
+<jxn t="3" id="68" pt="9581,1901"></jxn>
 <jxn t="3" id="71" pt="10663,1376"></jxn>
 <jxn t="3" id="72" pt="9890,1683"></jxn>
 <jxn t="3" id="74" pt="9555,1814"></jxn>
@@ -184,6 +184,12 @@
 <stn t="15" id="329" rect="8347,4033,9675,4414" name="Denver REA"></stn>
 <stn t="15" id="331" rect="6088,5439,9581,5944" name="Denver IX"></stn>
 </stns>
+<scenery>
+<scn t="16" id="1" rect="10716,1290,10989,1515" otype="3" text="A" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="100,400,0,0,Arial,RRU=167" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<scn t="16" id="2" rect="10870,1838,11037,2032" otype="3" text="B" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="100,400,0,0,Arial,RRU=167" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<scn t="16" id="3" rect="10771,2446,10982,2618" otype="3" text="C" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="100,400,0,0,Arial,RRU=167" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<scn t="16" id="4" rect="8488,2461,8616,2602" otype="3" text="1" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="100,400,0,0,Arial,RRU=167" txtcolor="R:0,G:0,B:0" align="0"></scn>
+</scenery>
 </tracks>
 <trains selno="1" trk="0" dists="0">
 <trn t="6" id="16" dspeed="0" horntype="0">
@@ -298,11 +304,11 @@
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
 </advops>
 <roadstyles>
-<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
+<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="1"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:2222,b:861" zoom="0.203268" ctr="x:5997,y:2976" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:2222,b:861" zoom="0.454329" ctr="x:9305,y:2329" vtype="598"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="2306"><![CDATA[* Master script on layout Denver & Northwestern RR
+<script id="1" flags="6"><![CDATA[* Master script on layout Denver & Northwestern RR
 
 ** Optional railroad details
 Let OperatingRoad = "Denver & Northwestern Railroad"
@@ -317,35 +323,36 @@ Let $Key = 0
 ** Set Up the Subroutines
 
 Call UserSettings
-Call QKSupport  ** Quick Keys support utilities
-Call SetLanguage en  ** Language choices are: en, de, fr, sp
+Call qkEntities ** Quick Keys support
+* Call o2oUtilities ** o2o support
 
 Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
-** Call PhastPhunctions Setup
-Call o2o Setup
-** Call TurnTable Setup
+Call TurnTable Setup 0
+* Call o2o Setup
+* Call JobTimer Setup
 
-**Close the greeting message
+Call SetLanguage en  ** Language choices are: en, de, fr, es
+
+** Close the greeting message
 Call NoteWindow
 
 StartingPoint:
 
 On Key
 
-Let sMaxSpeed = 40
+Let sMaxSpeed = 20
 Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
-** Call TurnTable
+Call TurnTable
 Call QuickKeys
 Call SpeedSwitching $Train $Car $Speed
 Call DropKick $Train $Car $Speed
-** Call PhastPhunctions
-Call o2o
-** Call jTimer
+* Call o2o
+* Call JobTimer
 
 EndDrive
 

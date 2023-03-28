@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="4.77505" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
+<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="Doodle 18g.jpg" zoom="3.82004" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="** Automatic track labeler&#013;&#010;&#013;&#010;call $view(show,&quot;track labels&quot;)&#013;&#010;Middle:&#013;&#010;After 00:00:01&#013;&#010;If($Speed = 0)&#013;&#010; Input xLabel &quot;Enter the Track Label&quot;&#013;&#010; Speed 1&#013;&#010;Endif&#013;&#010;Let xTrack = $Car($Car, Track)&#013;&#010;Let $Track(@xTrack, Label) = @xLabel&#013;&#010;View Refresh&#013;&#010;GoTo Middle">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="32245,28393"></jxn>
@@ -439,8 +439,8 @@
 <jxn t="3" id="1061" pt="10190,18324"></jxn>
 <jxn t="3" id="1062" pt="9936,18083"></jxn>
 <jxn t="3" id="1063" pt="9584,17707"></jxn>
-<jxn t="3" id="1144" pt="2764,2503"></jxn>
-<jxn t="3" id="1145" pt="2482,3659"></jxn>
+<jxn t="3" id="1144" pt="2740,3665"></jxn>
+<jxn t="3" id="1145" pt="2506,2498"></jxn>
 <jxn t="3" id="1148" tag="4" pt="2481,3661"></jxn>
 <jxn t="3" id="1149" pt="2268,4488"></jxn>
 <jxn t="3" id="1152" pt="2128,5008"></jxn>
@@ -1080,8 +1080,8 @@
 <jxn t="3" id="1941" pt="13019,16744"></jxn>
 <jxn t="3" id="1942" pt="12569,15445"></jxn>
 <jxn t="3" id="1951" pt="11494,12236"></jxn>
-<jxn t="3" id="338" pt="12816,10634"></jxn>
-<jxn t="3" id="1309" pt="13388,12353"></jxn>
+<jxn t="3" id="338" pt="12244,11784"></jxn>
+<jxn t="3" id="1309" pt="13960,11202"></jxn>
 <jxn t="3" id="1387" pt="22198,21682" swp="1"></jxn>
 <jxn t="3" id="1411" pt="21541,21455"></jxn>
 <jxn t="3" id="1749" pt="20949,21195"></jxn>
@@ -5092,8 +5092,8 @@
 <ttb t="12" id="2" rect="12196,10587,14008,12399" tag="Down Town" pt="13102,11493" radius="906" ttrk="1519" scnobj="TTBridge2 ID:2"></ttb>
 </ctrs>
 <scenery>
-<scn t="16" id="1" rect="2030,2480,3220,3670" otype="1" ang="104.452" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge1.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
-<scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="71.9531" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
+<scn t="16" id="1" rect="2030,2480,3220,3670" otype="1" ang="259.402" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge1.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
+<scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="-18.2126" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
 </scenery>
 </tracks>
 <trains selno="53" trk="0" dists="0">
@@ -5940,9 +5940,9 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.209422" ctr="x:30446,y:27162" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1963,b:903" zoom="0.261778" ctr="x:4649,y:2281" vtype="596"></winview>
 <scripts>
-<script id="3" flags="6" cmdix="2480" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
+<script id="3" flags="6" cmdix="2110" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
 ** Optional railroad details
 Let OperatingRoad = "Pennsylvania Railroad"
