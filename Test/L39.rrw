@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Denver &amp; Northwestern RR" lid="DE1" scale="3" bitmap="L39.tpg" zoom="2.20105" xdim="11994" ydim="5957" xoffset="1204" yoffset="1186" bmap_size="x:11994,y:5957" def_cars="steam" descr="Original copyright, &quot;101 Track Plans for Model Railroaders,&quot; by Linn H. Westcott &#xA9;Kalmbach Publishing Co.">
+<layout name="Denver &amp; Northwestern RR" lid="DE1" scale="3" bitmap="L39.tpg" zoom="4.29893" xdim="11994" ydim="5957" xoffset="1204" yoffset="1186" bmap_size="x:11994,y:5957" def_cars="steam" descr="Original copyright, &quot;101 Track Plans for Model Railroaders,&quot; by Linn H. Westcott &#xA9;Kalmbach Publishing Co.">
 <tracks>
 <jxns>
 <jxn t="3" id="5" pt="9174,370"></jxn>
@@ -27,9 +27,9 @@
 <jxn t="3" id="56" pt="11118,3399"></jxn>
 <jxn t="3" id="57" pt="6991,4104"></jxn>
 <jxn t="3" id="59" pt="5400,4639" swp="1"></jxn>
-<jxn t="3" id="61" pt="4660,4886" swp="1"></jxn>
-<jxn t="3" id="67" pt="8449,2147"></jxn>
-<jxn t="3" id="68" pt="9581,1901"></jxn>
+<jxn t="3" id="61" pt="4660,4886"></jxn>
+<jxn t="3" id="67" pt="8769,1500"></jxn>
+<jxn t="3" id="68" pt="9261,2548"></jxn>
 <jxn t="3" id="71" pt="10663,1376"></jxn>
 <jxn t="3" id="72" pt="9890,1683"></jxn>
 <jxn t="3" id="74" pt="9555,1814"></jxn>
@@ -42,7 +42,7 @@
 <jxn t="3" id="86" pt="11050,2990"></jxn>
 <jxn t="3" id="87" pt="7503,3593"></jxn>
 <jxn t="3" id="89" pt="7071,3741"></jxn>
-<jxn t="3" id="92" pt="6180,4220"></jxn>
+<jxn t="3" id="92" pt="6180,4220" swp="1"></jxn>
 <jxn t="3" id="93" pt="8556,2377"></jxn>
 <jxn t="3" id="101" pt="5238,1091"></jxn>
 <jxn t="3" id="102" pt="4513,1774"></jxn>
@@ -112,7 +112,7 @@
 <str t="1" id="60" rect="5400,4104,6991,4639" js="57" jn="59"></str>
 <str t="1" id="62" rect="4660,4639,5400,4886" js="59" jn="61"></str>
 <str t="1" id="63" rect="4660,4675,5900,4886" js="61" jn="53"></str>
-<str t="1" id="69" rect="8556,1671,9474,2377" js="67" jn="68"></str>
+<str t="1" id="69" rect="8769,1500,9261,2548" js="67" jn="68"></str>
 <str t="1" id="73" rect="9890,1376,10663,1683" js="71" jn="72"></str>
 <str t="1" id="75" rect="9555,1683,9890,1814" js="72" jn="74"></str>
 <str t="1" id="78" rect="10015,1944,10811,1967" js="76" jn="77"></str>
@@ -191,13 +191,13 @@
 <scn t="16" id="4" rect="8488,2461,8616,2602" otype="3" text="1" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="100,400,0,0,Arial,RRU=167" txtcolor="R:0,G:0,B:0" align="0"></scn>
 </scenery>
 </tracks>
-<trains selno="1" trk="0" dists="0">
+<trains selno="6" trk="0" dists="0">
 <trn t="6" id="16" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="1" rect="6395,2966,7101,3562" flags="1048576" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="NYNH&amp;H 9486" loaded="1" loadname="cinders" dest="A" collname="North American freight" cartype="gond40 steel fle" trk="2" dists="594" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="19" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="19" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="14" rect="7170,2434,7872,3034" flags="1048576" type="6" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="D&amp;NW 5121" loaded="1" loadname="coal" dest="C" collname="North American freight" cartype="hopper 2bay ht55 nw" trk="1" dists="554" gs="1"></car>
 </cars>
@@ -228,18 +228,18 @@
 </trn>
 <trn t="6" id="1" dspeed="0" rev="1" horntype="0">
 <cars>
-<car t="5" id="4" rect="7754,3287,8490,3687" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 5668" loaded="1" loadname="Empty" dest="I" collname="North American freight" cartype="reefer 40 rr34 sf" trk="88" dists="2970" gs="1"></car>
-<car t="5" id="5" rect="8278,3198,9014,3598" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 5256" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 fruit" trk="88" dists="2438" gs="1"></car>
-<car t="5" id="6" rect="8803,3109,9539,3509" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 6723" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 the scout sf" trk="88" dists="1906" gs="1"></car>
-<car t="5" id="8" rect="9327,3020,10063,3420" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 4057" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 milk" trk="88" dists="1374" gs="1"></car>
-<car t="5" id="10" rect="9852,2931,10588,3331" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 2898" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 am transit" trk="88" dists="842" gs="1"></car>
-<car t="5" id="13" rect="10376,2842,11112,3242" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 5824" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 ice steel side" trk="88" dists="310" gs="1"></car>
+<car t="5" id="4" rect="7754,3287,8490,3687" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 7658" loaded="1" loadname="Empty" dest="I" collname="North American freight" cartype="reefer 40 rr34 sf" trk="88" dists="2970" gs="1"></car>
+<car t="5" id="5" rect="8278,3198,9014,3598" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 5916" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 fruit" trk="88" dists="2438" gs="1"></car>
+<car t="5" id="6" rect="8803,3109,9539,3509" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 6443" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 the scout sf" trk="88" dists="1906" gs="1"></car>
+<car t="5" id="8" rect="9327,3020,10063,3420" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 5926" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 milk" trk="88" dists="1374" gs="1"></car>
+<car t="5" id="10" rect="9852,2931,10588,3331" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 8906" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 am transit" trk="88" dists="842" gs="1"></car>
+<car t="5" id="13" rect="10376,2842,11112,3242" flags="1048576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="D&amp;NW 0076" loaded="1" loadname="iced" dest="I" collname="North American freight" cartype="reefer 40 ice steel side" trk="88" dists="310" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="2" dspeed="0" horntype="0">
+<trn t="6" id="2" dspeed="0" rev="1" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="15" rect="7330,2721,8058,3369" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="600" wid="140" label="D&amp;NW 242" dest="~" collname="North American Steam Engines" cartype="2-8-0 atsf" trk="94" dists="1916" gs="1"></car>
-<car t="5" id="16" rect="7787,2427,8437,3013" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="500" wid="140" label="ET16" dest="~" collname="North American Steam Engines" cartype="2-8-0 tender atsf" trk="94" dists="2446" gs="1"></car>
+<car t="5" id="15" rect="6151,3636,6879,4284" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="600" wid="140" label="D&amp;NW 242" dest="~" collname="North American Steam Engines" cartype="2-8-0 atsf" trk="94" dists="424"></car>
+<car t="5" id="16" rect="6609,3342,7259,3928" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="500" wid="140" label="ET16" dest="~" collname="North American Steam Engines" cartype="2-8-0 tender atsf" trk="94" dists="954"></car>
 </cars>
 </trn>
 <trn t="6" id="3" dspeed="0" horntype="0">
@@ -306,9 +306,9 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="1"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:2222,b:861" zoom="0.454329" ctr="x:9305,y:2329" vtype="598"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:2222,b:861" zoom="0.232616" ctr="x:6898,y:3381" vtype="594"></winview>
 <scripts>
-<script id="1" flags="6"><![CDATA[* Master script on layout Denver & Northwestern RR
+<script id="1" flags="6" cmdix="1477"><![CDATA[* Master script on layout Denver & Northwestern RR
 
 ** Optional railroad details
 Let OperatingRoad = "Denver & Northwestern Railroad"
@@ -322,14 +322,15 @@ Let $Key = 0
 
 ** Set Up the Subroutines
 
-Call UserSettings
-Call qkEntities ** Quick Keys support
-* Call o2oUtilities ** o2o support
+Call UserSettings UpdatePreferences
+Call qkEntities
+* Call o2oUtilities
+* Call UserSettings o2oInit
 
 Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
-Call TurnTable Setup 0
+Call TurnTable Setup 69
 * Call o2o Setup
 * Call JobTimer Setup
 
@@ -348,9 +349,9 @@ Let sCoupleSpeed = 4
 Drive $Train($Train)
 
 Call TurnTable
-Call QuickKeys
-Call SpeedSwitching $Train $Car $Speed
 Call DropKick $Train $Car $Speed
+Call SpeedSwitching $Train $Car $Speed
+Call QuickKeys
 * Call o2o
 * Call JobTimer
 
@@ -385,6 +386,16 @@ HOME_LENGTH 3
 PASS_LENGTH 4
 FREIGHT_LENGTH 4
 MW_LENGTH 3]]></script>
+<script id="69" flags="32" wndrect="1903,384,2353,922"><![CDATA[* Turntable at Denver
+
+rotate a 70 74
+rotate b 70 79
+rotate c 70 84
+rotate 1 70 93
+
+rotate e 70 11
+on tablestop
+]]></script>
 </scripts>
 <notes>
 <note autofit="1">
