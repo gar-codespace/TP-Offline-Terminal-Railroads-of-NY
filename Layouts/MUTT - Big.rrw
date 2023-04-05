@@ -573,7 +573,7 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1911,b:981" zoom="0.128469" ctr="x:8619,y:4649" vtype="596"></winview>
+<winview length="44" flags="0" showcmd="1" minpos="x:-1,y:-1" maxpos="x:-1,y:-1" normpos="l:78,t:78,r:1924,b:903" zoom="0.128469" ctr="x:7038,y:2974" vtype="596"></winview>
 <scripts>
 <script id="1" flags="6"><![CDATA[* Master script on layout MUTT
 
@@ -585,37 +585,41 @@ Let Year = ""
 Let Divisions = "" ** Separate division names with a comma, no spaces.
 Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
-Let $Key = 0
 
 ** Set Up the Subroutines
 
-Call UserSettings
-Call qkEntities ** Quick Keys support utilities
-Call o2oUtilities ** o2o support utilities
+Let $Key = 0
+Call UpdateSettings personalInit
+Call UpdateSettings qkInit
+Call qkEntities
+Call UpdateSettings o2oInit
+Call o2oUtilities
 
 Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
+* Call TurnTable Setup 0
 Call o2o Setup
+* Call JobTimer Setup
 
-Call SetLanguage en  ** Language choices are: en, de, fr, sp
-
-**Close the greeting message
+Call SetLanguage en  ** Language choices are: en, de, fr, es
 Call NoteWindow
 
 StartingPoint:
 
 On Key
 
-Let sMaxSpeed = 10
+Let sMaxSpeed = 15
 Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
+* Call TurnTable
+Call DropKick
+Call SpeedSwitching
 Call QuickKeys
-Call SpeedSwitching $Train $Car $Speed
-Call DropKick $Train $Car $Speed
 Call o2o
+* Call JobTimer
 
 EndDrive
 

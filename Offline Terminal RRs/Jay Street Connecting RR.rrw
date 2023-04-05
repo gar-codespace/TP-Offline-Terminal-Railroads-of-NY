@@ -2346,7 +2346,7 @@ The car float can be unbalanced by a maximum of 3 cars. There is an idler flat i
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:275,t:275,r:1895,b:1156" zoom="0.26311" ctr="x:33511,y:6329" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="2335" wndrect="0,22,597,691"><![CDATA[** Jay St Connecting RR 1920
+<script id="11" flags="6" wndrect="0,22,597,691"><![CDATA[** Jay St Connecting RR 1920
 
 ** Optional railroad details
 Let OperatingRoad = ""
@@ -2356,37 +2356,41 @@ Let Year = ""
 Let Divisions = "" ** Separate division names with a comma, no spaces.
 Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
-Let $Key = 0
 
 ** Set Up the Subroutines
 
-Call UserSettings
-Call qkEntities ** Quick Keys support utilities
-Call o2oUtilities ** o2o support utilities
+Let $Key = 0
+Call UpdateSettings personalInit
+Call UpdateSettings qkInit
+Call qkEntities
+Call UpdateSettings o2oInit
+Call o2oUtilities
 
 Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
+* Call TurnTable Setup 0
 Call o2o Setup
+* Call JobTimer Setup
 
-Call SetLanguage en  ** Language choices are: en, de, fr, sp
-
-**Close the greeting message
+Call SetLanguage en  ** Language choices are: en, de, fr, es
 Call NoteWindow
 
 StartingPoint:
 
 On Key
 
-Let sMaxSpeed = 7
+Let sMaxSpeed = 10
 Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
+* Call TurnTable
+Call DropKick
+Call SpeedSwitching
 Call QuickKeys
-Call SpeedSwitching $Train $Car $Speed
-Call DropKick $Train $Car $Speed
 Call o2o
+* Call JobTimer
 
 EndDrive
 

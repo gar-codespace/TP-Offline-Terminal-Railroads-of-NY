@@ -439,7 +439,7 @@ endif]]></action>
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:2222,b:877" zoom="0.149168" ctr="x:7481,y:2831" vtype="596" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="1965" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
 ** Optional railroad details
 Let OperatingRoad = "Pennsylvania Railroad"
@@ -449,22 +449,23 @@ Let Year = "1914"
 Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
 Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
-Let $Key = 0
-
 ** Set Up the Subroutines
 
-Call UserSettings
-Call qkEntities ** Quick Keys support utilities
-Call o2oUtilities ** o2o support utilities
+Let $Key = 0
+Call UpdateSettings personalInit
+Call UpdateSettings qkInit
+Call qkEntities
+Call UpdateSettings o2oInit
+Call o2oUtilities
 
 Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
+* Call TurnTable Setup 0
 Call o2o Setup
+* Call JobTimer Setup
 
-Call SetLanguage en  ** Language choices are: en, de, fr, sp
-
-**Close the greeting message
+Call SetLanguage en  ** Language choices are: en, de, fr, es
 Call NoteWindow
 
 StartingPoint:
@@ -476,10 +477,12 @@ Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
+* Call TurnTable
+Call DropKick
+Call SpeedSwitching
 Call QuickKeys
-Call SpeedSwitching $Train $Car $Speed
-Call DropKick $Train $Car $Speed
 Call o2o
+* Call JobTimer
 
 EndDrive
 

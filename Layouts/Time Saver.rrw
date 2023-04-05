@@ -72,11 +72,11 @@
 </scenery>
 </tracks>
 <trains selno="0" trk="0" dists="0">
-<trn t="6" id="7" dspeed="0" rev="1" horntype="0" selcarno="0">
+<trn t="6" id="7" dspeed="0" rev="1" horntype="0" selcarno="1">
 <cars>
-<car t="5" id="12" rect="2041,116,2811,426" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" collname="North American Diesel_Electric Engines" cartype="a6 1926_AGEIR Boxcab" trk="21" dists="72"></car>
-<car t="5" id="6" rect="1451,114,2231,426" flags="266240" type="6" outl="134,134,134" fill="192,192,192" len="610" wid="140" label="H1" loaded="1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="hopper 3bay" trk="21" dists="657"></car>
-<car t="5" id="3" rect="919,112,1641,424" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loaded="1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="1218"></car>
+<car t="5" id="12" rect="2394,115,3164,427" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" collname="North American Diesel_Electric Engines" cartype="a6 1926_AGEIR Boxcab" trk="8" dists="281" gs="1"></car>
+<car t="5" id="6" rect="1804,115,2584,427" flags="266240" type="6" outl="134,134,134" fill="192,192,192" len="610" wid="140" label="H1" loaded="1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="hopper 3bay" trk="21" dists="304"></car>
+<car t="5" id="3" rect="1272,113,1994,425" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loaded="1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="865"></car>
 </cars>
 </trn>
 <trn t="6" id="4" dspeed="0" horntype="0">
@@ -117,7 +117,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.309527" ctr="x:3606,y:598" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="680"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="2279"><![CDATA[* Master script on layout TimeSaver
 ** Optional railroad details
 Let OperatingRoad = "G&D"
 Let Territory = ""
@@ -126,20 +126,24 @@ Let Year = "1972"
 Let Divisions = "" ** Enter division names seperated by a comma without a space.
 Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
-Let $Key = 0
 
 ** Set Up the Subroutines
 
-Call UserSettings
-Call qkEntities ** Quick Keys support utilities
+Let $Key = 0
+Call UpdateSettings personalInit
+Call UpdateSettings qkInit
+Call qkEntities
+Call UpdateSettings o2oInit
+Call o2oUtilities
 
 Call QuickKeys Setup
 Call SpeedSwitching Setup
+* Call DropKick Setup
+* Call TurnTable Setup 0
+Call o2o Setup
 Call JobTimer Setup
 
 Call SetLanguage en  ** Language choices are: en, de, fr, es
-
-** Close the greeting message
 Call NoteWindow
 
 StartingPoint:
@@ -151,8 +155,11 @@ Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
+* Call TurnTable
+* Call DropKick
+Call SpeedSwitching
 Call QuickKeys
-Call SpeedSwitching $Train $Car $Speed
+Call o2o
 Call JobTimer
 
 EndDrive
@@ -162,7 +169,7 @@ GoTo StartingPoint]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="450,232,1133,644" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>186,23,580,867</wndrect>
+<wndrect>186,23,400,867</wndrect>
 </note>
 </notes>
 </layout>

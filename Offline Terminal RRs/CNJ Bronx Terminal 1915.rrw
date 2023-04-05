@@ -691,7 +691,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.183485" ctr="x:5428,y:3724" vtype="596"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="2335" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Optional railroad details
 Let OperatingRoad = "Central Railroad of New Jersey"
@@ -723,22 +723,23 @@ throw 73 1
 
 EndProc
 
-Let $Key = 0
-
 ** Set Up the Subroutines
 
-Call UserSettings
-Call qkEntities ** Quick Keys support utilities
-Call o2oUtilities ** o2o support utilities
+Let $Key = 0
+Call UpdateSettings personalInit
+Call UpdateSettings qkInit
+Call qkEntities
+Call UpdateSettings o2oInit
+Call o2oUtilities
 
 Call QuickKeys Setup
 Call SpeedSwitching Setup
 Call DropKick Setup
+* Call TurnTable Setup 0
 Call o2o Setup
+* Call JobTimer Setup
 
-Call SetLanguage en  ** Language choices are: en, de, fr, sp
-
-**Close the greeting message
+Call SetLanguage en  ** Language choices are: en, de, fr, es
 Call NoteWindow
 
 StartingPoint:
@@ -750,10 +751,12 @@ Let sCoupleSpeed = 4
 
 Drive $Train($Train)
 
+* Call TurnTable
+Call DropKick
+Call SpeedSwitching
 Call QuickKeys
-Call SpeedSwitching $Train $Car $Speed
-Call DropKick $Train $Car $Speed
 Call o2o
+* Call JobTimer
 
 EndDrive
 
