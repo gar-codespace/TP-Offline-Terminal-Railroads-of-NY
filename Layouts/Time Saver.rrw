@@ -96,7 +96,7 @@
 </trn>
 </trains>
 <clock smult="60"></clock>
-<advops showoconopen="0" zoomonopen="0">
+<advops>
 <industries></industries>
 <locations>
 <loc id="2" locale="B" track="B" class="industry"></loc>
