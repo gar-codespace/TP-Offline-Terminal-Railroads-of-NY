@@ -571,9 +571,9 @@
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
 </advops>
 <roadstyles>
-<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
+<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="1" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="1" showra="1" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="0" showcmd="1" minpos="x:-1,y:-1" maxpos="x:-1,y:-1" normpos="l:78,t:78,r:1924,b:903" zoom="0.128469" ctr="x:7038,y:2974" vtype="596"></winview>
+<winview length="44" flags="0" showcmd="1" minpos="x:-1,y:-1" maxpos="x:-1,y:-1" normpos="l:78,t:78,r:1924,b:903" zoom="0.128469" ctr="x:7046,y:2974" vtype="20060"></winview>
 <scripts>
 <script id="1" flags="6"><![CDATA[* Master script on layout MUTT
 
@@ -585,22 +585,24 @@ Let Year = ""
 Let Divisions = "" ** Separate division names with a comma, no spaces.
 Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 
+** Put layout specific stuff here
+Let pressX = 0
+Let pressY = 0
+Let pressZ = 0
+Let sMaxSpeed = 15
+Let "Coupling Speed" = 5
 
 ** Set Up the Subroutines
+Call InitializeQuickKeys
+Call o2oInit
 
-Let $Key = 0
-Call UpdateSettings personalInit
-Call UpdateSettings qkInit
-Call qkEntities
-Call UpdateSettings o2oInit
-Call o2oUtilities
-
-Call QuickKeys Setup
-Call SpeedSwitching Setup
-Call DropKick Setup
-* Call TurnTable Setup 0
+Call JobTimer *Setup
 Call o2o Setup
-* Call JobTimer Setup
+Call RandomRoads Setup
+Call TurnTable *Setup 0
+Call DropKick Setup
+Call SpeedSwitching Setup
+Call QuickKeys Setup
 
 Call SetLanguage en  ** Language choices are: en, de, fr, es
 Call NoteWindow
@@ -609,17 +611,9 @@ StartingPoint:
 
 On Key
 
-Let sMaxSpeed = 15
-Let sCoupleSpeed = 4
-
 Drive $Train($Train)
 
-* Call TurnTable
-Call DropKick
-Call SpeedSwitching
 Call QuickKeys
-Call o2o
-* Call JobTimer
 
 EndDrive
 
@@ -656,7 +650,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="-712,295,-312,495" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="-80,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>396,657,632,1264</wndrect>
+<wndrect>396,657,554,1264</wndrect>
 </note>
 </notes>
 </layout>
