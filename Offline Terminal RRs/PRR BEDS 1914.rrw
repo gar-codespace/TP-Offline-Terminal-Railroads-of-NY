@@ -234,10 +234,6 @@
 <str t="1" id="28" rect="4806,2276,4861,2292" flags="65536" js="19" jn="21"></str>
 <str t="1" id="31" rect="4806,1671,4808,2292" flags="65536" js="21" jn="15"></str>
 </trks>
-<stns>
-<stn t="15" id="216" rect="6971,594,11973,1157" name="PRR North 5th St. Pier"></stn>
-<stn t="15" id="219" rect="765,1621,4600,2275" name="*Car Float"></stn>
-</stns>
 </tracks>
 <trains selno="7" trk="0" dists="0">
 <trn t="6" id="3" dspeed="0" horntype="0">
