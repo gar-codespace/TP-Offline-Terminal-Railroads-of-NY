@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout name="Railroad4" lid="" scale="3" bitmap="" zoom="9.61924" xdim="9600" ydim="4800" xoffset="0" yoffset="0" def_cars="steam" descr="">
+<tracks></tracks>
+<trains trk="0" dists="0"></trains>
+<clock smult="6"></clock>
+<roadstyles>
+<roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
+</roadstyles>
+<winview length="44" flags="0" showcmd="1" minpos="x:-1,y:-1" maxpos="x:-1,y:-1" normpos="l:26,t:26,r:1209,b:585" zoom="0.103958" ctr="x:4800,y:2405" vtype="16465"></winview>
+<notes>
+<note autofit="1">
+<scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>190,938,370,1584</wndrect>
+</note>
+</notes>
+</layout>
