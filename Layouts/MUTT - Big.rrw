@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="MUTT - Big" lid="JA1" scale="3" bitmap="MUTT - Big.jpg" zoom="7.78398" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="steam" descr="Metropolitan Union Transfer Terminal">
+<layout name="MUTT - Big" scale="3" bitmap="MUTT - Big.jpg" zoom="7.78398" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="steam" descr="Metropolitan Union Transfer Terminal">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="13189,7058"></jxn>
@@ -408,7 +408,7 @@
 <car t="5" id="25" rect="12321,5515,12687,6245" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 2840" loaded="1" loadname="Empty" dest="5thP" collname="North American freight" cartype="box xml prr" trk="6" dists="59"></car>
 </cars>
 </trn>
-<trn t="6" id="17" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="17" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="23" rect="12647,1811,13417,2111" type="7" outl="134,134,134" fill="192,192,192" len="600" wid="130" label="PRR 4078" loaded="1" loadname="Empty" dest="5thS" collname="North American freight" cartype="gond40 prr" trk="29" dists="899"></car>
 <car t="5" id="10" rect="12067,1811,12837,2111" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="600" wid="130" label="ACL 3211" loaded="1" loadname="Empty" dest="5thS" collname="North American freight" cartype="box x23 prr" trk="29" dists="319"></car>
@@ -573,51 +573,10 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="1" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="1" showra="1" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="0" showcmd="1" minpos="x:-1,y:-1" maxpos="x:-1,y:-1" normpos="l:78,t:78,r:1924,b:903" zoom="0.128469" ctr="x:7046,y:2974" vtype="20060"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1924,b:903" zoom="0.128469" ctr="x:8058,y:4649" vtype="20060"></winview>
 <scripts>
 <script id="1" flags="6"><![CDATA[* Master script on layout MUTT
-
-** Optional railroad details
-Let OperatingRoad = ""
-Let Territory = ""
-Let Location = ""
-Let Year = ""
-Let Divisions = "" ** Separate division names with a comma, no spaces.
-Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
-
-** Put layout specific stuff here
-Let pressX = 0
-Let pressY = 0
-Let pressZ = 0
-Let sMaxSpeed = 15
-Let "Coupling Speed" = 5
-
-** Set Up the Subroutines
-Call InitializeQuickKeys
-Call o2oInit
-
-Call JobTimer *Setup
-Call o2o Setup
-Call RandomRoads Setup
-Call TurnTable *Setup 0
-Call DropKick Setup
-Call SpeedSwitching Setup
-Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-
-StartingPoint:
-
-On Key
-
-Drive $Train($Train)
-
-Call QuickKeys
-
-EndDrive
-
-GoTo StartingPoint]]></script>
+]]></script>
 <script id="2" flags="8"><![CDATA[Random Roads - Source Data
 
 OPERATING_ROAD MUTT
