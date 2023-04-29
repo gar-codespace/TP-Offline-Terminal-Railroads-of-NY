@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="WJ&amp;SRR Salem &amp; Glass Works Branch 1915" lid="JA1" scale="3" bitmap="WJ&amp;SRR Salem &amp; Glass Works Branch 1915.jpg" zoom="67.29" xdim="93735" ydim="50036" xoffset="0" yoffset="0" bmap_size="x:84933,y:50036" def_cars="DropKick" descr="Full Size">
+<layout name="WJ&amp;SRR Salem &amp; Glass Works Branch 1915" lid="JA1" scale="3" bitmap="WJ&amp;SRR Salem &amp; Glass Works Branch 1915.jpg" zoom="6.25" xdim="93735" ydim="50036" xoffset="0" yoffset="0" bmap_size="x:84933,y:50036" def_cars="DropKick" descr="Full Size">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="84898,2021"></jxn>
@@ -85,14 +85,14 @@
 <jxn t="3" id="181" pt="68492,22364"></jxn>
 <jxn t="3" id="182" pt="68596,21887"></jxn>
 <jxn t="3" id="184" pt="68703,21535"></jxn>
-<jxn t="3" id="189" pt="68600,21623" swp="1"></jxn>
+<jxn t="3" id="189" pt="68600,21623"></jxn>
 <jxn t="3" id="194" pt="68318,22360"></jxn>
-<jxn t="3" id="199" pt="66878,25485"></jxn>
+<jxn t="3" id="199" pt="66878,25485" swp="1"></jxn>
 <jxn t="3" id="201" pt="64332,33808"></jxn>
 <jxn t="3" id="202" pt="66304,28881"></jxn>
 <jxn t="3" id="204" pt="66431,28546"></jxn>
 <jxn t="3" id="206" pt="66598,28032"></jxn>
-<jxn t="3" id="208" pt="67321,25656" swp="1"></jxn>
+<jxn t="3" id="208" pt="67321,25656"></jxn>
 <jxn t="3" id="210" pt="66919,27586"></jxn>
 <jxn t="3" id="212" pt="66782,28101"></jxn>
 <jxn t="3" id="214" pt="66634,28537"></jxn>
@@ -111,7 +111,7 @@
 <jxn t="3" id="238" pt="66262,27668"></jxn>
 <jxn t="3" id="240" pt="66439,27025"></jxn>
 <jxn t="3" id="242" pt="66694,26037"></jxn>
-<jxn t="3" id="246" pt="66009,27087" swp="1"></jxn>
+<jxn t="3" id="246" pt="66009,27087"></jxn>
 <jxn t="3" id="248" pt="65607,27698"></jxn>
 <jxn t="3" id="250" pt="65440,27914"></jxn>
 <jxn t="3" id="252" pt="65287,28070"></jxn>
@@ -170,7 +170,7 @@
 <jxn t="3" id="378" pt="66261,32046" swp="1"></jxn>
 <jxn t="3" id="380" pt="65856,33530"></jxn>
 <jxn t="3" id="382" pt="65732,33919"></jxn>
-<jxn t="3" id="384" pt="65591,34284"></jxn>
+<jxn t="3" id="384" pt="65591,34284" swp="1"></jxn>
 <jxn t="3" id="386" pt="63901,38396"></jxn>
 <jxn t="3" id="388" pt="66221,32853"></jxn>
 <jxn t="3" id="390" pt="66070,33155"></jxn>
@@ -224,7 +224,7 @@
 <jxn t="3" id="532" pt="50290,24468"></jxn>
 <jxn t="3" id="534" pt="49950,24632"></jxn>
 <jxn t="3" id="536" pt="49618,24729"></jxn>
-<jxn t="3" id="538" pt="49141,24819" swp="1"></jxn>
+<jxn t="3" id="538" pt="49141,24819"></jxn>
 <jxn t="3" id="540" pt="49647,24753"></jxn>
 <jxn t="3" id="542" pt="50114,24677"></jxn>
 <jxn t="3" id="544" pt="50456,24595"></jxn>
@@ -237,7 +237,7 @@
 <jxn t="3" id="559" pt="46800,24811"></jxn>
 <jxn t="3" id="561" pt="47068,24807"></jxn>
 <jxn t="3" id="563" pt="47306,24821" swp="1"></jxn>
-<jxn t="3" id="565" pt="41449,24298" swp="1"></jxn>
+<jxn t="3" id="565" pt="41449,24298"></jxn>
 <jxn t="3" id="567" pt="47698,24844"></jxn>
 <jxn t="3" id="569" pt="48040,24858"></jxn>
 <jxn t="3" id="571" pt="48429,24861"></jxn>
@@ -265,7 +265,7 @@
 <jxn t="3" id="617" pt="40503,31510"></jxn>
 <jxn t="3" id="619" pt="40657,31196"></jxn>
 <jxn t="3" id="621" pt="40774,30911"></jxn>
-<jxn t="3" id="623" pt="40848,30696"></jxn>
+<jxn t="3" id="623" pt="40848,30696" swp="1"></jxn>
 <jxn t="3" id="625" pt="40264,32689"></jxn>
 <jxn t="3" id="629" pt="39676,32823"></jxn>
 <jxn t="3" id="631" pt="39130,33550"></jxn>
@@ -331,7 +331,7 @@
 <jxn t="3" id="766" pt="34014,23227"></jxn>
 <jxn t="3" id="769" pt="35894,23696"></jxn>
 <jxn t="3" id="770" pt="35552,23441"></jxn>
-<jxn t="3" id="774" pt="35124,23166" swp="1"></jxn>
+<jxn t="3" id="774" pt="35124,23166"></jxn>
 <jxn t="3" id="776" pt="35716,23474"></jxn>
 <jxn t="3" id="782" pt="36182,23937"></jxn>
 <jxn t="3" id="784" pt="36443,24188"></jxn>
@@ -401,7 +401,7 @@
 <jxn t="3" id="913" pt="23598,19218"></jxn>
 <jxn t="3" id="915" pt="23268,19197"></jxn>
 <jxn t="3" id="917" pt="22882,19197"></jxn>
-<jxn t="3" id="921" pt="22175,19277"></jxn>
+<jxn t="3" id="921" pt="22175,19277" swp="1"></jxn>
 <jxn t="3" id="923" pt="22853,19130"></jxn>
 <jxn t="3" id="925" pt="23083,19088"></jxn>
 <jxn t="3" id="927" pt="23339,19059"></jxn>
@@ -466,7 +466,7 @@
 <jxn t="3" id="1061" pt="12108,28354"></jxn>
 <jxn t="3" id="1063" pt="11786,28291"></jxn>
 <jxn t="3" id="1065" pt="11612,28278"></jxn>
-<jxn t="3" id="1069" pt="11184,28339" swp="1"></jxn>
+<jxn t="3" id="1069" pt="11184,28339"></jxn>
 <jxn t="3" id="1071" pt="13153,27782"></jxn>
 <jxn t="3" id="1073" pt="13354,27729"></jxn>
 <jxn t="3" id="1075" pt="13562,27716"></jxn>
@@ -476,7 +476,7 @@
 <jxn t="3" id="1084" pt="10531,28633"></jxn>
 <jxn t="3" id="1086" pt="10363,28764"></jxn>
 <jxn t="3" id="1088" pt="10015,29055"></jxn>
-<jxn t="3" id="1092" pt="9636,29424" swp="1"></jxn>
+<jxn t="3" id="1092" pt="9636,29424"></jxn>
 <jxn t="3" id="1098" pt="8273,30662" swp="1"></jxn>
 <jxn t="3" id="1100" pt="9115,29959"></jxn>
 <jxn t="3" id="1104" pt="9467,29624" swp="1"></jxn>
@@ -1261,6 +1261,503 @@
 </scenery>
 </tracks>
 <trains selno="41" trk="0" dists="0">
+<trn t="6" id="61" dspeed="0" rev="1" horntype="0">
+<cars>
+<car t="5" id="49" rect="74107,7485,74561,8219" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="B&amp;O 9163" loadname="foodstuffs" dest="LFS" collname="o2o_Freight" cartype="PRR Xg" trk="118" dists="998"></car>
+</cars>
+</trn>
+<trn t="6" id="33" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="161" rect="68928,22003,69338,22739" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ACL 7787" loadname="foodstuffs" dest="SC" collname="o2o_Freight" cartype="PRR Xg" trk="18791" dists="421"></car>
+</cars>
+</trn>
+<trn t="6" id="21" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="50" rect="9420,47147,10116,47735" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="B&amp;A 9241" loadname="Empty" dest="BY" collname="o2o_Freight" cartype="PRR Xl" trk="1235" dists="738"></car>
+<car t="5" id="58" rect="8922,46801,9662,47421" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="DL&amp;W 8857" loadname="Empty" dest="BY" collname="o2o_Freight" cartype="PRR X23" trk="1235" dists="159"></car>
+</cars>
+</trn>
+<trn t="6" id="4" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="102" rect="8357,38252,8761,38918" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="TCX 4696" loadname="chemicals" dest="AOR" collname="o2o_Freight" cartype="Union Tank" trk="9" dists="1349"></car>
+<car t="5" id="107" rect="8469,37786,8873,38452" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="PRR 1479" loadname="chemicals" dest="AOR" collname="o2o_Freight" cartype="Union Tank" trk="9" dists="869"></car>
+</cars>
+</trn>
+<trn t="6" id="12" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="108" rect="10584,34570,11320,34980" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ER 0749" loadname="glassware" dest="AOS" collname="o2o_Freight" cartype="PRR Xl" trk="1181" dists="125" gs="1"></car>
+<car t="5" id="109" rect="11122,34687,11858,35109" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 8244" loadname="glassware" dest="AOS" collname="o2o_Freight" cartype="PRR Xl" trk="1181" dists="677" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="20" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="110" rect="4366,33392,5000,34056" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="B&amp;A 5066" loadname="goods" dest="SPSN" collname="o2o_Freight" cartype="PRR Xg" trk="1189" dists="166"></car>
+<car t="5" id="111" rect="4742,33023,5412,33655" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="B&amp;A 0445" loadname="lumber bh flat" dest="SPSN" collname="o2o_Freight" cartype="PRR Gr" trk="1187" dists="19"></car>
+<car t="5" id="112" rect="5158,32670,5836,33292" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="PRR 4240" loadname="lumber bh flat" dest="SPSN" collname="o2o_Freight" cartype="PRR Gr" trk="11" dists="292"></car>
+</cars>
+</trn>
+<trn t="6" id="9" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="113" rect="12401,28283,13087,28683" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="AT&amp;SF 9719" loadname="sand" dest="GSH" collname="o2o_Freight" cartype="PRR Gi" trk="1062" dists="3774"></car>
+</cars>
+</trn>
+<trn t="6" id="1" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="116" rect="14306,27703,15042,28107" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="CNJ 5073" loadname="goods" dest="GWS" collname="o2o_Freight" cartype="PRR Xg" trk="3" dists="132"></car>
+<car t="5" id="117" rect="14848,27813,15584,28217" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="DL&amp;W 7061" loadname="goods" dest="GWH" collname="o2o_Freight" cartype="PRR Xl" trk="1059" dists="1433"></car>
+<car t="5" id="118" rect="15388,27923,16178,28337" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="NYC 8045" loadname="goods" dest="GWH" collname="o2o_Freight" cartype="PRR X23" trk="1059" dists="854"></car>
+<car t="5" id="119" rect="15982,28044,16718,28448" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 4993" loadname="goods" dest="GWH" collname="o2o_Freight" cartype="PRR Xg" trk="1059" dists="275"></car>
+</cars>
+</trn>
+<trn t="6" id="10" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="115" rect="13184,27567,13840,27893" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="WCC 3738" loadname="coal" dest="GCB" collname="o2o_Freight" cartype="PRR Gl" trk="1076" dists="157" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="22" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="114" rect="12037,27775,12771,28219" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="DL&amp;W 4523" loadname="lumber" dest="GBS" collname="o2o_Freight" cartype="PRR Fk" trk="8" dists="673" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="41" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="120" rect="17132,21562,17810,22178" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="B&amp;O 9641" loadname="flour" dest="FHL" collname="o2o_Freight" cartype="PRR Xg" trk="1295" dists="880"></car>
+</cars>
+</trn>
+<trn t="6" id="13" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="22" rect="18856,18721,19504,19237" type="5" outl="134,134,134" fill="255,255,255" len="480" wid="127" label="HJH 9649" loadname="vinegar" dest="HJV" collname="o2o_Freight" cartype="Heinz Vinegar" trk="973" dists="370" gs="1"></car>
+<car t="5" id="121" rect="19273,18959,19921,19475" type="5" outl="134,134,134" fill="255,255,255" len="480" wid="127" label="HJH 0698" loadname="vinegar" dest="HJV" collname="o2o_Freight" cartype="Heinz Vinegar" trk="973" dists="850" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="24" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="122" rect="22956,17636,23482,18358" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="DL&amp;W 5118" loadname="foodstuffs" dest="HJS" collname="o2o_Freight" cartype="PRR Xg" trk="951" dists="43"></car>
+<car t="5" id="123" rect="23196,17117,23640,17851" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ER 8870" loadname="foodstuffs" dest="HJS" collname="o2o_Freight" cartype="PRR Xl" trk="947" dists="2"></car>
+<car t="5" id="124" rect="23346,16583,23772,17319" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="WJ&amp;S 6342" loadname="foodstuffs" dest="HJS" collname="o2o_Freight" cartype="PRR Xl" trk="945" dists="269"></car>
+</cars>
+</trn>
+<trn t="6" id="5" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="125" rect="27957,19797,28693,20221" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="LV 1015" loadname="goods" dest="HJB" collname="o2o_Freight" cartype="PRR Xl" trk="906" dists="578"></car>
+</cars>
+</trn>
+<trn t="6" id="42" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="126" rect="25408,19179,26132,19597" type="-1" outl="95,95,95" fill="255,0,0" len="540" wid="128" label="HJH 6826" loadname="Empty" dest="HJK" collname="o2o_Freight" cartype="Heinz 57" trk="1289" dists="186" gs="1"></car>
+<car t="5" id="127" rect="24883,19053,25607,19473" type="-1" outl="95,95,95" fill="255,0,0" len="540" wid="128" label="HJH 9899" loadname="Empty" dest="HJK" collname="o2o_Freight" cartype="Heinz Figs" trk="1289" dists="726" gs="1"></car>
+<car t="5" id="128" rect="24344,18950,25080,19344" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="RF128" loadname="produce" dest="HJK" collname="o2o_Freight" cartype="PRR Rf" trk="938" dists="167"></car>
+</cars>
+</trn>
+<trn t="6" id="8" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="131" rect="32820,21087,33406,21697" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="TCX 0843" loadname="fuel" dest="FO" collname="o2o_Freight" cartype="Union Tank" trk="728" dists="18" gs="1"></car>
+<car t="5" id="132" rect="33144,21442,33736,22046" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="PRR 1490" loadname="fuel" dest="FO" collname="o2o_Freight" cartype="Union Tank" trk="728" dists="498" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="6" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="129" rect="30380,18325,31010,18993" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="DL&amp;W 2989" loadname="glassware" dest="3S" collname="o2o_Freight" cartype="PRR Xg" trk="864" dists="2861" gs="1"></car>
+<car t="5" id="130" rect="30745,18740,31375,19408" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 8784" loadname="glassware" dest="3S" collname="o2o_Freight" cartype="PRR Xl Vent" trk="864" dists="3413" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="14" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="19" rect="32755,22619,33441,23073" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="PL 4602" loadname="sand" dest="3SH" collname="o2o_Freight" cartype="PRR Gi" trk="835" dists="71" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="26" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="133" rect="29505,20612,30241,21054" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="M&amp;P 9648" loadname="glassware" dest="3WH" collname="o2o_Freight" cartype="PRR Xg" trk="872" dists="117"></car>
+<car t="5" id="134" rect="28916,20478,29706,20906" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="PRR 9343" loadname="glassware" dest="3WH" collname="o2o_Freight" cartype="PRR X23" trk="868" dists="367"></car>
+</cars>
+</trn>
+<trn t="6" id="38" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="67" rect="31603,25731,31973,26465" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="AT&amp;SF 7081" loadname="glassware" dest="3P" collname="o2o_Freight" cartype="PRR Xl Vent" trk="851" dists="1921"></car>
+<car t="5" id="135" rect="31677,25130,32053,25918" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="CNJ 6511" loadname="glassware" dest="3P" collname="o2o_Freight" cartype="PRR X23" trk="851" dists="1342"></car>
+</cars>
+</trn>
+<trn t="6" id="15" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="137" rect="33874,23840,34226,24500" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="P&amp;R 1657" loadname="coal" dest="3CG" collname="o2o_Freight" cartype="PRR Gl" trk="831" dists="249"></car>
+<car t="5" id="138" rect="33909,23365,34229,24019" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="PRR 0499" loadname="coal" dest="3CG" collname="o2o_Freight" cartype="PRR Gl" trk="829" dists="3"></car>
+</cars>
+</trn>
+<trn t="6" id="17" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="136" rect="33523,26550,33891,27232" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="ER 4129" loadname="sand" dest="3SS" collname="o2o_Freight" cartype="PRR Gi" trk="1258" dists="1452"></car>
+</cars>
+</trn>
+<trn t="6" id="27" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="70" rect="36013,31014,36529,31738" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYC 4588" loadname="glassware" dest="4G" collname="o2o_Freight" cartype="PRR Xg" trk="823" dists="571"></car>
+</cars>
+</trn>
+<trn t="6" id="50" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="139" rect="37311,26985,37637,27711" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 6670" loadname="glassware" dest="4WH" collname="o2o_Freight" cartype="PRR Xl" trk="807" dists="40"></car>
+</cars>
+</trn>
+<trn t="6" id="11" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="140" rect="37059,25283,37517,26017" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYNH&amp;H 8742" loadname="glassware" dest="4WH" collname="o2o_Freight" cartype="PRR Xl" trk="797" dists="140"></car>
+<car t="5" id="141" rect="36795,24730,37347,25500" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="WJ&amp;S 3776" loadname="glassware" dest="4WH" collname="o2o_Freight" cartype="PRR X23" trk="793" dists="225"></car>
+</cars>
+</trn>
+<trn t="6" id="39" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="142" rect="37226,37619,37638,38355" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYNH&amp;H 2133" loadname="glassware" dest="4WS" collname="o2o_Freight" cartype="PRR Xl" trk="648" dists="505" gs="1"></car>
+<car t="5" id="143" rect="37345,37079,37741,37815" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYNH&amp;H 8218" loadname="glassware" dest="4WS" collname="o2o_Freight" cartype="PRR Xl" trk="650" dists="152" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="19" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="144" rect="39848,37209,40166,37863" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="WCC 6162" loadname="coal" dest="4CT" collname="o2o_Freight" cartype="PRR Gl" trk="6" dists="1088" gs="1"></car>
+<car t="5" id="145" rect="39867,37689,40185,38343" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="P&amp;R 5396" loadname="coal" dest="4CT" collname="o2o_Freight" cartype="PRR Gl" trk="6" dists="1568" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="28" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="146" rect="37668,35099,38152,35831" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="PL 8868" loadname="sand" dest="4SS" collname="o2o_Freight" cartype="PRR Gr" trk="660" dists="38"></car>
+<car t="5" id="147" rect="37571,35626,37963,36312" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="PRR 4001" loadname="sand" dest="4SS" collname="o2o_Freight" cartype="PRR Gi" trk="656" dists="228"></car>
+</cars>
+</trn>
+<trn t="6" id="30" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="148" rect="44966,21373,45418,22037" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="PGCC 0489" loadname="coal" dest="ECNJ" collname="o2o_Freight" cartype="PRR Gl" trk="671" dists="710"></car>
+<car t="5" id="149" rect="45126,20921,45578,21585" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="WCC 2186" loadname="coal" dest="ECNJ" collname="o2o_Freight" cartype="PRR Gl" trk="671" dists="230"></car>
+</cars>
+</trn>
+<trn t="6" id="35" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="150" rect="50877,23530,51491,24116" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="P&amp;R 8948" loadname="coal" dest="SGL" collname="o2o_Freight" cartype="PRR Gl" trk="529" dists="403"></car>
+</cars>
+</trn>
+<trn t="6" id="31" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="106" rect="62042,27888,62776,28334" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYC 2906" loadname="merchandise" dest="JFA" collname="o2o_Freight" cartype="PRR Xl" trk="117" dists="559"></car>
+</cars>
+</trn>
+<trn t="6" id="16" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="65" rect="66763,24999,67187,25535" flags="4198400" type="11" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="WJ&amp;S 641" dest="~" collname="o2o_Freight" cartype="PRR Nd" trk="2842" dists="3192"></car>
+<car t="5" id="16" rect="66901,24595,67369,25221" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="441" wid="131" label="WJ&amp;S 058" dest="~" collname="o2o Locomotives" cartype="B6s" trk="2842" dists="2799"></car>
+<car t="5" id="17" rect="67080,24280,67510,24818" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="345" wid="131" label="ET17" dest="~" collname="o2o Locomotives" cartype="B6s Tender" trk="2842" dists="2406"></car>
+</cars>
+</trn>
+<trn t="6" id="2" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="64" rect="65742,28177,66220,28909" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="PRR 2547" loadname="Empty" dest="SCB" collname="o2o_Freight" cartype="PRR Gr" trk="237" dists="116"></car>
+<car t="5" id="152" rect="65516,28694,66032,29474" type="7" outl="134,134,134" fill="192,192,192" len="607" wid="130" label="AT&amp;SF 6328" loadname="Empty" dest="SCB" collname="o2o_Freight" cartype="PRR Gra" trk="233" dists="310"></car>
+</cars>
+</trn>
+<trn t="6" id="7" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="153" rect="64723,30524,65235,31250" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="LV 8679" loadname="merchandise" dest="SGD" collname="o2o_Freight" cartype="PRR Xl Vent" trk="225" dists="3102"></car>
+<car t="5" id="154" rect="64476,31027,65010,31803" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="NYC 4727" loadname="merchandise" dest="SGD" collname="o2o_Freight" cartype="PRR X23" trk="225" dists="2523"></car>
+<car t="5" id="155" rect="64250,31581,64762,32307" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="WJ&amp;S 2683" loadname="merchandise" dest="SGD" collname="o2o_Freight" cartype="PRR Xl" trk="225" dists="1944"></car>
+<car t="5" id="156" rect="64024,32085,64536,32811" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 5202" loadname="merchandise" dest="SGD" collname="o2o_Freight" cartype="PRR Xg" trk="225" dists="1392"></car>
+<car t="5" id="157" rect="63776,32588,64312,33364" type="7" outl="134,134,134" fill="192,192,192" len="607" wid="130" label="AT&amp;SF 1790" loadname="barrels" dest="SGD" collname="o2o_Freight" cartype="PRR Gra" trk="225" dists="813"></car>
+<car t="5" id="158" rect="63552,33141,64064,33867" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="LV 5114" loadname="barrels" dest="SGD" collname="o2o_Freight" cartype="PRR Gr" trk="225" dists="234"></car>
+</cars>
+</trn>
+<trn t="6" id="46" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="160" rect="68462,23941,68892,24731" flags="4096" type="10" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="ACL 8161" loadname="machinery" dest="SR" collname="o2o_Freight" cartype="PRR Fm" trk="119" dists="867"></car>
+<car t="5" id="159" rect="68340,24532,68756,25268" flags="4096" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ER 3999" loadname="machinery" dest="SR" collname="o2o_Freight" cartype="PRR Fk" trk="119" dists="288"></car>
+</cars>
+</trn>
+<trn t="6" id="47" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="87" rect="68545,27927,69099,28639" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="AT&amp;SF 6915" loadname="wire" dest="SBIW" collname="o2o_Freight" cartype="PRR Xl" trk="340" dists="1264"></car>
+<car t="5" id="162" rect="68819,27448,69373,28160" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYNH&amp;H 2230" loadname="wire" dest="SBIW" collname="o2o_Freight" cartype="PRR Xl" trk="340" dists="712"></car>
+</cars>
+</trn>
+<trn t="6" id="55" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="43" rect="66732,31098,67286,31812" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="PRR 6677" loadname="material" dest="SBIM" collname="o2o_Freight" cartype="PRR Gr" trk="4151" dists="1991"></car>
+<car t="5" id="77" rect="67003,30570,67585,31332" type="7" outl="134,134,134" fill="192,192,192" len="607" wid="130" label="CNJ 0550" loadname="material" dest="SBIM" collname="o2o_Freight" cartype="PRR Gra" trk="4151" dists="1412"></car>
+</cars>
+</trn>
+<trn t="6" id="25" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="163" rect="68867,29810,69579,30366" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="WJ&amp;S 3294" loadname="scrap metal" dest="SBIS" collname="o2o_Freight" cartype="PRR Gr" trk="358" dists="424"></car>
+</cars>
+</trn>
+<trn t="6" id="23" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="151" rect="63168,33065,63592,33601" flags="4198400" type="11" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="WJ&amp;S 919" dest="~" collname="o2o_Freight" cartype="PRR Nd" trk="231" dists="278" gs="1"></car>
+<car t="5" id="23" rect="63306,32767,63726,33287" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="325" wid="131" label="WJ&amp;S 123" dest="~" collname="o2o Locomotives" cartype="A5s" trk="231" dists="613" gs="1"></car>
+<car t="5" id="24" rect="63438,32465,63862,32989" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="331" wid="131" label="ET24" dest="~" collname="o2o Locomotives" cartype="A5s Tender" trk="231" dists="941" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="36" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="10" rect="64801,32626,65295,33356" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="RF10" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Rf" trk="222" dists="4634"></car>
+<car t="5" id="11" rect="65006,32125,65494,32843" type="-1" outl="95,95,95" fill="255,0,0" len="540" wid="128" label="HJH 7591" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="Heinz 57" trk="222" dists="4088"></car>
+<car t="5" id="13" rect="65207,31624,65695,32342" type="-1" outl="95,95,95" fill="255,0,0" len="540" wid="128" label="HJH 1676" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="Heinz Figs" trk="222" dists="3548"></car>
+<car t="5" id="34" rect="65407,31178,65873,31840" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="TELX 4868" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="Union Tank" trk="222" dists="3038"></car>
+<car t="5" id="35" rect="65585,30733,66051,31395" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="PRR 4674" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="Union Tank" trk="222" dists="2558"></car>
+<car t="5" id="36" rect="65763,30287,66229,30949" type="5" outl="134,134,134" fill="255,255,255" len="480" wid="127" label="HJH 3054" loadname="Pickles" dest="Y" collname="o2o_Freight" cartype="Heinz Vinegar" trk="222" dists="2078"></car>
+<car t="5" id="37" rect="65940,29773,66434,30503" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="B&amp;A 7392" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Xg" trk="222" dists="1562"></car>
+<car t="5" id="38" rect="66146,29261,66638,29991" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 7188" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Xl" trk="222" dists="1010"></car>
+<car t="5" id="39" rect="66351,28698,66863,29478" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="AT&amp;SF 5392" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR X23" trk="222" dists="431"></car>
+<car t="5" id="40" rect="66576,28184,67064,28914" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="WJ&amp;S 8867" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Xl Vent" trk="282" dists="148" gs="1"></car>
+<car t="5" id="41" rect="66777,27790,67203,28398" type="6" outl="134,134,134" fill="192,192,192" len="420" wid="126" label="P&amp;R 2441" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Gd" trk="10515" dists="95" gs="1"></car>
+<car t="5" id="42" rect="66914,27334,67350,28000" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="130" label="PGCC 9165" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Gl" trk="284" dists="60" gs="1"></car>
+<car t="5" id="44" rect="67059,26932,67467,27540" type="6" outl="134,134,134" fill="192,192,192" len="420" wid="126" label="PRR 0018" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Gd" trk="284" dists="510" gs="1"></car>
+<car t="5" id="45" rect="67173,26346,67619,27136" type="7" outl="134,134,134" fill="192,192,192" len="607" wid="130" label="WJ&amp;S 6228" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Gra" trk="286" dists="430" gs="1"></car>
+<car t="5" id="46" rect="67325,25756,67751,26546" type="10" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="B&amp;O 3915" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Fm" trk="288" dists="502" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="29" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="1" rect="66321,28344,66809,29074" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 3349" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Xg" trk="217" dists="186" gs="1"></car>
+<car t="5" id="4" rect="66117,28858,66609,29588" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="SP 0293" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Xl" trk="219" dists="204" gs="1"></car>
+<car t="5" id="5" rect="65915,29371,66405,30089" type="-1" outl="95,95,95" fill="255,0,0" len="540" wid="128" label="HJH 6142" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="Heinz 57" trk="219" dists="750" gs="1"></car>
+<car t="5" id="6" rect="65761,29873,66203,30479" type="6" outl="134,134,134" fill="192,192,192" len="420" wid="126" label="PGCC 0933" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Gd" trk="219" dists="1230" gs="1"></car>
+<car t="5" id="2" rect="65581,30262,66047,30924" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="UTLX 1967" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="Union Tank" trk="219" dists="1680" gs="1"></car>
+<car t="5" id="20" rect="65375,30707,65869,31437" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ER 3140" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Fk" trk="219" dists="2196" gs="1"></car>
+<car t="5" id="3" rect="65221,31221,65663,31827" type="6" outl="134,134,134" fill="192,192,192" len="420" wid="126" label="PRR 4110" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Gd" trk="219" dists="2682" gs="1"></car>
+<car t="5" id="15" rect="65031,31608,65511,32292" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="NYNH&amp;H 4216" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Gi" trk="219" dists="3142" gs="1"></car>
+<car t="5" id="21" rect="64855,32075,65321,32737" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="TCX 9455" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="Union Tank" trk="219" dists="3632" gs="1"></car>
+<car t="5" id="18" rect="64649,32519,65143,33249" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYC 3868" loadname="Empty" dest="Y" collname="o2o_Freight" cartype="PRR Xg" trk="219" dists="4148" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="18" dspeed="0" horntype="0" selcarno="3">
+<cars>
+<car t="5" id="7" rect="63788,37699,64284,38427" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYC 1576" loadname="lcl" dest="SDFH" collname="o2o_Freight" cartype="PRR Xg" trk="116" dists="3151"></car>
+<car t="5" id="8" rect="63997,37188,64493,37916" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 2836" loadname="lcl" dest="SDFH" collname="o2o_Freight" cartype="PRR Xl" trk="116" dists="2599"></car>
+<car t="5" id="9" rect="64205,36677,64701,37405" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="B&amp;A 7893" loadname="lcl" dest="SDFH" collname="o2o_Freight" cartype="PRR Xl" trk="116" dists="2047"></car>
+<car t="5" id="12" rect="64413,36165,64909,36893" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="M&amp;P 9137" loadname="lcl" dest="SDFH" collname="o2o_Freight" cartype="PRR Xl Vent" trk="116" dists="1495"></car>
+</cars>
+</trn>
+</trains>
+<clock smult="1" running="1"></clock>
+<advops showoconopen="0" zoomonopen="0">
+<industries>
+<ind id="1" industry="SDFH" aar="X" s__r="R" load="lcl"></ind>
+<ind id="2" industry="SDFH" aar="X" s__r="S" load="lcl"></ind>
+<ind id="3" industry="SGD" aar="X" s__r="R" load="merchandise"></ind>
+<ind id="4" industry="SBIM" aar="F" s__r="R" load="material"></ind>
+<ind id="5" industry="SGD" aar="X" s__r="S" load="merchandise"></ind>
+<ind id="6" industry="SGD" aar="G" s__r="R" load="barrels"></ind>
+<ind id="7" industry="SGD" aar="F" s__r="R" load="tarp"></ind>
+<ind id="8" industry="SBIM" aar="G" s__r="R" load="material"></ind>
+<ind id="9" industry="JFA" aar="X" s__r="R" load="merchandise"></ind>
+<ind id="10" industry="SBIW" aar="X" s__r="R" load="wire"></ind>
+<ind id="11" industry="SBIS" aar="G" s__r="S" load="scrap metal"></ind>
+<ind id="12" industry="SR" aar="F" s__r="R" load="machinery"></ind>
+<ind id="13" industry="SR" aar="G" s__r="R" load="machinery"></ind>
+<ind id="14" industry="SC" aar="X" s__r="S" load="foodstuffs"></ind>
+<ind id="15" industry="LFS" aar="X" s__r="S" load="foodstuffs"></ind>
+<ind id="16" industry="SCB" aar="H" s__r="R" load="coal"></ind>
+<ind id="17" industry="SGL" aar="H" s__r="R" load="coal"></ind>
+<ind id="18" industry="ECNJ" aar="H" s__r="R" load="coal"></ind>
+<ind id="19" industry="4SS" aar="G" s__r="R" load="sand"></ind>
+<ind id="20" industry="4CT" aar="H" s__r="R" load="coal"></ind>
+<ind id="21" industry="4WS" aar="X" s__r="S" load="glassware"></ind>
+<ind id="22" industry="4G" aar="X" s__r="S" load="glassware"></ind>
+<ind id="23" industry="4WH" aar="X" s__r="S" load="glassware"></ind>
+<ind id="24" industry="3CG" aar="H" s__r="R" load="coal"></ind>
+<ind id="25" industry="3SH" aar="G" s__r="R" load="sand"></ind>
+<ind id="26" industry="3SS" aar="G" s__r="R" load="sand"></ind>
+<ind id="27" industry="3P" aar="X" s__r="S" load="glassware"></ind>
+<ind id="28" industry="FO" aar="TO" s__r="R" load="fuel"></ind>
+<ind id="29" industry="3S" aar="X" s__r="S" load="glassware"></ind>
+<ind id="30" industry="3WH" aar="X" s__r="S" load="glassware"></ind>
+<ind id="31" industry="HJB" aar="X" s__r="R" load="goods"></ind>
+<ind id="32" industry="HJK" aar="Rf" s__r="R" load="produce"></ind>
+<ind id="34" industry="HJV" aar="TV" s__r="R" load="vinegar"></ind>
+<ind id="35" industry="HJS" aar="X" s__r="S" load="foodstuffs"></ind>
+<ind id="33" industry="FHL" aar="X" s__r="R" load="flour"></ind>
+<ind id="36" industry="WHH" aar="F" s__r="R" load="lumber stack"></ind>
+<ind id="37" industry="WHH" aar="G" s__r="R" load="lumber2"></ind>
+<ind id="38" industry="GBS" aar="F" s__r="R" load="lumber"></ind>
+<ind id="39" industry="GBS" aar="G" s__r="R" load="lumber"></ind>
+<ind id="40" industry="GCB" aar="H" s__r="R" load="coal"></ind>
+<ind id="41" industry="AOC" aar="H" s__r="R" load="coal"></ind>
+<ind id="42" industry="GSH" aar="G" s__r="R" load="sand"></ind>
+<ind id="43" industry="GWS" aar="X" s__r="S" load="goods"></ind>
+<ind id="44" industry="GWH" aar="X" s__r="S" load="goods"></ind>
+<ind id="45" industry="AOS" aar="X" s__r="S" load="glassware"></ind>
+<ind id="46" industry="AOR" aar="TO" s__r="R" load="chemicals"></ind>
+<ind id="47" industry="SPSN" aar="F" s__r="R" load="lumber bh flat"></ind>
+<ind id="48" industry="SPSN" aar="G" s__r="R" load="lumber bh flat"></ind>
+<ind id="49" industry="SPSN" aar="X" s__r="R" load="goods"></ind>
+<ind id="50" industry="SPSN" aar="X" s__r="S" load="goods"></ind>
+<ind id="51" industry="BY" aar="Rf" s__r="S" load="meat prod"></ind>
+</industries>
+<locations>
+<loc id="1" locale="Township;Coal Gas" track="3CG" class="industry" vs_add="1"></loc>
+<loc id="2" locale="Township;Packing" track="3P" class="industry" vs_add="1"></loc>
+<loc id="3" locale="Fenwick Creek;Glass Storage" track="3S" class="industry" vs_add="2"></loc>
+<loc id="4" locale="Township;Sand House" track="3SH" class="industry"></loc>
+<loc id="5" locale="Township;Sand Storage" track="3SS" class="industry" vs_add="1"></loc>
+<loc id="6" locale="Township;Ware House" track="3WH" class="industry" vs_add="1"></loc>
+<loc id="7" locale="Fenwick Creek;Coal Trestle" track="4CT" class="industry" vs_add="3"></loc>
+<loc id="8" locale="Fenwick Creek;Sand Storage" track="4SS" class="industry" vs_add="1"></loc>
+<loc id="9" locale="Fenwick Creek;Ware House" track="4WH" class="industry" vs_add="2"></loc>
+<loc id="10" locale="Fenwick Creek;Ware Shed" track="4WS" class="industry" vs_add="1"></loc>
+<loc id="11" locale="Salem Creek;AOC Coal Bin" track="AOC" class="industry"></loc>
+<loc id="12" locale="Salem Creek;Chemical Rack" track="AOR" class="industry" vs_add="1"></loc>
+<loc id="13" locale="Salem Creek;Shipping" track="AOS" class="industry" vs_add="1"></loc>
+<loc id="14" locale="Salem Creek;Bonham &amp; Young" track="BY" class="industry" vs_add="1"></loc>
+<loc id="15" locale="Fenwick Creek;Electric Co of NJ" track="ECNJ" class="industry" vs_add="2"></loc>
+<loc id="16" locale="Salem Creek;FH Lloyd" track="FHL" class="industry" vs_add="1"></loc>
+<loc id="17" locale="Fenwick Creek;Fuel Oil" track="FO" class="industry" vs_add="3"></loc>
+<loc id="18" locale="Salem Creek;Box Shop" track="GBS" class="industry"></loc>
+<loc id="19" locale="Salem Creek;GGW Coal Bin" track="GCB" class="industry"></loc>
+<loc id="21" locale="Salem Creek;Sand House" track="GSH" class="industry" vs_add="3"></loc>
+<loc id="22" locale="Salem Creek;Ware House" track="GWH" class="industry" vs_add="2"></loc>
+<loc id="23" locale="Salem Creek;Ware Shed" track="GWS" class="industry"></loc>
+<loc id="24" locale="Township;Bottling &amp; Packing" track="HJB" class="industry" vs_add="1"></loc>
+<loc id="25" locale="Township;Shipping" track="HJS" class="industry" vs_add="3"></loc>
+<loc id="26" locale="Township;Kitchen" track="HJK" class="industry" vs_add="3"></loc>
+<loc id="27" locale="Township;Vinegar" track="HJV" class="industry" vs_add="1"></loc>
+<loc id="28" locale="Fenwick Creek;Salem Gas Light" track="SGL" class="industry" vs_add="1"></loc>
+<loc id="29" locale="Salem Creek;S&amp;PSNCo" track="SPSN" class="industry" vs_add="2"></loc>
+<loc id="30" locale="Salem Creek;WH Harris" track="WHH" class="industry" vs_add="1"></loc>
+<loc id="31" locale="Salem;Yard" track="Y" class="staging"></loc>
+<loc id="32" locale="Fenwick Creek;Glassware" track="4G" class="industry"></loc>
+<loc id="34" locale="Terminal;JF Ayers" track="JFA" class="industry"></loc>
+<loc id="35" locale="Terminal;Luke F Smith" track="LFS" class="industry"></loc>
+<loc id="36" locale="Terminal;SB&amp;I Material" track="SBIM" class="industry" vs_add="1"></loc>
+<loc id="37" locale="Terminal;SB&amp;I Scrap" track="SBIS" class="industry"></loc>
+<loc id="38" locale="Terminal;SB&amp;I Ware House" track="SBIW" class="industry" vs_add="1"></loc>
+<loc id="39" locale="Terminal;Smith Canning" track="SC" class="industry"></loc>
+<loc id="41" locale="Terminal;Salem Freight House" track="SDFH" class="industry" vs_add="3"></loc>
+<loc id="33" locale="Terminal;Ramp" track="SR" class="industry" vs_add="1"></loc>
+<loc id="40" locale="Terminal;Coal Bin" track="SCB" class="industry" vs_add="1"></loc>
+<loc id="42" locale="Terminal;General Delivery" track="SGD" class="industry" vs_add="5"></loc>
+</locations>
+<trainseqs active_row="1"></trainseqs>
+<swrows>
+<sw id="1" car_id="6" sr_id="0" car="PGCC 0933" pullfrom="Y" dir="&gt;&gt;" spotat="Y"></sw>
+<sw id="2" car_id="9" sr_id="0" car="B&amp;A 7893" pullfrom="SDFH" dir="&gt;&gt;" spotat="SDFH"></sw>
+<sw id="3" car_id="36" sr_id="0" car="HJH 3054" pullfrom="Y" dir="&gt;&gt;" spotat="Y"></sw>
+<sw id="4" car_id="44" sr_id="0" car="PRR 0018" pullfrom="Y" dir="&gt;&gt;" spotat="Y"></sw>
+<sw id="5" car_id="49" sr_id="0" car="B&amp;O 9163" pullfrom="LFS" dir="&gt;&gt;" spotat="LFS"></sw>
+<sw id="6" car_id="63" sr_id="0" dir="&gt;&gt;"></sw>
+<sw id="7" car_id="64" sr_id="0" car="PRR 2547" pullfrom="SCB" dir="&gt;&gt;" spotat="SCB"></sw>
+</swrows>
+<ao_settings ncarstopull="50" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
+</advops>
+<roadstyles>
+<roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
+</roadstyles>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1972,b:951" zoom="0.16" ctr="x:67184,y:26059" vtype="724"></winview>
+<scripts>
+<script id="20" flags="6" cmdix="4007" wndrect="59,261,833,965"><![CDATA[** MASTER SCRIPT - WJ&SRR Salem & Glass Works Branch 1915
+
+** Assign a note to a subroutine
+    Let NoteForPersonalizedSettings = 23
+    Let NoteForPressX = 0
+    Let NoteForPressY = 0
+    Let NoteForPressZ = 0
+
+** Set Up QuickKeys
+    Call InitializeQuickKeys
+    Call PersonalizedSettings
+    Call ApplyVersionItems
+
+** Select which subroutines to use
+    Call JobTimer *Setup
+    Call o2o Setup
+    Call RandomRoads Setup
+    Call TurnTable *Setup 0
+    Call DropKick Setup
+    Call SpeedSwitching Setup
+    Call QuickKeys Setup
+
+Call SetLanguage en  ** Language choices are: en, de, fr, es
+Call NoteWindow
+Let R = 1
+
+StartingPoint:
+
+On Key
+
+Drive $Train($Train)
+
+Call QuickKeys
+
+EndDrive
+
+GoTo StartingPoint]]></script>
+<script id="21" flags="8"><![CDATA[Random Roads - Source Data
+
+OPERATING_ROAD WJ&S
+HOME_ROADS WJ&S
+MANIFEST_POOL PRR WJ&S PRR PRR PL PL PL NYNH&H P&R B&A B&O NYC M&P SP AT&SF DL&W CNJ ACL LV ER
+REEFER_POOL FGEX MDX
+TANK_POOL TCX PRR TELX UTLX
+HOPPER_POOL PRR PGCC P&R B&O WCC
+SPECIAL_1
+SPECIAL_2 HJH
+SPECIAL_3
+
+OPERATING_AAR
+HOME_AAR E ES ESS ED EE EP N NE NM
+MANIFEST_AAR F FA FA6 FB FC FCA FD FL FM FS FW G GA GB GD GBH GE GS GT H HM LG LO LP LT O RA RBL RP S SH SM T TA TL TW X XAR XMR XI XM XP
+PASS_AAR B BE BH BM BMR BMT BP BR BX CA CS D DA DB DC DL DO DP DPA MA MB MR P PA PAS PB PBC PBO PC PL PO PS PSA
+MW_AAR M MWB MWC MWD MWG MWF MWK MWR MWX
+REEFER_AAR RS R RB
+TANK_AAR TG TM TO
+HOPPER_AAR HT HK H
+SPECIAL_1_AAR
+SPECIAL_2_AAR TV RH
+SPECIAL_3_AAR
+
+HOME_LENGTH 3
+PASS_LENGTH 4
+FREIGHT_LENGTH 4
+MW_LENGTH 3]]></script>
+<script id="22" flags="8"><![CDATA[** Optional railroad details
+    Let OperatingRoad = "West Jersey & Seashore RR"
+    Let Territory = "Salem & Glass Works Branch"
+    Let Location = "Salem, New Jersey"
+    Let Year = "1915"
+    Let Divisions = "Atlantic Division,Glass Works Branch" ** Separate division names with a comma, no spaces.
+    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
+<script id="23" flags="8"><![CDATA[** Personalized Settings
+Echo Personalized Settings for $Layout(Name)
+
+** Turn off AO display of track attributes if needed
+    Call ao_reInit
+
+** Override Registry values with personal preferences
+    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
+    Let "Coupling Speed" = 5
+    Let AllowYardMode = 1
+    *Let InYardMode = 1
+    Let "Car Gap" = 0
+    Let TTableSpeedDivisor = 7 ** Bigger means slower
+    Let ScrollDistFactorx10 = 25
+    Let DistFromSwitch =  0 ** How the switch position is displayed
+    Let HiliteSize = 18 ** How the switch position is displayed
+
+** Set QuickKeys variables
+    Let maximumTrainSpeed = 15
+    Let "Min Coupling Dist" = 1
+    Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
+
+** Toolbars and windows to include when toggling View mode
+    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
+    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
+    Let TbarAuto = 0
+
+** Optional for o2o; railroad details
+    Let OperatingRoad = ""
+    Let Territory = ""
+    Let Location = ""
+    Let Year = ""
+    Let Divisions = "" ** Enter division names seperated by a comma without a space.
+    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+]]></script>
+<rewind_point>
+<trains><![CDATA[<saved_trains selno="41" trk="0" dists="0">
 <trn t="6" id="48" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="85" rect="63566,33105,64080,33831" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="130" label="PRR 3539" loadname="barrels" dest="SGD" collname="GR_Freight" cartype="PRR Gr" trk="225" dists="274" gs="1"></car>
@@ -1532,193 +2029,11 @@
 <car t="5" id="9" rect="67167,24034,67623,24612" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="386" wid="141" label="ET9" dest="~" collname="North American Steam Engines" cartype="0-6-0 prr tender" trk="2842" dists="2159"></car>
 </cars>
 </trn>
-</trains>
-<clock smult="1" running="1"></clock>
-<advops showoconopen="0" zoomonopen="0">
-<industries>
-<ind id="1" industry="SDFH" aar="X" s__r="R" load="lcl"></ind>
-<ind id="2" industry="SDFH" aar="X" s__r="S" load="lcl"></ind>
-<ind id="3" industry="SGD" aar="X" s__r="R" load="merchandise"></ind>
-<ind id="4" industry="SBIM" aar="F" s__r="R" load="material"></ind>
-<ind id="5" industry="SGD" aar="X" s__r="S" load="merchandise"></ind>
-<ind id="6" industry="SGD" aar="G" s__r="R" load="barrels"></ind>
-<ind id="7" industry="SGD" aar="F" s__r="R" load="tarp"></ind>
-<ind id="8" industry="SBIM" aar="G" s__r="R" load="material"></ind>
-<ind id="9" industry="JFA" aar="X" s__r="R" load="merchandise"></ind>
-<ind id="10" industry="SBIW" aar="X" s__r="R" load="wire"></ind>
-<ind id="11" industry="SBIS" aar="G" s__r="S" load="scrap metal"></ind>
-<ind id="12" industry="SR" aar="F" s__r="R" load="machinery"></ind>
-<ind id="13" industry="SR" aar="G" s__r="R" load="machinery"></ind>
-<ind id="14" industry="SC" aar="X" s__r="S" load="foodstuffs"></ind>
-<ind id="15" industry="LFS" aar="X" s__r="S" load="foodstuffs"></ind>
-<ind id="16" industry="SCB" aar="H" s__r="R" load="coal"></ind>
-<ind id="17" industry="SGL" aar="H" s__r="R" load="coal"></ind>
-<ind id="18" industry="ECNJ" aar="H" s__r="R" load="coal"></ind>
-<ind id="19" industry="4SS" aar="G" s__r="R" load="sand"></ind>
-<ind id="20" industry="4CT" aar="H" s__r="R" load="coal"></ind>
-<ind id="21" industry="4WS" aar="X" s__r="S" load="glassware"></ind>
-<ind id="22" industry="4G" aar="X" s__r="S" load="glassware"></ind>
-<ind id="23" industry="4WH" aar="X" s__r="S" load="glassware"></ind>
-<ind id="24" industry="3CG" aar="H" s__r="R" load="coal"></ind>
-<ind id="25" industry="3SH" aar="G" s__r="R" load="sand"></ind>
-<ind id="26" industry="3SS" aar="G" s__r="R" load="sand"></ind>
-<ind id="27" industry="3P" aar="X" s__r="S" load="glassware"></ind>
-<ind id="28" industry="FO" aar="TO" s__r="R" load="fuel"></ind>
-<ind id="29" industry="3S" aar="X" s__r="S" load="glassware"></ind>
-<ind id="30" industry="3WH" aar="X" s__r="S" load="glassware"></ind>
-<ind id="31" industry="HJB" aar="X" s__r="R" load="goods"></ind>
-<ind id="32" industry="HJK" aar="Rf" s__r="R" load="produce"></ind>
-<ind id="34" industry="HJV" aar="TV" s__r="R" load="vinegar"></ind>
-<ind id="35" industry="HJS" aar="X" s__r="S" load="foodstuffs"></ind>
-<ind id="33" industry="FHL" aar="X" s__r="R" load="flour"></ind>
-<ind id="36" industry="WHH" aar="F" s__r="R" load="lumber stack"></ind>
-<ind id="37" industry="WHH" aar="G" s__r="R" load="lumber2"></ind>
-<ind id="38" industry="GBS" aar="F" s__r="R" load="lumber"></ind>
-<ind id="39" industry="GBS" aar="G" s__r="R" load="lumber"></ind>
-<ind id="40" industry="GCB" aar="H" s__r="R" load="coal"></ind>
-<ind id="41" industry="AOC" aar="H" s__r="R" load="coal"></ind>
-<ind id="42" industry="GSH" aar="G" s__r="R" load="sand"></ind>
-<ind id="43" industry="GWS" aar="X" s__r="S" load="goods"></ind>
-<ind id="44" industry="GWH" aar="X" s__r="S" load="goods"></ind>
-<ind id="45" industry="AOS" aar="X" s__r="S" load="glassware"></ind>
-<ind id="46" industry="AOR" aar="TO" s__r="R" load="chemicals"></ind>
-<ind id="47" industry="SPSN" aar="F" s__r="R" load="lumber bh flat"></ind>
-<ind id="48" industry="SPSN" aar="G" s__r="R" load="lumber bh flat"></ind>
-<ind id="49" industry="SPSN" aar="X" s__r="R" load="goods"></ind>
-<ind id="50" industry="SPSN" aar="X" s__r="S" load="goods"></ind>
-<ind id="51" industry="BY" aar="Rf" s__r="S" load="meat prod"></ind>
-</industries>
-<locations>
-<loc id="1" locale="Township;Coal Gas" track="3CG" class="industry" vs_add="1"></loc>
-<loc id="2" locale="Township;Packing" track="3P" class="industry" vs_add="1"></loc>
-<loc id="3" locale="Fenwick Creek;Glass Storage" track="3S" class="industry" vs_add="2"></loc>
-<loc id="4" locale="Township;Sand House" track="3SH" class="industry"></loc>
-<loc id="5" locale="Township;Sand Storage" track="3SS" class="industry" vs_add="1"></loc>
-<loc id="6" locale="Township;Ware House" track="3WH" class="industry" vs_add="1"></loc>
-<loc id="7" locale="Fenwick Creek;Coal Trestle" track="4CT" class="industry" vs_add="3"></loc>
-<loc id="8" locale="Fenwick Creek;Sand Storage" track="4SS" class="industry" vs_add="1"></loc>
-<loc id="9" locale="Fenwick Creek;Ware House" track="4WH" class="industry" vs_add="2"></loc>
-<loc id="10" locale="Fenwick Creek;Ware Shed" track="4WS" class="industry" vs_add="1"></loc>
-<loc id="11" locale="Salem Creek;AOC Coal Bin" track="AOC" class="industry"></loc>
-<loc id="12" locale="Salem Creek;Chemical Rack" track="AOR" class="industry" vs_add="1"></loc>
-<loc id="13" locale="Salem Creek;Shipping" track="AOS" class="industry" vs_add="1"></loc>
-<loc id="14" locale="Salem Creek;Bonham &amp; Young" track="BY" class="industry" vs_add="1"></loc>
-<loc id="15" locale="Fenwick Creek;Electric Co of NJ" track="ECNJ" class="industry" vs_add="2"></loc>
-<loc id="16" locale="Salem Creek;FH Lloyd" track="FHL" class="industry" vs_add="1"></loc>
-<loc id="17" locale="Fenwick Creek;Fuel Oil" track="FO" class="industry" vs_add="3"></loc>
-<loc id="18" locale="Salem Creek;Box Shop" track="GBS" class="industry"></loc>
-<loc id="19" locale="Salem Creek;GGW Coal Bin" track="GCB" class="industry"></loc>
-<loc id="21" locale="Salem Creek;Sand House" track="GSH" class="industry" vs_add="3"></loc>
-<loc id="22" locale="Salem Creek;Ware House" track="GWH" class="industry" vs_add="2"></loc>
-<loc id="23" locale="Salem Creek;Ware Shed" track="GWS" class="industry"></loc>
-<loc id="24" locale="Township;Bottling &amp; Packing" track="HJB" class="industry" vs_add="1"></loc>
-<loc id="25" locale="Township;Shipping" track="HJS" class="industry" vs_add="3"></loc>
-<loc id="26" locale="Township;Kitchen" track="HJK" class="industry" vs_add="3"></loc>
-<loc id="27" locale="Township;Vinegar" track="HJV" class="industry" vs_add="1"></loc>
-<loc id="28" locale="Fenwick Creek;Salem Gas Light" track="SGL" class="industry" vs_add="1"></loc>
-<loc id="29" locale="Salem Creek;S&amp;PSNCo" track="SPSN" class="industry" vs_add="2"></loc>
-<loc id="30" locale="Salem Creek;WH Harris" track="WHH" class="industry" vs_add="1"></loc>
-<loc id="31" locale="Salem;Yard" track="Y" class="staging"></loc>
-<loc id="32" locale="Fenwick Creek;Glassware" track="4G" class="industry"></loc>
-<loc id="34" locale="Terminal;JF Ayers" track="JFA" class="industry"></loc>
-<loc id="35" locale="Terminal;Luke F Smith" track="LFS" class="industry"></loc>
-<loc id="36" locale="Terminal;SB&amp;I Material" track="SBIM" class="industry" vs_add="1"></loc>
-<loc id="37" locale="Terminal;SB&amp;I Scrap" track="SBIS" class="industry"></loc>
-<loc id="38" locale="Terminal;SB&amp;I Ware House" track="SBIW" class="industry" vs_add="1"></loc>
-<loc id="39" locale="Terminal;Smith Canning" track="SC" class="industry"></loc>
-<loc id="41" locale="Terminal;Salem Freight House" track="SDFH" class="industry" vs_add="3"></loc>
-<loc id="33" locale="Terminal;Ramp" track="SR" class="industry" vs_add="1"></loc>
-<loc id="40" locale="Terminal;Coal Bin" track="SCB" class="industry" vs_add="1"></loc>
-<loc id="42" locale="Terminal;General Delivery" track="SGD" class="industry" vs_add="5"></loc>
-</locations>
-<trainseqs active_row="1"></trainseqs>
-<swrows>
-<sw id="1" car_id="6" sr_id="0" car="ESS6" pullfrom="T2842" dir="&gt;&gt;" spotat="~"></sw>
-<sw id="2" car_id="9" sr_id="0" car="ET9" pullfrom="T2842" dir="&gt;&gt;" spotat="~"></sw>
-<sw id="3" car_id="36" sr_id="0" car="PRR 36" pullfrom="Y" dir="&gt;&gt;" spotat="Y" load="meat prod"></sw>
-<sw id="4" car_id="44" sr_id="0" car="WJ&amp;S 289" pullfrom="T2842" dir="&gt;&gt;" spotat="~"></sw>
-<sw id="5" car_id="49" sr_id="0" dir="&gt;&gt;"></sw>
-<sw id="6" car_id="63" sr_id="0" car="HJH 7930" pullfrom="HJV" dir="&gt;&gt;" spotat="HJV"></sw>
-<sw id="7" car_id="64" sr_id="0" car="WJ&amp;S 231" pullfrom="Y" dir="&gt;&gt;" spotat="Y" load="E"></sw>
-</swrows>
-<ao_settings ncarstopull="50" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
-</advops>
-<roadstyles>
-<roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="1" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="1" showra="1" showtr="0"></roadstyle>
-</roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1972,b:951" zoom="0.014861" ctr="x:46834,y:25018" vtype="20188" fit="1"></winview>
-<scripts>
-<script id="20" flags="6" wndrect="59,261,833,965"><![CDATA[** MASTER SCRIPT - WJ&SRR Salem & Glass Works Branch 1915
-
-** Optional railroad details
-Let OperatingRoad = "West Jersey & Seashore RR"
-Let Territory = "Salem & Glass Works Branch"
-Let Location = "Salem, New Jersey"
-Let Year = "1915"
-Let Divisions = "Atlantic Division,Glass Works Branch" ** Separate division names with a comma, no spaces.
-Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
-
-** Put layout specific stuff here
-Let pressX = 0
-Let pressY = 0
-Let pressZ = 0
-Let sMaxSpeed = 15
-Let "Coupling Speed" = 5
-
-** Set Up the Subroutines
-Call InitializeQuickKeys
-Call o2oInit
-
-Call JobTimer *Setup
-Call o2o Setup
-Call RandomRoads Setup
-Call TurnTable *Setup 0
-Call DropKick Setup
-Call SpeedSwitching Setup
-Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-
-StartingPoint:
-
-On Key
-
-Drive $Train($Train)
-
-Call QuickKeys
-
-EndDrive
-
-GoTo StartingPoint]]></script>
-<script id="21" flags="8"><![CDATA[Random Roads - Source Data
-
-OPERATING_ROAD WJ&S
-HOME_ROADS WJ&S
-MANIFEST_POOL PRR WJ&S PRR PRR PL PL PL NYNH&H P&R B&A B&O NYC M&P SP AT&SF DL&W CNJ ACL LV ER
-REEFER_POOL FGEX MDX
-TANK_POOL TCX PRR TELX UTLX
-HOPPER_POOL PRR PGCC P&R B&O WCC
-SPECIAL_1
-SPECIAL_2 HJH
-SPECIAL_3
-
-OPERATING_AAR
-HOME_AAR E ES ED EE EP N NE NM
-MANIFEST_AAR F FA FA6 FB FC FCA FD FL FM FS FW G GA GB GD GBH GE GS GT H HM LG LO LP LT O RA RBL RP S SH SM T TA TL TW X XAR XMR XI XM XP
-PASS_AAR B BE BH BM BMR BMT BP BR BX CA CS D DA DB DC DL DO DP DPA MA MB MR P PA PAS PB PBC PBO PC PL PO PS PSA
-MW_AAR M MWB MWC MWD MWG MWF MWK MWR MWX
-REEFER_AAR RS R RB
-TANK_AAR TG TM TO
-HOPPER_AAR HT HK H
-SPECIAL_1_AAR
-SPECIAL_2_AAR TV RH
-SPECIAL_3_AAR
-
-HOME_LENGTH 3
-PASS_LENGTH 4
-FREIGHT_LENGTH 4
-MW_LENGTH 3]]></script>
+</saved_trains>]]></trains>
+<saved_jxns>15 1  67 1  141 1  179 1  189 1  208 1  246 1  274 1  361 1  378 1  504 1  538 1  563 1  565 1  735 1  752 1  774 1  966 1  986 1  1017 1  1069 1  1092 1  1098 1  1104 1  1154 1  10050 1</saved_jxns>
+<saved_ttbls></saved_ttbls>
+<ao_settings active_train="1"><![CDATA[<ao_settings ncarstopull="50" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>]]></ao_settings>
+</rewind_point>
 </scripts>
 <notes>
 <note autofit="1">

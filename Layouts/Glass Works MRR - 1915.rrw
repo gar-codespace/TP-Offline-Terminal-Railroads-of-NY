@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Glass Works Model - 1915" lid="JA1" scale="3" bitmap="Glass Works MRR - 1915.jpg" zoom="9.26295" xdim="19919" ydim="14462" xoffset="0" yoffset="0" bmap_origin="x:2054,y:0" bmap_size="x:17865,y:14462" def_cars="DropKick" descr="Model railroad version of WJ&amp;S Glass Works Branch">
+<layout name="Glass Works Model - 1915" lid="JA1" scale="3" bitmap="Glass Works MRR - 1915.jpg" zoom="17.7531" xdim="19919" ydim="14462" xoffset="0" yoffset="0" bmap_origin="x:2054,y:0" bmap_size="x:17865,y:14462" def_cars="DropKick" descr="Model railroad version of WJ&amp;S Glass Works Branch">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="9039,5711" swp="1"></jxn>
@@ -366,7 +366,7 @@
 <jxn t="3" id="364" pt="1753,5226"></jxn>
 <jxn t="3" id="365" pt="1762,7329"></jxn>
 <jxn t="3" id="366" pt="1664,7578"></jxn>
-<jxn t="3" id="369" pt="1922,8489"></jxn>
+<jxn t="3" id="369" pt="1922,8489" swp="1"></jxn>
 <jxn t="3" id="318" pt="1767,7933"></jxn>
 <jxn t="3" id="367" pt="1837,8174"></jxn>
 <jxn t="3" id="368" pt="3083,4836"></jxn>
@@ -976,11 +976,11 @@
 <car t="5" id="12" rect="5288,5429,6024,5829" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="SP 1142" loadname="Empty" dest="HJK" collname="o2o_Freight" cartype="PRR Xm" trk="116" dists="242"></car>
 </cars>
 </trn>
-<trn t="6" id="40" dspeed="0" horntype="0" selcarno="1">
+<trn t="6" id="40" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="49" rect="1781,8710,2081,9320" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="441" wid="131" label="WJ&amp;S 211" dest="~" collname="o2o Locomotives" cartype="B6s" trk="317" dists="246" gs="1"></car>
-<car t="5" id="63" rect="1781,9151,2081,9665" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="345" wid="131" label="ET63" dest="~" collname="o2o Locomotives" cartype="B6s Tender" trk="317" dists="639" gs="1"></car>
-<car t="5" id="64" rect="1783,9496,2079,10010" flags="4194304" type="11" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="WJ&amp;S 528" dest="~" collname="o2o_Freight" cartype="PRR Nd" trk="317" dists="984" gs="1"></car>
+<car t="5" id="49" rect="1781,8748,2081,9358" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="441" wid="131" label="WJ&amp;S 211" dest="~" collname="o2o Locomotives" cartype="B6s" trk="317" dists="284" gs="1"></car>
+<car t="5" id="63" rect="1781,9189,2081,9703" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="345" wid="131" label="ET63" dest="~" collname="o2o Locomotives" cartype="B6s Tender" trk="317" dists="677" gs="1"></car>
+<car t="5" id="64" rect="1783,9534,2079,10048" flags="4194304" type="11" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="WJ&amp;S 528" dest="~" collname="o2o_Freight" cartype="PRR Nd" trk="317" dists="1022" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -1055,41 +1055,35 @@
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
 </advops>
 <roadstyles>
-<roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="1" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="1" showra="1" showtr="0"></roadstyle>
+<roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1898,b:877" zoom="0.107957" ctr="x:7634,y:7476" vtype="20060"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1898,b:877" zoom="0.0563281" ctr="x:9959,y:7222" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" wndrect="0,23,597,408"><![CDATA[** Master script on layout Glass Works 1915 Model RR
+<script id="1" flags="6" cmdix="4010" wndrect="0,23,597,408"><![CDATA[** Master script on layout Glass Works 1915 Model RR
 
-** Optional railroad details
-Let OperatingRoad = "WJ&S RR"
-Let Territory = "Glass Works Branch"
-Let Location = "Salem, New Jersey"
-Let Year = "1915"
-Let Divisions = "Atlantic" ** Separate division names with a comma, no spaces.
-Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+** Assign a note to a subroutine
+    Let NoteForPersonalizedSettings = 6
+    Let NoteForPressX = 0
+    Let NoteForPressY = 0
+    Let NoteForPressZ = 0
 
-** Put layout specific stuff here
-Let pressX = 0
-Let pressY = 0
-Let pressZ = 0
-Let sMaxSpeed = 15
-Let "Coupling Speed" = 5
+** Set Up QuickKeys
+    Call InitializeQuickKeys
+    Call PersonalizedSettings
+    Call ApplyVersionItems
 
-** Set Up the Subroutines
-Call InitializeQuickKeys
-Call o2oInit
-
-Call JobTimer *Setup
-Call o2o Setup
-Call RandomRoads Setup
-Call TurnTable *Setup 0
-Call DropKick Setup
-Call SpeedSwitching Setup
-Call QuickKeys Setup
+** Select which subroutines to use
+    Call JobTimer *Setup
+    Call o2o Setup
+    Call RandomRoads Setup
+    Call TurnTable *Setup 0
+    Call DropKick Setup
+    Call SpeedSwitching Setup
+    Call QuickKeys Setup
 
 Call SetLanguage en  ** Language choices are: en, de, fr, es
 Call NoteWindow
+Let R = 1
 
 StartingPoint:
 
@@ -1130,6 +1124,48 @@ HOME_LENGTH 3
 PASS_LENGTH 4
 FREIGHT_LENGTH 4
 MW_LENGTH 3]]></script>
+<script id="3" flags="8"><![CDATA[** Optional railroad details
+    Let OperatingRoad = "WJ&S RR"
+    Let Territory = "Glass Works Branch"
+    Let Location = "Salem, New Jersey"
+    Let Year = "1915"
+    Let Divisions = "Atlantic" ** Separate division names with a comma, no spaces.
+    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
+<script id="6" flags="8"><![CDATA[** Personalized Settings
+Echo Personalized Settings for Glass Works Model - 1915
+
+** Turn off AO display of track attributes if needed
+    Call ao_reInit
+
+** Override Registry values with personal preferences
+    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
+    Let "Coupling Speed" = 5
+    Let AllowYardMode = 1
+    *Let InYardMode = 1
+    Let "Car Gap" = 0
+    Let TTableSpeedDivisor = 7 ** Bigger means slower
+    Let ScrollDistFactorx10 = 25
+    Let DistFromSwitch =  0 ** How the switch position is displayed
+    Let HiliteSize = 18 ** How the switch position is displayed
+
+** Set QuickKeys variables
+    Let maximumTrainSpeed = 15
+    Let "Min Coupling Dist" = 1
+    Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
+
+** Toolbars and windows to include when toggling View mode
+    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
+    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
+    Let TbarAuto = 0
+
+** Optional railroad details
+    Let OperatingRoad = "WJ&S RR"
+    Let Territory = "Glass Works Branch"
+    Let Location = "Salem, New Jersey"
+    Let Year = "1915"
+    Let Divisions = "Atlantic" ** Separate division names with a comma, no spaces.
+    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="30" trk="0" dists="0">
 <trn t="6" id="14" dspeed="0" horntype="0">

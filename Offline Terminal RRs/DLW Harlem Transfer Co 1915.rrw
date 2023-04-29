@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="DL&amp;W Harlem Transfer Co 1915" scale="3" bitmap="dlw harlem transfer co 1915.jpg" zoom="6.12053" xdim="11476" ydim="7416" xoffset="0" yoffset="0" bmap_size="x:11476,y:7416" def_cars="DropKick" descr="">
+<layout name="DL&amp;W Harlem Transfer Co 1915" lid="DL1" scale="3" bitmap="dlw harlem transfer co 1915.jpg" zoom="9.10071" xdim="11476" ydim="7416" xoffset="0" yoffset="0" bmap_size="x:11476,y:7416" def_cars="DropKick" descr="">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="9139,887"></jxn>
@@ -510,7 +510,7 @@
 <car t="5" id="43" rect="8546,5191,9266,5491" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 2587" loadname="cement" dest="C" collname="Default Steam" cartype="box aar1937" trk="39" dists="851"></car>
 </cars>
 </trn>
-<trn t="6" id="15" dspeed="0" horntype="0">
+<trn t="6" id="15" dspeed="0" horntype="0" selcarno="0">
 <cars>
 <car t="5" id="55" rect="3908,5188,4628,5488" flags="5509120" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="DL&amp;W 1730" loadname="cement" dest="C" collname="Default Steam" cartype="box aar1937" trk="7" dists="3823"></car>
 <car t="5" id="7" rect="3358,5188,4098,5488" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ACL 7473" loadname="cement" dest="C" collname="Default Steam" cartype="box aar1937" trk="7" dists="3283"></car>
@@ -653,12 +653,12 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1904,b:851" zoom="0.163384" ctr="x:5735,y:3702" vtype="724" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1904,b:851" zoom="0.109881" ctr="x:5734,y:3703" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3999" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
+<script id="20" flags="6" cmdix="4001" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
 
 ** Assign a note to a subroutine
-    Let NoteForPersonalizedSettings = 0
+    Let NoteForPersonalizedSettings = 23
     Let NoteForPressX = 22
     Let NoteForPressY = 0
     Let NoteForPressZ = 0
@@ -666,6 +666,7 @@
 ** Set Up QuickKeys
     Call InitializeQuickKeys
     Call PersonalizedSettings
+    Call ApplyVersionItems
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -678,6 +679,7 @@
 
 Call SetLanguage en  ** Language choices are: en, de, fr, es
 Call NoteWindow
+Let R = 1
 
 StartingPoint:
 
@@ -718,7 +720,7 @@ HOME_LENGTH 3
 PASS_LENGTH 4
 FREIGHT_LENGTH 4
 MW_LENGTH 3]]></script>
-<script id="22" flags="8"><![CDATA[** Align the switches around the circle
+<script id="22" flags="8"><![CDATA[** Align the switches around the loop
 
 throw 313 1
 throw 309 1
@@ -733,7 +735,8 @@ throw 159 1
 throw 110 1
 throw 217 1
 throw 107 1]]></script>
-<script id="23" flags="8"><![CDATA[** Personalized Settings for this QuickKeys layout
+<script id="23" flags="8"><![CDATA[** Personalized Settings
+Echo Personalized Settings for $Layout(Name)
 
 ** Turn off AO display of track attributes if needed
     Call ao_reInit
@@ -754,28 +757,26 @@ throw 107 1]]></script>
     Let "Min Coupling Dist" = 1
     Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
 
-** For Version 7, Toolbars and windows to include when toggling View mode
-    Let ViewList = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
-
-** For Version 8, Toolbars and windows to include when toggling View mode
-    *Let ViewList = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
-    *Let TbarAuto = 0
+** Toolbars and windows to include when toggling View mode
+    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
+    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
+    Let TbarAuto = 0
 
 ** Optional railroad details
-Let OperatingRoad = "DL&W Railroad"
-Let Territory = "Harlem Transfer Co."
-Let Location = "Mott Haven, the Bronx, New York"
-Let Year = "1915"
-Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
-Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+    Let OperatingRoad = "DL&W Railroad"
+    Let Territory = "Harlem Transfer Co."
+    Let Location = "Mott Haven, the Bronx, New York"
+    Let Year = "1915"
+    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
+    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 ]]></script>
 <script id="26" flags="8"><![CDATA[** Optional railroad details
-Let OperatingRoad = "DL&W Railroad"
-Let Territory = "Harlem Transfer Co."
-Let Location = "Mott Haven, the Bronx, New York"
-Let Year = "1915"
-Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
-Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
+    Let OperatingRoad = "DL&W Railroad"
+    Let Territory = "Harlem Transfer Co."
+    Let Location = "Mott Haven, the Bronx, New York"
+    Let Year = "1915"
+    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
+    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 </scripts>
 <notes>
 <note autofit="1">

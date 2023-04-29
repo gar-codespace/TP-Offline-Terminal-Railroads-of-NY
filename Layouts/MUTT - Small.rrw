@@ -290,41 +290,35 @@
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="1" carsbridge="0" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
 </advops>
 <roadstyles>
-<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="1" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="1" showra="1" showtr="0"></roadstyle>
+<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:104,t:104,r:1946,b:925" zoom="0.128731" ctr="x:9252,y:4125" vtype="20060"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:104,t:104,r:1946,b:925" zoom="0.128731" ctr="x:9252,y:4164" vtype="596"></winview>
 <scripts>
-<script id="1" flags="6" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
+<script id="1" flags="6" cmdix="4007" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
 
-** Optional railroad details
-Let OperatingRoad = "Metropolitian Union Transfer Terminal"
-Let Territory = "West Pier District"
-Let Location = "J Dot Bay"
-Let Year = "1915"
-Let Divisions = "Seaside Division" ** Separate division names with a comma, no spaces.
-Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+** Assign a note to a subroutine
+    Let NoteForPersonalizedSettings = 3
+    Let NoteForPressX = 0
+    Let NoteForPressY = 0
+    Let NoteForPressZ = 0
 
-** Put layout specific stuff here
-Let pressX = 0
-Let pressY = 0
-Let pressZ = 0
-Let sMaxSpeed = 7
-Let "Coupling Speed" = 5
+** Set Up QuickKeys
+    Call InitializeQuickKeys
+    Call PersonalizedSettings
+    Call ApplyVersionItems
 
-** Set Up the Subroutines
-Call InitializeQuickKeys
-Call o2oInit
-
-Call JobTimer *Setup
-Call o2o Setup
-Call RandomRoads Setup
-Call TurnTable *Setup 0
-Call DropKick Setup
-Call SpeedSwitching Setup
-Call QuickKeys Setup
+** Select which subroutines to use
+    Call JobTimer *Setup
+    Call o2o Setup
+    Call RandomRoads Setup
+    Call TurnTable *Setup 0
+    Call DropKick Setup
+    Call SpeedSwitching Setup
+    Call QuickKeys Setup
 
 Call SetLanguage en  ** Language choices are: en, de, fr, es
 Call NoteWindow
+Let R = 1
 
 StartingPoint:
 
@@ -365,6 +359,48 @@ HOME_LENGTH 3
 PASS_LENGTH 4
 FREIGHT_LENGTH 4
 MW_LENGTH 3]]></script>
+<script id="3" flags="8"><![CDATA[** Personalized Settings
+Echo Personalized Settings for $Layout(Name)
+
+** Turn off AO display of track attributes if needed
+    Call ao_reInit
+
+** Override Registry values with personal preferences
+    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
+    Let "Coupling Speed" = 5
+    Let AllowYardMode = 1
+    *Let InYardMode = 1
+    Let "Car Gap" = 0
+    Let TTableSpeedDivisor = 7 ** Bigger means slower
+    Let ScrollDistFactorx10 = 25
+    Let DistFromSwitch =  0 ** How the switch position is displayed
+    Let HiliteSize = 18 ** How the switch position is displayed
+
+** Set QuickKeys variables
+    Let maximumTrainSpeed = 40
+    Let "Min Coupling Dist" = 1
+    Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
+
+** Toolbars and windows to include when toggling View mode
+    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
+    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
+    Let TbarAuto = 0
+
+** Optional for o2o; railroad details
+    Let OperatingRoad = ""
+    Let Territory = ""
+    Let Location = ""
+    Let Year = ""
+    Let Divisions = "" ** Enter division names seperated by a comma without a space.
+    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+]]></script>
+<script id="4" flags="8"><![CDATA[** Optional for o2o; railroad details
+    Let OperatingRoad = "Metropolitian Union Transfer Terminal"
+    Let Territory = "West Pier District"
+    Let Location = "J Dot Bay"
+    Let Year = "1915"
+    Let Divisions = "Seaside Division" ** Separate division names with a comma, no spaces.
+    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="5" trk="0" dists="0">
 <trn t="6" id="3" dspeed="0" horntype="0">
