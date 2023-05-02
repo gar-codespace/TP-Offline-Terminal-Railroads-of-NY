@@ -374,9 +374,9 @@
 <car t="5" id="39" rect="3751,1686,4533,2004" flags="1052672" type="10" outl="102,51,0" fill="204,102,0" len="610" wid="130" label="CNJ 6820" loadname="machinery" dest="P" collname="Default Steam" cartype="flatcar" trk="3" dists="3023" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="31" dspeed="0" horntype="0">
+<trn t="6" id="31" dspeed="0" rev="1" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="57" rect="6966,1870,7670,2282" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="PRR 414" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="214" dists="288"></car>
+<car t="5" id="57" rect="7534,1988,8238,2400" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="PRR 414" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="27" dists="152" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -435,7 +435,7 @@ endif]]></action>
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1992,b:877" zoom="0.102185" ctr="x:7477,y:2830" vtype="596" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3999" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" cmdix="4009" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -518,7 +518,7 @@ Echo Personalized Settings for $Layout(Name)
     Let HiliteSize = 18 ** How the switch position is displayed
 
 ** Set QuickKeys variables
-    Let maximumTrainSpeed = 40
+    Let maximumTrainSpeed = 7
     Let "Min Coupling Dist" = 1
     Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
 

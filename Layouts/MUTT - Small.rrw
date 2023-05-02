@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Metropolitan Union Transfer Terminal" lid="JA1" scale="3" bitmap="MUTT - Small.jpg" zoom="7.76814" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="DropKick" descr="South Pier District">
+<layout name="Metropolitan Union Transfer Terminal" lid="JA1" scale="3" bitmap="MUTT - Small.jpg" zoom="17.7843" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="DropKick" descr="South Pier District">
 <tracks>
 <jxns>
 <jxn t="3" id="100" pt="1675,412"></jxn>
@@ -38,7 +38,7 @@
 <jxn t="3" id="43" pt="12782,3877"></jxn>
 <jxn t="3" id="45" pt="12397,3787"></jxn>
 <jxn t="3" id="58" pt="12262,3396"></jxn>
-<jxn t="3" id="59" pt="12187,3045" swp="1"></jxn>
+<jxn t="3" id="59" pt="12187,3045"></jxn>
 <jxn t="3" id="62" pt="12117,2373"></jxn>
 <jxn t="3" id="63" pt="11894,457"></jxn>
 <jxn t="3" id="65" pt="12455,615"></jxn>
@@ -172,106 +172,94 @@
 <str t="1" id="7" rect="12893,6980,13222,7324" tag="ST" js="9" jn="10"></str>
 </trks>
 </tracks>
-<trains selno="10" trk="0" dists="0">
-<trn t="6" id="3" dspeed="0" horntype="0">
+<trains selno="6" trk="0" dists="0">
+<trn t="6" id="1" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="55" rect="6549,1778,7283,2154" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="PRR 5915" loaded="1" loadname="break bulk" dest="P4" collname="1930s-1940s" cartype="box 40 prr xl" trk="42" dists="3641"></car>
-</cars>
-</trn>
-<trn t="6" id="7" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="24" rect="12826,5320,13194,6052" flags="262144" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 2443" loadname="produce" dest="P" collname="1930s-1940s" cartype="reefer wood ice" prop_str="Load=produce" trk="64" dists="1244"></car>
-<car t="5" id="11" rect="12769,4791,13137,5523" flags="262144" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 9130" loadname="produce" dest="P" collname="1930s-1940s" cartype="reefer wood ice pfe" trk="64" dists="712"></car>
-</cars>
-</trn>
-<trn t="6" id="4" dspeed="0" rev="1" horntype="0">
-<cars>
-<car t="5" id="51" rect="16459,10574,17119,11234" flags="266240" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 7037" loaded="1" loadname="live oysters" dest="MS" collname="1930s-1940s" cartype="reefer wood ice" prop_str="Load=produce" trk="1" dists="371"></car>
-<car t="5" id="45" rect="16083,10198,16743,10858" flags="266240" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 4435" loaded="1" loadname="live oysters" dest="MS" collname="1930s-1940s" cartype="reefer wood ice" prop_str="Load=produce" trk="1" dists="903"></car>
-<car t="5" id="19" rect="15707,9822,16367,10482" flags="262144" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 9904" loaded="1" loadname="live oysters" dest="MS" collname="1930s-1940s" cartype="reefer wood ice" trk="1" dists="1435"></car>
+<car t="5" id="1" rect="8519,2188,9251,2550" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="M&amp;P 8833" loadname="break bulk" dest="P4" collname="o2o_Freight" cartype="PRR Xg" trk="63" dists="5629"></car>
+<car t="5" id="3" rect="7971,2122,8703,2484" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="WJ&amp;S 6433" loadname="break bulk" dest="P4" collname="o2o_Freight" cartype="PRR Xl" trk="63" dists="5077"></car>
+<car t="5" id="4" rect="7423,2056,8155,2418" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 0614" loadname="break bulk" dest="P4" collname="o2o_Freight" cartype="PRR Xl" trk="63" dists="4525"></car>
+<car t="5" id="12" rect="6875,1990,7607,2352" flags="262144" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 6762" loadname="lumber" dest="P4" collname="o2o_Freight" cartype="PRR Fk" trk="63" dists="3973"></car>
+<car t="5" id="13" rect="6273,1917,7059,2285" flags="262144" type="10" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="B&amp;O 6992" loadname="lumber" dest="P4" collname="o2o_Freight" cartype="PRR Fm" trk="63" dists="3394"></car>
+<car t="5" id="14" rect="5797,1860,6457,2212" flags="262144" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="PRR 3990" loadname="heating oil" dest="P4" collname="o2o_Freight" cartype="Union Tank" trk="63" dists="2851"></car>
 </cars>
 </trn>
 <trn t="6" id="5" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="66" rect="12665,6737,13287,7383" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="MUTT 367" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="7" dists="360" gs="1"></car>
-<car t="5" id="38" rect="12428,6274,12958,7002" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="DL&amp;W 9669" loadname="can oysters" dest="ST" collname="1930s-1940s" cartype="box 40 ventilated" prop_str="Load=live oysters" trk="25" dists="73"></car>
-<car t="5" id="63" rect="12345,5765,12741,6501" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="SP 5062" loadname="cobbles" dest="ST" collname="1930s-1940s" cartype="gondola 40 gr type" prop_str="Load=cobbles" trk="23" dists="67"></car>
-<car t="5" id="49" rect="12288,5239,12658,5973" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 8884" loadname="Empty" dest="ST" collname="1930s-1940s" cartype="reefer wood ice" trk="3" dists="1405"></car>
-<car t="5" id="50" rect="12229,4710,12599,5444" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="FGEX 1558" loadname="Empty" dest="ST" collname="1930s-1940s" cartype="reefer wood ice" trk="3" dists="873"></car>
-<car t="5" id="60" rect="12171,4181,12541,4915" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="M&amp;P 7390" loadname="foodstuffs" dest="ST" collname="1930s-1940s" cartype="box 40 dbl sheathed" prop_str="Load=break bulk" trk="3" dists="341"></car>
-<car t="5" id="32" rect="12068,3654,12484,4392" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="CNJ 9802" loadname="foodstuffs" dest="ST" collname="1930s-1940s" cartype="box 40 dbl sheathed" prop_str="Load=break bulk" trk="55" dists="200"></car>
-<car t="5" id="30" rect="11902,3142,12372,3880" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="P&amp;R 0256" loadname="foodstuffs" dest="ST" collname="1930s-1940s" cartype="box 40 dbl sheathed" prop_str="Load=break bulk" trk="73" dists="16"></car>
-<car t="5" id="6" rect="11834,2627,12212,3361" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="PRR 6587" loadname="break bulk" dest="ST" collname="1930s-1940s" cartype="box 40 dbl sheathed" trk="61" dists="2542"></car>
-<car t="5" id="7" rect="11776,2099,12146,2833" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="PRR 4608" loadname="break bulk" dest="ST" collname="1930s-1940s" cartype="box 40 ventilated" prop_str="Load=break bulk" trk="61" dists="2010"></car>
-<car t="5" id="8" rect="11718,1570,12088,2304" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="SP 0851" loadname="break bulk" dest="ST" collname="1930s-1940s" cartype="box 40 prr xl" prop_str="Load=coffee sacks" trk="61" dists="1478"></car>
-<car t="5" id="9" rect="11662,1042,12030,1774" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="PL 8879" loadname="lumber" dest="ST" collname="1930s-1940s" cartype="flat 40" prop_str="Load=heavy eqpt" trk="61" dists="946"></car>
-<car t="5" id="10" rect="11604,513,11972,1245" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="PL 0022" loadname="lumber" dest="ST" collname="1930s-1940s" cartype="flat 40" prop_str="Load=lumber" trk="61" dists="414"></car>
-</cars>
-</trn>
-<trn t="6" id="1" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="29" rect="6839,1979,7573,2353" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="NYNH&amp;H 2962" loaded="1" loadname="break bulk" dest="P4" collname="1930s-1940s" cartype="box 40 dbl sheathed" prop_str="Load=coffee sacks" trk="63" dists="3938"></car>
-<car t="5" id="2" rect="6366,1922,7046,2290" type="9" outl="150,150,150" fill="153,255,255" len="497" wid="141" label="TCX 6034" loadname="heating oil" dest="P4" collname="1930s-1940s" cartype="tank acf 11" trk="63" dists="3434"></car>
-<car t="5" id="5" rect="5839,1858,6573,2234" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="PRR 9195" loaded="1" loadname="break bulk" dest="P4" collname="1930s-1940s" cartype="box 40 prr xl" trk="63" dists="2930"></car>
-</cars>
-</trn>
-<trn t="6" id="8" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="40" rect="9647,2317,10381,2693" flags="262144" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="B&amp;A 6592" loaded="1" loadname="lumber" dest="P4" collname="1930s-1940s" cartype="flat 40" prop_str="Load=lumber" trk="63" dists="6766"></car>
-<car t="5" id="41" rect="9119,2254,9853,2628" flags="262144" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="M&amp;P 1972" loaded="1" loadname="lumber" dest="P4" collname="1930s-1940s" cartype="flat 40" prop_str="Load=lumber" trk="63" dists="6234"></car>
-</cars>
-</trn>
-<trn t="6" id="10" dspeed="0" rev="1" horntype="0">
-<cars>
-<car t="5" id="64" rect="12526,7399,12894,8131" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="B&amp;O 0730" loadname="machinery" dest="G" collname="1930s-1940s" cartype="gondola 40 gr type" prop_str="Load=cobbles" trk="79" dists="767" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="9" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="53" rect="12455,5241,12815,5865" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="441" wid="141" label="ER 2913" loaded="1" loadname="cobbles" dest="BMW" collname="1930s-1940s" cartype="gondola 32 wood" trk="28" dists="764" gs="1"></car>
-<car t="5" id="65" rect="12408,4822,12766,5446" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="441" wid="141" label="B&amp;A 3240" loaded="1" loadname="cobbles" dest="BMW" collname="1930s-1940s" cartype="gondola 32 wood" prop_str="Load=machinery" trk="28" dists="1185" gs="1"></car>
-<car t="5" id="52" rect="12349,4294,12719,5028" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="B&amp;O 8840" loaded="1" loadname="cobbles" dest="BMW" collname="1930s-1940s" cartype="gondola 40 gr type" trk="28" dists="1661" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="2" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="44" rect="12369,1148,12739,1882" flags="266240" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="141" label="ER 5481" loaded="1" loadname="coffee sacks" dest="CR" collname="1930s-1940s" cartype="box 40 ventilated" trk="62" dists="509" gs="1"></car>
-<car t="5" id="34" rect="12312,620,12680,1352" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="DL&amp;W 9247" loaded="1" loadname="coffee sacks" dest="CR" collname="1930s-1940s" cartype="box 40 prr xl" trk="62" dists="1041" gs="1"></car>
+<car t="5" id="15" rect="12352,4304,12712,4986" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="PRR 0306" loadname="cobbles" dest="BMW" collname="o2o_Freight" cartype="PRR Gi" trk="28" dists="1677"></car>
+<car t="5" id="16" rect="12408,4801,12768,5483" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="B&amp;A 6470" loadname="cobbles" dest="BMW" collname="o2o_Freight" cartype="PRR Gi" trk="28" dists="1177"></car>
+<car t="5" id="17" rect="12468,5299,12828,6031" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="AT&amp;SF 0191" loadname="cobbles" dest="BMW" collname="o2o_Freight" cartype="PRR Gr" trk="28" dists="651"></car>
 </cars>
 </trn>
 <trn t="6" id="6" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="35" rect="12625,3496,12993,4228" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="SP 7735" loaded="1" loadname="foodstuffs" dest="F" collname="1930s-1940s" cartype="box 40 prr xl" trk="170" dists="399" gs="1"></car>
-<car t="5" id="37" rect="12567,2967,12935,3699" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="PRR 6290" loaded="1" loadname="foodstuffs" dest="F" collname="1930s-1940s" cartype="box 40 dbl sheathed" trk="29" dists="1320"></car>
-<car t="5" id="58" rect="12510,2438,12878,3170" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="NYC 5791" loaded="1" loadname="foodstuffs" dest="F" collname="1930s-1940s" cartype="box 40 prr xl" prop_str="Load=break bulk" trk="29" dists="788"></car>
+<car t="5" id="26" rect="12899,5939,13253,6671" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 5751" loadname="produce" dest="P" collname="o2o_Freight" cartype="PRR Rf" trk="64" dists="1867"></car>
+<car t="5" id="64" rect="12840,5390,13194,6122" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 4401" loadname="produce" dest="P" collname="o2o_Freight" cartype="PRR Xm" trk="64" dists="1315"></car>
+<car t="5" id="25" rect="12781,4841,13135,5573" flags="266240" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 9489" loadname="produce" dest="P" collname="o2o_Freight" cartype="PRR Rf" trk="64" dists="763"></car>
 </cars>
 </trn>
-<trn t="6" id="11" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="7" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="1" rect="13537,7644,14053,8160" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="ESS1" collname="o2o Locomotives" cartype="A4" trk="78" dists="2453"></car>
+<car t="5" id="23" rect="12675,3898,13035,4630" flags="4460544" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 3265" loadname="foodstuffs" dest="~" collname="o2o_Freight" cartype="PRR Xl" trk="8" dists="6"></car>
+<car t="5" id="22" rect="12615,3350,12971,4082" flags="266240" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="LV 1748" loadname="foodstuffs" dest="F" collname="o2o_Freight" cartype="PRR Xl Vent" trk="170" dists="546" gs="1"></car>
+<car t="5" id="21" rect="12549,2747,12911,3533" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="LV 2943" loadname="foodstuffs" dest="F" collname="o2o_Freight" cartype="PRR X23" trk="29" dists="1126"></car>
+<car t="5" id="20" rect="12491,2198,12845,2930" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="CNJ 8878" loadname="foodstuffs" dest="F" collname="o2o_Freight" cartype="PRR Xl" trk="29" dists="547"></car>
+<car t="5" id="18" rect="12431,1650,12787,2382" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ACL 4430" loadname="coffee sacks" dest="CR" collname="o2o_Freight" cartype="PRR Xg" trk="62" dists="5" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="8" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="27" rect="12530,7378,12886,8110" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="ER 1824" loadname="machinery" dest="G" collname="o2o_Freight" cartype="PRR Gr" trk="79" dists="746"></car>
+</cars>
+</trn>
+<trn t="6" id="9" dspeed="0" rev="1" horntype="0">
+<cars>
+<car t="5" id="28" rect="15498,9613,16148,10263" flags="262144" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 3597" loadname="live oysters" dest="MS" collname="o2o_Freight" cartype="PRR Rf" trk="1" dists="1737" gs="1"></car>
+<car t="5" id="31" rect="15889,10004,16539,10654" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 9508" loadname="live oysters" dest="MS" collname="o2o_Freight" cartype="PRR Rf" trk="1" dists="1185" gs="1"></car>
+<car t="5" id="33" rect="16275,10390,17059,11174" flags="262144" type="3" fill="128,128,0" len="731" wid="138" label="PRR 5069" loadname="live oysters" dest="MS" collname="o2o_Passenger" cartype="Bdr" trk="1" dists="544" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="4" dspeed="0" horntype="0" selcarno="1">
+<cars>
+<car t="5" id="62" rect="13050,7152,13566,7668" flags="4456448" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="MUTT 492" dest="~" collname="o2o Locomotives" cartype="A4" trk="80" dists="132" gs="1"></car>
+<car t="5" id="36" rect="12675,6748,13313,7410" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="P&amp;R 8715" loadname="foodstuffs" dest="ST" collname="o2o_Freight" cartype="PRR Xg" trk="7" dists="334" gs="1"></car>
+<car t="5" id="47" rect="12432,6266,12946,6990" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="P&amp;R 3022" loadname="Empty" dest="ST" collname="o2o_Freight" cartype="PRR Xg" trk="25" dists="62"></car>
+<car t="5" id="48" rect="12349,5736,12729,6470" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="AT&amp;SF 5337" loadname="heavy eqpt" dest="ST" collname="o2o_Freight" cartype="PRR Fk" trk="23" dists="36"></car>
+<car t="5" id="54" rect="12284,5136,12646,5922" type="10" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="P&amp;R 5448" loadname="heavy eqpt" dest="ST" collname="o2o_Freight" cartype="PRR Fm" trk="3" dists="1327"></car>
+<car t="5" id="39" rect="12217,4532,12579,5318" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="ACL 0676" loadname="foodstuffs" dest="ST" collname="o2o_Freight" cartype="PRR X23" trk="3" dists="720"></car>
+<car t="5" id="42" rect="12147,3984,12513,4716" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ER 2050" loadname="foodstuffs" dest="ST" collname="o2o_Freight" cartype="PRR Xl" trk="3" dists="141"></car>
+<car t="5" id="43" rect="11996,3445,12442,4179" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 6249" loadname="Empty" dest="ST" collname="o2o_Freight" cartype="PRR Xl" trk="54" dists="149"></car>
+<car t="5" id="46" rect="11871,2912,12285,3648" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="B&amp;A 1897" loadname="Empty" dest="ST" collname="o2o_Freight" cartype="PRR Xl" trk="71" dists="78"></car>
+<car t="5" id="56" rect="11813,2370,12169,3102" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 3882" loadname="produce" dest="ST" collname="o2o_Freight" cartype="PRR Rf" trk="61" dists="2282"></car>
+<car t="5" id="57" rect="11753,1821,12109,2553" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 9107" loadname="produce" dest="ST" collname="o2o_Freight" cartype="PRR Rf" trk="61" dists="1730"></car>
+<car t="5" id="59" rect="11693,1273,12049,2005" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ACL 9405" loadname="foodstuffs" dest="ST" collname="o2o_Freight" cartype="PRR Xl" trk="61" dists="1178"></car>
+<car t="5" id="61" rect="11632,724,11990,1456" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="NYNH&amp;H 9743" loadname="Empty" dest="ST" collname="o2o_Freight" cartype="PRR Gr" trk="61" dists="626"></car>
 </cars>
 </trn>
 </trains>
 <clock smult="6"></clock>
 <advops showoconopen="0" zoomonopen="0">
 <industries>
-<ind id="1" industry="CR" aar="XM" s__r="S" load="coffee sacks"></ind>
-<ind id="2" industry="CR" aar="XI" s__r="S" load="coffee sacks"></ind>
-<ind id="3" industry="BMW" aar="GB" s__r="S" load="cobbles"></ind>
-<ind id="4" industry="MS" aar="RS" s__r="S" load="live oysters"></ind>
-<ind id="5" industry="G" aar="FM" s__r="R" load="heavy eqpt"></ind>
-<ind id="6" industry="G" aar="GB" s__r="R" load="machinery"></ind>
-<ind id="7" industry="MS" aar="XM" s__r="S" load="can oysters"></ind>
-<ind id="8" industry="P" aar="RS" s__r="R" load="produce"></ind>
-<ind id="9" industry="P4" aar="TM" s__r="R" load="heating oil"></ind>
-<ind id="10" industry="P4" aar="XI" s__r="S" load="break bulk"></ind>
-<ind id="11" industry="P4" aar="XM" s__r="S" load="break bulk"></ind>
-<ind id="12" industry="P4" aar="GB" s__r="S" load="barrels"></ind>
-<ind id="13" industry="P4" aar="FM" s__r="S" load="lumber"></ind>
-<ind id="14" industry="F" aar="XM" s__r="S" load="foodstuffs"></ind>
-<ind id="15" industry="F" aar="XI" s__r="S" load="foodstuffs"></ind>
-<ind id="16" industry="MS" aar="XI" s__r="S" load="can oysters"></ind>
-<ind id="17" industry="F" aar="XI" s__r="R" load="foodstuffs"></ind>
+<ind id="1" industry="CR" aar="XV" s__r="S" load="coffee sacks"></ind>
+<ind id="2" industry="CR" aar="X" s__r="S" load="coffee sacks"></ind>
+<ind id="3" industry="BMW" aar="G" s__r="S" load="cobbles"></ind>
+<ind id="4" industry="MS" aar="Rf" s__r="S" load="live oysters"></ind>
+<ind id="5" industry="G" aar="F" s__r="R" load="heavy eqpt"></ind>
+<ind id="6" industry="G" aar="G" s__r="R" load="machinery"></ind>
+<ind id="7" industry="MS" aar="XV" s__r="S" load="can oysters"></ind>
+<ind id="8" industry="P" aar="Rf" s__r="R" load="produce"></ind>
+<ind id="9" industry="P4" aar="TO" s__r="R" load="heating oil"></ind>
+<ind id="10" industry="P4" aar="X" s__r="S" load="break bulk"></ind>
+<ind id="12" industry="P4" aar="G" s__r="S" load="barrels"></ind>
+<ind id="13" industry="P4" aar="F" s__r="S" load="lumber"></ind>
+<ind id="14" industry="F" aar="XV" s__r="R" load="foodstuffs"></ind>
+<ind id="15" industry="F" aar="X" s__r="S" load="foodstuffs"></ind>
+<ind id="16" industry="MS" aar="X" s__r="S" load="can oysters"></ind>
+<ind id="17" industry="F" aar="X" s__r="R" load="foodstuffs"></ind>
+<ind id="18" industry="P4" aar="XV" s__r="S" load="break bulk"></ind>
+<ind id="21" industry="F" aar="XV" s__r="S" load="foodstuffs"></ind>
+<ind id="11" industry="MS" aar="Bdr" s__r="S" load="live oysters"></ind>
+<ind id="19" industry="P" aar="XV" s__r="R" load="produce"></ind>
+<ind id="20" industry="P" aar="Xm" s__r="R" load="produce"></ind>
 </industries>
 <locations>
 <loc id="6" locale="Harbor Drive;Street Tracks" track="ST" class="staging"></loc>
@@ -285,16 +273,16 @@
 </locations>
 <trainseqs active_row="1"></trainseqs>
 <swrows>
-<sw id="1" car_id="66" sr_id="0" car="MUTT 367" pullfrom="ST" dir="&gt;&gt;" spotat="~"></sw>
+<sw id="1" car_id="66" sr_id="0" dir="&gt;&gt;"></sw>
 </swrows>
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="1" carsbridge="0" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
 </advops>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:104,t:104,r:1946,b:925" zoom="0.128731" ctr="x:9252,y:4164" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1299,b:585" zoom="0.0562294" ctr="x:8945,y:7233" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="4007" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
+<script id="1" flags="6" cmdix="4009" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 3
@@ -334,24 +322,24 @@ GoTo StartingPoint]]></script>
 <script id="2" flags="8"><![CDATA[Random Roads - Source Data
 
 OPERATING_ROAD MUTT
-HOME_ROADS MUTT
+HOME_ROADS PRR
 MANIFEST_POOL PRR WJ&S PRR PRR PL PL PL NYNH&H P&R B&A B&O NYC M&P SP AT&SF DL&W CNJ ACL LV ER
 REEFER_POOL FGEX
 TANK_POOL TCX PRR TELX UTLX
 HOPPER_POOL PRR PGCC P&R B&O WCC
-SPECIAL_1
+SPECIAL_1 PRR
 SPECIAL_2
 SPECIAL_3
 
-OPERATING_AAR
-HOME_AAR E ES ED EE EP N NE NM
-MANIFEST_AAR F FA FA6 FB FC FCA FD FL FM FS FW G GA GB GD GBH GE GS GT H HM LG LO LP LT O RA RBL RP S SH SM T TA TL TW X XAR XMR XI XM XP
+OPERATING_AAR ESS
+HOME_AAR E ES ED EE EP N NE NM Xm
+MANIFEST_AAR F FA FA6 FB FC FCA FD FL FM FS FW G GA GB GD GBH GE GS GT H HM LG LO LP LT O RA RBL RP S SH SM T TA TL TW X XAR XMR XI XM XP XV
 PASS_AAR B BE BH BM BMR BMT BP BR BX CA CS D DA DB DC DL DO DP DPA MA MB MR P PA PAS PB PBC PBO PC PL PO PS PSA
 MW_AAR M MWB MWC MWD MWG MWF MWK MWR MWX
-REEFER_AAR RS R RB
+REEFER_AAR RS R RB Rf R7
 TANK_AAR TG TM TO
 HOPPER_AAR HT HK
-SPECIAL_1_AAR
+SPECIAL_1_AAR Bdr
 SPECIAL_2_AAR
 SPECIAL_3_AAR
 
@@ -377,7 +365,7 @@ Echo Personalized Settings for $Layout(Name)
     Let HiliteSize = 18 ** How the switch position is displayed
 
 ** Set QuickKeys variables
-    Let maximumTrainSpeed = 40
+    Let maximumTrainSpeed = 7
     Let "Min Coupling Dist" = 1
     Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
 
@@ -387,13 +375,12 @@ Echo Personalized Settings for $Layout(Name)
     Let TbarAuto = 0
 
 ** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
-]]></script>
+    Let OperatingRoad = "Metropolitian Union Transfer Terminal"
+    Let Territory = "West Pier District"
+    Let Location = "J Dot Bay"
+    Let Year = "1915"
+    Let Divisions = "Seaside Division" ** Separate division names with a comma, no spaces.
+    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <script id="4" flags="8"><![CDATA[** Optional for o2o; railroad details
     Let OperatingRoad = "Metropolitian Union Transfer Terminal"
     Let Territory = "West Pier District"
@@ -484,8 +471,8 @@ Echo Personalized Settings for $Layout(Name)
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,314,661</wndrect>
+<scn t="16" id="1" rect="15,134,661,509" otype="9" text=" " bktype="1" fill="R:223,G:190,B:152" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>134,15,434,661</wndrect>
 </note>
 </notes>
 </layout>
