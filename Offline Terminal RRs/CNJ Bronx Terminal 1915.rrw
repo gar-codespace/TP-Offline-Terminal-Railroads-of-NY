@@ -638,9 +638,9 @@
 <car t="5" id="84" rect="2224,4009,2880,4667" flags="4194304" type="8" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="CNJMoW 304" loadname="Empty" dest="~" collname="mow_odd cars" cartype="mow flat" trk="62" dists="62"></car>
 </cars>
 </trn>
-<trn t="6" id="18" dspeed="0" rev="1" horntype="0" selcarno="0">
+<trn t="6" id="18" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="91" rect="1530,3563,2096,4245" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="CNJ 021" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="66" dists="253"></car>
+<car t="5" id="91" rect="1533,3559,2099,4241" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="CNJ 021" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="66" dists="258" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="4" dspeed="0" horntype="0">
@@ -687,7 +687,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.10537" ctr="x:5429,y:3862" vtype="596" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="4003" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" cmdix="4009" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -1000,7 +1000,7 @@ Echo Personalized Settings for $Layout(Name)
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="455,108,1226,1188" otype="9" text=" " bktype="1" fill="R:209,G:209,B:209" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>108,455,408,1226</wndrect>
+<wndrect>108,455,288,1226</wndrect>
 </note>
 </notes>
 </layout>

@@ -74,10 +74,10 @@
 <trains selno="0" trk="0" dists="0">
 <trn t="6" id="7" dspeed="0" horntype="0" selcarno="1">
 <cars>
-<car t="5" id="12" rect="2498,115,3268,427" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" cartype="diesel" trk="8" dists="385"></car>
-<car t="5" id="1" rect="2000,115,2688,427" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="21" dists="154" gs="1"></car>
-<car t="5" id="6" rect="1410,114,2190,426" flags="266240" type="6" outl="134,134,134" fill="192,192,192" len="610" wid="140" label="H1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="hopper 3bay" trk="21" dists="698" gs="1"></car>
-<car t="5" id="3" rect="878,112,1600,424" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="1259" gs="1"></car>
+<car t="5" id="12" rect="2412,115,3182,427" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" cartype="diesel" trk="8" dists="299"></car>
+<car t="5" id="1" rect="1914,115,2602,427" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="21" dists="240" gs="1"></car>
+<car t="5" id="6" rect="1324,114,2104,424" flags="266240" type="6" outl="134,134,134" fill="192,192,192" len="610" wid="140" label="H1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="hopper 3bay" trk="21" dists="784" gs="1"></car>
+<car t="5" id="3" rect="792,112,1514,424" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="1345" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="4" dspeed="0" horntype="0">
@@ -118,7 +118,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.212037" ctr="x:3603,y:597" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="4010"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="4009"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
@@ -140,7 +140,7 @@
     Call SpeedSwitching Setup
     Call QuickKeys Setup
 
-Call SetLanguage en  ** Language choices are: en, de, fr, es
+Call SetLanguage es  ** Language choices are: en, de, fr, es
 Call NoteWindow
 Let R = 1
 

@@ -1753,7 +1753,7 @@ Echo Personalized Settings for $Layout(Name)
     Let Territory = "Salem & Glass Works Branch"
     Let Location = "Salem, New Jersey"
     Let Year = "1915"
-    Let Divisions = "Atlantic Division,Glass Works Branch"
+    Let Divisions = "Atlantic Division,Glass Works Branch" **
     Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 ]]></script>
 <rewind_point>
@@ -2038,7 +2038,7 @@ Echo Personalized Settings for $Layout(Name)
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="19,189,786,939" otype="9" text=" " bktype="3" fill="R:234,G:199,B:159" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>189,19,489,786</wndrect>
+<wndrect>189,19,369,786</wndrect>
 </note>
 </notes>
 </layout>
