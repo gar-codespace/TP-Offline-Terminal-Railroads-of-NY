@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="LVRR Bronx Terminal 1916" lid="LV1" scale="3" bitmap="lvrr bronx terminal 1916.jpg" zoom="13.4388" xdim="13076" ydim="10944" xoffset="0" yoffset="0" bmap_size="x:13076,y:10944" def_cars="DropKick" descr="Artwork © 2014 GA Ritacco.">
+<layout name="LVRR Bronx Terminal 1916" lid="LV1" scale="3" bitmap="..\..\Layout Artwork\LVRR Bronx Terminal 1916.jpg" zoom="13.4388" xdim="13076" ydim="10944" xoffset="0" yoffset="0" bmap_size="x:13076,y:10944" def_cars="DropKick" descr="Artwork © 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="3" pt="7969,4771"></jxn>
@@ -431,7 +431,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.0744111" ctr="x:6531,y:5465" vtype="16980" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3990" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
+<script id="11" flags="6" cmdix="3951" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 0

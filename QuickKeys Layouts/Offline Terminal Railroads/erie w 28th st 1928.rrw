@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Erie W 28th St 1928" lid="ER1" scale="3" bitmap="erie w 28th st 1928.jpg" zoom="14.2411" xdim="22387" ydim="6103" xoffset="0" yoffset="0" bmap_size="x:22387,y:6103" def_cars="DropKick" descr="Do not block 12th Avenue for more than 5 minutes. Spot car float with idler flat. Artwork © 2014 GA Ritacco">
+<layout name="Erie W 28th St 1928" lid="ER1" scale="3" bitmap="..\..\Layout Artwork\Erie W 28th St 1928.jpg" zoom="11.4001" xdim="22387" ydim="6103" xoffset="0" yoffset="0" bmap_size="x:22387,y:6103" def_cars="DropKick" descr="Do not block 12th Avenue for more than 5 minutes. Spot car float with idler flat. Artwork © 2014 GA Ritacco">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="10939,922"></jxn>
@@ -462,9 +462,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="1"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1278,t:0,r:2556,b:788" zoom="0.0702193" ctr="x:11179,y:3052" vtype="86" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1278,t:0,r:2556,b:788" zoom="0.0877183" ctr="x:11188,y:3058" vtype="86"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3990" wndrect="662,152,1259,929"><![CDATA[** Erie W 28th St 1928
+<script id="11" flags="6" cmdix="3951" wndrect="662,152,1259,929"><![CDATA[** Erie W 28th St 1928
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13

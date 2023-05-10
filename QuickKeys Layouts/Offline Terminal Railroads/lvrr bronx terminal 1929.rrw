@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="LVRR Bronx Terminal 1929" lid="LV1" scale="3" bitmap="lvrr bronx terminal 1929.jpg" zoom="15.055" xdim="16982" ydim="12260" xoffset="0" yoffset="0" bmap_size="x:16982,y:12260" def_cars="DropKick" descr="Fill the South Auto Ramp first (Ramp 1). Otherwise any auto to any ramp. Artwork © 2014 GA Ritacco.">
+<layout name="LVRR Bronx Terminal 1929" lid="LV1" scale="3" bitmap="..\..\Layout Artwork\LVRR Bronx Terminal 1929.jpg" zoom="15.055" xdim="16982" ydim="12260" xoffset="0" yoffset="0" bmap_size="x:16982,y:12260" def_cars="DropKick" descr="Fill the South Auto Ramp first (Ramp 1). Otherwise any auto to any ramp. Artwork © 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="1985,8330"></jxn>
@@ -986,7 +986,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0664233" ctr="x:8491,y:6122" vtype="86" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3987" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1929
+<script id="11" flags="6" cmdix="3959" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1929
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 97
