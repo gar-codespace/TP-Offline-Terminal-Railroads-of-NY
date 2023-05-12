@@ -654,7 +654,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1904,b:851" zoom="0.109881" ctr="x:5733,y:3703" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="4016" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
+<script id="20" flags="6" cmdix="3982" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 23
@@ -945,8 +945,8 @@ Echo Personalized Settings for $Layout(Name)
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="871,134,1642,989" otype="9" text=" " bktype="1" fill="R:201,G:193,B:182" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>96,18,276,789</wndrect>
+<scn t="16" id="1" rect="18,96,789,411" otype="9" text=" " bktype="1" fill="R:205,G:205,B:205" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>96,18,411,789</wndrect>
 </note>
 </notes>
 </layout>

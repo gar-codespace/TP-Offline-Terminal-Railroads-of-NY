@@ -274,7 +274,7 @@
 <stn t="15" id="1" rect="6333,2475,8044,3476" name="Lumber Tracks"></stn>
 </stns>
 </tracks>
-<trains selno="11" trk="0" dists="0">
+<trains selno="9" trk="0" dists="0">
 <trn t="6" id="2" dspeed="0" rev="1" horntype="0">
 <cars>
 <car t="5" id="9" rect="6996,6191,7692,6777" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM9" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="31" dists="352" gs="1"></car>
@@ -300,12 +300,12 @@
 </trn>
 <trn t="6" id="4" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="25" rect="12099,2581,12797,3167" flags="5242880" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS25" loaded="1" loadname="Produce" collname="Default Steam" cartype="ice reefer" trk="52" dists="555" gs="1"></car>
-<car t="5" id="26" rect="11660,2878,12358,3464" flags="5242880" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS26" loaded="1" loadname="Produce" collname="Default Steam" cartype="ice reefer" trk="52" dists="1085" gs="1"></car>
-<car t="5" id="2" rect="11222,3176,11920,3760" flags="5242880" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS2" loaded="1" loadname="Produce" collname="Default Steam" cartype="ice reefer" trk="52" dists="1615" gs="1"></car>
-<car t="5" id="10" rect="10783,3473,11481,4059" flags="4194304" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS10" loaded="1" loadname="Produce" collname="Default Steam" cartype="ice reefer" trk="52" dists="2145" gs="1"></car>
-<car t="5" id="13" rect="10344,3770,11042,4356" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM13" loaded="1" loadname="Steel Beams" collname="Default Steam" cartype="40ft wood box" trk="52" dists="2675" gs="1"></car>
-<car t="5" id="14" rect="9893,4067,10601,4631" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM14" loaded="1" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="54" dists="224" gs="1"></car>
+<car t="5" id="25" rect="12134,2557,12832,3143" flags="5242880" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS25" loadname="Produce" collname="Default Steam" cartype="ice reefer" trk="52" dists="513" gs="1"></car>
+<car t="5" id="26" rect="11696,2855,12392,3441" flags="5242880" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS26" loadname="Produce" collname="Default Steam" cartype="ice reefer" trk="52" dists="1043" gs="1"></car>
+<car t="5" id="2" rect="11256,3152,11954,3738" flags="5242880" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS2" loadname="Produce" collname="Default Steam" cartype="ice reefer" trk="52" dists="1573" gs="1"></car>
+<car t="5" id="10" rect="10818,3450,11516,4034" flags="4194304" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS10" loadname="Produce" collname="Default Steam" cartype="ice reefer" trk="52" dists="2103" gs="1"></car>
+<car t="5" id="13" rect="10379,3747,11077,4331" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM13" loadname="Steel Beams" collname="Default Steam" cartype="40ft wood box" trk="52" dists="2633" gs="1"></car>
+<car t="5" id="14" rect="9930,4043,10636,4609" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM14" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="54" dists="182" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="5" dspeed="0" horntype="0">
@@ -343,14 +343,14 @@
 <car t="5" id="32" rect="5846,5439,6510,6003" flags="5242880" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="GA32" loadname="Steel Beams" collname="Default Steam" cartype="gondola" trk="161" dists="635"></car>
 </cars>
 </trn>
-<trn t="6" id="26" dspeed="0" horntype="0">
+<trn t="6" id="26" dspeed="0" horntype="0" selcarno="4">
 <cars>
-<car t="5" id="39" rect="11993,2289,12689,2875" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM39" loaded="1" loadname="Steel Beams" collname="Default Steam" cartype="40ft wood box" trk="40" dists="488" gs="1"></car>
-<car t="5" id="40" rect="11554,2587,12250,3173" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM40" loaded="1" loadname="Steel Beams" collname="Default Steam" cartype="40ft wood box" trk="40" dists="1018" gs="1"></car>
-<car t="5" id="41" rect="11116,2885,11812,3471" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM41" loaded="1" loadname="Steel Beams" collname="Default Steam" cartype="40ft wood box" trk="40" dists="1548" gs="1"></car>
-<car t="5" id="42" rect="10676,3182,11374,3768" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM42" loaded="1" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="40" dists="2078" gs="1"></car>
-<car t="5" id="44" rect="10239,3480,10935,4066" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM44" loaded="1" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="40" dists="2608" gs="1"></car>
-<car t="5" id="29" rect="9839,3778,10499,4350" flags="4194304" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="GA29" loaded="1" loadname="Poles" collname="Default Steam" cartype="gondola" trk="42" dists="74" gs="1"></car>
+<car t="5" id="39" rect="11993,2289,12689,2875" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM39" loadname="Steel Beams" collname="Default Steam" cartype="40ft wood box" trk="40" dists="488" gs="1"></car>
+<car t="5" id="40" rect="11554,2587,12250,3173" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM40" loadname="Steel Beams" collname="Default Steam" cartype="40ft wood box" trk="40" dists="1018" gs="1"></car>
+<car t="5" id="41" rect="11116,2885,11812,3471" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM41" loadname="Steel Beams" collname="Default Steam" cartype="40ft wood box" trk="40" dists="1548" gs="1"></car>
+<car t="5" id="42" rect="10676,3182,11374,3768" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM42" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="40" dists="2078" gs="1"></car>
+<car t="5" id="44" rect="10239,3480,10935,4066" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM44" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="40" dists="2608" gs="1"></car>
+<car t="5" id="29" rect="9839,3778,10499,4350" flags="4194304" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="GA29" loadname="Poles" collname="Default Steam" cartype="gondola" trk="42" dists="74" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="29" dspeed="0" horntype="0">
@@ -362,7 +362,7 @@
 <car t="5" id="7" rect="6204,6914,6900,7500" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM7" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="34" dists="390"></car>
 </cars>
 </trn>
-<trn t="6" id="1" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="1" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="43" rect="6670,6238,7346,6818" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES43" collname="1930s-1940s" cartype="0-4-0t" trk="21" dists="110"></car>
 </cars>
@@ -374,7 +374,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:788" zoom="0.080866" ctr="x:6974,y:5029" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3990" wndrect="0,22,597,406"><![CDATA[** DL&W Wallabout Terminal 1905
+<script id="11" flags="6" cmdix="3962" wndrect="0,22,597,406"><![CDATA[** DL&W Wallabout Terminal 1905
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 14
@@ -415,13 +415,15 @@ GoTo StartingPoint]]></script>
 
 The Freight House can be spotted 3 cars deep.
 
-Unscheduled cars from the float go to the team tracks.
-
 Wooden carfloats can be unbalanced by a maximum of 3 cars.
+Steel carfloats can be unbalanced by a maximum of 4 cars.
 0-4-0 counts as 1 car.
+0-6-0 counts as 2 cars.
+Oil burners count as 2 cars.
 Only the center rail of the float can be used as a tail track.
+Use an idler flat on the float if provided.
 
-Artwork ? 2014 GA Ritacco]]></script>
+Artwork © 2014 GA Ritacco]]></script>
 <script id="14" flags="8"><![CDATA[** Personalized Settings
 Echo Personalized Settings for DL&W Wallabout Terminal 1905
 

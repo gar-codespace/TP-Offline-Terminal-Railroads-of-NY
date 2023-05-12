@@ -431,7 +431,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.0744111" ctr="x:6531,y:5465" vtype="16980" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3951" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
+<script id="11" flags="6" cmdix="3962" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 0
@@ -483,15 +483,15 @@ Throw 213 1]]></script>
 
 Spot a maximum of 1 load to United Plumbers, 2 to American Radiator, 3 to Zabriskie, excess to the Team Tracks.
 
-Press the "w" button to line the switches around the loop.
-
 Wooden carfloats can be unbalanced by a maximum of 3 cars.
+Steel carfloats can be unbalanced by a maximum of 4 cars.
 0-4-0 counts as 1 car.
+0-6-0 counts as 2 cars.
+Oil burners count as 2 cars.
 Only the center rail of the float can be used as a tail track.
+Use an idler flat on the float if provided.
 
-Use an idler flat on the float.
-
-Artwork © 2014 GA Ritacco.]]></script>
+Artwork © 2014 GA Ritacco]]></script>
 <script id="16" flags="8"><![CDATA[** Personalized Settings
 Echo Personalized Settings for LVRR Bronx Terminal 1916
 

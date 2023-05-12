@@ -525,7 +525,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:375,t:375,r:1761,b:1163" zoom="0.0775764" ctr="x:10119,y:2530" vtype="596" fit="1"></winview>
 <scripts>
-<script id="14" flags="6" cmdix="4010"><![CDATA[* Master script on layout B&O W 26th St 1911
+<script id="14" flags="6" cmdix="3964"><![CDATA[* Master script on layout B&O W 26th St 1911
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 16
@@ -576,7 +576,7 @@ Oil burners count as 2 cars.
 Only the center rail of the float can be used as a tail track.
 Use an idler flat on the float if provided.
 
-Artwork ? 2014 GA Ritacco]]></script>
+Artwork Copyright 2014 GA Ritacco]]></script>
 <script id="16" flags="8"><![CDATA[** Personalized Settings
 Echo Personalized Settings for B&O W 26th St 1911
 
@@ -605,12 +605,12 @@ Echo Personalized Settings for B&O W 26th St 1911
     Let TbarAuto = 0
 
 ** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+    Let OperatingRoad = "Baltimore & Ohio Railroad"
+    Let Territory = "West 26th Street Freight Station"
+    Let Location = "Manhattan, New York"
+    Let Year = "1911"
+    Let Divisions = ""
+    Let ModelScale = "HO"
 ]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="5" trk="0" dists="0">

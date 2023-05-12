@@ -464,6 +464,15 @@ Echo Personalized Settings for $Layout(Name)
     Let Year = "1914"
     Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
     Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
+<script id="17" flags="8"><![CDATA[Notes
+
+Wooden carfloats can be unbalanced by a maximum of 3 cars.
+Steel carfloats can be unbalanced by a maximum of 4 cars.
+0-4-0 counts as 1 car.
+0-6-0 counts as 2 cars.
+Oil burners count as 2 cars.
+
+Artwork © 2014 GA Ritacco]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="17" trk="0" dists="0">
 <trn t="6" id="3" dspeed="0" horntype="0">

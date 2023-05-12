@@ -656,7 +656,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.10537" ctr="x:5429,y:3862" vtype="596" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3992" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" cmdix="3964" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -778,11 +778,22 @@ Echo Personalized Settings for $Layout(Name)
 
 ** Optional railroad details
     Let OperatingRoad = "Central Railroad of New Jersey"
-    Let Territory = "Bronx Terminal"
+    Let Territory = "Bronx Terminal & Railroad"
     Let Location = "Mott Haven, the Bronx, New York"
     Let Year = "1915"
-    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
-    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
+    Let Divisions = ""
+    Let ModelScale = "HO"]]></script>
+<script id="27" flags="8"><![CDATA[Notes
+
+Wooden carfloats can be unbalanced by a maximum of 3 cars.
+Steel carfloats can be unbalanced by a maximum of 4 cars.
+0-4-0 counts as 1 car.
+0-6-0 counts as 2 cars.
+Oil burners count as 2 cars.
+Only the center rail of the float can be used as a tail track.
+Use an idler flat on the float if provided.
+
+Artwork © 2014 GA Ritacco]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="20" trk="0" dists="0">
 <trn t="6" id="6" dspeed="0" horntype="0">

@@ -441,7 +441,14 @@ Oil burners count as 2 cars.
 Only the center rail of the float can be used as a tail track.
 Use an idler flat on the float if provided.
 
-Artwork ? 2014 GA Ritacco]]></script>
+Artwork Copyright 2014 GA Ritacco]]></script>
+<script id="16" flags="8"><![CDATA[** Optional for o2o; railroad details
+    Let OperatingRoad = "Baltimore & Ohio Railroad"
+    Let Territory = "West 26th Street Freight Station"
+    Let Location = "Manhattan, New York"
+    Let Year = "1911"
+    Let Divisions = ""
+    Let ModelScale = "HO"]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="5" trk="0" dists="0">
 <trn t="6" id="11" dspeed="0" rev="1" horntype="0">
@@ -549,8 +556,8 @@ Artwork ? 2014 GA Ritacco]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="23,111,980,583" otype="9" text=" " bktype="1" fill="R:234,G:199,B:159" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>200,14,392,548</wndrect>
+<scn t="16" id="1" rect="2,153,689,529" otype="9" text=" " bktype="1" fill="R:211,G:205,B:161" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>153,2,345,512</wndrect>
 </note>
 </notes>
 </layout>

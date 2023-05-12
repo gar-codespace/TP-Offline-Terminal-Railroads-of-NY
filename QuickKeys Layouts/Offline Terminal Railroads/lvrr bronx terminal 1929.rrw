@@ -750,7 +750,7 @@
 <stn t="15" id="1" rect="9549,2049,11897,2663" name="Auto Ramp 4"></stn>
 </stns>
 </tracks>
-<trains selno="28" trk="0" dists="0">
+<trains selno="13" trk="0" dists="0">
 <trn t="6" id="9" dspeed="0" rev="1" horntype="0">
 <cars>
 <car t="5" id="32" rect="7902,4044,8562,4388" flags="5242880" type="6" outl="134,134,134" fill="192,192,192" len="480" wid="120" label="HK32" loadname="Coal" collname="Default Steam" cartype="2 bay hopper" trk="400" dists="2314" gs="1"></car>
@@ -852,9 +852,9 @@
 <car t="5" id="65" rect="14030,3515,14332,4255" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM65" loaded="1" loadname="flour" collname="Default Steam" cartype="box aar1937" trk="819" dists="1765"></car>
 </cars>
 </trn>
-<trn t="6" id="21" dspeed="0" rev="1" horntype="0">
+<trn t="6" id="21" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="113" rect="7788,7573,8540,7959" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM113" loadname="Merchandise" collname="Default Steam" cartype="box aar1937" trk="934" dists="707"></car>
+<car t="5" id="113" rect="7940,7597,8692,7983" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM113" loadname="Merchandise" collname="Default Steam" cartype="box aar1937" trk="934" dists="861" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="12" dspeed="0" horntype="0">
@@ -974,7 +974,7 @@
 <car t="5" id="24" rect="2809,2451,3555,2785" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM24" loadname="auto parts" collname="Default Steam" cartype="box aar1937" trk="341" dists="282"></car>
 </cars>
 </trn>
-<trn t="6" id="19" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="19" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="1" rect="9245,7152,9877,7576" type="0" outl="255,255,51" fill="0,0,153" len="441" wid="141" label="ED1" collname="North American Diesel_Electric Engines" cartype="a6 1926_AGEIR Boxcab" trk="10" dists="970" gs="1"></car>
 </cars>
@@ -1033,20 +1033,17 @@ Throw 1202 1
 Throw 1240 1]]></script>
 <script id="96" flags="8"><![CDATA[Layout Notes
 
-Fill the South Auto Ramp first (Ramp 1).
-Otherwise any auto to any ramp.
-
 Spot a maximum of 1 car to United Plumbers, 2 to American Radiator, and 2 to Pillsbury, excess to the team tracks.
 
-Press the "w" button to line the switches around the loop and the switch lead along the river.
-
+Wooden carfloats can be unbalanced by a maximum of 3 cars.
 Steel carfloats can be unbalanced by a maximum of 4 cars.
+0-4-0 counts as 1 car.
+0-6-0 counts as 2 cars.
 Oil burners count as 2 cars.
 Only the center rail of the float can be used as a tail track.
+Use an idler flat on the float if provided.
 
-Use an idler flat on the float.
-
-Artwork © 2014 GA Ritacco.]]></script>
+Artwork © 2014 GA Ritacco]]></script>
 <script id="97" flags="8"><![CDATA[** Personalized Settings
 Echo Personalized Settings for LVRR Bronx Terminal 1929
 
@@ -1325,8 +1322,8 @@ Echo Personalized Settings for LVRR Bronx Terminal 1929
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="-11,120,442,344" otype="9" text=" " bktype="1" fill="R:193,G:228,B:254" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>175,2,367,535</wndrect>
+<scn t="16" id="1" rect="2,175,535,399" otype="9" text=" " bktype="1" fill="R:222,G:219,B:217" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>175,2,399,535</wndrect>
 </note>
 </notes>
 </layout>
