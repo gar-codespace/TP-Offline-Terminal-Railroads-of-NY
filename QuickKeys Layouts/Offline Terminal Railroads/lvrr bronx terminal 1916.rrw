@@ -429,7 +429,7 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.0744111" ctr="x:6531,y:5465" vtype="16980" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.0744111" ctr="x:6532,y:5465" vtype="16980" fit="1"></winview>
 <scripts>
 <script id="11" flags="6" cmdix="3962" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
 
@@ -441,8 +441,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -452,10 +452,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -493,7 +489,6 @@ Use an idler flat on the float if provided.
 
 Artwork © 2014 GA Ritacco]]></script>
 <script id="16" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for LVRR Bronx Terminal 1916
 
 ** Turn off AO display of track attributes if needed
     *Call ao_reInit
@@ -640,7 +635,7 @@ Echo Personalized Settings for LVRR Bronx Terminal 1916
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="-11,120,442,344" otype="9" text=" " bktype="1" fill="R:193,G:228,B:254" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>175,2,367,535</wndrect>
+<wndrect>175,2,303,535</wndrect>
 </note>
 </notes>
 </layout>

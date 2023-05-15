@@ -209,7 +209,7 @@
 <stn t="15" id="235" rect="7722,571,8708,1755" name="EA Thompson"></stn>
 </stns>
 </tracks>
-<trains selno="8" trk="0" dists="0">
+<trains selno="10" trk="0" dists="0">
 <trn t="6" id="1" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="37" rect="14985,2127,15705,2427" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM37" loadname="break bulk" dest="S" collname="Default Steam" cartype="40ft wood box" trk="129" dists="915" gs="1"></car>
@@ -274,14 +274,14 @@
 <car t="5" id="12" rect="4219,969,4899,1269" flags="5246976" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="GA12" loadname="Crate" dest="~" collname="Default Steam" cartype="gondola" trk="18" dists="2313" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="14" dspeed="0" horntype="0" selcarno="5">
+<trn t="6" id="14" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="29" rect="2139,1128,2859,1430" flags="5246976" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS29" loadname="food" dest="~" collname="Default Steam" cartype="ice reefer" trk="11" dists="258" gs="1"></car>
-<car t="5" id="2" rect="2669,1126,3389,1428" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM2" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="788" gs="1"></car>
-<car t="5" id="1" rect="3199,1124,3919,1426" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM1" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="1318" gs="1"></car>
-<car t="5" id="38" rect="3729,1122,4449,1424" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM38" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="1848" gs="1"></car>
-<car t="5" id="22" rect="4259,1120,4979,1422" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM22" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="2378" gs="1"></car>
-<car t="5" id="39" rect="4788,1110,5510,1420" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM39" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="2908" gs="1"></car>
+<car t="5" id="29" rect="2139,1128,2859,1430" flags="5246976" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="RS29" loaded="1" loadname="food" dest="~" collname="Default Steam" cartype="ice reefer" trk="11" dists="258" gs="1"></car>
+<car t="5" id="2" rect="2669,1126,3389,1428" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM2" loaded="1" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="788" gs="1"></car>
+<car t="5" id="1" rect="3199,1124,3919,1426" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM1" loaded="1" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="1318" gs="1"></car>
+<car t="5" id="38" rect="3729,1122,4449,1424" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM38" loaded="1" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="1848" gs="1"></car>
+<car t="5" id="22" rect="4259,1120,4979,1422" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM22" loaded="1" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="2378" gs="1"></car>
+<car t="5" id="39" rect="4788,1110,5510,1420" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM39" loaded="1" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="11" dists="2908" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="3" dspeed="0" horntype="0">
@@ -294,9 +294,9 @@
 <car t="5" id="40" rect="4828,814,5550,1124" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM40" loadname="packages" dest="~" collname="Default Steam" cartype="40ft wood box" trk="4" dists="2951" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="5" dspeed="0" rev="1" horntype="0">
+<trn t="6" id="5" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="47" rect="12594,1641,13226,1951" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="ES47" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="1" dists="48"></car>
+<car t="5" id="47" rect="12281,1639,12913,1951" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="ES47" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="46" dists="552" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="4" dspeed="0" rev="1" horntype="0">
@@ -310,9 +310,9 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:1100" zoom="0.0724595" ctr="x:10144,y:2529" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:1100" zoom="0.0724595" ctr="x:10144,y:2529" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3954" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
+<script id="11" flags="6" cmdix="3962" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -322,8 +322,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -333,10 +333,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -364,7 +360,6 @@ Use an idler flat on the float if provided.
 
 Artwork Copyright 2014 GA Ritacco]]></script>
 <script id="13" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for B&O W 26th St 1915
 
 ** Turn off AO display of track attributes if needed
     *Call ao_reInit
@@ -503,8 +498,8 @@ Echo Personalized Settings for B&O W 26th St 1915
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="2,153,689,529" otype="9" text=" " bktype="1" fill="R:211,G:205,B:161" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>153,2,345,512</wndrect>
+<scn t="16" id="1" rect="455,108,1226,1188" otype="9" text=" " bktype="1" fill="R:209,G:209,B:209" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>108,455,228,1226</wndrect>
 </note>
 </notes>
 </layout>

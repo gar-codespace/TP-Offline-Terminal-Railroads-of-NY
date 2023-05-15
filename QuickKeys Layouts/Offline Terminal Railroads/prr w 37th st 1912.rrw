@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="PRR W 37th St 1912" lid="PR1" scale="3" bitmap="..\..\Layout Artwork\PRR W 37th St 1912.jpg" zoom="15.195" xdim="22367" ydim="8317" xoffset="0" yoffset="0" bmap_size="x:22367,y:8317" def_cars="DropKick" descr="No locomotives inside the  Burns Bros. Coal Pockets shed. Keep the Team Tracks crossings clear.  Artwork © 2014 GA Ritacco.">
+<layout name="PRR W 37th St 1912" lid="PR1" scale="3" bitmap="..\..\Layout Artwork\PRR W 37th St 1912.jpg" zoom="15.2053" xdim="22367" ydim="8317" xoffset="0" yoffset="0" bmap_size="x:22367,y:8317" def_cars="DropKick" descr="No locomotives inside the  Burns Bros. Coal Pockets shed. Keep the Team Tracks crossings clear.  Artwork © 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="700,5649"></jxn>
@@ -740,9 +740,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:150,t:150,r:1340,b:495" zoom="0.0658112" ctr="x:11168,y:4151" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:150,t:150,r:1340,b:495" zoom="0.0657665" ctr="x:11176,y:4159" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3969"><![CDATA[** PRR W 37th St 1912
+<script id="20" flags="6" cmdix="3974"><![CDATA[** PRR W 37th St 1912
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 21
@@ -752,8 +752,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -763,10 +763,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -780,7 +776,6 @@ EndDrive
 
 GoTo StartingPoint]]></script>
 <script id="21" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for PRR W 37th St 1912
 
 ** Turn off AO display of track attributes if needed
     *Call ao_reInit
@@ -1103,7 +1098,7 @@ Artwork © 2014 GA Ritacco]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="20,185,473,447" otype="9" text=" " bktype="1" fill="R:234,G:232,B:222" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>185,20,393,473</wndrect>
+<wndrect>185,20,313,473</wndrect>
 </note>
 </notes>
 </layout>

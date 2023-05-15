@@ -208,10 +208,10 @@
 <jxn t="3" id="75" pt="4655,882"></jxn>
 <jxn t="3" id="77" pt="3268,1449"></jxn>
 <jxn t="3" id="79" pt="3260,1443"></jxn>
-<jxn t="3" id="81" pt="2982,2391"></jxn>
+<jxn t="3" id="81" pt="2982,2391" swp="1"></jxn>
 <jxn t="3" id="85" pt="3023,2242"></jxn>
 <jxn t="3" id="87" pt="3081,2092"></jxn>
-<jxn t="3" id="88" pt="2994,1858"></jxn>
+<jxn t="3" id="88" pt="2994,1858" swp="1"></jxn>
 <jxn t="3" id="93" pt="2833,2211"></jxn>
 <jxn t="3" id="99" pt="2749,2228"></jxn>
 <jxn t="3" id="47" pt="2508,2617" swp="1"></jxn>
@@ -646,7 +646,7 @@
 </trn>
 <trn t="6" id="5" dspeed="0" rev="1" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="90" rect="1596,3508,2132,4142" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="ES90" collname="Default Steam" cartype="0-6-0 tank switcher" trk="66" dists="347"></car>
+<car t="5" id="90" rect="1606,3491,2142,4125" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="ES90" collname="Default Steam" cartype="0-6-0 tank switcher" trk="66" dists="367"></car>
 </cars>
 </trn>
 </trains>
@@ -654,9 +654,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.10537" ctr="x:5429,y:3862" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.10537" ctr="x:5428,y:3862" vtype="596" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3964" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" cmdix="3953" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -666,21 +666,17 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
     Call o2o *Setup
-    Call RandomRoads Setup
+    Call RandomRoads *Setup
     Call TurnTable *Setup 0
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -741,7 +737,8 @@ throw 63 1
 throw 356 1
 throw 71 1
 throw 73 1
-throw 187 1]]></script>
+throw 187 1
+throw 81 1]]></script>
 <script id="25" flags="8"><![CDATA[** Optional railroad details
     Let OperatingRoad = "Central Railroad of New Jersey"
     Let Territory = "Bronx Terminal"
@@ -750,7 +747,6 @@ throw 187 1]]></script>
     Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
     Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <script id="26" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for $Layout(Name)
 
 ** Turn off AO display of track attributes if needed
     Call ao_reInit
@@ -980,7 +976,7 @@ Artwork © 2014 GA Ritacco]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="455,108,1226,1188" otype="9" text=" " bktype="1" fill="R:209,G:209,B:209" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>108,455,288,1226</wndrect>
+<wndrect>108,455,228,1226</wndrect>
 </note>
 </notes>
 </layout>

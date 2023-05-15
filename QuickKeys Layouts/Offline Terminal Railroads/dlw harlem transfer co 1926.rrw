@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="DL&amp;W Harlem Transfer Co 1926" lid="DL1" scale="3" bitmap="..\..\Layout Artwork\DLW Harlem Transfer Co 1926.jpg" zoom="9.09077" xdim="12218" ydim="7415" xoffset="0" yoffset="0" bmap_size="x:12218,y:7415" def_cars="DropKick" descr="Unscheduled cars on the float: Fuel to the North Yard, Produce to the Produce Ramp, everything else to the South Yard. Use the Idler Flat when spotting the car float. Artwork © 2014 GA Ritacco">
+<layout name="DL&amp;W Harlem Transfer Co 1926" lid="DL1" scale="3" bitmap="..\..\Layout Artwork\DLW Harlem Transfer Co 1926.jpg" zoom="9.10432" xdim="12218" ydim="7415" xoffset="0" yoffset="0" bmap_size="x:12218,y:7415" def_cars="DropKick" descr="Unscheduled cars on the float: Fuel to the North Yard, Produce to the Produce Ramp, everything else to the South Yard. Use the Idler Flat when spotting the car float. Artwork © 2014 GA Ritacco">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="9853,954"></jxn>
@@ -548,9 +548,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1278,t:0,r:2556,b:1100" zoom="0.110002" ctr="x:6109,y:3698" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1278,t:0,r:2556,b:1100" zoom="0.109838" ctr="x:6109,y:3703" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3964" wndrect="0,22,597,406"><![CDATA[** DL&W Harlem Transfer Co 1926
+<script id="20" flags="6" cmdix="3962" wndrect="0,22,597,406"><![CDATA[** DL&W Harlem Transfer Co 1926
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -560,8 +560,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -571,10 +571,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -613,7 +609,6 @@ throw 154 1
 throw 181 1
 throw 195 0]]></script>
 <script id="26" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for DL&W Harlem Transfer Co 1926
 
 ** Turn off AO display of track attributes if needed
     *Call ao_reInit
@@ -813,7 +808,7 @@ Echo Personalized Settings for DL&W Harlem Transfer Co 1926
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="871,134,1642,989" otype="9" text=" " bktype="1" fill="R:201,G:193,B:182" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>96,18,276,789</wndrect>
+<wndrect>96,18,216,789</wndrect>
 </note>
 </notes>
 </layout>

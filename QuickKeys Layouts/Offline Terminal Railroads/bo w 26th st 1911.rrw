@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="B&amp;O W 26th St 1911" lid="B&amp;1" scale="3" bitmap="..\..\Layout Artwork\BO W 26th St 1911.jpg" zoom="12.8905" xdim="20251" ydim="5059" xoffset="0" yoffset="0" bmap_size="x:20251,y:5059" def_cars="DropKick" descr="Do not block 12th Avenue for more than 5 minutes. L.C.L. and oysters  to the warehouse, Perishables, foodstuffs and merchandise  to the freight station  platform tracks. Everything else to the team tracks. Artwork © 2014 GA Ritacco">
+<layout name="B&amp;O W 26th St 1911" lid="B&amp;1" scale="3" bitmap="..\..\Layout Artwork\BO W 26th St 1911.jpg" zoom="13.7668" xdim="20251" ydim="5059" xoffset="0" yoffset="0" bmap_size="x:20251,y:5059" def_cars="DropKick" descr="Do not block 12th Avenue for more than 5 minutes. L.C.L. and oysters  to the warehouse, Perishables, foodstuffs and merchandise  to the freight station  platform tracks. Everything else to the team tracks. Artwork © 2014 GA Ritacco">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="2223,970"></jxn>
@@ -501,9 +501,9 @@
 <car t="5" id="3" rect="11425,2056,12083,2716" flags="4096" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="FM3" loadname="Empty" dest="12T" collname="Default Steam" cartype="flatcar" trk="97" dists="308"></car>
 </cars>
 </trn>
-<trn t="6" id="13" dspeed="0" rev="1" horntype="0" selcarno="0">
+<trn t="6" id="13" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="47" rect="11218,1411,11850,1725" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="ES47" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="1" dists="194" gs="1"></car>
+<car t="5" id="47" rect="11017,1406,11651,1724" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="ES47" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="55" dists="304" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="5" dspeed="0" horntype="0">
@@ -523,9 +523,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:375,t:375,r:1761,b:1163" zoom="0.0775764" ctr="x:10119,y:2530" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:375,t:375,r:1761,b:1163" zoom="0.0726384" ctr="x:10119,y:2522" vtype="596" fit="1"></winview>
 <scripts>
-<script id="14" flags="6" cmdix="3964"><![CDATA[* Master script on layout B&O W 26th St 1911
+<script id="14" flags="6" cmdix="3926"><![CDATA[* Master script on layout B&O W 26th St 1911
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 16
@@ -535,8 +535,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage fr  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -546,10 +546,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -578,7 +574,6 @@ Use an idler flat on the float if provided.
 
 Artwork Copyright 2014 GA Ritacco]]></script>
 <script id="16" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for B&O W 26th St 1911
 
 ** Turn off AO display of track attributes if needed
     *Call ao_reInit
@@ -720,7 +715,7 @@ Echo Personalized Settings for B&O W 26th St 1911
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="23,111,980,583" otype="9" text=" " bktype="1" fill="R:234,G:199,B:159" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>200,14,392,548</wndrect>
+<wndrect>200,14,328,548</wndrect>
 </note>
 </notes>
 </layout>

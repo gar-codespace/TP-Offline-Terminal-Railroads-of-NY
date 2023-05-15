@@ -986,7 +986,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0664233" ctr="x:8491,y:6122" vtype="86" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3959" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1929
+<script id="11" flags="6" cmdix="3962" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1929
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 97
@@ -996,8 +996,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -1007,10 +1007,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -1045,7 +1041,6 @@ Use an idler flat on the float if provided.
 
 Artwork © 2014 GA Ritacco]]></script>
 <script id="97" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for LVRR Bronx Terminal 1929
 
 ** Turn off AO display of track attributes if needed
     *Call ao_reInit
@@ -1323,7 +1318,7 @@ Echo Personalized Settings for LVRR Bronx Terminal 1929
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="2,175,535,399" otype="9" text=" " bktype="1" fill="R:222,G:219,B:217" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>175,2,399,535</wndrect>
+<wndrect>175,2,303,535</wndrect>
 </note>
 </notes>
 </layout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="NY Dock Baltic Terminal 1915" lid="NY1" scale="3" bitmap="..\..\Layout Artwork\NY Dock Baltic Terminal 1915.jpg" zoom="15.19" xdim="21190" ydim="12388" xoffset="0" yoffset="0" bmap_size="x:21190,y:12388" def_cars="DropKick" descr="** Personalized Settings&#013;&#010;Echo Personalized Settings for NY Dock Baltic Terminal 1915&#013;&#010;&#013;&#010;** Turn off AO display of track attributes if needed&#013;&#010;    *Call ao_reInit&#013;&#010;&#013;&#010;** Override Registry values with personal preferences&#013;&#010;    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed&#013;&#010;    Let &quot;Coupling Speed&quot; = 5&#013;&#010;    Let AllowYardMode = 1&#013;&#010;    *Let InYardMode = 1&#013;&#010;    Let &quot;Car Gap&quot; = 0&#013;&#010;    Let TTableSpeedDivisor = 7 ** Bigger means slower&#013;&#010;    Let ScrollDistFactorx10 = 25&#013;&#010;    Let DistFromSwitch =  0 ** How the switch position is displayed&#013;&#010;    Let HiliteSize = 18 ** How the switch position is displayed&#013;&#010;&#013;&#010;** Set QuickKeys variables&#013;&#010;    Let maximumTrainSpeed = 7&#013;&#010;    Let &quot;Min Coupling Dist&quot; = 1&#013;&#010;    Let &quot;Uncouple Gap&quot; = 20 ** For DropKick, make bigger if dropped cars re-couple&#013;&#010;&#013;&#010;** Toolbars and windows to include when toggling View mode&#013;&#010;    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let TbarAuto = 0&#013;&#010;&#013;&#010;** Optional for o2o; railroad details&#013;&#010;    Let OperatingRoad = &quot;&quot;&#013;&#010;    Let Territory = &quot;&quot;&#013;&#010;    Let Location = &quot;&quot;&#013;&#010;    Let Year = &quot;&quot;&#013;&#010;    Let Divisions = &quot;&quot; ** Enter division names seperated by a comma without a space.&#013;&#010;    Let ModelScale = &quot;&quot; ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G&#013;&#010;">
+<layout name="NY Dock Baltic Terminal 1915" lid="NY1" scale="3" bitmap="..\..\Layout Artwork\NY Dock Baltic Terminal 1915.jpg" zoom="15.2009" xdim="21190" ydim="12388" xoffset="0" yoffset="0" bmap_size="x:21190,y:12388" def_cars="DropKick" descr="** Personalized Settings&#013;&#010;Echo Personalized Settings for NY Dock Baltic Terminal 1915&#013;&#010;&#013;&#010;** Turn off AO display of track attributes if needed&#013;&#010;    *Call ao_reInit&#013;&#010;&#013;&#010;** Override Registry values with personal preferences&#013;&#010;    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed&#013;&#010;    Let &quot;Coupling Speed&quot; = 5&#013;&#010;    Let AllowYardMode = 1&#013;&#010;    *Let InYardMode = 1&#013;&#010;    Let &quot;Car Gap&quot; = 0&#013;&#010;    Let TTableSpeedDivisor = 7 ** Bigger means slower&#013;&#010;    Let ScrollDistFactorx10 = 25&#013;&#010;    Let DistFromSwitch =  0 ** How the switch position is displayed&#013;&#010;    Let HiliteSize = 18 ** How the switch position is displayed&#013;&#010;&#013;&#010;** Set QuickKeys variables&#013;&#010;    Let maximumTrainSpeed = 7&#013;&#010;    Let &quot;Min Coupling Dist&quot; = 1&#013;&#010;    Let &quot;Uncouple Gap&quot; = 20 ** For DropKick, make bigger if dropped cars re-couple&#013;&#010;&#013;&#010;** Toolbars and windows to include when toggling View mode&#013;&#010;    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let TbarAuto = 0&#013;&#010;&#013;&#010;** Optional for o2o; railroad details&#013;&#010;    Let OperatingRoad = &quot;&quot;&#013;&#010;    Let Territory = &quot;&quot;&#013;&#010;    Let Location = &quot;&quot;&#013;&#010;    Let Year = &quot;&quot;&#013;&#010;    Let Divisions = &quot;&quot; ** Enter division names seperated by a comma without a space.&#013;&#010;    Let ModelScale = &quot;&quot; ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G&#013;&#010;">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="11327,1652"></jxn>
@@ -386,7 +386,7 @@
 <stn t="15" id="1" rect="5330,5083,6701,6028" name="Pier 26"></stn>
 </stns>
 </tracks>
-<trains selno="19" trk="0" dists="0">
+<trains selno="22" trk="0" dists="0">
 <trn t="6" id="4" dspeed="0" rev="1" horntype="0">
 <cars>
 <car t="5" id="12" rect="19091,9346,19841,9646" flags="5242880" type="5" outl="134,134,134" fill="255,255,255" len="580" wid="130" label="RS12" loadname="perishables" collname="Default Steam" cartype="ice reefer" trk="130" dists="208"></car>
@@ -540,7 +540,7 @@
 <car t="5" id="29" rect="19081,11512,19821,11812" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM29" loadname="goods" collname="Default Steam" cartype="40ft wood box" trk="338" dists="6037" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="1" dspeed="0" horntype="0" selcarno="4">
+<trn t="6" id="1" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="62" rect="3991,11511,4741,11811" flags="5242880" type="5" outl="134,134,134" fill="255,255,255" len="580" wid="130" label="RS62" loadname="produce" collname="Default Steam" cartype="ice reefer" trk="323" dists="2670"></car>
 <car t="5" id="76" rect="4551,11510,5271,11810" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM76" loadname="cocoa" collname="Default Steam" cartype="40ft wood box" trk="323" dists="2125"></car>
@@ -565,9 +565,9 @@
 <car t="5" id="22" rect="6657,11229,7359,11545" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="530" wid="130" label="XM22" loadname="packages" collname="Default Steam" cartype="40ft wood box" trk="303" dists="572" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="14" dspeed="0" rev="1" horntype="0">
+<trn t="6" id="14" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="159" rect="9520,10382,10148,10904" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="460" wid="130" label="255" carnote="cap 1500" collname="Default Steam" cartype="0-6-0 tank switcher" trk="215" dists="521"></car>
+<car t="5" id="159" rect="9424,10441,10052,10963" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="460" wid="130" label="255" carnote="cap 1500" collname="Default Steam" cartype="0-6-0 tank switcher" trk="215" dists="408" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -575,9 +575,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1121,b:788" zoom="0.0658329" ctr="x:10588,y:6179" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1121,b:788" zoom="0.0657858" ctr="x:10595,y:6186" vtype="84" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3957"><![CDATA[* Master script on layout NY Dock Baltic Terminal 1915
+<script id="1" flags="6" cmdix="3962"><![CDATA[* Master script on layout NY Dock Baltic Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
@@ -587,8 +587,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -598,10 +598,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -615,7 +611,6 @@ EndDrive
 
 GoTo StartingPoint]]></script>
 <script id="2" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for NY Dock Baltic Terminal 1915
 
 ** Turn off AO display of track attributes if needed
     *Call ao_reInit
@@ -854,7 +849,7 @@ Artwork © 2014 GA Ritacco]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="23,202,476,464" otype="9" text=" " bktype="1" fill="R:232,G:221,B:208" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>202,23,410,476</wndrect>
+<wndrect>202,23,330,476</wndrect>
 </note>
 </notes>
 </layout>
