@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Time Saver" lid="JA1" scale="3" bitmap="" zoom="4.59007" xdim="7211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" descr="">
+<layout name="Time Saver" lid="JA1" scale="3" bitmap="" zoom="4.71615" xdim="7211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" descr="">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="528,472"></jxn>
@@ -8,7 +8,7 @@
 <jxn t="3" id="4" pt="4511,669"></jxn>
 <jxn t="3" id="5" pt="813,1046"></jxn>
 <jxn t="3" id="6" pt="2783,470"></jxn>
-<jxn t="3" id="7" pt="3580,269" swp="1"></jxn>
+<jxn t="3" id="7" pt="3580,269"></jxn>
 <jxn t="3" id="8" pt="5811,272"></jxn>
 <jxn t="3" id="9" pt="540,266"></jxn>
 <jxn t="3" id="10" pt="5542,674" swp="1"></jxn>
@@ -74,10 +74,10 @@
 <trains selno="0" trk="0" dists="0">
 <trn t="6" id="7" dspeed="0" horntype="0" selcarno="1">
 <cars>
-<car t="5" id="12" rect="2412,115,3182,427" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" cartype="diesel" trk="8" dists="299"></car>
-<car t="5" id="1" rect="1914,115,2602,427" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="21" dists="240" gs="1"></car>
-<car t="5" id="6" rect="1324,114,2104,424" flags="266240" type="6" outl="134,134,134" fill="192,192,192" len="610" wid="140" label="H1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="hopper 3bay" trk="21" dists="784" gs="1"></car>
-<car t="5" id="3" rect="792,112,1514,424" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="1345" gs="1"></car>
+<car t="5" id="12" rect="2585,115,3355,425" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="600" wid="140" label="EDF12" dest="~" cartype="diesel" trk="8" dists="472"></car>
+<car t="5" id="1" rect="2087,115,2775,427" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="21" dists="67" gs="1"></car>
+<car t="5" id="6" rect="1497,114,2277,426" flags="266240" type="6" outl="134,134,134" fill="192,192,192" len="610" wid="140" label="H1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="hopper 3bay" trk="21" dists="611" gs="1"></car>
+<car t="5" id="3" rect="965,112,1687,424" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="141" label="G1" loadname="Loaded" dest="I/O" collname="1930s-1940s" cartype="gondola 40 gr type" trk="21" dists="1172" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="4" dspeed="0" horntype="0">
@@ -92,7 +92,7 @@
 </trn>
 <trn t="6" id="2" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="10" rect="3794,114,4516,426" flags="4096" type="9" outl="150,150,150" fill="153,255,255" len="552" wid="141" label="T1" loadname="Empty" dest="T" collname="1930s-1940s" cartype="tank acf27" trk="19" dists="299"></car>
+<car t="5" id="10" rect="4083,114,4805,426" flags="4096" type="9" outl="150,150,150" fill="153,255,255" len="552" wid="141" label="T1" loadname="Empty" dest="T" collname="1930s-1940s" cartype="tank acf27" trk="19" dists="588"></car>
 </cars>
 </trn>
 </trains>
@@ -114,11 +114,11 @@
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
 </advops>
 <roadstyles>
-<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
+<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="1" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="1" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.217862" ctr="x:3603,y:599" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.212037" ctr="x:3603,y:597" vtype="1628" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="4003"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="3929"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
@@ -128,21 +128,17 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer Setup
     Call o2o Setup
-    Call RandomRoads *Setup
+    Call RandomRoads Setup
     Call TurnTable *Setup 0
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage es  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -156,10 +152,11 @@ EndDrive
 
 GoTo StartingPoint]]></script>
 <script id="2" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for $Layout(Name)
 
 ** Turn off AO display of track attributes if needed
-    Call ao_reInit
+    Let x = $View(Hide,"Track Labels")
+    Let x = $View(hide,Tracks)
+    Let x = $View(hide,roadbed)
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -222,8 +219,8 @@ Echo Personalized Settings for $Layout(Name)
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="450,232,1133,644" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,500,0,0,BaseMonoNarrowThin" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>186,23,378,867</wndrect>
+<scn t="16" id="1" rect="19,189,786,309" otype="9" text=" " bktype="1" fill="R:216,G:222,B:189" bktype_l="0" fill_l="R:0,G:0,B:0" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>189,19,309,786</wndrect>
 </note>
 </notes>
 </layout>

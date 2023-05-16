@@ -217,7 +217,7 @@
 <jxn t="3" id="47" pt="2508,2617" swp="1"></jxn>
 <jxn t="3" id="69" pt="2361,2850"></jxn>
 <jxn t="3" id="86" pt="2283,2990"></jxn>
-<jxn t="3" id="101" pt="2254,3063" swp="1"></jxn>
+<jxn t="3" id="101" pt="2254,3063"></jxn>
 <jxn t="3" id="103" pt="2157,3324"></jxn>
 <jxn t="3" id="105" pt="2192,3233"></jxn>
 <jxn t="3" id="107" pt="2804,2960"></jxn>
@@ -654,9 +654,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.10537" ctr="x:5428,y:3862" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.10537" ctr="x:5429,y:3862" vtype="596" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3953" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" cmdix="3927" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -749,7 +749,11 @@ throw 81 1]]></script>
 <script id="26" flags="8"><![CDATA[** Personalized Settings
 
 ** Turn off AO display of track attributes if needed
-    Call ao_reInit
+    Let x = $View(Hide,"Track Labels")
+    Let x = $View(hide,rails)
+    Let x = $View(hide,roadbed)
+    Let x = $View(hide,ties)
+    Let x = $View(hide,tracks)
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed

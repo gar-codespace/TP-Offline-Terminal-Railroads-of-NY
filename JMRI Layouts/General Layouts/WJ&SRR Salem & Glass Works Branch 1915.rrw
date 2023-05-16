@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="WJ&amp;SRR Salem &amp; Glass Works Branch 1915" lid="JA1" scale="3" bitmap="..\..\Layout Artwork\WJ&amp;SRR Salem &amp; Glass Works Branch 1915.jpg" zoom="61.3449" xdim="93735" ydim="50036" xoffset="0" yoffset="0" bmap_origin="x:4401,y:0" bmap_size="x:84933,y:50036" def_cars="DropKick" descr="Full Size">
+<layout name="WJ&amp;SRR Salem &amp; Glass Works Branch 1915" lid="JA1" scale="3" bitmap="..\..\Layout Artwork\WJ&amp;SRR Salem &amp; Glass Works Branch 1915.jpg" zoom="61.4253" xdim="93735" ydim="50036" xoffset="0" yoffset="0" bmap_origin="x:4401,y:0" bmap_size="x:84933,y:50036" def_cars="DropKick" descr="Full Size">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="89304,2034"></jxn>
@@ -1647,9 +1647,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1972,b:951" zoom="0.0163013" ctr="x:46868,y:24957" vtype="726" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1972,b:951" zoom="0.0162799" ctr="x:46868,y:24987" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="4003" wndrect="59,261,833,965"><![CDATA[** MASTER SCRIPT - WJ&SRR Salem & Glass Works Branch 1915
+<script id="20" flags="6" cmdix="3932" wndrect="59,261,833,965"><![CDATA[** Master Script - WJ&SRR Salem & Glass Works Branch 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 23
@@ -1659,8 +1659,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -1670,10 +1670,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -1719,13 +1715,16 @@ MW_LENGTH 3]]></script>
     Let Territory = "Salem & Glass Works Branch"
     Let Location = "Salem, New Jersey"
     Let Year = "1915"
-    Let Divisions = "Atlantic Division,Glass Works Branch" ** Separate division names with a comma, no spaces.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
+    Let Divisions = "Atlantic Division,Glass Works Branch"
+    Let ModelScale = "Full"]]></script>
 <script id="23" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for $Layout(Name)
 
 ** Turn off AO display of track attributes if needed
-    Call ao_reInit
+    Let x = $View(Hide,"Track Labels")
+    Let x = $View(hide,rails)
+    Let x = $View(hide,roadbed)
+    Let x = $View(hide,ties)
+    Let x = $View(hide,tracks)
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -2037,8 +2036,8 @@ Echo Personalized Settings for $Layout(Name)
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="19,189,786,939" otype="9" text=" " bktype="3" fill="R:234,G:199,B:159" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:0" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>189,19,369,786</wndrect>
+<scn t="16" id="1" rect="19,189,786,309" otype="9" text=" " bktype="1" fill="R:216,G:222,B:189" bktype_l="0" fill_l="R:0,G:0,B:0" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>189,19,309,786</wndrect>
 </note>
 </notes>
 </layout>

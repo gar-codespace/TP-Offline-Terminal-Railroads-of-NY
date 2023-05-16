@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="..\..\Layout Artwork\Doodle 18g.jpg" zoom="20.48" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="Turntable Matrices&#013;&#010;&#013;&#010;Turntable at City&#013;&#010;rotate a 2 1744&#013;&#010;rotate b 2 1724&#013;&#010;rotate c 2 1419&#013;&#010;rotate d 2 1990&#013;&#010;rotate e 2 1992&#013;&#010;rotate f 2 1994&#013;&#010;rotate g 2 1753&#013;&#010;rotate h 2 1761&#013;&#010;rotate i 2 1759&#013;&#010;rotate j 2 1755&#013;&#010;rotate k 2 1757&#013;&#010;rotate l 2 1751&#013;&#010;rotate m 2 1747&#013;&#010;rotate s 2 2474&#013;&#010;rotate 1 2 1728&#013;&#010;rotate 2 2 2133&#013;&#010;rotate 3 2 2121&#013;&#010;rotate 4 2 1759&#013;&#010;&#013;&#010;Turntable at valley&#013;&#010;rotate a 1 389&#013;&#010;rotate b 1 84&#013;&#010;rotate c 1 633&#013;&#010;rotate d 1 386&#013;&#010;rotate 5 1 633&#013;&#010;&#013;&#010;&#013;&#010;">
+<layout name="Doodle 18g" lid="DO1" scale="3" bitmap="..\..\Layout Artwork\Doodle 18g.jpg" zoom="10.4858" xdim="55200" ydim="40800" xoffset="4255" yoffset="4067" bmap_size="x:55200,y:40800" def_cars="DropKick" descr="Turntable Matrices&#013;&#010;&#013;&#010;Turntable at City&#013;&#010;rotate a 2 1744&#013;&#010;rotate b 2 1724&#013;&#010;rotate c 2 1419&#013;&#010;rotate d 2 1990&#013;&#010;rotate e 2 1992&#013;&#010;rotate f 2 1994&#013;&#010;rotate g 2 1753&#013;&#010;rotate h 2 1761&#013;&#010;rotate i 2 1759&#013;&#010;rotate j 2 1755&#013;&#010;rotate k 2 1757&#013;&#010;rotate l 2 1751&#013;&#010;rotate m 2 1747&#013;&#010;rotate s 2 2474&#013;&#010;rotate 1 2 1728&#013;&#010;rotate 2 2 2133&#013;&#010;rotate 3 2 2121&#013;&#010;rotate 4 2 1759&#013;&#010;&#013;&#010;Turntable at valley&#013;&#010;rotate a 1 389&#013;&#010;rotate b 1 84&#013;&#010;rotate c 1 633&#013;&#010;rotate d 1 386&#013;&#010;rotate 5 1 633&#013;&#010;&#013;&#010;&#013;&#010;">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="32245,28393"></jxn>
@@ -1080,8 +1080,8 @@
 <jxn t="3" id="1941" pt="13019,16744"></jxn>
 <jxn t="3" id="1942" pt="12569,15445"></jxn>
 <jxn t="3" id="1951" pt="11494,12236"></jxn>
-<jxn t="3" id="338" pt="12689,10687"></jxn>
-<jxn t="3" id="1309" pt="13515,12300"></jxn>
+<jxn t="3" id="338" pt="12816,10634"></jxn>
+<jxn t="3" id="1309" pt="13388,12353"></jxn>
 <jxn t="3" id="1387" pt="22198,21682" swp="1"></jxn>
 <jxn t="3" id="1411" pt="21541,21455"></jxn>
 <jxn t="3" id="1749" pt="20949,21195"></jxn>
@@ -3570,7 +3570,7 @@
 <str t="1" id="1943" rect="13019,16744,13206,17261" tag="S72" js="1702" jn="1941"></str>
 <str t="1" id="1951" rect="12569,15445,13019,16744" tag="S72" js="1941" jn="1942"></str>
 <str t="1" id="1952" rect="11494,12236,12569,15445" tag="S72" js="1942" jn="1951"></str>
-<str t="1" id="1519" rect="12689,10687,13515,12300" tag="S74" js="338" jn="1309"></str>
+<str t="1" id="1519" rect="12816,10633,13388,12352" tag="S74" js="338" jn="1309"></str>
 <str t="1" id="1521" rect="22198,21682,22385,21731" js="1387" jn="2381"></str>
 <str t="1" id="1746" rect="20949,21195,21541,21455" js="1411" jn="1749"></str>
 <str t="1" id="1953" rect="20287,20949,20949,21195" js="1749" jn="1952"></str>
@@ -5093,7 +5093,7 @@
 </ctrs>
 <scenery>
 <scn t="16" id="1" rect="2030,2480,3220,3670" otype="1" ang="102.871" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge1.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
-<scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="63.3193" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
+<scn t="16" id="2" rect="12195,10586,14009,12400" otype="1" ang="70.8979" bktype="3" fill="R:255,G:255,B:192" nodistort="true" bmap="GR\TTBridge2.png" bktype_l="1" fill_l="R:128,G:128,B:128"></scn>
 </scenery>
 </tracks>
 <trains selno="55" trk="0" dists="0">
@@ -5292,8 +5292,8 @@
 </trn>
 <trn t="6" id="55" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="110" rect="12641,10764,13293,11696" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="786" wid="141" label="PRR 449" dest="~" collname="o2o Locomotives" cartype="J1a" trk="1519" dists="610" gs="1"></car>
-<car t="5" id="111" rect="12998,11462,13576,12248" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="621" wid="141" label="ET111" dest="~" collname="o2o Locomotives" cartype="J1a tender" trk="1519" dists="1313" gs="1"></car>
+<car t="5" id="110" rect="12732,10732,13284,11692" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="786" wid="141" label="PRR 449" dest="~" collname="o2o Locomotives" cartype="J1a" trk="1519" dists="610" gs="1"></car>
+<car t="5" id="111" rect="12981,11479,13479,12281" flags="4194304" type="2" outl="120,120,120" fill="0,0,0" len="621" wid="141" label="ET111" dest="~" collname="o2o Locomotives" cartype="J1a tender" trk="1519" dists="1313" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="11" dspeed="0" horntype="0">
@@ -5942,20 +5942,20 @@ View Refresh]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1246,b:585" zoom="0.0488281" ctr="x:27631,y:20338" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1246,b:585" zoom="0.0953674" ctr="x:16338,y:11579" vtype="596"></winview>
 <scripts>
-<script id="3" flags="6" cmdix="3985" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
+<script id="3" flags="6" cmdix="3929" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 544
-    Let NoteForPressX = 0
+    Let NoteForPressX = 24
     Let NoteForPressY = 0
     Let NoteForPressZ = 0
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -5965,10 +5965,6 @@ View Refresh]]></action>
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -6048,10 +6044,13 @@ MW_LENGTH 3]]></script>
     Let Divisions = "Weston Division,Easton Division,Northton Division,Valley Branch" ** 
     Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <script id="544" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for Doodle 18g
 
 ** Turn off AO display of track attributes if needed
-    Call ao_reInit
+    Let x = $View(Hide,"Track Labels")
+    Let x = $View(hide,rails)
+    Let x = $View(hide,roadbed)
+    Let x = $View(hide,ties)
+    Let x = $View(hide,tracks)
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -6700,8 +6699,8 @@ Echo Personalized Settings for Doodle 18g
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="12,134,658,809" otype="9" text=" " bktype="3" fill="R:255,G:255,B:192" bmap="background\switchlist.bmp" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>190,938,370,1584</wndrect>
+<scn t="16" id="1" rect="938,190,1584,310" otype="9" text=" " bktype="1" fill="R:213,G:214,B:186" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>190,938,310,1584</wndrect>
 </note>
 </notes>
 </layout>

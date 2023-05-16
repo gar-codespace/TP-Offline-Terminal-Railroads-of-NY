@@ -22,7 +22,7 @@
 <jxn t="3" id="34" pt="10756,1446"></jxn>
 <jxn t="3" id="36" pt="11080,1592"></jxn>
 <jxn t="3" id="38" pt="11454,1721"></jxn>
-<jxn t="3" id="41" pt="11595,1752"></jxn>
+<jxn t="3" id="41" pt="11595,1752" swp="1"></jxn>
 <jxn t="3" id="42" pt="12045,1795"></jxn>
 <jxn t="3" id="45" pt="14369,1795"></jxn>
 <jxn t="3" id="47" pt="13172,2078"></jxn>
@@ -312,7 +312,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:1100" zoom="0.0724595" ctr="x:10144,y:2529" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3962" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
+<script id="11" flags="6" cmdix="3931" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -362,7 +362,11 @@ Artwork Copyright 2014 GA Ritacco]]></script>
 <script id="13" flags="8"><![CDATA[** Personalized Settings
 
 ** Turn off AO display of track attributes if needed
-    *Call ao_reInit
+    Let x = $View(Hide,"Track Labels")
+    Let x = $View(hide,rails)
+    Let x = $View(hide,roadbed)
+    Let x = $View(hide,ties)
+    Let x = $View(hide,tracks)
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed

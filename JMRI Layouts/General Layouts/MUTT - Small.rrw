@@ -285,9 +285,9 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1299,b:585" zoom="0.0562294" ctr="x:8946,y:7233" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1299,b:585" zoom="0.0562294" ctr="x:8945,y:7233" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="4003" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
+<script id="1" flags="6" cmdix="3933" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 3
@@ -297,8 +297,8 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call PersonalizedSettings
     Call ApplyVersionItems
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -308,10 +308,6 @@
     Call DropKick Setup
     Call SpeedSwitching Setup
     Call QuickKeys Setup
-
-Call SetLanguage en  ** Language choices are: en, de, fr, es
-Call NoteWindow
-Let R = 1
 
 StartingPoint:
 
@@ -353,10 +349,13 @@ PASS_LENGTH 4
 FREIGHT_LENGTH 4
 MW_LENGTH 3]]></script>
 <script id="3" flags="8"><![CDATA[** Personalized Settings
-Echo Personalized Settings for $Layout(Name)
 
 ** Turn off AO display of track attributes if needed
-    Call ao_reInit
+    Let x = $View(Hide,"Track Labels")
+    Let x = $View(hide,rails)
+    Let x = $View(hide,roadbed)
+    Let x = $View(hide,ties)
+    Let x = $View(hide,tracks)
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -477,7 +476,7 @@ Echo Personalized Settings for $Layout(Name)
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="15,134,661,509" otype="9" text=" " bktype="1" fill="R:223,G:190,B:152" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>134,15,314,661</wndrect>
+<wndrect>134,15,254,661</wndrect>
 </note>
 </notes>
 </layout>
