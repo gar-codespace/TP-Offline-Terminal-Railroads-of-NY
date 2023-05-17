@@ -5944,7 +5944,7 @@ View Refresh]]></action>
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1246,b:585" zoom="0.0953674" ctr="x:16338,y:11579" vtype="596"></winview>
 <scripts>
-<script id="3" flags="6" cmdix="3929" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
+<script id="3" flags="6" cmdix="3947" wndrect="0,23,450,277"><![CDATA[* Master script on layout Doodle 18g
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 544
@@ -5954,7 +5954,6 @@ View Refresh]]></action>
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call ApplyVersionItems
     Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use

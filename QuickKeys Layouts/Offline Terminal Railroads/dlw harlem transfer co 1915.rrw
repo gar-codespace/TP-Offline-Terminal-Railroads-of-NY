@@ -607,7 +607,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1904,b:851" zoom="0.109881" ctr="x:5734,y:3703" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3952" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
+<script id="20" flags="6" cmdix="3967" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 23
@@ -617,7 +617,6 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call ApplyVersionItems
     Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use

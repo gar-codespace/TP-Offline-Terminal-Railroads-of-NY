@@ -604,8 +604,8 @@
 </trn>
 <trn t="6" id="21" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="36" rect="6169,2041,6711,2763" flags="4198400" type="8" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="DL&amp;WMoW 365" loadname="Empty" dest="~" collname="mow_odd cars" cartype="mow flat" trk="31" dists="77"></car>
-<car t="5" id="79" rect="6418,1686,7064,2308" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="DL&amp;W 608" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="23" dists="61"></car>
+<car t="5" id="36" rect="6147,2120,6663,2850" flags="4198400" type="8" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="DL&amp;WMoW 365" loadname="Empty" dest="~" collname="mow_odd cars" cartype="mow flat" trk="31" dists="168"></car>
+<car t="5" id="79" rect="6366,1741,6994,2383" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="DL&amp;W 608" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="23" dists="152"></car>
 </cars>
 </trn>
 </trains>
@@ -654,7 +654,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1904,b:851" zoom="0.109881" ctr="x:5734,y:3703" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3952" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
+<script id="20" flags="6" cmdix="3961" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 23
@@ -664,8 +664,7 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call ApplyVersionItems
-    Call SetLanguage en  ** Language choices are: en, de, fr, es
+    Call SetLanguage de  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -945,7 +944,7 @@ throw 107 1]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="18,96,789,411" otype="9" text=" " bktype="1" fill="R:205,G:205,B:205" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>96,18,216,789</wndrect>
+<wndrect>96,18,711,789</wndrect>
 </note>
 </notes>
 </layout>

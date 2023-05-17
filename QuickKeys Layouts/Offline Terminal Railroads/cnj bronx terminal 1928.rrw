@@ -858,7 +858,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1445,b:689" zoom="0.0443456" ctr="x:7419,y:9176" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3952" wndrect="422,98,1264,828"><![CDATA[** CNJ Bronx Terminal 1928
+<script id="20" flags="6" cmdix="3967" wndrect="422,98,1264,828"><![CDATA[** CNJ Bronx Terminal 1928
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 0
@@ -868,7 +868,6 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call ApplyVersionItems
     Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use

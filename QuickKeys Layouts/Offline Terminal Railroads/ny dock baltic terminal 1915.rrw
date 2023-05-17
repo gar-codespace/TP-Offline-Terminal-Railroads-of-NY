@@ -577,7 +577,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1121,b:788" zoom="0.0657858" ctr="x:10595,y:6186" vtype="84" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3927"><![CDATA[* Master script on layout NY Dock Baltic Terminal 1915
+<script id="1" flags="6" cmdix="3947"><![CDATA[* Master script on layout NY Dock Baltic Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
@@ -587,7 +587,6 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call ApplyVersionItems
     Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use

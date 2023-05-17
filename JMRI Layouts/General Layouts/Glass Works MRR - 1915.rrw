@@ -1068,9 +1068,9 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:200,G:200,B:200" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1898,b:877" zoom="0.0563281" ctr="x:9959,y:7222" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1898,b:877" zoom="0.0563281" ctr="x:9960,y:7222" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3932" wndrect="0,23,597,408"><![CDATA[** Master script on layout Glass Works 1915 Model RR
+<script id="1" flags="6" cmdix="3947" wndrect="0,23,597,408"><![CDATA[** Master script on layout Glass Works 1915 Model RR
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 6
@@ -1080,7 +1080,6 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call ApplyVersionItems
     Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use

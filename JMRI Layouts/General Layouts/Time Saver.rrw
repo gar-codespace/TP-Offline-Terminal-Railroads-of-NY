@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Time Saver" lid="JA1" scale="3" bitmap="" zoom="4.71615" xdim="7211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" descr="">
+<layout name="Time Saver" lid="JA1" scale="3" bitmap="" zoom="4.80413" xdim="7211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" descr="">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="528,472"></jxn>
@@ -116,9 +116,9 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="1" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="1" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.212037" ctr="x:3603,y:597" vtype="1628" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.208154" ctr="x:3603,y:597" vtype="1628" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="3929"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="3947"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 2
@@ -128,7 +128,6 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call ApplyVersionItems
     Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use

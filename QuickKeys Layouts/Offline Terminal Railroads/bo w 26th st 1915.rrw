@@ -312,7 +312,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:1100" zoom="0.0724595" ctr="x:10144,y:2529" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3931" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
+<script id="11" flags="6" cmdix="3935" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -322,8 +322,7 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call ApplyVersionItems
-    Call SetLanguage en  ** Language choices are: en, de, fr, es
+    Call SetLanguage es  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -362,11 +361,7 @@ Artwork Copyright 2014 GA Ritacco]]></script>
 <script id="13" flags="8"><![CDATA[** Personalized Settings
 
 ** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
+
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -502,8 +497,8 @@ Artwork Copyright 2014 GA Ritacco]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="455,108,1226,1188" otype="9" text=" " bktype="1" fill="R:209,G:209,B:209" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>108,455,228,1226</wndrect>
+<scn t="16" id="1" rect="23,111,980,583" otype="9" text=" " bktype="1" fill="R:234,G:199,B:159" bktype_l="0" fill_l="R:0,G:0,B:0" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>200,14,328,548</wndrect>
 </note>
 </notes>
 </layout>
