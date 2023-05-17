@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Pittsburgh Strip District - 1915" lid="JA1" scale="3" bitmap="..\..\Layout Artwork\Pittsburgh Strip District - 1915.jpg" zoom="7.05134" xdim="82535" ydim="37432" xoffset="0" yoffset="0" bmap_size="x:82535,y:37432" def_cars="DropKick" descr="Pittsburg Strip District">
+<layout name="Pittsburgh Strip District - 1915" lid="JA1" scale="3" bitmap="..\..\Layout Artwork\Pittsburgh Strip District - 1915.jpg" zoom="21.519" xdim="82535" ydim="37432" xoffset="0" yoffset="0" bmap_size="x:82535,y:37432" def_cars="DropKick" descr="Pittsburg Strip District">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="22598,1632"></jxn>
@@ -8845,7 +8845,7 @@ Let xTrain = $Train($X_Train, Flip)
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="2" name="Style 2" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="1"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1972,b:971" zoom="0.141817" ctr="x:13976,y:31290" vtype="724"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1972,b:971" zoom="0.0464706" ctr="x:38631,y:19264" vtype="724"></winview>
 <scripts>
 <script id="1" flags="6" cmdix="3939"><![CDATA[** Master script on layout $Layout(Name)
 
