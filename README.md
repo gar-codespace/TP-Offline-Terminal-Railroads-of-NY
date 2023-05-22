@@ -1,4 +1,4 @@
-## o2o-Layouts
+## o2o-TrainPlayer-Layouts
 Original layouts and artwork created for TrainPlayer.  
 The layouts in this repo come in three different versions;  
 TrainPlayer Layouts: These are unadorned layouts, just the art and track.  
