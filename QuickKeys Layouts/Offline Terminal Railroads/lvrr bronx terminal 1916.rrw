@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="LVRR Bronx Terminal 1916" lid="LV1" scale="3" bitmap="..\..\Layout Artwork\LVRR Bronx Terminal 1916.jpg" zoom="13.4388" xdim="13076" ydim="10944" xoffset="0" yoffset="0" bmap_size="x:13076,y:10944" def_cars="DropKick" descr="Artwork © 2014 GA Ritacco.">
+<layout name="LVRR Bronx Terminal 1916" scale="3" bitmap="..\..\Layout Artwork\LVRR Bronx Terminal 1916.jpg" zoom="9.04288" xdim="13076" ydim="10944" xoffset="0" yoffset="0" bmap_size="x:13076,y:10944" def_cars="DropKick" descr="Artwork © 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="3" pt="7969,4771"></jxn>
@@ -137,7 +137,7 @@
 <jxn t="3" id="15" pt="10162,6275"></jxn>
 <jxn t="3" id="18" pt="6660,7626"></jxn>
 <jxn t="3" id="19" pt="6664,7649"></jxn>
-<jxn t="3" id="20" pt="6882,7715" swp="1"></jxn>
+<jxn t="3" id="20" pt="6882,7715"></jxn>
 <jxn t="3" id="21" pt="7095,7759"></jxn>
 <jxn t="3" id="23" pt="7260,7774"></jxn>
 <jxn t="3" id="24" pt="7391,7774" swp="1"></jxn>
@@ -398,9 +398,9 @@
 <car t="5" id="35" rect="10282,4711,10584,5431" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM35" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="88" dists="1498"></car>
 </cars>
 </trn>
-<trn t="6" id="1" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="1" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="13" rect="5327,7151,5979,7581" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="ES13" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="16" dists="1049" gs="1"></car>
+<car t="5" id="13" rect="5358,7159,6010,7589" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="ES13" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="16" dists="1017" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="3" dspeed="0" horntype="0">
@@ -429,9 +429,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.0744111" ctr="x:6531,y:5465" vtype="16980" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.110584" ctr="x:6538,y:5467" vtype="596" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3947" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
+<script id="11" flags="6" cmdix="3940" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 0
@@ -525,115 +525,6 @@ Artwork © 2014 GA Ritacco]]></script>
     Let Divisions = "" ** Enter division names seperated by a comma without a space.
     Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 ]]></script>
-<rewind_point>
-<trains><![CDATA[<saved_trains selno="12" trk="0" dists="0">
-<trn t="6" id="5" dspeed="0" rev="1" horntype="0">
-<cars>
-<car t="5" id="34" rect="6894,1940,7266,2672" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM34" loaded="1" loadname="Empty" dest="HS" cartype="40ft wood box" trk="149" dists="1066" gs="1"></car>
-<car t="5" id="33" rect="6966,2465,7338,3197" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM33" loaded="1" loadname="Empty" dest="HS" cartype="40ft wood box" trk="149" dists="536" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="9" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="38" rect="10118,2445,10420,3125" flags="1052672" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="GA38" loaded="1" loadname="Empty" dest="G" cartype="gondola" trk="276" dists="1496"></car>
-<car t="5" id="27" rect="10115,2935,10417,3615" flags="1052672" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="GA27" loaded="1" loadname="Empty" dest="G" cartype="gondola" trk="276" dists="1006"></car>
-</cars>
-</trn>
-<trn t="6" id="10" dspeed="0" rev="1" horntype="0">
-<cars>
-<car t="5" id="39" rect="8411,780,8795,1512" flags="1048576" type="10" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="FM39" loaded="1" loadname="Empty" dest="CF" cartype="flatcar" trk="161" dists="226"></car>
-<car t="5" id="32" rect="8494,1304,8878,2036" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM32" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="161" dists="756"></car>
-<car t="5" id="3" rect="8576,1827,8960,2559" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM3" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="161" dists="1286"></car>
-<car t="5" id="30" rect="8659,2351,9043,3083" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM30" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="161" dists="1816"></car>
-<car t="5" id="10" rect="8742,2874,9126,3606" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM10" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="161" dists="2346"></car>
-</cars>
-</trn>
-<trn t="6" id="2" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="2" rect="2642,7387,3374,7763" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM2" loaded="1" loadname="Empty" dest="UPS" cartype="40ft wood box" trk="114" dists="367" gs="1"></car>
-<car t="5" id="11" rect="2118,7312,2850,7688" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM11" loaded="1" loadname="Empty" dest="UPS" cartype="40ft wood box" trk="114" dists="897" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="3" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="9" rect="4474,7666,5206,8048" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM9" loaded="1" loadname="Empty" dest="AR" cartype="40ft wood box" trk="1" dists="440" gs="1"></car>
-<car t="5" id="17" rect="3950,7585,4682,7967" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM17" loaded="1" loadname="Empty" dest="AR" cartype="40ft wood box" trk="1" dists="970" gs="1"></car>
-<car t="5" id="8" rect="3426,7504,4158,7886" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM8" loaded="1" loadname="Empty" dest="AR" cartype="40ft wood box" trk="1" dists="1500" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="4" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="7" rect="6479,7987,7211,8371" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM7" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="40ft wood box" trk="108" dists="180" gs="1"></car>
-<car t="5" id="6" rect="5956,7902,6688,8288" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM6" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="40ft wood box" trk="110" dists="338" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="12" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="37" rect="10281,3068,10583,3748" flags="1052672" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="GA37" loaded="1" loadname="Empty" dest="G" cartype="gondola" trk="278" dists="886"></car>
-</cars>
-</trn>
-<trn t="6" id="13" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="25" rect="9676,7214,10336,7854" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM25" loaded="1" loadname="Empty" dest="GZ" cartype="40ft wood box" trk="76" dists="14"></car>
-<car t="5" id="12" rect="9194,7562,9928,8016" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM12" loaded="1" loadname="Empty" dest="GZ" cartype="40ft wood box" trk="70" dists="26"></car>
-</cars>
-</trn>
-<trn t="6" id="6" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="4" rect="7530,4386,8202,5010" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM4" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="40ft wood box" trk="262" dists="2033" gs="1"></car>
-<car t="5" id="16" rect="7928,4734,8572,5390" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM16" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="40ft wood box" trk="5" dists="405" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="7" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="1" rect="9145,1887,9529,2619" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM1" loaded="1" loadname="Empty" dest="TT" cartype="40ft wood box" trk="196" dists="2452"></car>
-<car t="5" id="18" rect="9229,2410,9611,3142" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM18" loaded="1" loadname="Empty" dest="TT" cartype="40ft wood box" trk="196" dists="1922"></car>
-</cars>
-</trn>
-<trn t="6" id="14" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="15" rect="8580,862,8962,1594" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM15" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="175" dists="327" gs="1"></car>
-<car t="5" id="14" rect="8662,1386,9044,2118" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM14" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="175" dists="857" gs="1"></car>
-<car t="5" id="23" rect="8743,1909,9127,2641" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM23" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="175" dists="1387" gs="1"></car>
-<car t="5" id="22" rect="8827,2433,9209,3165" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM22" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="175" dists="1917" gs="1"></car>
-<car t="5" id="29" rect="8909,2956,9291,3688" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM29" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="175" dists="2447" gs="1"></car>
-<car t="5" id="40" rect="8992,3482,9352,4212" type="10" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="FM40" loaded="1" loadname="Empty" dest="CF" cartype="flatcar" trk="177" dists="171" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="15" dspeed="0" rev="1" horntype="0">
-<cars>
-<car t="5" id="36" rect="8268,827,8652,1559" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM36" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="156" dists="255"></car>
-<car t="5" id="28" rect="8350,1350,8734,2082" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM28" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="156" dists="785"></car>
-<car t="5" id="21" rect="8433,1874,8817,2606" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM21" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="156" dists="1315"></car>
-<car t="5" id="31" rect="8516,2397,8900,3129" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM31" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="156" dists="1845"></car>
-<car t="5" id="20" rect="8599,2921,8983,3653" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM20" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="156" dists="2375"></car>
-<car t="5" id="19" rect="8681,3441,9085,4175" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM19" loaded="1" loadname="Empty" dest="CF" cartype="40ft wood box" trk="158" dists="82"></car>
-</cars>
-</trn>
-<trn t="6" id="1" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="13" rect="5503,7207,6045,7595" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="350" wid="130" label="E11" carnote="cap 1200" dest="~" collname="Special Cars" cartype="MOWflat" trk="23" dists="1139" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="8" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="42" rect="10111,5376,10411,6096" flags="1048576" type="10" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="FM42" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="flatcar" trk="52" dists="570"></car>
-<car t="5" id="41" rect="10106,5906,10410,6626" flags="1048576" type="10" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="FM41" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="flatcar" trk="52" dists="40"></car>
-<car t="5" id="5" rect="9923,6414,10403,7144" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM5" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="40ft wood box" trk="46" dists="124"></car>
-<car t="5" id="24" rect="9582,6894,10216,7558" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM24" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="40ft wood box" trk="42" dists="4"></car>
-</cars>
-</trn>
-<trn t="6" id="11" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="26" rect="10285,4181,10587,4901" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM26" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="40ft wood box" trk="88" dists="2028"></car>
-<car t="5" id="35" rect="10282,4711,10584,5431" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM35" loaded="1" loadname="Empty" dest="&lt;&gt;" cartype="40ft wood box" trk="88" dists="1498"></car>
-</cars>
-</trn>
-</saved_trains>]]></trains>
-<saved_jxns>13 1  21 1  25 1  128 1  133 1  151 1  168 1</saved_jxns>
-<saved_ttbls></saved_ttbls>
-<ao_settings active_train="0"><![CDATA[<ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>]]></ao_settings>
-</rewind_point>
 </scripts>
 <notes>
 <note autofit="1">
