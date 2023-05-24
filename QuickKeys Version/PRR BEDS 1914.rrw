@@ -357,7 +357,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1992,b:877" zoom="0.100314" ctr="x:7477,y:2834" vtype="596" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3947" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" cmdix="3946" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -455,13 +455,6 @@ MW_LENGTH 3]]></script>
     Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
     Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 ]]></script>
-<script id="16" flags="8"><![CDATA[** Optional railroad details
-    Let OperatingRoad = "Pennsylvania Railroad"
-    Let Territory = "Brooklyn Eastern District Station"
-    Let Location = "Williamsburg, Brooklyn, New York"
-    Let Year = "1914"
-    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
-    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <script id="17" flags="8"><![CDATA[Notes
 
 Wooden carfloats can be unbalanced by a maximum of 3 cars.

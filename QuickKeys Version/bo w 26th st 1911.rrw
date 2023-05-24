@@ -525,7 +525,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:375,t:375,r:1761,b:1163" zoom="0.0741198" ctr="x:10119,y:2529" vtype="596" fit="1"></winview>
 <scripts>
-<script id="14" flags="6" cmdix="3940"><![CDATA[* Master script on layout B&O W 26th St 1911
+<script id="14" flags="6" cmdix="3965"><![CDATA[* Master script on layout B&O W 26th St 1911
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 16
@@ -535,7 +535,7 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call SetLanguage fr  ** Language choices are: en, de, fr, es
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -561,7 +561,6 @@ GoTo StartingPoint]]></script>
 
 Do not block 12th Avenue for more than 5 minutes.
 No switching over the 2 switch.
-Unscheduled cars from the float go to the team tracks.
 
 Wooden carfloats can be unbalanced by a maximum of 3 cars.
 Steel carfloats can be unbalanced by a maximum of 4 cars.

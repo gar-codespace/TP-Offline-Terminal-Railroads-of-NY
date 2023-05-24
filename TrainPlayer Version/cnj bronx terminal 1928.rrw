@@ -672,27 +672,6 @@ Only the center rail of the float can be used as a tail track.
 Use an idler flat on the float if provided.
 
 Artwork © 2014 GA Ritacco]]></script>
-<script id="22" flags="8"><![CDATA[Echo Align switches around the loop
-
-throw 295 1
-throw 15 1
-throw 320 1
-throw 356 1
-throw 352 1
-throw 18 1
-throw 265 1
-throw 287 1
-throw 433 1
-throw 443 1
-throw 157 1
-throw 23 1
-throw 429 1
-throw 187 1
-throw 247 1
-throw 221 1
-throw 411 1
-throw 12 1
-throw 42 1]]></script>
 <script id="23" flags="8"><![CDATA[** Optional railroad details
     Let OperatingRoad = "Central Railroad of New Jersey"
     Let Territory = "Bronx Terminal & Railroad"
@@ -898,8 +877,8 @@ throw 42 1]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="455,108,1226,1188" otype="9" text=" " bktype="1" fill="R:209,G:209,B:209" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>108,455,288,1226</wndrect>
+<scn t="16" id="1" rect="4,162,457,424" otype="9" text=" " bktype="1" fill="R:228,G:224,B:218" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>162,4,333,525</wndrect>
 </note>
 </notes>
 </layout>

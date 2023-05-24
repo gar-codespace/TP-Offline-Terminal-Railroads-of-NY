@@ -374,7 +374,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:788" zoom="0.080866" ctr="x:6975,y:5029" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3958" wndrect="0,22,597,406"><![CDATA[** DL&W Wallabout Terminal 1905
+<script id="11" flags="6" cmdix="3957" wndrect="0,22,597,406"><![CDATA[** DL&W Wallabout Terminal 1905
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 14
@@ -449,13 +449,13 @@ Artwork © 2014 GA Ritacco]]></script>
     Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
     Let TbarAuto = 0
 
-** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+** Optional railroad details
+    Let OperatingRoad = "Delaware, Lackawanna and Western RR"
+    Let Territory = "Wallabout Terminal"
+    Let Location = "Williamsburg, Brooklyn, New York"
+    Let Year = "1905"
+    Let Divisions = ""
+    Let ModelScale = "HO"
 ]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="1" trk="0" dists="0">
@@ -559,8 +559,8 @@ Artwork © 2014 GA Ritacco]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="4,162,525,268" otype="9" text=" " bktype="1" fill="R:228,G:224,B:218" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>162,4,290,525</wndrect>
+<scn t="16" id="1" rect="4,162,457,424" otype="9" text=" " bktype="1" fill="R:228,G:224,B:218" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>162,4,333,525</wndrect>
 </note>
 </notes>
 </layout>

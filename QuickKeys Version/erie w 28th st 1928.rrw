@@ -148,7 +148,7 @@
 <jxn t="3" id="11" pt="16608,1440" swp="1"></jxn>
 <jxn t="3" id="12" pt="15858,1826" swp="1"></jxn>
 <jxn t="3" id="13" pt="15377,2066" swp="1"></jxn>
-<jxn t="3" id="14" pt="14120,2713" swp="1"></jxn>
+<jxn t="3" id="14" pt="14120,2713"></jxn>
 <jxn t="3" id="15" pt="12344,2587"></jxn>
 <jxn t="3" id="16" pt="12344,3100"></jxn>
 <jxn t="3" id="17" pt="12415,3095"></jxn>
@@ -472,7 +472,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1278,t:0,r:2556,b:788" zoom="0.0670478" ctr="x:11186,y:3044" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3947" wndrect="662,152,1259,929"><![CDATA[** Erie W 28th St 1928
+<script id="11" flags="6" cmdix="3946" wndrect="662,152,1259,929"><![CDATA[** Erie W 28th St 1928
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -548,13 +548,13 @@ Artwork © 2014 GA Ritacco]]></script>
     Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
     Let TbarAuto = 0
 
-** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+** Optional railroad details
+    Let OperatingRoad = "Erie Railroad"
+    Let Territory = "West 28th Street Freight Station"
+    Let Location = "Manhattan, New York"
+    Let Year = "1928"
+    Let Divisions = ""
+    Let ModelScale = "HO"
 ]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="15" trk="0" dists="0">
@@ -719,8 +719,8 @@ Artwork © 2014 GA Ritacco]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="11,167,464,295" otype="9" text=" " bktype="1" fill="R:178,G:184,B:169" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>167,11,295,464</wndrect>
+<scn t="16" id="1" rect="-16,170,437,432" otype="9" text=" " bktype="1" fill="R:178,G:184,B:169" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>167,11,375,464</wndrect>
 </note>
 </notes>
 </layout>

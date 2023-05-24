@@ -1856,7 +1856,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1386,b:788" zoom="0.0346483" ctr="x:21646,y:9501" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3947" wndrect="0,22,597,406"><![CDATA[** Jay St Connecting RR 1920
+<script id="11" flags="6" cmdix="3946" wndrect="0,22,597,406"><![CDATA[** Jay St Connecting RR 1920
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 14
@@ -1936,13 +1936,13 @@ Artwork © 2014 GA Ritacco]]></script>
     Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
     Let TbarAuto = 0
 
-** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+** Optional railroad details
+    Let OperatingRoad = "Jay Street Connecting Railroad"
+    Let Territory = "Jay Street Terminal"
+    Let Location = "Vinegar Hill, Brooklyn, New York"
+    Let Year = "1920"
+    Let Divisions = ""
+    Let ModelScale = "HO"
 ]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="34" trk="0" dists="0">
@@ -2373,8 +2373,8 @@ Artwork © 2014 GA Ritacco]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="25,190,478,318" otype="9" text=" " bktype="1" fill="R:234,G:230,B:213" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>190,25,318,478</wndrect>
+<scn t="16" id="1" rect="1,167,454,429" otype="9" text=" " bktype="1" fill="R:237,G:217,B:216" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>171,1,379,454</wndrect>
 </note>
 </notes>
 </layout>

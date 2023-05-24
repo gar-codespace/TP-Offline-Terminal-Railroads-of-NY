@@ -929,6 +929,13 @@ Only the center rail of the float can be used as a tail track.
 Use an idler flat on the float if provided.
 
 Artwork © 2014 GA Ritacco]]></script>
+<script id="22" flags="8"><![CDATA[** Optional railroad details
+    Let OperatingRoad = "New York Dock Company"
+    Let Territory = "Atlantic Terminal"
+    Let Location = "Red Hook, Brooklyn, New York"
+    Let Year = "1915"
+    Let Divisions = ""
+    Let ModelScale = "HO"]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="28" trk="0" dists="0">
 <trn t="6" id="46" dspeed="0" horntype="0">
@@ -1221,8 +1228,8 @@ Artwork © 2014 GA Ritacco]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="5,198,458,460" otype="9" text=" " bktype="1" fill="R:230,G:220,B:207" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>198,5,406,458</wndrect>
+<scn t="16" id="1" rect="1,167,454,429" otype="9" text=" " bktype="1" fill="R:237,G:217,B:216" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>171,1,379,454</wndrect>
 </note>
 </notes>
 </layout>

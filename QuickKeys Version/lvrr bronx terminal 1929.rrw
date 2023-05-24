@@ -986,7 +986,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0664233" ctr="x:8491,y:6122" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3955" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1929
+<script id="11" flags="6" cmdix="3954" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1929
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 97
@@ -1069,13 +1069,13 @@ Artwork © 2014 GA Ritacco]]></script>
     Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
     Let TbarAuto = 0
 
-** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+** Optional railroad details
+    Let OperatingRoad = "Lehigh Valley Railroad"
+    Let Territory = "Bronx Terminal"
+    Let Location = "Mott Haven, The Bronx, New York"
+    Let Year = "1929"
+    Let Divisions = ""
+    Let ModelScale = "HO"
 ]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="25" trk="0" dists="0">

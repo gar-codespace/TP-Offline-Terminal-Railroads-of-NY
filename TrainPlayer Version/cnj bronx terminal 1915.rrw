@@ -501,7 +501,7 @@ throw 187 1]]></script>
     Let Territory = "Bronx Terminal & Railroad"
     Let Location = "Mott Haven, the Bronx, New York"
     Let Year = "1915"
-    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
+    Let Divisions = "" ** Separate division names with a comma, no spaces.
     Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <script id="26" flags="8"><![CDATA[Notes
 

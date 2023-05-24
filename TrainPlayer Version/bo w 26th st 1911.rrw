@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="B&amp;O W 26th St 1911" lid="B&amp;1" scale="3" bitmap="..\Layout Artwork\BO W 26th St 1911.jpg" zoom="12.8905" xdim="20251" ydim="5059" xoffset="0" yoffset="0" bmap_size="x:20251,y:5059" def_cars="DropKick" descr="Do not block 12th Avenue for more than 5 minutes. L.C.L. and oysters  to the warehouse, Perishables, foodstuffs and merchandise  to the freight station  platform tracks. Everything else to the team tracks. Artwork © 2014 GA Ritacco">
+<layout name="B&amp;O W 26th St 1911" lid="B&amp;1" scale="3" bitmap="..\Layout Artwork\BO W 26th St 1911.jpg" zoom="13.4917" xdim="20251" ydim="5059" xoffset="0" yoffset="0" bmap_size="x:20251,y:5059" def_cars="DropKick" descr="Do not block 12th Avenue for more than 5 minutes. L.C.L. and oysters  to the warehouse, Perishables, foodstuffs and merchandise  to the freight station  platform tracks. Everything else to the team tracks. Artwork © 2014 GA Ritacco">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="2223,970"></jxn>
@@ -425,13 +425,12 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:375,t:375,r:1761,b:1163" zoom="0.0775764" ctr="x:10119,y:2530" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:375,t:375,r:1761,b:1163" zoom="0.0741198" ctr="x:10119,y:2529" vtype="596" fit="1"></winview>
 <scripts>
 <script id="15" flags="8"><![CDATA[Notes:
 
 Do not block 12th Avenue for more than 5 minutes.
 No switching over the 2 switch.
-Unscheduled cars from the float go to the team tracks.
 
 Wooden carfloats can be unbalanced by a maximum of 3 cars.
 Steel carfloats can be unbalanced by a maximum of 4 cars.
@@ -557,7 +556,7 @@ Artwork Copyright 2014 GA Ritacco]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="2,153,689,529" otype="9" text=" " bktype="1" fill="R:211,G:205,B:161" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>153,2,345,512</wndrect>
+<wndrect>143,449,263,1220</wndrect>
 </note>
 </notes>
 </layout>

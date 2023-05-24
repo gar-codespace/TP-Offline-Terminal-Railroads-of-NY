@@ -370,7 +370,7 @@
 <jxn t="3" id="61" pt="16948,8513"></jxn>
 <jxn t="3" id="63" pt="17205,8523"></jxn>
 <jxn t="3" id="64" pt="17339,8438" swp="1"></jxn>
-<jxn t="3" id="66" pt="16947,8219" swp="1"></jxn>
+<jxn t="3" id="66" pt="16947,8219"></jxn>
 <jxn t="3" id="68" pt="17088,8318"></jxn>
 <jxn t="3" id="70" pt="16890,8287" swp="1"></jxn>
 <jxn t="3" id="72" pt="16469,8039" swp="1"></jxn>
@@ -1112,7 +1112,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0335682" ctr="x:22343,y:6824" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3947"><![CDATA[** NY Dock Fulton Terminal 1915
+<script id="20" flags="6" cmdix="3946"><![CDATA[** NY Dock Fulton Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 22
@@ -1193,12 +1193,12 @@ Artwork © 2014 GA Ritacco]]></script>
     Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
     Let TbarAuto = 0
 
-** Optional for o2o; railroad details
+** Optional railroad details
     Let OperatingRoad = "New York Dock Company"
-    Let Territory = "Fulton Terminal"
-    Let Location = "Brooklyn, New York"
+    Let Territory = Fulton Terminal"
+    Let Location = "Brooklyn Heights, Brooklyn, New York"
     Let Year = "1915"
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
+    Let Divisions = ""
     Let ModelScale = "HO"
 ]]></script>
 <rewind_point>

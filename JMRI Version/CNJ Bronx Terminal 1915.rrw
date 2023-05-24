@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD:JMRI Version/CNJ Bronx Terminal 1915.rrw
-<layout name="CNJ Bronx Terminal 1915*" scale="3" bitmap="..\Layout Artwork\CNJ Bronx Terminal 1915.jpg" zoom="6.38647" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx.">
-=======
-<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="..\..\Layout Artwork\CNJ Bronx Terminal 1915.jpg" zoom="9.49038" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx.">
->>>>>>> 3ae74d3b46438d246d345c917092b84d60d3da81:JMRI Layouts/Offline Terminal Railroads/CNJ Bronx Terminal 1915.rrw
+<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="..\Layout Artwork\CNJ Bronx Terminal 1915.jpg" zoom="9.49038" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx.">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="7681,6594"></jxn>
@@ -690,11 +686,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1381,b:611" zoom="0.10537" ctr="x:5429,y:3862" vtype="596" fit="1"></winview>
 <scripts>
-<<<<<<< HEAD:JMRI Version/CNJ Bronx Terminal 1915.rrw
-<script id="20" flags="6" cmdix="3947" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
-=======
 <script id="20" flags="6" cmdix="3946" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
->>>>>>> 3ae74d3b46438d246d345c917092b84d60d3da81:JMRI Layouts/Offline Terminal Railroads/CNJ Bronx Terminal 1915.rrw
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -776,13 +768,6 @@ throw 71 1
 throw 73 1
 throw 187 1
 throw 81 1]]></script>
-<script id="25" flags="8"><![CDATA[** Optional railroad details
-    Let OperatingRoad = "Central Railroad of New Jersey"
-    Let Territory = "Bronx Terminal"
-    Let Location = "Mott Haven, the Bronx, New York"
-    Let Year = "1915"
-    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
-    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <script id="26" flags="8"><![CDATA[** Personalized Settings
 
 ** Turn off AO display of track attributes if needed
@@ -818,7 +803,7 @@ throw 81 1]]></script>
     Let Territory = "Bronx Terminal"
     Let Location = "Mott Haven, the Bronx, New York"
     Let Year = "1915"
-    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
+    Let Divisions = "" ** Separate division names with a comma, no spaces.
     Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="20" trk="0" dists="0">

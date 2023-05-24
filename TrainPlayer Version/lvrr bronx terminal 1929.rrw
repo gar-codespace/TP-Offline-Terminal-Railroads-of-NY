@@ -757,14 +757,6 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0664233" ctr="x:8491,y:6122" vtype="86" fit="1"></winview>
 <scripts>
-<script id="12" flags="8"><![CDATA[Echo Align switches around the loop
-
-Throw 1183 1
-Throw 1071 1
-Throw 1060 1
-Throw 1196 1
-Throw 1202 1
-Throw 1240 1]]></script>
 <script id="96" flags="8"><![CDATA[Layout Notes
 
 Spot a maximum of 1 car to United Plumbers, 2 to American Radiator, and 2 to Pillsbury, excess to the team tracks.
@@ -778,6 +770,13 @@ Only the center rail of the float can be used as a tail track.
 Use an idler flat on the float if provided.
 
 Artwork © 2014 GA Ritacco]]></script>
+<script id="97" flags="8"><![CDATA[** Optional railroad details
+    Let OperatingRoad = "Lehigh Valley Railroad"
+    Let Territory = "Bronx Terminal"
+    Let Location = "Mott Haven, The Bronx, New York"
+    Let Year = "1929"
+    Let Divisions = ""
+    Let ModelScale = "HO"]]></script>
 <rewind_point>
 <trains><![CDATA[<saved_trains selno="25" trk="0" dists="0">
 <trn t="6" id="9" dspeed="0" rev="1" horntype="0">

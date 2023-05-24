@@ -159,7 +159,7 @@
 <jxn t="3" id="357" pt="11991,3164"></jxn>
 <jxn t="3" id="359" pt="11766,3212"></jxn>
 <jxn t="3" id="361" pt="11579,3274"></jxn>
-<jxn t="3" id="363" pt="11300,3403"></jxn>
+<jxn t="3" id="363" pt="11300,3403" swp="1"></jxn>
 <jxn t="3" id="365" pt="11505,3278"></jxn>
 <jxn t="3" id="367" pt="11704,3171"></jxn>
 <jxn t="3" id="369" pt="11932,3079"></jxn>
@@ -742,7 +742,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:150,t:150,r:1340,b:495" zoom="0.0671078" ctr="x:11176,y:4158" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3947"><![CDATA[** PRR W 37th St 1912
+<script id="20" flags="6" cmdix="3946"><![CDATA[** PRR W 37th St 1912
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 21
@@ -804,13 +804,13 @@ GoTo StartingPoint]]></script>
     Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
     Let TbarAuto = 0
 
-** Optional for o2o; railroad details
-    Let OperatingRoad = ""
-    Let Territory = ""
-    Let Location = ""
-    Let Year = ""
-    Let Divisions = "" ** Enter division names seperated by a comma without a space.
-    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
+** Optional railroad details
+    Let OperatingRoad = "Pennsylvania Railroad"
+    Let Territory = "West 37th Street Freight Station"
+    Let Location = "Manhattan, New York"
+    Let Year = "1914"
+    Let Divisions = "" ** Separate division names with a comma, no spaces.
+    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 ]]></script>
 <script id="24" flags="8"><![CDATA[Layout Notes
 

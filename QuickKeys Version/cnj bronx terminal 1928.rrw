@@ -856,12 +856,12 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1445,b:689" zoom="0.0443456" ctr="x:7419,y:9176" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1375,b:689" zoom="0.0443456" ctr="x:7419,y:9176" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3967" wndrect="422,98,1264,828"><![CDATA[** CNJ Bronx Terminal 1928
+<script id="20" flags="6" cmdix="3965" wndrect="422,98,1264,828"><![CDATA[** CNJ Bronx Terminal 1928
 
 ** Assign a note to a subroutine
-    Let NoteForPersonalizedSettings = 0
+    Let NoteForPersonalizedSettings = 23
     Let NoteForPressX = 22
     Let NoteForPressY = 0
     Let NoteForPressZ = 0

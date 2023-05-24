@@ -22,7 +22,7 @@
 <jxn t="3" id="34" pt="10756,1446"></jxn>
 <jxn t="3" id="36" pt="11080,1592"></jxn>
 <jxn t="3" id="38" pt="11454,1721"></jxn>
-<jxn t="3" id="41" pt="11595,1752" swp="1"></jxn>
+<jxn t="3" id="41" pt="11595,1752"></jxn>
 <jxn t="3" id="42" pt="12045,1795"></jxn>
 <jxn t="3" id="45" pt="14369,1795"></jxn>
 <jxn t="3" id="47" pt="13172,2078"></jxn>
@@ -312,7 +312,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:1100" zoom="0.0724595" ctr="x:10144,y:2529" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3935" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
+<script id="11" flags="6" cmdix="3940" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -322,7 +322,7 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call SetLanguage es  ** Language choices are: en, de, fr, es
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -347,7 +347,6 @@ GoTo StartingPoint]]></script>
 <script id="12" flags="8"><![CDATA[Notes:
 
 Do not block 12th Avenue for more than 5 minutes.
-Unscheduled cars from the float go to the team tracks.
 
 Wooden carfloats can be unbalanced by a maximum of 3 cars.
 Steel carfloats can be unbalanced by a maximum of 4 cars.

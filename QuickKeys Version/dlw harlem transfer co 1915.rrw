@@ -113,7 +113,7 @@
 <jxn t="3" id="211" pt="5998,3019"></jxn>
 <jxn t="3" id="213" pt="6116,2906"></jxn>
 <jxn t="3" id="215" pt="6211,2769"></jxn>
-<jxn t="3" id="217" pt="6462,2327" swp="1"></jxn>
+<jxn t="3" id="217" pt="6462,2327"></jxn>
 <jxn t="3" id="219" pt="6334,2608"></jxn>
 <jxn t="3" id="221" pt="6287,2807"></jxn>
 <jxn t="3" id="224" pt="5174,3072"></jxn>
@@ -596,7 +596,7 @@
 </trn>
 <trn t="6" id="21" dspeed="0" horntype="0" selcarno="1">
 <cars>
-<car t="5" id="36" rect="6244,1896,6834,2600" flags="4198400" type="8" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="DL&amp;WMoW 365" loadname="Empty" dest="~" collname="mow_odd cars" cartype="mow flat" trk="238" dists="96"></car>
+<car t="5" id="36" rect="6234,1895,6834,2595" flags="4198400" type="8" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="DL&amp;WMoW 365" loadname="Empty" dest="~" collname="mow_odd cars" cartype="mow flat" trk="238" dists="96"></car>
 <car t="5" id="79" rect="6551,1593,7223,2177" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="DL&amp;W 608" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="282" dists="125" gs="1"></car>
 </cars>
 </trn>
@@ -607,7 +607,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1904,b:851" zoom="0.109881" ctr="x:5734,y:3703" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3967" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
+<script id="20" flags="6" cmdix="3966" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 23
@@ -713,20 +713,13 @@ throw 107 1]]></script>
     Let TbarAuto = 0
 
 ** Optional railroad details
-    Let OperatingRoad = "DL&W Railroad"
+    Let OperatingRoad = "Delaware, Lackawanna and Western RR"
     Let Territory = "Harlem Transfer Co."
     Let Location = "Mott Haven, the Bronx, New York"
     Let Year = "1915"
-    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
+    Let Divisions = "" ** Separate division names with a comma, no spaces.
     Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G
 ]]></script>
-<script id="26" flags="8"><![CDATA[** Optional railroad details
-    Let OperatingRoad = "DL&W Railroad"
-    Let Territory = "Harlem Transfer Co."
-    Let Location = "Mott Haven, the Bronx, New York"
-    Let Year = "1915"
-    Let Divisions = "Harlem Division" ** Separate division names with a comma, no spaces.
-    Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
 <script id="27" flags="8"><![CDATA[Notes
 
 Wooden carfloats can be unbalanced by a maximum of 3 cars.
@@ -907,8 +900,8 @@ Artwork © 2014 GA Ritacco]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="871,134,1642,989" otype="9" text=" " bktype="1" fill="R:201,G:193,B:182" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>96,18,216,789</wndrect>
+<scn t="16" id="1" rect="4,162,457,424" otype="9" text=" " bktype="1" fill="R:228,G:224,B:218" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>162,4,333,525</wndrect>
 </note>
 </notes>
 </layout>

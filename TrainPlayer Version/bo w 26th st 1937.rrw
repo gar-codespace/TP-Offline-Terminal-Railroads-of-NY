@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="B&amp;O W 26th St 1937" lid="B&amp;2" scale="3" bitmap="..\Layout Artwork\BO W 26th St 1937.jpg" zoom="12.8052" xdim="20117" ydim="8345" xoffset="0" yoffset="0" bmap_size="x:20117,y:8345" def_cars="DropKick" descr="Do not block 12th Avenue for more than 5 minutes. The 26th St Stores are loaded from the north side first. Unschedualed cars from the float go to the team tracks. Spot the rail crane next to loaded flats. The rail crane is self-propelled if need beArtwork © 2014 GA Ritacco">
+<layout name="B&amp;O W 26th St 1937" lid="B&amp;2" scale="3" bitmap="..\Layout Artwork\BO W 26th St 1937.jpg" zoom="13.4024" xdim="20117" ydim="8345" xoffset="0" yoffset="0" bmap_size="x:20117,y:8345" def_cars="DropKick" descr="Do not block 12th Avenue for more than 5 minutes. The 26th St Stores are loaded from the north side first. Unschedualed cars from the float go to the team tracks. Spot the rail crane next to loaded flats. The rail crane is self-propelled if need beArtwork © 2014 GA Ritacco">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="1845,939"></jxn>
@@ -480,12 +480,11 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1429,b:715" zoom="0.0780932" ctr="x:10052,y:4166" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:156,t:156,r:1429,b:715" zoom="0.0746135" ctr="x:10052,y:4172" vtype="84" fit="1"></winview>
 <scripts>
 <script id="12" flags="8"><![CDATA[Notes:
 
 Do not block 12th Avenue for more than 5 minutes.
-Unscheduled cars from the float go to the team tracks.
 
 Wooden carfloats can be unbalanced by a maximum of 3 cars.
 Steel carfloats can be unbalanced by a maximum of 4 cars.
