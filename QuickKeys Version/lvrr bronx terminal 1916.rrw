@@ -320,6 +320,243 @@
 <trains selno="12" trk="0" dists="0">
 <trn t="6" id="5" dspeed="0" rev="1" horntype="0">
 <cars>
+<car t="5" id="34" rect="6896,1939,7268,2671" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 3084" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="149" dists="1066" gs="1"></car>
+<car t="5" id="33" rect="6967,2465,7339,3197" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYNH&amp;H 8352" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="149" dists="536" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="9" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="38" rect="10117,2023,10419,2703" flags="5246976" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="LV 6845" loadname="Empty" dest="~" collname="Default Steam" cartype="gondola" trk="276" dists="1918"></car>
+<car t="5" id="27" rect="10115,2513,10417,3193" flags="5246976" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="AT&amp;SF 7361" loadname="Empty" dest="~" collname="Default Steam" cartype="gondola" trk="276" dists="1428"></car>
+</cars>
+</trn>
+<trn t="6" id="10" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="39" rect="8410,749,8792,1481" flags="5242880" type="10" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 7925" loadname="Empty" dest="~" collname="Default Steam" cartype="flatcar" trk="161" dists="272" gs="1"></car>
+<car t="5" id="32" rect="8491,1272,8875,2004" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 3024" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="161" dists="802" gs="1"></car>
+<car t="5" id="3" rect="8573,1796,8957,2528" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 2683" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="161" dists="1332" gs="1"></car>
+<car t="5" id="30" rect="8657,2319,9039,3051" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 3731" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="161" dists="1862" gs="1"></car>
+<car t="5" id="10" rect="8739,2843,9121,3575" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="DL&amp;W 3748" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="161" dists="2392" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="2" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="9" rect="4561,7679,5293,8061" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;O 0375" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="1" dists="352" gs="1"></car>
+<car t="5" id="17" rect="4037,7598,4769,7980" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 7972" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="1" dists="882" gs="1"></car>
+<car t="5" id="8" rect="3513,7518,4245,7900" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYNH&amp;H 3885" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="1" dists="1412" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="4" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="7" rect="6210,7943,6942,8331" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 5358" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="110" dists="81" gs="1"></car>
+<car t="5" id="6" rect="5687,7858,6419,8244" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 8181" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="110" dists="611" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="12" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="37" rect="10283,3068,10585,3748" flags="5246976" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="DL&amp;W 2344" loadname="Empty" dest="~" collname="Default Steam" cartype="gondola" trk="278" dists="886"></car>
+</cars>
+</trn>
+<trn t="6" id="13" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="25" rect="10056,6741,10560,7467" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 1588" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="82" dists="7"></car>
+<car t="5" id="12" rect="9685,7206,10343,7848" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 8306" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="76" dists="24"></car>
+</cars>
+</trn>
+<trn t="6" id="6" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="4" rect="7530,4386,8202,5010" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 4407" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="262" dists="2033" gs="1"></car>
+<car t="5" id="16" rect="7928,4734,8572,5390" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 8878" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="5" dists="405" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="7" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="1" rect="9149,1906,9531,2638" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 6147" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="56" dists="2137"></car>
+</cars>
+</trn>
+<trn t="6" id="14" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="15" rect="8554,701,8938,1433" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 0645" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="175" dists="248" gs="1"></car>
+<car t="5" id="14" rect="8636,1224,9020,1956" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 3314" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="175" dists="778" gs="1"></car>
+<car t="5" id="23" rect="8720,1748,9102,2480" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 0537" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="175" dists="1308" gs="1"></car>
+<car t="5" id="22" rect="8802,2272,9184,3004" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;O 0792" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="175" dists="1838" gs="1"></car>
+<car t="5" id="29" rect="8884,2795,9266,3527" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 4926" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="175" dists="2368" gs="1"></car>
+<car t="5" id="40" rect="8967,3320,9335,4052" flags="4194304" type="10" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;O 2155" loadname="Empty" dest="~" collname="Default Steam" cartype="flatcar" trk="177" dists="8" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="8" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="42" rect="10111,5376,10411,6096" flags="5242880" type="10" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 5096" loadname="Empty" dest="~" collname="Default Steam" cartype="flatcar" trk="52" dists="570"></car>
+<car t="5" id="41" rect="10106,5906,10410,6626" flags="5242880" type="10" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 5334" loadname="Empty" dest="~" collname="Default Steam" cartype="flatcar" trk="52" dists="40"></car>
+<car t="5" id="5" rect="9923,6414,10403,7144" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 5440" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="46" dists="124"></car>
+<car t="5" id="24" rect="9582,6894,10216,7558" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 8244" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="42" dists="4"></car>
+</cars>
+</trn>
+<trn t="6" id="11" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="26" rect="10285,4181,10587,4901" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="DL&amp;W 6528" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="88" dists="2028"></car>
+<car t="5" id="35" rect="10282,4711,10584,5431" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 9615" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="88" dists="1498"></car>
+</cars>
+</trn>
+<trn t="6" id="1" dspeed="0" rev="1" horntype="0" selcarno="0">
+<cars>
+<car t="5" id="13" rect="5332,7152,5984,7582" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="LVRR 856" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="16" dists="1044"></car>
+</cars>
+</trn>
+<trn t="6" id="3" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="2" rect="2711,7398,3443,7774" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 5358" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="114" dists="298" gs="1"></car>
+<car t="5" id="11" rect="2186,7322,2918,7698" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 4935" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="114" dists="828" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="16" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="36" rect="8258,773,8642,1505" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 2309" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="156" dists="273" gs="1"></car>
+<car t="5" id="28" rect="8342,1296,8726,2028" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 9248" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="156" dists="803" gs="1"></car>
+<car t="5" id="21" rect="8425,1819,8809,2551" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 3640" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="156" dists="1333" gs="1"></car>
+<car t="5" id="31" rect="8508,2343,8892,3075" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 8594" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="156" dists="1863" gs="1"></car>
+<car t="5" id="20" rect="8591,2866,8975,3598" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 2470" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="156" dists="2393" gs="1"></car>
+<car t="5" id="19" rect="8674,3387,9072,4121" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 8486" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="158" dists="27" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="15" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="18" rect="9278,2741,9660,3473" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 7629" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="56" dists="1292"></car>
+</cars>
+</trn>
+</trains>
+<clock smult="6"></clock>
+<roadstyles>
+<roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
+</roadstyles>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.0744111" ctr="x:6531,y:5465" vtype="596" fit="1"></winview>
+<scripts>
+<script id="11" flags="6" cmdix="3946" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
+
+** Assign a note to a subroutine
+    Let NoteForPersonalizedSettings = 16
+    Let NoteForPressX = 12
+    Let NoteForPressY = 0
+    Let NoteForPressZ = 0
+
+** Set Up QuickKeys
+    Call InitializeQuickKeys
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
+
+** Select which subroutines to use
+    Call JobTimer *Setup
+    Call o2o *Setup
+    Call RandomRoads Setup
+    Call TurnTable *Setup 0
+    Call DropKick Setup
+    Call SpeedSwitching Setup
+    Call QuickKeys Setup
+
+StartingPoint:
+
+On Key
+
+Drive $Train($Train)
+
+Call QuickKeys
+
+EndDrive
+
+GoTo StartingPoint
+]]></script>
+<script id="12" flags="8"><![CDATA[Echo Line switches around the loop
+
+Throw 133 1
+Throw 128 1
+Throw 20 1
+Throw 24 1
+Throw 28 1
+Throw 151 1
+Throw 13 1
+Throw 213 1]]></script>
+<script id="13" flags="8"><![CDATA[Layout Notes
+
+Spot a maximum of 1 load to United Plumbers, 2 to American Radiator, 3 to Zabriskie, excess to the Team Tracks.
+
+Wooden carfloats can be unbalanced by a maximum of 3 cars.
+Steel carfloats can be unbalanced by a maximum of 4 cars.
+0-4-0 counts as 1 car.
+0-6-0 counts as 2 cars.
+Oil burners count as 2 cars.
+Only the center rail of the float can be used as a tail track.
+Use an idler flat on the float if provided.
+
+Artwork © 2014 GA Ritacco]]></script>
+<script id="16" flags="8"><![CDATA[** Personalized Settings
+
+** Turn off AO display of track attributes if needed
+    Let x = $View(Hide,"Track Labels")
+    Let x = $View(hide,rails)
+    Let x = $View(hide,roadbed)
+    Let x = $View(hide,ties)
+    Let x = $View(hide,tracks)
+
+** Override Registry values with personal preferences
+    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
+    Let "Coupling Speed" = 5
+    Let AllowYardMode = 1
+    *Let InYardMode = 1
+    Let "Car Gap" = 0
+    Let TTableSpeedDivisor = 7 ** Bigger means slower
+    Let ScrollDistFactorx10 = 25
+    Let DistFromSwitch =  0 ** How the switch position is displayed
+    Let HiliteSize = 18 ** How the switch position is displayed
+
+** Set QuickKeys variables
+    Let maximumTrainSpeed = 7
+    Let "Min Coupling Dist" = 1
+    Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
+
+** Toolbars and windows to include when toggling View mode
+    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
+    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
+    Let TbarAuto = 0
+
+** Optional railroad details
+    Let OperatingRoad = "Lehigh Valley Railroad"
+    Let Territory = "Bronx Terminal"
+    Let Location = "Mott Haven, The Bronx, New York"
+    Let Year = "1911"
+    Let Divisions = ""
+    Let ModelScale = "HO"
+]]></script>
+<script id="17" flags="8"><![CDATA[Random Roads - Source Data
+
+OPERATING_ROAD LVRR
+HOME_ROADS LVRR
+MANIFEST_POOL PRR WJ&S PRR PRR LVRR LVRR LVRR PL NYNH&H P&R B&A B&O NYC M&P SP AT&SF DL&W CNJ ACL LV ER
+REEFER_POOL FGEX MDX
+TANK_POOL TCX PRR TELX UTLX
+HOPPER_POOL PRR PGCC P&R B&O WCC
+SPECIAL_1
+SPECIAL_2
+SPECIAL_3
+
+OPERATING_AAR
+HOME_AAR E ES ED EE EP N NE NM
+MANIFEST_AAR F FA FA6 FB FC FCA FD FL FM FS FW G GA GB GD GBH GE GS GT H HM LG LO LP LT O RA RBL RP S SH SM T TA TL TW X XAR XMR XI XM XP
+PASS_AAR B BE BH BM BMR BMT BP BR BX CA CS D DA DB DC DL DO DP DPA MA MB MR P PA PAS PB PBC PBO PC PL PO PS PSA
+MW_AAR M MWB MWC MWD MWG MWF MWK MWR MWX
+REEFER_AAR RS R RB
+TANK_AAR TG TM TO
+HOPPER_AAR HT HK
+SPECIAL_1_AAR
+SPECIAL_2_AAR
+SPECIAL_3_AAR
+
+HOME_LENGTH 3
+PASS_LENGTH 4
+FREIGHT_LENGTH 4
+MW_LENGTH 3]]></script>
+<rewind_point>
+<trains><![CDATA[<saved_trains selno="12" trk="0" dists="0">
+<trn t="6" id="5" dspeed="0" rev="1" horntype="0">
+<cars>
 <car t="5" id="34" rect="6896,1939,7268,2671" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM34" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="149" dists="1066" gs="1"></car>
 <car t="5" id="33" rect="6967,2465,7339,3197" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM33" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="149" dists="536" gs="1"></car>
 </cars>
@@ -424,112 +661,16 @@
 <car t="5" id="18" rect="9278,2741,9660,3473" flags="4198400" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM18" loadname="Empty" dest="~" collname="Default Steam" cartype="40ft wood box" trk="56" dists="1292"></car>
 </cars>
 </trn>
-</trains>
-<clock smult="6"></clock>
-<roadstyles>
-<roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
-</roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.0744111" ctr="x:6531,y:5465" vtype="596" fit="1"></winview>
-<scripts>
-<script id="11" flags="6" cmdix="3945" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
-
-** Assign a note to a subroutine
-    Let NoteForPersonalizedSettings = 16
-    Let NoteForPressX = 12
-    Let NoteForPressY = 0
-    Let NoteForPressZ = 0
-
-** Set Up QuickKeys
-    Call InitializeQuickKeys
-    Call SetLanguage en  ** Language choices are: en, de, fr, es
-
-** Select which subroutines to use
-    Call JobTimer *Setup
-    Call o2o *Setup
-    Call RandomRoads *Setup
-    Call TurnTable *Setup 0
-    Call DropKick Setup
-    Call SpeedSwitching Setup
-    Call QuickKeys Setup
-
-StartingPoint:
-
-On Key
-
-Drive $Train($Train)
-
-Call QuickKeys
-
-EndDrive
-
-GoTo StartingPoint
-]]></script>
-<script id="12" flags="8"><![CDATA[Echo Line switches around the loop
-
-Throw 133 1
-Throw 128 1
-Throw 20 1
-Throw 24 1
-Throw 28 1
-Throw 151 1
-Throw 13 1
-Throw 213 1]]></script>
-<script id="13" flags="8"><![CDATA[Layout Notes
-
-Spot a maximum of 1 load to United Plumbers, 2 to American Radiator, 3 to Zabriskie, excess to the Team Tracks.
-
-Wooden carfloats can be unbalanced by a maximum of 3 cars.
-Steel carfloats can be unbalanced by a maximum of 4 cars.
-0-4-0 counts as 1 car.
-0-6-0 counts as 2 cars.
-Oil burners count as 2 cars.
-Only the center rail of the float can be used as a tail track.
-Use an idler flat on the float if provided.
-
-Artwork © 2014 GA Ritacco]]></script>
-<script id="16" flags="8"><![CDATA[** Personalized Settings
-
-** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
-
-** Override Registry values with personal preferences
-    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
-    Let "Coupling Speed" = 5
-    Let AllowYardMode = 1
-    *Let InYardMode = 1
-    Let "Car Gap" = 0
-    Let TTableSpeedDivisor = 7 ** Bigger means slower
-    Let ScrollDistFactorx10 = 25
-    Let DistFromSwitch =  0 ** How the switch position is displayed
-    Let HiliteSize = 18 ** How the switch position is displayed
-
-** Set QuickKeys variables
-    Let maximumTrainSpeed = 7
-    Let "Min Coupling Dist" = 1
-    Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
-
-** Toolbars and windows to include when toggling View mode
-    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
-    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
-    Let TbarAuto = 0
-
-** Optional railroad details
-    Let OperatingRoad = "Lehigh Valley Railroad"
-    Let Territory = "Bronx Terminal"
-    Let Location = "Mott Haven, The Bronx, New York"
-    Let Year = "1911"
-    Let Divisions = ""
-    Let ModelScale = "HO"
-]]></script>
+</saved_trains>]]></trains>
+<saved_jxns>13 1  53 1  128 1  133 1  151 1  168 1  193 1  213 1  24 1  28 1</saved_jxns>
+<saved_ttbls></saved_ttbls>
+<ao_settings active_train="0"><![CDATA[<ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>]]></ao_settings>
+</rewind_point>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="2,175,535,303" otype="9" text=" " bktype="1" fill="R:193,G:228,B:254" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>175,2,303,535</wndrect>
+<scn t="16" id="1" rect="11,167,464,391" otype="9" text=" " bktype="1" fill="R:183,G:224,B:254" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>167,11,391,464</wndrect>
 </note>
 </notes>
 </layout>

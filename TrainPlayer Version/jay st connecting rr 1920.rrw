@@ -1452,7 +1452,7 @@ Use an idler flat on the float if provided.
 
 Artwork © 2014 GA Ritacco]]></script>
 <script id="13" flags="8"><![CDATA[** Optional railroad details
-    Let OperatingRoad = "Jay Street Connecting Railroad"
+    Let OperatingRoad = "Jay Street Terminal Railroad"
     Let Territory = "Jay Street Terminal"
     Let Location = "Vinegar Hill, Brooklyn, New York"
     Let Year = "1920"

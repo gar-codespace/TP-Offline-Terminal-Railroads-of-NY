@@ -85,7 +85,7 @@
 <jxn t="3" id="205" pt="8976,3587"></jxn>
 <jxn t="3" id="207" pt="9405,3633" swp="1"></jxn>
 <jxn t="3" id="210" pt="6922,2089"></jxn>
-<jxn t="3" id="212" pt="7321,2154"></jxn>
+<jxn t="3" id="212" pt="7321,2154" swp="1"></jxn>
 <jxn t="3" id="5" pt="7262,1108"></jxn>
 <jxn t="3" id="10" pt="9310,1104"></jxn>
 <jxn t="3" id="13" pt="10553,948"></jxn>
@@ -391,7 +391,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1992,b:877" zoom="0.100314" ctr="x:7477,y:2834" vtype="596" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3957" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" cmdix="3946" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
