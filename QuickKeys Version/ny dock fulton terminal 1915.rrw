@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="29.7703" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
+<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="29.7901" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="940,1076"></jxn>
@@ -1110,9 +1110,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0335905" ctr="x:22328,y:6824" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0335682" ctr="x:22343,y:6824" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3942"><![CDATA[** NY Dock Fulton Terminal 1915
+<script id="20" flags="6" cmdix="3947"><![CDATA[** NY Dock Fulton Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 22
@@ -1165,12 +1165,8 @@ Use an idler flat on the float if provided.
 Artwork © 2014 GA Ritacco]]></script>
 <script id="22" flags="8"><![CDATA[** Personalized Settings
 
-** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
+** Make adjustments to an AO enabled layout if necessary
+    *Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -1522,7 +1518,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="1,167,454,429" otype="9" text=" " bktype="1" fill="R:237,G:217,B:216" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>171,1,395,454</wndrect>
+<wndrect>171,1,299,454</wndrect>
 </note>
 </notes>
 </layout>

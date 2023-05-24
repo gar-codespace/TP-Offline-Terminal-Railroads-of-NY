@@ -646,7 +646,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1904,b:851" zoom="0.109881" ctr="x:5734,y:3703" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3966" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
+<script id="20" flags="6" cmdix="3968" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 23
@@ -723,12 +723,8 @@ throw 217 1
 throw 107 1]]></script>
 <script id="23" flags="8"><![CDATA[** Personalized Settings
 
-** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
+** Make adjustments to an AO enabled layout if necessary
+    Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed

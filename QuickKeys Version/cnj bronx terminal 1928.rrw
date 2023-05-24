@@ -195,7 +195,7 @@
 <jxn t="3" id="508" pt="6287,13999"></jxn>
 <jxn t="3" id="510" pt="6294,13829"></jxn>
 <jxn t="3" id="512" pt="6316,13699"></jxn>
-<jxn t="3" id="514" pt="6364,13544"></jxn>
+<jxn t="3" id="514" pt="6364,13544" swp="1"></jxn>
 <jxn t="3" id="516" pt="6291,13733"></jxn>
 <jxn t="3" id="518" pt="6239,13845"></jxn>
 <jxn t="3" id="520" pt="6198,13920"></jxn>
@@ -775,8 +775,8 @@
 </trn>
 <trn t="6" id="8" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="55" rect="6136,13619,6466,14235" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="441" wid="141" label="CNJ 951" dest="~" collname="North American Diesel_Electric Engines" cartype="a6 1926_AGEIR Boxcab" trk="511" dists="72"></car>
-<car t="5" id="57" rect="6133,14023,6589,14759" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="CNJMoW 089" loadname="mixed load" collname="mow_odd cars" cartype="mow flat" trk="505" dists="127"></car>
+<car t="5" id="55" rect="6136,13607,6468,14223" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="441" wid="141" label="CNJ 951" dest="~" collname="North American Diesel_Electric Engines" cartype="a6 1926_AGEIR Boxcab" trk="511" dists="85"></car>
+<car t="5" id="57" rect="6132,14010,6582,14746" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="CNJMoW 089" loadname="mixed load" collname="mow_odd cars" cartype="mow flat" trk="505" dists="140"></car>
 </cars>
 </trn>
 <trn t="6" id="29" dspeed="0" horntype="0">
@@ -858,7 +858,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:130,t:130,r:1375,b:689" zoom="0.0443456" ctr="x:7419,y:9165" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3966" wndrect="422,98,1264,828"><![CDATA[** CNJ Bronx Terminal 1928
+<script id="20" flags="6" cmdix="3967" wndrect="422,98,1264,828"><![CDATA[** CNJ Bronx Terminal 1928
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 23
@@ -925,12 +925,8 @@ throw 12 1
 throw 42 1]]></script>
 <script id="23" flags="8"><![CDATA[** Personalized Settings
 
-** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
+** Make adjustments to an AO enabled layout if necessary
+    *Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -1187,8 +1183,8 @@ MW_LENGTH 3]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="76,223,529,485" otype="9" text=" " bktype="1" fill="R:194,G:198,B:180" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>223,76,447,529</wndrect>
+<scn t="16" id="1" rect="76,223,529,351" otype="9" text=" " bktype="1" fill="R:194,G:198,B:180" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>223,76,351,529</wndrect>
 </note>
 </notes>
 </layout>

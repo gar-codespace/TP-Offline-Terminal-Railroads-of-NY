@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Jay St Connecting RR 1920" lid="JA1" scale="3" bitmap="..\Layout Artwork\Jay Street Connecting RR.jpg" zoom="28.8422" xdim="43321" ydim="19002" xoffset="0" yoffset="0" bmap_size="x:43321,y:19002" def_cars="DropKick" descr="Pulls to Pier 2 track 1, 2, 3. Pier 2 track 1, 2, 3  to car float. Car float to yard. Yard to industry. Industries grouped into jobs (4 of them). Artwork © 2014 GA Ritacco.">
+<layout name="Jay St Connecting RR 1920" lid="JA1" scale="3" bitmap="..\Layout Artwork\Jay Street Connecting RR.jpg" zoom="28.8614" xdim="43321" ydim="19002" xoffset="0" yoffset="0" bmap_size="x:43321,y:19002" def_cars="DropKick" descr="Pulls to Pier 2 track 1, 2, 3. Pier 2 track 1, 2, 3  to car float. Car float to yard. Yard to industry. Industries grouped into jobs (4 of them). Artwork © 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="14488,18105"></jxn>
@@ -669,7 +669,7 @@
 <jxn t="3" id="37" pt="38154,6306" swp="1"></jxn>
 <jxn t="3" id="40" pt="37916,6129"></jxn>
 <jxn t="3" id="42" pt="37565,5964" swp="1"></jxn>
-<jxn t="3" id="44" pt="37503,5944"></jxn>
+<jxn t="3" id="44" pt="37503,5944" swp="1"></jxn>
 <jxn t="3" id="46" pt="39381,6828"></jxn>
 <jxn t="3" id="48" pt="39134,6796"></jxn>
 <jxn t="3" id="50" pt="38856,6736"></jxn>
@@ -1856,9 +1856,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1386,b:788" zoom="0.0346714" ctr="x:21632,y:9501" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1386,b:788" zoom="0.0346483" ctr="x:21646,y:9501" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3946" wndrect="0,22,597,406"><![CDATA[** Jay St Connecting RR 1920
+<script id="11" flags="6" cmdix="3947" wndrect="0,22,597,406"><![CDATA[** Jay St Connecting RR 1920
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 14
@@ -1910,12 +1910,8 @@ Use an idler flat on the float if provided.
 Artwork © 2014 GA Ritacco]]></script>
 <script id="14" flags="8"><![CDATA[** Personalized Settings
 
-** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
+** Make adjustments to an AO enabled layout if necessary
+    *Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -2403,8 +2399,8 @@ MW_LENGTH 3]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="1,171,454,299" otype="9" text=" " bktype="1" fill="R:237,G:217,B:216" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>171,1,395,454</wndrect>
+<scn t="16" id="1" rect="11,167,464,391" otype="9" text=" " bktype="1" fill="R:183,G:224,B:254" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>167,11,295,464</wndrect>
 </note>
 </notes>
 </layout>

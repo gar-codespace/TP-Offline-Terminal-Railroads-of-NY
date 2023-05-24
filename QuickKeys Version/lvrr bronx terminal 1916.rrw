@@ -431,7 +431,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:234,t:234,r:1549,b:793" zoom="0.0744111" ctr="x:6531,y:5465" vtype="596" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3946" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
+<script id="11" flags="6" cmdix="3947" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1916
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 16
@@ -489,12 +489,8 @@ Use an idler flat on the float if provided.
 Artwork © 2014 GA Ritacco]]></script>
 <script id="16" flags="8"><![CDATA[** Personalized Settings
 
-** Turn off AO display of track attributes if needed
-    Let x = $View(Hide,"Track Labels")
-    Let x = $View(hide,rails)
-    Let x = $View(hide,roadbed)
-    Let x = $View(hide,ties)
-    Let x = $View(hide,tracks)
+** Make adjustments to an AO enabled layout if necessary
+    *Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -670,7 +666,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="11,167,464,391" otype="9" text=" " bktype="1" fill="R:183,G:224,B:254" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>167,11,391,464</wndrect>
+<wndrect>167,11,295,464</wndrect>
 </note>
 </notes>
 </layout>
