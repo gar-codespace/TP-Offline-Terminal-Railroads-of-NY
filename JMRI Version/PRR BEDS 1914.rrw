@@ -290,8 +290,8 @@
 <cars>
 <car t="5" id="1" rect="1029,1971,1719,2271" flags="1314816" type="9" outl="150,150,150" fill="153,255,255" len="520" wid="130" label="TCX 1747" loadname="fuel oil" dest="PF" collname="Default Steam" cartype="tankcar" trk="13" dists="246" gs="1"></car>
 <car t="5" id="61" rect="1529,1970,2209,2270" flags="262144" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="PRR 1240" loadname="Tarp3" dest="PF" collname="Default Steam" cartype="gondola" trk="13" dists="741" gs="1"></car>
-<car t="5" id="3" rect="2019,1970,2759,2270" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 2673" loadname="lcl" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="13" dists="1261" gs="1"></car>
-<car t="5" id="21" rect="2569,1969,3309,2269" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 0771" loadname="lcl" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="13" dists="1811" gs="1"></car>
+<car t="5" id="3" rect="2019,1970,2759,2270" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 2673" loadname="LCL" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="13" dists="1261" gs="1"></car>
+<car t="5" id="21" rect="2569,1969,3309,2269" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 0771" loadname="LCL" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="13" dists="1811" gs="1"></car>
 <car t="5" id="9" rect="3119,1968,3859,2268" flags="266240" type="5" outl="134,134,134" fill="255,255,255" len="570" wid="130" label="MDX 9519" loadname="Produce" dest="PF" collname="Default Steam" cartype="ice reefer" trk="13" dists="2361" gs="1"></car>
 <car t="5" id="65" rect="3669,1964,4349,2268" flags="1310720" type="7" outl="134,134,134" fill="192,192,192" len="510" wid="130" label="NYC 0830" loadname="machinery" dest="PF" collname="Default Steam" cartype="gondola" trk="13" dists="2881" gs="1"></car>
 </cars>
@@ -333,10 +333,10 @@
 <cars>
 <car t="5" id="50" rect="3728,1687,4470,1999" flags="1314816" type="5" outl="134,134,134" fill="255,255,255" len="570" wid="130" label="MDX 9710" loadname="Produce" dest="PF" collname="Default Steam" cartype="ice reefer" trk="3" dists="2980"></car>
 <car t="5" id="14" rect="3180,1688,3920,1988" flags="1310720" type="5" outl="134,134,134" fill="255,255,255" len="570" wid="130" label="MDX 0730" loadname="Produce" dest="PF" collname="Default Steam" cartype="ice reefer" trk="3" dists="2430"></car>
-<car t="5" id="22" rect="2630,1688,3370,1988" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PL 5316" loadname="lcl" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="3" dists="1880"></car>
-<car t="5" id="26" rect="2100,1689,2820,1989" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 1789" loadname="lcl" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="3" dists="1340"></car>
+<car t="5" id="22" rect="2630,1688,3370,1988" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PL 5316" loadname="LCL" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="3" dists="1880"></car>
+<car t="5" id="26" rect="2100,1689,2820,1989" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 1789" loadname="LCL" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="3" dists="1340"></car>
 <car t="5" id="47" rect="1550,1690,2290,1990" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 9511" loadname="Empty" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="3" dists="800"></car>
-<car t="5" id="48" rect="1000,1690,1740,1990" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PL 4239" loadname="lcl" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="3" dists="250"></car>
+<car t="5" id="48" rect="1000,1690,1740,1990" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PL 4239" loadname="LCL" dest="PF" collname="Default Steam" cartype="40ft wood box" trk="3" dists="250"></car>
 </cars>
 </trn>
 <trn t="6" id="9" dspeed="0" horntype="0">
@@ -391,7 +391,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1992,b:877" zoom="0.100314" ctr="x:7477,y:2834" vtype="596" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3960" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" cmdix="3939" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -454,7 +454,7 @@ MW_LENGTH 3]]></script>
 <script id="13" flags="8"><![CDATA[** Personalized Settings
 
 ** Make adjustments to an AO enabled layout if necessary
-    *Call aoAdjustments
+    Call aoAdjustments
 
 ** Override Registry values with personal preferences
     Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
@@ -629,7 +629,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="6,187,573,487" otype="9" text=" " bktype="1" fill="R:231,G:227,B:211" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>198,15,318,582</wndrect>
+<wndrect>198,15,513,582</wndrect>
 </note>
 </notes>
 </layout>
