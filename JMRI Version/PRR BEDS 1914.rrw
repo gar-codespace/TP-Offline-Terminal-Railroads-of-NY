@@ -391,7 +391,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1992,b:877" zoom="0.100314" ctr="x:7477,y:2834" vtype="596" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3968" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" cmdix="3960" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 13
@@ -401,7 +401,7 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call SetLanguage es  ** Language choices are: en, de, fr, es
+    Call SetLanguage en ** Language choices are: en, de, fr, es
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -629,7 +629,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="6,187,573,487" otype="9" text=" " bktype="1" fill="R:231,G:227,B:211" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>198,15,513,582</wndrect>
+<wndrect>198,15,318,582</wndrect>
 </note>
 </notes>
 </layout>
