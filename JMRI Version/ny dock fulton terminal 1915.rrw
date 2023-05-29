@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="9.75514" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
+<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="9.75515" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="940,1076"></jxn>
@@ -354,7 +354,7 @@
 <jxn t="3" id="31" pt="36902,9515"></jxn>
 <jxn t="3" id="33" pt="36367,9409"></jxn>
 <jxn t="3" id="36" pt="37061,9564"></jxn>
-<jxn t="3" id="39" pt="41761,9960"></jxn>
+<jxn t="3" id="39" pt="41761,9960" swp="1"></jxn>
 <jxn t="3" id="41" pt="41357,9915"></jxn>
 <jxn t="3" id="43" pt="41055,9805" swp="1"></jxn>
 <jxn t="3" id="45" pt="41685,10428" swp="1"></jxn>
@@ -500,7 +500,7 @@
 <str t="1" id="299" rect="14475,7379,14478,9251" js="296" jn="88"></str>
 <str t="1" id="305" rect="14800,5429,14869,6462" js="257" jn="310"></str>
 <str t="1" id="307" rect="15035,5057,15125,6471" js="267" jn="306"></str>
-<str t="1" id="309" rect="14553,2439,14802,6079" tag="Y" js="292" jn="308" stnno="996"></str>
+<str t="1" id="309" rect="14553,2439,14802,6079" js="292" jn="308" stnno="996"></str>
 <str t="1" id="312" rect="14869,5126,14911,5429" js="310" jn="311"></str>
 <str t="1" id="313" rect="14869,5029,14897,5429" js="310" jn="304"></str>
 <str t="1" id="315" rect="14911,4852,14969,5126" js="311" jn="314"></str>
@@ -511,14 +511,14 @@
 <str t="1" id="330" rect="14907,1263,15125,4509" tag="PFS" js="327" jn="329" stnno="996"></str>
 <str t="1" id="332" rect="15125,4464,15198,5057" tag="PFS" js="306" jn="331" stnno="996"></str>
 <str t="1" id="334" rect="15198,1289,15416,4464" tag="PFS" js="331" jn="333" stnno="996"></str>
-<str t="1" id="337" rect="15330,3298,15528,6187" tag="Y" js="335" jn="389" stnno="996"></str>
+<str t="1" id="337" rect="15330,3298,15528,6187" js="335" jn="389" stnno="996"></str>
 <str t="1" id="340" rect="15465,3301,15672,6391" tag="YS" js="338" jn="339" stnno="996"></str>
 <str t="1" id="343" rect="15604,3315,15804,6388" tag="YS" js="341" jn="342" stnno="996"></str>
 <str t="1" id="346" rect="15732,3322,15963,6635" tag="YS" js="344" jn="345" stnno="996"></str>
 <str t="1" id="349" rect="16183,1623,16323,3594" tag="PFN" js="347" jn="348" stnno="996"></str>
 <str t="1" id="352" rect="16328,1638,16466,3573" tag="PFN" js="350" jn="351" stnno="996"></str>
 <str t="1" id="355" rect="16474,1653,16615,3587" tag="PFN" js="353" jn="354" stnno="996"></str>
-<str t="1" id="358" rect="16484,2701,16783,7080" tag="Y" js="356" jn="357" stnno="996"></str>
+<str t="1" id="358" rect="16484,2701,16783,7080" tag="S" js="356" jn="357" stnno="996"></str>
 <str t="1" id="360" rect="16391,3587,16474,4835" tag="PFN" js="354" jn="359" stnno="996"></str>
 <str t="1" id="362" rect="16252,3573,16328,4700" tag="PFN" js="351" jn="361" stnno="996"></str>
 <str t="1" id="364" rect="16099,3594,16183,4818" tag="PFN" js="348" jn="363" stnno="996"></str>
@@ -1088,14 +1088,14 @@
 </trn>
 <trn t="6" id="30" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="130" rect="16595,2612,16933,3358" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 9187" loaded="1" loadname="Foodstuffs" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="285" gs="1"></car>
-<car t="5" id="14" rect="16558,3161,16894,3887" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 0564" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="825" gs="1"></car>
-<car t="5" id="153" rect="16521,3689,16859,4435" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="CNJ 5472" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="1365" gs="1"></car>
-<car t="5" id="125" rect="16484,4238,16822,4984" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 5353" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="1915" gs="1"></car>
-<car t="5" id="41" rect="16447,4787,16783,5513" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 6980" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="2455" gs="1"></car>
-<car t="5" id="29" rect="16410,5316,16748,6062" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4685" loaded="1" loadname="Break Bulk" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="2995" gs="1"></car>
-<car t="5" id="42" rect="16373,5864,16709,6610" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 3185" loaded="1" loadname="Break Bulk" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="3545" gs="1"></car>
-<car t="5" id="18" rect="16336,6413,16672,7139" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 4877" loaded="1" loadname="Wool" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="4085" gs="1"></car>
+<car t="5" id="130" rect="16595,2612,16933,3358" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 9187" loaded="1" loadname="Foodstuffs" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="285" gs="1"></car>
+<car t="5" id="14" rect="16558,3161,16894,3887" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 0564" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="825" gs="1"></car>
+<car t="5" id="153" rect="16521,3689,16859,4435" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="CNJ 5472" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="1365" gs="1"></car>
+<car t="5" id="125" rect="16484,4238,16822,4984" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 5353" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="1915" gs="1"></car>
+<car t="5" id="41" rect="16447,4787,16783,5513" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 6980" loaded="1" loadname="Empty" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="2455" gs="1"></car>
+<car t="5" id="29" rect="16410,5316,16748,6062" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4685" loaded="1" loadname="Break Bulk" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="2995" gs="1"></car>
+<car t="5" id="42" rect="16373,5864,16709,6610" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 3185" loaded="1" loadname="Break Bulk" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="3545" gs="1"></car>
+<car t="5" id="18" rect="16336,6413,16672,7139" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 4877" loaded="1" loadname="Wool" dest="Y" collname="Default Steam" cartype="40ft wood box" trk="358" dists="4085" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="37" dspeed="0" horntype="0">
@@ -1179,7 +1179,7 @@
 <loc id="17" locale="Fulton Terminal;North Yard" track="YN" class="interchange"></loc>
 <loc id="18" locale="Fulton Terminal;Fiddle Yard North" track="FYN" class="class yard"></loc>
 <loc id="19" locale="Fulton Terminal;Fiddle Yard South" track="FYS" class="class yard"></loc>
-<loc id="20" locale="Fulton Terminal;Yard" track="Y" class="class yard"></loc>
+<loc id="20" locale="Fulton Terminal;Stub Track" track="S" class="interchange"></loc>
 </locations>
 <trainseqs active_row="1">
 <tseq id="1" active="X"></tseq>
@@ -1190,7 +1190,7 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.10251" ctr="x:18293,y:5931" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.10251" ctr="x:17015,y:5326" vtype="16964"></winview>
 <scripts>
 <script id="20" flags="6" cmdix="3954"><![CDATA[** NY Dock Fulton Terminal 1915
 
@@ -1598,7 +1598,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="1,167,454,429" otype="9" text=" " bktype="1" fill="R:237,G:217,B:216" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>111,19,383,764</wndrect>
+<wndrect>111,19,239,764</wndrect>
 </note>
 </notes>
 </layout>
