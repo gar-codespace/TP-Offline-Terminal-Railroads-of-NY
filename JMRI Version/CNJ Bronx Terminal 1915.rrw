@@ -217,7 +217,7 @@
 <jxn t="3" id="47" pt="2508,2617" swp="1"></jxn>
 <jxn t="3" id="69" pt="2361,2850"></jxn>
 <jxn t="3" id="86" pt="2283,2990"></jxn>
-<jxn t="3" id="101" pt="2254,3063"></jxn>
+<jxn t="3" id="101" pt="2254,3063" swp="1"></jxn>
 <jxn t="3" id="103" pt="2157,3324"></jxn>
 <jxn t="3" id="105" pt="2192,3233"></jxn>
 <jxn t="3" id="107" pt="2804,2960"></jxn>
@@ -686,7 +686,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1271,b:585" zoom="0.10537" ctr="x:5429,y:3862" vtype="596" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3954" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" cmdix="3964" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -998,7 +998,7 @@ Use the Patterns subroutine to move additional cars between the yard and industr
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="1,167,454,429" otype="9" text=" " bktype="1" fill="R:237,G:217,B:216" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>171,1,523,568</wndrect>
+<wndrect>171,1,491,568</wndrect>
 </note>
 </notes>
 </layout>
