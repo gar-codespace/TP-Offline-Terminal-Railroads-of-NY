@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="8.41338" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
+<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="5.38458" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="940,1076"></jxn>
@@ -41,7 +41,7 @@
 <jxn t="3" id="71" pt="5122,8095"></jxn>
 <jxn t="3" id="73" pt="5273,8173"></jxn>
 <jxn t="3" id="75" pt="5525,8247"></jxn>
-<jxn t="3" id="77" pt="5767,8280"></jxn>
+<jxn t="3" id="77" pt="5767,8280" swp="1"></jxn>
 <jxn t="3" id="79" pt="209,8276"></jxn>
 <jxn t="3" id="81" pt="4415,7653"></jxn>
 <jxn t="3" id="83" pt="4532,7796"></jxn>
@@ -52,7 +52,7 @@
 <jxn t="3" id="93" pt="5208,8321"></jxn>
 <jxn t="3" id="95" pt="5369,8377"></jxn>
 <jxn t="3" id="97" pt="5525,8408"></jxn>
-<jxn t="3" id="99" pt="5790,8434" swp="1"></jxn>
+<jxn t="3" id="99" pt="5790,8434"></jxn>
 <jxn t="3" id="101" pt="209,8438"></jxn>
 <jxn t="3" id="103" pt="215,8122"></jxn>
 <jxn t="3" id="106" pt="3801,8120"></jxn>
@@ -179,7 +179,7 @@
 <jxn t="3" id="448" pt="14772,9491" swp="1"></jxn>
 <jxn t="3" id="452" pt="14886,7664"></jxn>
 <jxn t="3" id="454" pt="14831,7851"></jxn>
-<jxn t="3" id="458" pt="14773,8348" swp="1"></jxn>
+<jxn t="3" id="458" pt="14773,8348"></jxn>
 <jxn t="3" id="468" pt="14469,9754"></jxn>
 <jxn t="3" id="469" pt="14500,9499"></jxn>
 <jxn t="3" id="483" pt="14620,9745"></jxn>
@@ -235,7 +235,7 @@
 <jxn t="3" id="703" pt="23759,8997"></jxn>
 <jxn t="3" id="705" pt="24102,9011"></jxn>
 <jxn t="3" id="709" pt="21784,8696"></jxn>
-<jxn t="3" id="711" pt="22032,8720" swp="1"></jxn>
+<jxn t="3" id="711" pt="22032,8720"></jxn>
 <jxn t="3" id="713" pt="22433,8799"></jxn>
 <jxn t="3" id="715" pt="22710,8884"></jxn>
 <jxn t="3" id="717" pt="23002,9002"></jxn>
@@ -332,7 +332,7 @@
 <jxn t="3" id="942" pt="42443,10595"></jxn>
 <jxn t="3" id="944" pt="42778,10644"></jxn>
 <jxn t="3" id="946" pt="43909,10785"></jxn>
-<jxn t="3" id="954" pt="40155,9553"></jxn>
+<jxn t="3" id="954" pt="40155,9553" swp="1"></jxn>
 <jxn t="3" id="963" pt="41977,11627"></jxn>
 <jxn t="3" id="965" pt="41961,11894"></jxn>
 <jxn t="3" id="967" pt="41822,13451"></jxn>
@@ -347,16 +347,16 @@
 <jxn t="3" id="18" pt="26672,9035"></jxn>
 <jxn t="3" id="20" pt="27481,9032"></jxn>
 <jxn t="3" id="22" pt="27099,9035" swp="1"></jxn>
-<jxn t="3" id="24" pt="27178,9038"></jxn>
+<jxn t="3" id="24" pt="27178,9038" swp="1"></jxn>
 <jxn t="3" id="26" pt="36367,9388" swp="1"></jxn>
 <jxn t="3" id="29" pt="36881,9568"></jxn>
 <jxn t="3" id="31" pt="36902,9515"></jxn>
 <jxn t="3" id="33" pt="36367,9409"></jxn>
 <jxn t="3" id="36" pt="37061,9564" swp="1"></jxn>
-<jxn t="3" id="39" pt="41761,9960" swp="1"></jxn>
+<jxn t="3" id="39" pt="41761,9960"></jxn>
 <jxn t="3" id="41" pt="41357,9915"></jxn>
-<jxn t="3" id="43" pt="41055,9805" swp="1"></jxn>
-<jxn t="3" id="45" pt="41685,10428"></jxn>
+<jxn t="3" id="43" pt="41055,9805"></jxn>
+<jxn t="3" id="45" pt="41685,10428" swp="1"></jxn>
 <jxn t="3" id="47" pt="41528,10258"></jxn>
 <jxn t="3" id="49" pt="41296,10058" swp="1"></jxn>
 <jxn t="3" id="51" pt="40965,9833"></jxn>
@@ -367,9 +367,9 @@
 <jxn t="3" id="61" pt="16948,8513"></jxn>
 <jxn t="3" id="63" pt="17205,8523" swp="1"></jxn>
 <jxn t="3" id="64" pt="17339,8438" swp="1"></jxn>
-<jxn t="3" id="66" pt="16947,8219" swp="1"></jxn>
+<jxn t="3" id="66" pt="16947,8219"></jxn>
 <jxn t="3" id="68" pt="17088,8318"></jxn>
-<jxn t="3" id="70" pt="16890,8287" swp="1"></jxn>
+<jxn t="3" id="70" pt="16890,8287"></jxn>
 <jxn t="3" id="72" pt="16469,8039" swp="1"></jxn>
 <jxn t="3" id="74" pt="16647,8164"></jxn>
 <jxn t="3" id="76" pt="16409,8112" swp="1"></jxn>
@@ -382,8 +382,8 @@
 <jxn t="3" id="90" pt="15083,8203"></jxn>
 <jxn t="3" id="92" pt="14995,8487" swp="1"></jxn>
 <jxn t="3" id="96" pt="14780,8944"></jxn>
-<jxn t="3" id="98" pt="14777,8500" swp="1"></jxn>
-<jxn t="3" id="100" pt="14698,8869"></jxn>
+<jxn t="3" id="98" pt="14777,8500"></jxn>
+<jxn t="3" id="100" pt="14698,8869" swp="1"></jxn>
 <jxn t="3" id="102" pt="14630,9215"></jxn>
 <jxn t="3" id="105" pt="14776,7743"></jxn>
 <jxn t="3" id="107" pt="14772,7636" swp="1"></jxn>
@@ -401,7 +401,7 @@
 <jxn t="3" id="125" pt="6633,8273"></jxn>
 <jxn t="3" id="127" pt="6185,8396"></jxn>
 <jxn t="3" id="128" pt="6584,8310"></jxn>
-<jxn t="3" id="129" pt="15312,6467"></jxn>
+<jxn t="3" id="129" pt="15312,6467" swp="1"></jxn>
 <jxn t="3" id="130" pt="15923,5536"></jxn>
 <jxn t="3" id="132" pt="16468,5572"></jxn>
 <jxn t="3" id="134" pt="16457,5629"></jxn>
@@ -851,150 +851,10 @@
 <stn t="15" id="1301" rect="3873,2065,4813,6055" name="Pier18"></stn>
 </stns>
 </tracks>
-<trains selno="19" trk="0" dists="0">
-<trn t="6" id="14" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="46" rect="123,7972,843,8272" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 8572" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="268" gs="1"></car>
-<car t="5" id="76" rect="653,7971,1373,8271" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 0068" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="798" gs="1"></car>
-<car t="5" id="78" rect="1183,7971,1903,8271" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 1918" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="1328" gs="1"></car>
-<car t="5" id="79" rect="1713,7971,2433,8271" flags="5505024" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 2322" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="105" dists="1858" gs="1"></car>
-<car t="5" id="59" rect="2243,7971,2963,8271" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 2968" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="2388" gs="1"></car>
-<car t="5" id="90" rect="2773,7970,3493,8270" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 0975" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="2918" gs="1"></car>
-</cars>
-</trn>
+<trains selno="34" trk="0" dists="0">
 <trn t="6" id="10" dspeed="0" horntype="3">
 <cars>
 <car t="5" id="126" rect="36887,9820,37627,10120" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="AT&amp;SF 4863" loadname="Coffee" dest="M21" collname="Default Steam" cartype="40ft wood box" trk="830" dists="283" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="13" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="28" rect="3849,4669,4153,5389" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 1050" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="3213"></car>
-<car t="5" id="7" rect="3843,4119,4147,4859" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 8819" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="2673"></car>
-<car t="5" id="105" rect="3837,3589,4141,4309" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 5505" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="2133"></car>
-<car t="5" id="109" rect="3831,3059,4135,3779" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYNH&amp;H 6808" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="1603"></car>
-<car t="5" id="58" rect="3824,2509,4130,3249" flags="5509120" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 9126" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="36" dists="1063"></car>
-</cars>
-</trn>
-<trn t="6" id="8" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="137" rect="2789,8290,3529,8590" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LV 1604" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="191" dists="551" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="18" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="99" rect="10974,8280,11694,8580" flags="4460544" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 1669" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="196" dists="5232"></car>
-<car t="5" id="4" rect="10444,8281,11164,8581" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 7300" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="4702"></car>
-<car t="5" id="81" rect="9894,8281,10634,8581" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 6305" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="4162"></car>
-<car t="5" id="27" rect="9364,8282,10084,8582" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 8025" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="3622"></car>
-<car t="5" id="129" rect="8834,8282,9554,8582" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 9839" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="3092"></car>
-<car t="5" id="96" rect="8304,8283,9024,8583" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 4719" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="2562"></car>
-<car t="5" id="140" rect="7754,8284,8494,8584" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="DL&amp;W 5410" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="2022"></car>
-<car t="5" id="50" rect="7224,8284,7944,8584" flags="5509120" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 6536" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="196" dists="1482"></car>
-<car t="5" id="136" rect="6674,8285,7414,8585" flags="4460544" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LVRR 6449" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="196" dists="942"></car>
-</cars>
-</trn>
-<trn t="6" id="2" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="1" rect="40035,9826,40765,10182" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 7000" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="827" dists="2380"></car>
-<car t="5" id="115" rect="39508,9769,40238,10127" flags="5509120" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 6745" loaded="1" loadname="Empty" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="827" dists="1850"></car>
-</cars>
-</trn>
-<trn t="6" id="11" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="100" rect="43345,9980,44077,10350" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 3838" loaded="1" loadname="L.C.L. out" dest="FH" collname="Default Steam" cartype="40ft wood box" trk="882" dists="1113"></car>
-<car t="5" id="121" rect="42820,9911,43552,10281" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 0708" loadname="L.C.L. in" dest="FH" collname="Default Steam" cartype="40ft wood box" trk="882" dists="583"></car>
-</cars>
-</trn>
-<trn t="6" id="28" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="102" rect="43276,10568,44006,10934" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 0060" loaded="1" loadname="L.C.L. out" dest="FH" collname="Default Steam" cartype="40ft wood box" trk="947" dists="870"></car>
-<car t="5" id="98" rect="42750,10503,43480,10869" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 6416" loadname="L.C.L. in" dest="FH" collname="Default Steam" cartype="40ft wood box" trk="947" dists="340"></car>
-</cars>
-</trn>
-<trn t="6" id="33" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="82" rect="40511,10044,41261,10406" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 6010" loadname="Wool" dest="M18" collname="Default Steam" cartype="40ft wood box" trk="847" dists="2049"></car>
-<car t="5" id="36" rect="39984,9985,40714,10345" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 6176" loaded="1" loadname="Wool" dest="M18" collname="Default Steam" cartype="40ft wood box" trk="847" dists="1509"></car>
-<car t="5" id="151" rect="39437,9923,40187,10285" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYC 8021" loadname="Wool" dest="M18" collname="Default Steam" cartype="40ft wood box" trk="847" dists="969"></car>
-<car t="5" id="88" rect="38911,9863,39641,10223" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 9841" loaded="1" loadname="Wool" dest="M18" collname="Default Steam" cartype="40ft wood box" trk="847" dists="429"></car>
-</cars>
-</trn>
-<trn t="6" id="15" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="112" rect="41833,12820,42175,13548" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 0968" loaded="1" loadname="Express out" dest="NYX" collname="Default Steam" cartype="40ft wood box" trk="909" dists="270" gs="1"></car>
-<car t="5" id="15" rect="41874,12291,42218,13019" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 5132" loaded="1" loadname="Express out" dest="NYX" collname="Default Steam" cartype="40ft wood box" trk="909" dists="800" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="24" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="150" rect="41671,12808,42023,13556" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 9131" loadname="Express out" dest="NYX" collname="Default Steam" cartype="40ft wood box" trk="218" dists="903"></car>
-<car t="5" id="103" rect="41721,12280,42071,13008" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;O 6499" loaded="1" loadname="Express out" dest="NYX" collname="Default Steam" cartype="40ft wood box" trk="218" dists="363"></car>
-</cars>
-</trn>
-<trn t="6" id="34" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="84" rect="42747,10343,43497,10711" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYC 2404" loaded="1" loadname="L.C.L. out" dest="FH" collname="Default Steam" cartype="40ft wood box" trk="906" dists="476" gs="1"></car>
-<car t="5" id="52" rect="43293,10410,44023,10776" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 3262" loadname="L.C.L. in" dest="FH" collname="Default Steam" cartype="40ft wood box" trk="906" dists="1016" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="31" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="128" rect="2796,8438,3536,8738" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 0626" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="2952"></car>
-<car t="5" id="86" rect="2246,8439,2986,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 8522" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="2402"></car>
-<car t="5" id="97" rect="1716,8439,2436,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 0460" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="1862"></car>
-<car t="5" id="19" rect="1166,8439,1906,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 9437" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="1322"></car>
-<car t="5" id="66" rect="636,8439,1356,8739" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 2042" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="782"></car>
-<car t="5" id="64" rect="106,8440,826,8740" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 9303" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="252"></car>
-</cars>
-</trn>
-<trn t="6" id="32" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="85" rect="2769,8129,3489,8429" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="DL&amp;W 1611" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="190" dists="664"></car>
-</cars>
-</trn>
-<trn t="6" id="17" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="8" rect="39911,9656,40641,10014" flags="4460544" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 0996" loaded="1" loadname="Empty" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="819" dists="2715"></car>
-<car t="5" id="149" rect="39364,9597,40114,9955" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYC 2624" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="819" dists="2175"></car>
-</cars>
-</trn>
-<trn t="6" id="29" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="87" rect="16960,8523,17700,8823" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LVRR 4293" loadname="Coffee" dest="P48" collname="Default Steam" cartype="40ft wood box" trk="188" dists="2005"></car>
-<car t="5" id="40" rect="16430,8522,17150,8822" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 2679" loadname="Coffee" dest="P48" collname="Default Steam" cartype="40ft wood box" trk="188" dists="1465"></car>
-<car t="5" id="3" rect="15880,8522,16620,8822" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ACL 6811" loadname="Coffee" dest="P48" collname="Default Steam" cartype="40ft wood box" trk="188" dists="925"></car>
-<car t="5" id="113" rect="15350,8522,16070,8822" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 6703" loadname="Coffee" dest="P48" collname="Default Steam" cartype="40ft wood box" trk="188" dists="385"></car>
-</cars>
-</trn>
-<trn t="6" id="39" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="39" rect="20975,8526,21717,8836" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="DL&amp;W 8042" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="2273"></car>
-<car t="5" id="20" rect="20446,8527,21166,8829" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 5607" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="1733"></car>
-<car t="5" id="110" rect="19916,8529,20636,8831" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 0067" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="1203"></car>
-<car t="5" id="107" rect="19386,8531,20106,8833" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 9521" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="673"></car>
-</cars>
-</trn>
-<trn t="6" id="7" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="134" rect="25137,9031,25877,9335" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 2731" loadname="Wool" dest="R37" collname="Default Steam" cartype="40ft wood box" trk="726" dists="1541"></car>
-<car t="5" id="74" rect="24587,9027,25327,9331" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYC 1343" loadname="Wool" dest="R37" collname="Default Steam" cartype="40ft wood box" trk="726" dists="991"></car>
-<car t="5" id="37" rect="24057,9023,24777,9325" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 6966" loadname="Wool" dest="R37" collname="Default Steam" cartype="40ft wood box" trk="726" dists="451"></car>
-<car t="5" id="16" rect="23525,8997,24249,9323" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;O 0560" loadname="Wool" dest="R37" collname="Default Steam" cartype="40ft wood box" trk="724" dists="261"></car>
-</cars>
-</trn>
-<trn t="6" id="27" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="135" rect="35126,9400,35866,9702" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 9316" loadname="Foodstuffs" dest="M23" collname="Default Steam" cartype="40ft wood box" trk="792" dists="825"></car>
-<car t="5" id="48" rect="34576,9402,35316,9704" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 6794" loadname="Foodstuffs" dest="M23" collname="Default Steam" cartype="40ft wood box" trk="792" dists="275"></car>
-</cars>
-</trn>
-<trn t="6" id="38" dspeed="0" horntype="0" selcarno="1">
-<cars>
-<car t="5" id="148" rect="30172,9040,30912,9340" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="M&amp;P 9913" loadname="Break Bulk" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="752" dists="1962"></car>
-<car t="5" id="9" rect="29622,9040,30362,9340" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 0820" loaded="1" loadname="Break Bulk" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="752" dists="1412"></car>
-<car t="5" id="104" rect="29092,9040,29812,9340" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 3181" loadname="Break Bulk" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="752" dists="872"></car>
-<car t="5" id="38" rect="28562,9040,29282,9340" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 9979" loadname="Break Bulk" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="752" dists="342"></car>
 </cars>
 </trn>
 <trn t="6" id="25" dspeed="0" horntype="0">
@@ -1026,43 +886,6 @@
 <car t="5" id="47" rect="16405,1842,16743,2570" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 0683" loadname="Foodstuffs" dest="PN" collname="Default Steam" cartype="40ft wood box" trk="355" dists="555"></car>
 </cars>
 </trn>
-<trn t="6" id="35" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="73" rect="15456,6097,15766,6819" flags="4456448" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 2992" loaded="1" loadname="Empty" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="546" dists="70" gs="1"></car>
-<car t="5" id="63" rect="15467,5566,15803,6292" flags="4460544" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYNH&amp;H 8907" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="343" dists="2892" gs="1"></car>
-<car t="5" id="24" rect="15503,5037,15839,5763" flags="4460544" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 1882" loaded="1" loadname="Empty" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="343" dists="2362" gs="1"></car>
-<car t="5" id="44" rect="15540,4508,15876,5234" flags="5509120" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 4527" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="343" dists="1832" gs="1"></car>
-<car t="5" id="18" rect="15576,3979,15912,4705" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 4877" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="343" dists="1302" gs="1"></car>
-<car t="5" id="29" rect="15613,3431,15951,4177" flags="5509120" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4685" loaded="1" loadname="Empty" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="343" dists="762" gs="1"></car>
-<car t="5" id="23" rect="15650,2883,15988,3629" flags="5509120" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PL 1000" loaded="1" loadname="Empty" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="343" dists="212" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="21" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="89" rect="16341,6351,16677,7077" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 0372" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="4023"></car>
-<car t="5" id="123" rect="16377,5822,16713,6548" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 4003" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="3493"></car>
-<car t="5" id="60" rect="16413,5294,16749,6020" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 8938" loadname="Coffee" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="2963"></car>
-<car t="5" id="93" rect="16449,4765,16785,5491" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 2377" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="2433"></car>
-<car t="5" id="138" rect="16485,4216,16823,4962" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="CNJ 4360" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="1893"></car>
-<car t="5" id="22" rect="16522,3687,16858,4413" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 5109" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="1353"></car>
-<car t="5" id="17" rect="16559,3159,16895,3885" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 1730" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="823"></car>
-<car t="5" id="83" rect="16595,2610,16933,3356" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 0792" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="283"></car>
-</cars>
-</trn>
-<trn t="6" id="41" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="95" rect="584,3497,920,4223" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 1933" loadname="Foodstuffs" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="4" dists="2791"></car>
-<car t="5" id="118" rect="620,2948,956,3694" flags="5505024" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="SP 0652" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="4" dists="2251"></car>
-<car t="5" id="56" rect="657,2400,993,3146" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LV 9700" loadname="Foodstuffs" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="4" dists="1701"></car>
-</cars>
-</trn>
-<trn t="6" id="12" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="80" rect="14772,10700,15072,11440" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="SP 4022" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="437" dists="285" gs="1"></car>
-<car t="5" id="21" rect="14773,10150,15073,10890" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 7922" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="437" dists="835" gs="1"></car>
-<car t="5" id="142" rect="14774,9600,15074,10340" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 0026" loadname="L.C.L. in" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="437" dists="1385" gs="1"></car>
-</cars>
-</trn>
 <trn t="6" id="1" dspeed="0" horntype="3">
 <cars>
 <car t="5" id="70" rect="15011,4122,15355,4850" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 6557" loadname="Foodstuffs" dest="PS" collname="Default Steam" cartype="40ft wood box" trk="334" dists="108" gs="1"></car>
@@ -1071,30 +894,6 @@
 <car t="5" id="34" rect="15131,2537,15469,3263" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 3257" loadname="Imports" dest="PS" collname="Default Steam" cartype="40ft wood box" trk="334" dists="1698" gs="1"></car>
 <car t="5" id="26" rect="15169,1988,15509,2734" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="SP 2836" loadname="Imports" dest="PS" collname="Default Steam" cartype="40ft wood box" trk="334" dists="2238" gs="1"></car>
 <car t="5" id="139" rect="15208,1440,15548,2186" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ACL 7583" loadname="Imports" dest="PS" collname="Default Steam" cartype="40ft wood box" trk="334" dists="2788" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="5" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="49" rect="15608,5629,15944,6355" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 5317" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="2954"></car>
-<car t="5" id="43" rect="15644,5100,15980,5826" flags="4456448" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 3682" loaded="1" loadname="Empty" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="346" dists="2424"></car>
-<car t="5" id="51" rect="15681,4571,16017,5297" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 7895" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="1894"></car>
-<car t="5" id="152" rect="15717,4022,16055,4768" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 7782" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="1354"></car>
-<car t="5" id="12" rect="15755,3494,16091,4220" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 6746" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="814"></car>
-<car t="5" id="132" rect="15791,2945,16129,3691" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LV 2669" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="274"></car>
-</cars>
-</trn>
-<trn t="6" id="4" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="30" rect="14925,10722,15225,11442" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 0908" loadname="Tobacco" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="217" dists="2006"></car>
-<car t="5" id="124" rect="14925,10172,15225,10912" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="M&amp;P 0407" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="217" dists="1466"></car>
-<car t="5" id="120" rect="14925,9622,15225,10362" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 2670" loadname="L.C.L. in" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="217" dists="916"></car>
-</cars>
-</trn>
-<trn t="6" id="6" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="42" rect="15078,10708,15378,11448" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 3185" loadname="L.C.L. in" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="419" dists="277" gs="1"></car>
-<car t="5" id="145" rect="15079,10158,15379,10898" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 3763" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="419" dists="827" gs="1"></car>
-<car t="5" id="127" rect="15080,9608,15380,10348" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 7642" loaded="1" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="419" dists="1377" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="20" dspeed="0" horntype="3">
@@ -1116,48 +915,233 @@
 <car t="5" id="144" rect="14920,1432,15256,2178" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="DL&amp;W 6312" loadname="L.C.L. out" dest="PS" collname="Default Steam" cartype="40ft wood box" trk="330" dists="2710" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="22" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="94" rect="15316,6700,15766,7434" flags="4460544" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 7186" loaded="1" loadname="Empty" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="575" dists="40"></car>
-<car t="5" id="57" rect="15316,6168,15622,6908" flags="4460544" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 8979" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="569" dists="148"></car>
-<car t="5" id="125" rect="15323,5616,15659,6362" flags="4456448" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 5353" loaded="1" loadname="Empty" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="340" dists="2967"></car>
-<car t="5" id="41" rect="15360,5087,15696,5813" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 6980" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="2427"></car>
-<car t="5" id="77" rect="15395,4558,15731,5284" flags="5509120" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 3960" loaded="1" loadname="Empty" dest="FS" collname="Default Steam" cartype="40ft wood box" trk="340" dists="1897"></car>
-<car t="5" id="114" rect="15430,4010,15766,4756" flags="5505024" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="CNJ 4776" loaded="1" loadname="Empty" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="340" dists="1357"></car>
-<car t="5" id="5" rect="15467,3461,15803,4207" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 0373" loaded="1" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="807"></car>
-<car t="5" id="6" rect="15503,2932,15839,3658" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 6450" loadname="Express in" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="267"></car>
-</cars>
-</trn>
-<trn t="6" id="26" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="101" rect="14319,10765,14619,11485" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 8525" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="471" dists="1371"></car>
-<car t="5" id="53" rect="14319,10235,14619,10955" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 2388" loaded="1" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="471" dists="841"></car>
-<car t="5" id="106" rect="14319,9705,14619,10425" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 6701" loaded="1" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="471" dists="311"></car>
-</cars>
-</trn>
-<trn t="6" id="30" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="35" rect="14469,10727,14769,11447" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 0885" loaded="1" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="486" dists="1342"></car>
-<car t="5" id="117" rect="14469,10197,14769,10917" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 5208" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="486" dists="812"></car>
-<car t="5" id="116" rect="14470,9647,14770,10387" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 3339" loadname="L.C.L. in" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="486" dists="272"></car>
-</cars>
-</trn>
-<trn t="6" id="9" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="122" rect="14622,10698,14922,11438" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 7605" loadname="L.C.L. in" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="495" dists="1577"></car>
-<car t="5" id="14" rect="14622,10168,14922,10888" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 0564" loadname="L.C.L. in" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="495" dists="1037"></car>
-<car t="5" id="153" rect="14622,9618,14922,10358" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="CNJ 5472" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="495" dists="497"></car>
-</cars>
-</trn>
-<trn t="6" id="3" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="55" rect="14650,7512,15054,8162" flags="5242880" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="NYD 6" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="455" dists="177"></car>
-</cars>
-</trn>
 <trn t="6" id="36" dspeed="0" horntype="3">
 <cars>
-<car t="5" id="54" rect="16068,6760,16398,7396" flags="5242880" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="NYD 7" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="521" dists="75" gs="1"></car>
-<car t="5" id="25" rect="16072,6230,16416,6956" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="NYDMoW 300" loadname="mixed load" dest="~" collname="mow_odd cars" cartype="mow flat" trk="372" dists="1203"></car>
+<car t="5" id="80" rect="2789,7970,3529,8270" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="SP 4022" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="2944"></car>
+<car t="5" id="120" rect="2239,7971,2979,8271" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 2670" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="2394"></car>
+<car t="5" id="90" rect="1709,7971,2429,8271" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 0975" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="1854"></car>
+<car t="5" id="59" rect="1179,7971,1899,8271" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 2968" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="1324"></car>
+<car t="5" id="79" rect="649,7971,1369,8271" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 2322" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="794"></car>
+<car t="5" id="76" rect="119,7972,839,8272" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 0068" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="264"></car>
+</cars>
+</trn>
+<trn t="6" id="8" dspeed="0" horntype="3">
+<cars>
+<car t="5" id="29" rect="3367,8435,4107,8737" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4685" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="3523"></car>
+<car t="5" id="128" rect="2817,8438,3557,8738" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 0626" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="2973"></car>
+<car t="5" id="86" rect="2267,8439,3007,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 8522" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="2423"></car>
+<car t="5" id="97" rect="1737,8439,2457,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 0460" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="1883"></car>
+<car t="5" id="137" rect="1187,8439,1927,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LV 1604" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="1343"></car>
+<car t="5" id="66" rect="657,8439,1377,8739" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 2042" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="803"></car>
+<car t="5" id="64" rect="127,8440,847,8740" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 9303" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="273"></car>
+</cars>
+</trn>
+<trn t="6" id="31" dspeed="0" horntype="3">
+<cars>
+<car t="5" id="153" rect="533,4231,871,4977" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="CNJ 5472" loaded="1" loadname="Empty" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="4" dists="3536"></car>
+<car t="5" id="21" rect="570,3682,908,4428" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 7922" loaded="1" loadname="Empty" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="4" dists="2986"></car>
+<car t="5" id="95" rect="607,3153,943,3879" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 1933" loadname="Foodstuffs" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="4" dists="2446"></car>
+<car t="5" id="118" rect="643,2604,979,3350" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="SP 0652" loadname="Foodstuffs" dest="P19" collname="Default Steam" cartype="40ft wood box" trk="4" dists="1906"></car>
+</cars>
+</trn>
+<trn t="6" id="35" dspeed="0" horntype="3">
+<cars>
+<car t="5" id="138" rect="2563,6995,3303,7295" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="CNJ 4360" loaded="1" loadname="Empty" dest="FS" collname="Default Steam" cartype="40ft wood box" trk="39" dists="2281"></car>
+</cars>
+</trn>
+<trn t="6" id="13" dspeed="0" horntype="3">
+<cars>
+<car t="5" id="63" rect="3852,4971,4158,5691" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYNH&amp;H 8907" loaded="1" loadname="Empty" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="3515"></car>
+<car t="5" id="122" rect="3846,4421,4152,5161" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 7605" loaded="1" loadname="Empty" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="2975"></car>
+<car t="5" id="28" rect="3840,3891,4146,4611" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 1050" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="2435"></car>
+<car t="5" id="7" rect="3834,3341,4140,4081" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 8819" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="1895"></car>
+<car t="5" id="105" rect="3828,2811,4132,3531" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 5505" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="1355"></car>
+<car t="5" id="109" rect="3822,2281,4126,3001" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYNH&amp;H 6808" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="825"></car>
+<car t="5" id="58" rect="3815,1731,4121,2471" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 9126" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="285"></car>
+</cars>
+</trn>
+<trn t="6" id="18" dspeed="0" horntype="3">
+<cars>
+<car t="5" id="85" rect="2803,8129,3523,8429" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="DL&amp;W 1611" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="190" dists="630" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="32" dspeed="0" horntype="3">
+<cars>
+<car t="5" id="106" rect="10829,8280,11549,8580" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 6701" loaded="1" loadname="Empty" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="5087"></car>
+<car t="5" id="23" rect="10279,8281,11019,8581" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PL 1000" loaded="1" loadname="Empty" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="4547"></car>
+<car t="5" id="83" rect="9729,8281,10469,8581" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 0792" loaded="1" loadname="Empty" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="3997"></car>
+<car t="5" id="99" rect="9199,8282,9919,8582" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 1669" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="3457"></car>
+<car t="5" id="4" rect="8669,8283,9389,8583" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 7300" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="2927"></car>
+<car t="5" id="129" rect="8139,8283,8859,8583" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 9839" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="2397"></car>
+<car t="5" id="96" rect="7609,8284,8329,8584" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 4719" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="1867"></car>
+<car t="5" id="140" rect="7059,8284,7799,8584" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="DL&amp;W 5410" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="1327"></car>
+<car t="5" id="50" rect="6529,8285,7249,8585" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 6536" loadname="Foodstuffs" dest="P56" collname="Default Steam" cartype="40ft wood box" trk="196" dists="787"></car>
+</cars>
+</trn>
+<trn t="6" id="41" dspeed="0" horntype="3">
+<cars>
+<car t="5" id="125" rect="32390,9098,33138,9440" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 5353" loaded="1" loadname="Empty" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="776" dists="85"></car>
+<car t="5" id="41" rect="31862,9068,32588,9398" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 6980" loaded="1" loadname="Empty" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="774" dists="91"></car>
+<car t="5" id="43" rect="31334,9048,32058,9368" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 3682" loaded="1" loadname="Empty" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="770" dists="516"></car>
+<car t="5" id="24" rect="30805,9040,31527,9348" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 1882" loaded="1" loadname="Empty" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="752" dists="2586"></car>
+<car t="5" id="44" rect="30276,9040,30996,9340" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 4527" loaded="1" loadname="Empty" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="752" dists="2056"></car>
+<car t="5" id="18" rect="29746,9040,30466,9340" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 4877" loaded="1" loadname="Empty" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="752" dists="1526"></car>
+<car t="5" id="127" rect="29196,9040,29936,9340" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 7642" loaded="1" loadname="Empty" dest="H26" collname="Default Steam" cartype="40ft wood box" trk="752" dists="986"></car>
+</cars>
+</trn>
+<trn t="6" id="38" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="98" rect="43278,10569,44008,10935" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 6416" loadname="L.C.L. in" dest="FH" collname="Default Steam" cartype="40ft wood box" trk="947" dists="872"></car>
+</cars>
+</trn>
+<trn t="6" id="4" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="46" rect="14772,10726,15072,11446" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 8572" loaded="1" loadname="Foodstuffs" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="437" dists="269" gs="1"></car>
+<car t="5" id="19" rect="14773,10176,15073,10916" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 9437" loaded="1" loadname="Foodstuffs" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="437" dists="809" gs="1"></car>
+<car t="5" id="102" rect="14774,9646,15074,10366" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 0060" loaded="1" loadname="L.C.L. out" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="437" dists="1349" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="26" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="27" rect="14622,10722,14922,11442" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 8025" loaded="1" loadname="Foodstuffs" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="495" dists="1591"></car>
+<car t="5" id="136" rect="14622,10172,14922,10912" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LVRR 6449" loaded="1" loadname="Foodstuffs" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="495" dists="1051"></car>
+<car t="5" id="78" rect="14622,9642,14922,10362" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 1918" loaded="1" loadname="Foodstuffs" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="495" dists="511"></car>
+</cars>
+</trn>
+<trn t="6" id="29" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="101" rect="35128,9400,35848,9702" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 8525" loaded="1" loadname="Empty" dest="M23" collname="Default Steam" cartype="40ft wood box" trk="792" dists="817"></car>
+<car t="5" id="135" rect="34578,9402,35318,9704" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 9316" loadname="Foodstuffs" dest="M23" collname="Default Steam" cartype="40ft wood box" trk="792" dists="277"></car>
+</cars>
+</trn>
+<trn t="6" id="9" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="14" rect="15457,6211,15767,6933" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 0564" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="546" dists="185"></car>
+<car t="5" id="150" rect="15459,5661,15797,6407" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 9131" loaded="1" loadname="Express out" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="343" dists="2997"></car>
+<car t="5" id="52" rect="15497,5132,15833,5858" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 3262" loaded="1" loadname="L.C.L. out" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="343" dists="2457"></car>
+<car t="5" id="148" rect="15533,4583,15871,5329" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="M&amp;P 9913" loaded="1" loadname="Break Bulk" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="343" dists="1917"></car>
+<car t="5" id="9" rect="15571,4034,15909,4780" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 0820" loaded="1" loadname="Break Bulk" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="343" dists="1367"></car>
+<car t="5" id="56" rect="15609,3486,15947,4232" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LV 9700" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="343" dists="817"></car>
+<car t="5" id="81" rect="15647,2937,15985,3683" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="WJ&amp;S 6305" loaded="1" loadname="Foodstuffs" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="343" dists="267"></car>
+</cars>
+</trn>
+<trn t="6" id="6" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="8" rect="40576,10052,41306,10412" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 0996" loaded="1" loadname="Empty" dest="M18" collname="Default Steam" cartype="40ft wood box" trk="847" dists="2105"></car>
+<car t="5" id="30" rect="40050,9992,40780,10352" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 0908" loaded="1" loadname="Empty" dest="M18" collname="Default Steam" cartype="40ft wood box" trk="847" dists="1575"></car>
+<car t="5" id="116" rect="39503,9930,40253,10292" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 3339" loaded="1" loadname="Empty" dest="M18" collname="Default Steam" cartype="40ft wood box" trk="847" dists="1035"></car>
+<car t="5" id="149" rect="38957,9869,39707,10231" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYC 2624" loaded="1" loadname="Empty" dest="M18" collname="Default Steam" cartype="40ft wood box" trk="847" dists="485"></car>
+</cars>
+</trn>
+<trn t="6" id="24" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="94" rect="40053,9671,40783,10029" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 7186" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="819" dists="2858"></car>
+<car t="5" id="49" rect="39526,9614,40256,9972" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 5317" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="819" dists="2328"></car>
+<car t="5" id="51" rect="38999,9557,39729,9915" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 7895" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="819" dists="1798"></car>
+<car t="5" id="89" rect="38472,9500,39202,9858" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 0372" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="819" dists="1268"></car>
+<car t="5" id="123" rect="37945,9443,38675,9799" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 4003" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="819" dists="738"></car>
+</cars>
+</trn>
+<trn t="6" id="28" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="1" rect="40032,9826,40762,10182" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 7000" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="827" dists="2377"></car>
+<car t="5" id="115" rect="39505,9769,40235,10125" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 6745" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="827" dists="1847"></car>
+<car t="5" id="42" rect="38958,9710,39708,10068" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 3185" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="827" dists="1307"></car>
+<car t="5" id="145" rect="38411,9651,39161,10011" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 3763" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="827" dists="757"></car>
+<car t="5" id="35" rect="37884,9594,38614,9952" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 0885" loaded="1" loadname="Empty" dest="FN" collname="Default Steam" cartype="40ft wood box" trk="827" dists="217"></car>
+</cars>
+</trn>
+<trn t="6" id="2" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="84" rect="15078,10720,15378,11460" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYC 2404" loaded="1" loadname="L.C.L. out" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="419" dists="265" gs="1"></car>
+<car t="5" id="48" rect="15079,10170,15379,10910" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 6794" loaded="1" loadname="Tobacco" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="419" dists="815" gs="1"></car>
+<car t="5" id="36" rect="15080,9640,15380,10360" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 6176" loaded="1" loadname="Wool" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="419" dists="1355" gs="1"></car>
+<car t="5" id="15" rect="15081,9110,15381,9830" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="WJ&amp;S 5132" loaded="1" loadname="Express out" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="419" dists="1885" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="11" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="40" rect="14319,10732,14619,11452" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 2679" loaded="1" loadname="Coffee" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="471" dists="1338"></car>
+<car t="5" id="117" rect="14319,10202,14619,10922" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 5208" loadname="Empty" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="471" dists="808"></car>
+<car t="5" id="113" rect="14319,9672,14619,10392" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 6703" loaded="1" loadname="Coffee" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="471" dists="278"></car>
+</cars>
+</trn>
+<trn t="6" id="12" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="103" rect="14925,10720,15225,11440" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;O 6499" loaded="1" loadname="Express out" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="217" dists="2004"></car>
+<car t="5" id="37" rect="14925,10190,15225,10910" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 6966" loaded="1" loadname="Wool" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="217" dists="1474"></car>
+<car t="5" id="100" rect="14925,9660,15225,10380" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 3838" loaded="1" loadname="L.C.L. out" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="217" dists="944"></car>
+<car t="5" id="5" rect="14926,9110,15226,9850" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 0373" loaded="1" loadname="Wool" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="217" dists="404"></car>
+</cars>
+</trn>
+<trn t="6" id="30" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="39" rect="20567,8527,21307,8827" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="DL&amp;W 8042" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="1864"></car>
+<car t="5" id="20" rect="20037,8529,20757,8829" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 5607" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="1324"></car>
+<car t="5" id="110" rect="19507,8530,20227,8832" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 0067" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="794"></car>
+</cars>
+</trn>
+<trn t="6" id="5" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="54" rect="18169,8367,18801,8679" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="NYD 7" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="23" dists="103"></car>
+<car t="5" id="25" rect="17639,8363,18359,8677" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="NYDMoW 300" loadname="mixed load" dest="~" collname="mow_odd cars" cartype="mow flat" trk="30" dists="136"></car>
+</cars>
+</trn>
+<trn t="6" id="7" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="53" rect="16328,6542,16664,7268" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="SP 2388" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="4214"></car>
+<car t="5" id="6" rect="16364,6013,16700,6739" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 6450" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="3684"></car>
+<car t="5" id="12" rect="16400,5484,16736,6210" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="P&amp;R 6746" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="3154"></car>
+<car t="5" id="73" rect="16436,4955,16772,5681" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PL 2992" loaded="1" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="2624"></car>
+<car t="5" id="60" rect="16472,4427,16808,5153" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 8938" loadname="Coffee" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="2094"></car>
+<car t="5" id="93" rect="16508,3898,16844,4624" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 2377" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="1564"></car>
+<car t="5" id="22" rect="16544,3369,16880,4095" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 5109" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="1034"></car>
+<car t="5" id="17" rect="16580,2840,16916,3566" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="AT&amp;SF 1730" loadname="Empty" dest="S" collname="Default Steam" cartype="40ft wood box" trk="358" dists="504"></car>
+</cars>
+</trn>
+<trn t="6" id="3" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="124" rect="24609,9027,25349,9331" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="M&amp;P 0407" loaded="1" loadname="Empty" dest="R37" collname="Default Steam" cartype="40ft wood box" trk="726" dists="1013"></car>
+<car t="5" id="134" rect="24059,9023,24799,9325" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 2731" loadname="Wool" dest="R37" collname="Default Steam" cartype="40ft wood box" trk="726" dists="463"></car>
+</cars>
+</trn>
+<trn t="6" id="21" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="114" rect="16419,8522,17159,8822" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="CNJ 4776" loaded="1" loadname="Empty" dest="P48" collname="Default Steam" cartype="40ft wood box" trk="188" dists="1464"></car>
+<car t="5" id="77" rect="15889,8522,16609,8822" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ACL 3960" loaded="1" loadname="Empty" dest="P48" collname="Default Steam" cartype="40ft wood box" trk="188" dists="924"></car>
+</cars>
+</trn>
+<trn t="6" id="14" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="142" rect="15322,6725,15784,7477" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 0026" loaded="1" loadname="Coffee" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="575" dists="76"></car>
+<car t="5" id="87" rect="15318,6194,15620,6934" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LVRR 4293" loaded="1" loadname="Coffee" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="569" dists="174"></car>
+<car t="5" id="112" rect="15321,5662,15657,6388" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 0968" loaded="1" loadname="Express out" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="3003"></car>
+<car t="5" id="82" rect="15357,5113,15693,5859" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="P&amp;R 6010" loaded="1" loadname="Wool" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="2463"></car>
+<car t="5" id="151" rect="15393,4564,15729,5310" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYC 8021" loaded="1" loadname="Wool" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="1913"></car>
+<car t="5" id="88" rect="15430,4035,15766,4761" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;A 9841" loaded="1" loadname="Wool" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="1373"></car>
+<car t="5" id="74" rect="15465,3487,15801,4233" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYC 1343" loaded="1" loadname="Wool" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="833"></car>
+<car t="5" id="3" rect="15502,2938,15838,3684" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ACL 6811" loaded="1" loadname="Coffee" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="340" dists="283"></car>
+</cars>
+</trn>
+<trn t="6" id="19" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="57" rect="15592,5843,15930,6589" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="PRR 8979" loaded="1" loadname="Wool" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="3179"></car>
+<car t="5" id="104" rect="15629,5314,15965,6040" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 3181" loaded="1" loadname="Break Bulk" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="2639"></car>
+<car t="5" id="38" rect="15666,4786,16002,5512" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 9979" loaded="1" loadname="Break Bulk" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="2109"></car>
+<car t="5" id="152" rect="15702,4237,16040,4983" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 7782" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="1569"></car>
+<car t="5" id="132" rect="15740,3688,16078,4434" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LV 2669" loadname="Empty" dest="YW" collname="Default Steam" cartype="40ft wood box" trk="346" dists="1019"></car>
+</cars>
+</trn>
+<trn t="6" id="15" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="121" rect="14469,10731,14769,11451" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 0708" loaded="1" loadname="L.C.L. out" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="486" dists="1346"></car>
+<car t="5" id="16" rect="14469,10201,14769,10921" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="B&amp;O 0560" loaded="1" loadname="Wool" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="486" dists="816"></car>
+<car t="5" id="107" rect="14470,9671,14770,10391" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 9521" loaded="1" loadname="Beans" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="486" dists="286"></car>
+</cars>
+</trn>
+<trn t="6" id="17" dspeed="0" horntype="0" selcarno="0">
+<cars>
+<car t="5" id="55" rect="14461,8594,14889,9246" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="NYD 6" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="158" dists="604" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -1217,9 +1201,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.118858" ctr="x:15996,y:6960" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.185716" ctr="x:14587,y:9950" vtype="596"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3984"><![CDATA[** NY Dock Fulton Terminal 1915
+<script id="20" flags="6" cmdix="3964"><![CDATA[** NY Dock Fulton Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 22
@@ -1625,7 +1609,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="19,111,764,591" otype="9" text=" " bktype="1" fill="R:212,G:211,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>111,19,431,764</wndrect>
+<wndrect>111,19,671,764</wndrect>
 </note>
 </notes>
 </layout>
