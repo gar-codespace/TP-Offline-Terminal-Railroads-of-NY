@@ -691,7 +691,7 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1271,b:585" zoom="0.10537" ctr="x:5429,y:3862" vtype="596" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3964" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" cmdix="3999" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -1003,7 +1003,7 @@ Use the Patterns subroutine to move additional cars between the yard and industr
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="1,171,568,315" otype="9" text=" " bktype="1" fill="R:186,G:204,B:212" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>189,12,541,579</wndrect>
+<wndrect>189,12,413,579</wndrect>
 </note>
 </notes>
 </layout>
