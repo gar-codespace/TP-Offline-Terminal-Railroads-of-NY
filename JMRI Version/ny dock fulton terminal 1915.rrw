@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="29.7703" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
+<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="12.9528" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="940,1076"></jxn>
@@ -52,7 +52,7 @@
 <jxn t="3" id="93" pt="5208,8321"></jxn>
 <jxn t="3" id="95" pt="5369,8377"></jxn>
 <jxn t="3" id="97" pt="5525,8408"></jxn>
-<jxn t="3" id="99" pt="5790,8434"></jxn>
+<jxn t="3" id="99" pt="5790,8434" swp="1"></jxn>
 <jxn t="3" id="101" pt="209,8438"></jxn>
 <jxn t="3" id="103" pt="215,8122"></jxn>
 <jxn t="3" id="106" pt="3801,8120"></jxn>
@@ -180,7 +180,7 @@
 <jxn t="3" id="452" pt="14886,7664"></jxn>
 <jxn t="3" id="454" pt="14831,7851"></jxn>
 <jxn t="3" id="458" pt="14773,8348"></jxn>
-<jxn t="3" id="468" pt="14469,9754" swp="1"></jxn>
+<jxn t="3" id="468" pt="14469,9754"></jxn>
 <jxn t="3" id="469" pt="14500,9499"></jxn>
 <jxn t="3" id="483" pt="14620,9745"></jxn>
 <jxn t="3" id="485" pt="14619,11353"></jxn>
@@ -339,7 +339,7 @@
 <jxn t="3" id="988" pt="22510,8788"></jxn>
 <jxn t="3" id="990" pt="22910,8858"></jxn>
 <jxn t="3" id="1234" pt="15283,6519"></jxn>
-<jxn t="3" id="4" pt="5223,8432" swp="1"></jxn>
+<jxn t="3" id="4" pt="5223,8432"></jxn>
 <jxn t="3" id="6" pt="12547,8428"></jxn>
 <jxn t="3" id="8" pt="18382,8524"></jxn>
 <jxn t="3" id="10" pt="18561,8683"></jxn>
@@ -851,7 +851,7 @@
 <stn t="15" id="1301" rect="3873,2065,4813,6055" name="Pier18"></stn>
 </stns>
 </tracks>
-<trains selno="34" trk="0" dists="0">
+<trains selno="11" trk="0" dists="0">
 <trn t="6" id="10" dspeed="0" horntype="3">
 <cars>
 <car t="5" id="126" rect="36887,9820,37627,10120" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="AT&amp;SF 4863" loadname="Coffee" dest="M21" collname="Default Steam" cartype="40ft wood box" trk="830" dists="283" gs="1"></car>
@@ -917,23 +917,12 @@
 </trn>
 <trn t="6" id="36" dspeed="0" horntype="3">
 <cars>
-<car t="5" id="80" rect="2789,7970,3529,8270" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="SP 4022" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="2944"></car>
-<car t="5" id="120" rect="2239,7971,2979,8271" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 2670" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="2394"></car>
-<car t="5" id="90" rect="1709,7971,2429,8271" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 0975" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="1854"></car>
-<car t="5" id="59" rect="1179,7971,1899,8271" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 2968" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="1324"></car>
-<car t="5" id="79" rect="649,7971,1369,8271" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 2322" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="794"></car>
-<car t="5" id="76" rect="119,7972,839,8272" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 0068" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="264"></car>
-</cars>
-</trn>
-<trn t="6" id="8" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="29" rect="3367,8435,4107,8737" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4685" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="3523"></car>
-<car t="5" id="128" rect="2817,8438,3557,8738" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 0626" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="2973"></car>
-<car t="5" id="86" rect="2267,8439,3007,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 8522" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="2423"></car>
-<car t="5" id="97" rect="1737,8439,2457,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 0460" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="1883"></car>
-<car t="5" id="137" rect="1187,8439,1927,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LV 1604" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="1343"></car>
-<car t="5" id="66" rect="657,8439,1377,8739" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 2042" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="803"></car>
-<car t="5" id="64" rect="127,8440,847,8740" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 9303" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="273"></car>
+<car t="5" id="80" rect="2681,7970,3421,8270" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="SP 4022" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="2836"></car>
+<car t="5" id="120" rect="2131,7971,2871,8271" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="NYNH&amp;H 2670" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="2286"></car>
+<car t="5" id="90" rect="1601,7971,2321,8271" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LV 0975" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="1746"></car>
+<car t="5" id="59" rect="1071,7971,1791,8271" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 2968" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="1216"></car>
+<car t="5" id="79" rect="541,7971,1261,8271" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="PRR 2322" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="686"></car>
+<car t="5" id="76" rect="11,7972,731,8272" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 0068" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="105" dists="156"></car>
 </cars>
 </trn>
 <trn t="6" id="31" dspeed="0" horntype="3">
@@ -960,9 +949,10 @@
 <car t="5" id="58" rect="3815,1731,4121,2471" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 9126" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="285"></car>
 </cars>
 </trn>
-<trn t="6" id="18" dspeed="0" horntype="3">
+<trn t="6" id="18" dspeed="0" horntype="3" selcarno="1">
 <cars>
-<car t="5" id="85" rect="2803,8129,3523,8429" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="DL&amp;W 1611" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="190" dists="630" gs="1"></car>
+<car t="5" id="29" rect="2687,8129,3427,8429" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4685" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="190" dists="736" gs="1"></car>
+<car t="5" id="85" rect="2157,8128,2877,8428" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="DL&amp;W 1611" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="190" dists="1276" gs="1"></car>
 </cars>
 </trn>
 <trn t="6" id="32" dspeed="0" horntype="3">
@@ -1139,9 +1129,19 @@
 <car t="5" id="107" rect="14470,9671,14770,10391" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 9521" loaded="1" loadname="Beans" dest="YE" collname="Default Steam" cartype="40ft wood box" trk="486" dists="286"></car>
 </cars>
 </trn>
-<trn t="6" id="17" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="17" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="55" rect="14456,8606,14886,9258" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="NYD 6" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="158" dists="592" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="22" dspeed="0" horntype="3">
+<cars>
+<car t="5" id="128" rect="2817,8438,3557,8738" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 0626" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="2973"></car>
+<car t="5" id="86" rect="2267,8439,3007,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;A 8522" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="2423"></car>
+<car t="5" id="97" rect="1737,8439,2457,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="LVRR 0460" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="1883"></car>
+<car t="5" id="137" rect="1187,8439,1927,8739" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="LV 1604" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="1343"></car>
+<car t="5" id="66" rect="657,8439,1377,8739" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="CNJ 2042" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="803"></car>
+<car t="5" id="64" rect="127,8440,847,8740" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="M&amp;P 9303" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="119" dists="273"></car>
 </cars>
 </trn>
 </trains>
@@ -1201,9 +1201,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0335905" ctr="x:22328,y:6824" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0772034" ctr="x:9106,y:7934" vtype="596"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3977"><![CDATA[** NY Dock Fulton Terminal 1915
+<script id="20" flags="6" cmdix="4029"><![CDATA[** NY Dock Fulton Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 22
@@ -1609,7 +1609,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="19,111,764,591" otype="9" text=" " bktype="1" fill="R:212,G:211,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>111,19,431,764</wndrect>
+<wndrect>111,19,239,764</wndrect>
 </note>
 </notes>
 </layout>
