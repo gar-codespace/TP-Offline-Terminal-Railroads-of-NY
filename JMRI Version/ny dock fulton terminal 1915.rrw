@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="12.9528" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
+<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="31.6007" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="940,1076"></jxn>
@@ -59,7 +59,7 @@
 <jxn t="3" id="108" pt="4092,8136"></jxn>
 <jxn t="3" id="110" flags="1048576" pt="4411,8203"></jxn>
 <jxn t="3" id="112" pt="4649,8251"></jxn>
-<jxn t="3" id="114" pt="4894,8283" swp="1"></jxn>
+<jxn t="3" id="114" pt="4894,8283"></jxn>
 <jxn t="3" id="117" pt="214,8590"></jxn>
 <jxn t="3" id="118" pt="3879,8588"></jxn>
 <jxn t="3" id="120" flags="1048576" pt="4411,8572"></jxn>
@@ -851,7 +851,7 @@
 <stn t="15" id="1301" rect="3873,2065,4813,6055" name="Pier18"></stn>
 </stns>
 </tracks>
-<trains selno="11" trk="0" dists="0">
+<trains selno="26" trk="0" dists="0">
 <trn t="6" id="10" dspeed="0" horntype="3">
 <cars>
 <car t="5" id="126" rect="36887,9820,37627,10120" flags="1048576" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="AT&amp;SF 4863" loadname="Coffee" dest="M21" collname="Default Steam" cartype="40ft wood box" trk="830" dists="283" gs="1"></car>
@@ -949,7 +949,7 @@
 <car t="5" id="58" rect="3815,1731,4121,2471" flags="1314816" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="ER 9126" loadname="Foodstuffs" dest="P18" collname="Default Steam" cartype="40ft wood box" trk="36" dists="285"></car>
 </cars>
 </trn>
-<trn t="6" id="18" dspeed="0" horntype="3" selcarno="1">
+<trn t="6" id="18" dspeed="0" horntype="3">
 <cars>
 <car t="5" id="29" rect="2687,8129,3427,8429" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="B&amp;O 4685" loaded="1" loadname="Empty" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="190" dists="736" gs="1"></car>
 <car t="5" id="85" rect="2157,8128,2877,8428" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="DL&amp;W 1611" loadname="Beans" dest="W67" collname="Default Steam" cartype="40ft wood box" trk="190" dists="1276" gs="1"></car>
@@ -1071,10 +1071,10 @@
 <car t="5" id="110" rect="19507,8530,20227,8832" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 0067" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="794"></car>
 </cars>
 </trn>
-<trn t="6" id="5" dspeed="0" horntype="0">
+<trn t="6" id="5" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="54" rect="18169,8367,18801,8679" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="NYD 7" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="23" dists="103"></car>
-<car t="5" id="25" rect="17639,8363,18359,8677" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="NYDMoW 300" loadname="mixed load" dest="~" collname="mow_odd cars" cartype="mow flat" trk="30" dists="136"></car>
+<car t="5" id="54" rect="18196,8367,18828,8679" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="NYD 7" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="23" dists="130"></car>
+<car t="5" id="25" rect="17666,8365,18386,8677" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="NYDMoW 300" loadname="mixed load" dest="~" collname="mow_odd cars" cartype="mow flat" trk="30" dists="163"></car>
 </cars>
 </trn>
 <trn t="6" id="7" dspeed="0" horntype="0">
@@ -1201,7 +1201,7 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0772034" ctr="x:9106,y:7934" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0316449" ctr="x:22342,y:6839" vtype="596" fit="1"></winview>
 <scripts>
 <script id="20" flags="6" cmdix="4029"><![CDATA[** NY Dock Fulton Terminal 1915
 
@@ -1292,7 +1292,7 @@ Artwork © 2014 GA Ritacco]]></script>
 
 OPERATING_ROAD NYD
 HOME_ROADS NYD
-MANIFEST_POOL PRR WJ&S PRR LVRR PL NYNH&H P&R B&A B&O NYC M&P SP AT&SF DL&W CNJ ACL LV ER
+MANIFEST_POOL PRR WJ&S PRR LVRR PL NYNH&H P&R B&A B&O C&O NYC M&P SP AT&SF DL&W CNJ ACL LV ER
 REEFER_POOL FGEX MDX
 TANK_POOL TCX PRR TELX UTLX
 HOPPER_POOL PRR PGCC P&R B&O WCC
