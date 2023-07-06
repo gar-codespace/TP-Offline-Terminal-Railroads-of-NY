@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="NY Dock Fulton Terminal 1915" lid="NY1" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="28.0873" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
+<layout name="NY Dock Fulton Terminal 1915" scale="3" bitmap="..\Layout Artwork\NY Dock Fulton Terminal 1915.jpg" zoom="21.446" xdim="44715" ydim="13677" xoffset="0" yoffset="0" bmap_size="x:44715,y:13677" def_cars="DropKick" descr="The 2 engines working together can eliminate a lot of run-around moves. Stop before crossing Montague Street, Cross at walking speed until occupied. Don&apos;t block it for more than 5 minutes. Use the idler flat to spot the car floats. Artwork &#xA9; 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="940,1076"></jxn>
@@ -231,7 +231,7 @@
 <jxn t="3" id="693" pt="22470,8653"></jxn>
 <jxn t="3" id="695" pt="22677,8715"></jxn>
 <jxn t="3" id="697" pt="22927,8804"></jxn>
-<jxn t="3" id="701" pt="23467,8956" swp="1"></jxn>
+<jxn t="3" id="701" pt="23467,8956"></jxn>
 <jxn t="3" id="703" pt="23759,8997"></jxn>
 <jxn t="3" id="705" pt="24102,9011"></jxn>
 <jxn t="3" id="709" pt="21784,8696"></jxn>
@@ -1071,7 +1071,7 @@
 <car t="5" id="110" rect="19507,8530,20227,8832" flags="1052672" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="ER 0067" loadname="Imports" dest="M43" collname="Default Steam" cartype="40ft wood box" trk="634" dists="794"></car>
 </cars>
 </trn>
-<trn t="6" id="5" dspeed="0" horntype="0" selcarno="0">
+<trn t="6" id="5" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="54" rect="18196,8367,18828,8679" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="462" wid="141" label="NYD 7" dest="~" collname="Default Steam" cartype="0-6-0 tank switcher" trk="23" dists="130"></car>
 <car t="5" id="25" rect="17666,8365,18386,8677" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="NYDMoW 300" loadname="mixed load" dest="~" collname="mow_odd cars" cartype="mow flat" trk="30" dists="163"></car>
@@ -1201,9 +1201,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0356033" ctr="x:22358,y:6839" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:0,y:787" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0466286" ctr="x:22347,y:6828" vtype="596" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="4029"><![CDATA[** NY Dock Fulton Terminal 1915
+<script id="20" flags="6" cmdix="3998"><![CDATA[** NY Dock Fulton Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 22
@@ -1213,7 +1213,10 @@
 
 ** Set Up QuickKeys
     Call InitializeQuickKeys
-    Call SetLanguage en  ** Language choices are: en, de, fr, es
+    Call qkEntities
+        Call SetLanguage en  ** Language choices are: en, de, fr, es
+        Call MakePersonalizedSettings
+        Call MakeProcXYZ
 
 ** Select which subroutines to use
     Call JobTimer *Setup
@@ -1314,295 +1317,6 @@ HOME_LENGTH 3
 PASS_LENGTH 4
 FREIGHT_LENGTH 4
 MW_LENGTH 3]]></script>
-<rewind_point>
-<trains><![CDATA[<saved_trains selno="37" trk="0" dists="0">
-<trn t="6" id="4" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="46" rect="177,7967,897,8267" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM46" loadname="rice" cartype="40ft wood box" trk="105" dists="217"></car>
-<car t="5" id="71" rect="707,7968,1427,8268" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM71" loaded="1" loadname="rice" cartype="40ft wood box" trk="105" dists="747"></car>
-<car t="5" id="72" rect="1237,7968,1957,8268" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM72" loaded="1" loadname="bananas" cartype="40ft wood box" trk="105" dists="1277"></car>
-<car t="5" id="76" rect="1767,7969,2487,8269" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM76" loaded="1" loadname="cotton cloth" cartype="40ft wood box" trk="105" dists="1807"></car>
-<car t="5" id="78" rect="2297,7969,3017,8269" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM78" loaded="1" loadname="cotton" cartype="40ft wood box" trk="105" dists="2337"></car>
-<car t="5" id="79" rect="2827,7970,3547,8270" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM79" loaded="1" loadname="green coffee" cartype="40ft wood box" trk="105" dists="2867"></car>
-</cars>
-</trn>
-<trn t="6" id="5" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="25" rect="14774,9040,15074,9760" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM25" loadname="*Foodstuffs" cartype="40ft wood box" trk="437" dists="1864"></car>
-<car t="5" id="34" rect="14774,9570,15074,10290" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM34" loadname="rubber" cartype="40ft wood box" trk="437" dists="1334"></car>
-<car t="5" id="35" rect="14774,10100,15074,10820" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM35" loadname="nuts" cartype="40ft wood box" trk="437" dists="804"></car>
-<car t="5" id="37" rect="14774,10630,15074,11350" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM37" loadname="green coffee" cartype="40ft wood box" trk="437" dists="274"></car>
-</cars>
-</trn>
-<trn t="6" id="20" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="24" rect="14321,10099,14623,10819" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM24" loadname="nuts" cartype="40ft wood box" trk="471" dists="705" gs="1"></car>
-<car t="5" id="31" rect="14324,10629,14626,11369" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM31" loadname="wool" cartype="40ft wood box" trk="471" dists="1245" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="27" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="32" rect="14473,9589,14773,10309" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM32" loadname="packages" cartype="40ft wood box" trk="486" dists="473" gs="1"></car>
-<car t="5" id="33" rect="14473,10119,14773,10839" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM33" loadname="nuts" cartype="40ft wood box" trk="486" dists="1003" gs="1"></car>
-<car t="5" id="14" rect="14474,10649,14774,11369" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM14" loadname="cotton" cartype="40ft wood box" trk="486" dists="1533" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="34" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="36" rect="14622,9568,14922,10288" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM36" loadname="nuts" cartype="40ft wood box" trk="495" dists="437" gs="1"></car>
-<car t="5" id="26" rect="14623,10098,14923,10838" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM26" loadname="nuts" cartype="40ft wood box" trk="495" dists="977" gs="1"></car>
-<car t="5" id="27" rect="14623,10648,14923,11368" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM27" loadname="produce" cartype="40ft wood box" trk="495" dists="1517" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="45" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="38" rect="14924,9041,15224,9761" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM38" loadname="wool" cartype="40ft wood box" trk="434" dists="621" gs="1"></car>
-<car t="5" id="39" rect="14924,9571,15224,10311" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM39" loadname="wool" cartype="40ft wood box" trk="434" dists="1161" gs="1"></car>
-<car t="5" id="40" rect="14925,10121,15225,10841" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM40" loadname="cocoa" cartype="40ft wood box" trk="434" dists="1701" gs="1"></car>
-<car t="5" id="41" rect="14926,10651,15226,11371" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM41" loadname="cotton" cartype="40ft wood box" trk="434" dists="2231" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="54" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="42" rect="15079,9019,15379,9759" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM42" loadname="wool" cartype="40ft wood box" trk="419" dists="1889"></car>
-<car t="5" id="43" rect="15080,9569,15380,10289" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM43" loadname="bananas" cartype="40ft wood box" trk="419" dists="1349"></car>
-<car t="5" id="44" rect="15081,10099,15381,10819" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM44" loadname="wool" cartype="40ft wood box" trk="419" dists="819"></car>
-<car t="5" id="45" rect="15082,10629,15382,11369" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM45" loadname="cotton" cartype="40ft wood box" trk="419" dists="279"></car>
-</cars>
-</trn>
-<trn t="6" id="57" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="48" rect="16264,1654,16602,2400" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM48" loadname="bananas" cartype="40ft wood box" trk="352" dists="295" gs="1"></car>
-<car t="5" id="80" rect="16227,2203,16565,2949" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM80" loadname="wool" cartype="40ft wood box" trk="352" dists="845" gs="1"></car>
-<car t="5" id="81" rect="16190,2751,16526,3497" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM81" loadname="nuts" cartype="40ft wood box" trk="352" dists="1395" gs="1"></car>
-<car t="5" id="83" rect="16152,3300,16490,4046" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM83" loadname="green coffee" cartype="40ft wood box" trk="362" dists="101" gs="1"></car>
-<car t="5" id="84" rect="16115,3849,16453,4595" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM84" loadname="wool" cartype="40ft wood box" trk="362" dists="651" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="58" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="7" rect="42795,9575,43543,9927" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM7" loadname="packages" cartype="40ft wood box" trk="864" dists="174" gs="1"></car>
-<car t="5" id="86" rect="43344,9578,44090,9916" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM86" loadname="packages" cartype="40ft wood box" trk="860" dists="326" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="82" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="66" rect="248,8282,968,8582" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM66" loadname="cocoa" cartype="40ft wood box" trk="229" dists="3803"></car>
-<car t="5" id="67" rect="778,8281,1498,8581" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM67" loadname="cocoa" cartype="40ft wood box" trk="229" dists="3273"></car>
-<car t="5" id="68" rect="1308,8280,2028,8580" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM68" loadname="cocoa" cartype="40ft wood box" trk="229" dists="2743"></car>
-<car t="5" id="69" rect="1838,8279,2558,8579" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM69" loaded="1" loadname="cocoa" cartype="40ft wood box" trk="229" dists="2213"></car>
-<car t="5" id="70" rect="2368,8278,3088,8578" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM70" loaded="1" loadname="cocoa" cartype="40ft wood box" trk="229" dists="1683"></car>
-</cars>
-</trn>
-<trn t="6" id="93" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="61" rect="252,8432,972,8732" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM61" loaded="1" loadname="wool" cartype="40ft wood box" trk="119" dists="309" gs="1"></car>
-<car t="5" id="62" rect="782,8432,1502,8732" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM62" loaded="1" loadname="wool" cartype="40ft wood box" trk="119" dists="839" gs="1"></car>
-<car t="5" id="63" rect="1312,8433,2032,8733" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM63" loaded="1" loadname="cocoa" cartype="40ft wood box" trk="119" dists="1369" gs="1"></car>
-<car t="5" id="64" rect="1842,8433,2562,8733" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM64" loaded="1" loadname="wool" cartype="40ft wood box" trk="119" dists="1899" gs="1"></car>
-<car t="5" id="65" rect="2372,8434,3092,8734" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM65" loaded="1" loadname="cocoa" cartype="40ft wood box" trk="119" dists="2429" gs="1"></car>
-<car t="5" id="47" rect="2902,8434,3622,8734" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM47" loaded="1" loadname="cocoa" cartype="40ft wood box" trk="119" dists="2959" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="16" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="50" rect="3818,1960,4124,2680" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM50" loadname="bananas" cartype="40ft wood box" trk="36" dists="504" gs="1"></car>
-<car t="5" id="88" rect="3824,2490,4130,3210" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM88" loadname="bananas" cartype="40ft wood box" trk="36" dists="1034" gs="1"></car>
-<car t="5" id="89" rect="3830,3020,4136,3740" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM89" loaded="1" loadname="bananas" cartype="40ft wood box" trk="36" dists="1564" gs="1"></car>
-<car t="5" id="90" rect="3836,3550,4142,4270" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM90" loaded="1" loadname="bananas" cartype="40ft wood box" trk="36" dists="2094" gs="1"></car>
-<car t="5" id="91" rect="3842,4080,4148,4800" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM91" loaded="1" loadname="bananas" cartype="40ft wood box" trk="36" dists="2624" gs="1"></car>
-<car t="5" id="92" rect="3848,4610,4154,5330" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM92" loadname="bananas" cartype="40ft wood box" trk="36" dists="3154" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="44" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="94" rect="726,1265,1062,1991" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM94" loadname="bananas" cartype="40ft wood box" trk="4" dists="382" gs="1"></car>
-<car t="5" id="95" rect="692,1794,1026,2520" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM95" loadname="nuts" cartype="40ft wood box" trk="4" dists="912" gs="1"></car>
-<car t="5" id="96" rect="657,2322,993,3048" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM96" loadname="wool" cartype="40ft wood box" trk="4" dists="1442" gs="1"></car>
-<car t="5" id="97" rect="623,2851,957,3577" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM97" loadname="green coffee" cartype="40ft wood box" trk="4" dists="1972" gs="1"></car>
-<car t="5" id="93" rect="588,3380,924,4106" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM93" loadname="green coffee" cartype="40ft wood box" trk="4" dists="2502" gs="1"></car>
-<car t="5" id="53" rect="554,3909,888,4635" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM53" loadname="cocoa" cartype="40ft wood box" trk="4" dists="3032" gs="1"></car>
-<car t="5" id="59" rect="519,4438,853,5164" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM59" loadname="green coffee" cartype="40ft wood box" trk="4" dists="3562" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="14" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="60" rect="8708,8283,9428,8583" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM60" loadname="nuts" cartype="40ft wood box" trk="134" dists="3278"></car>
-<car t="5" id="102" rect="9238,8282,9958,8582" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM102" loadname="nuts" cartype="40ft wood box" trk="134" dists="3808"></car>
-</cars>
-</trn>
-<trn t="6" id="25" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="98" rect="827,6992,1547,7292" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM98" loadname="packages" cartype="40ft wood box" trk="39" dists="420"></car>
-</cars>
-</trn>
-<trn t="6" id="26" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="99" rect="6009,8284,6729,8584" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM99" loaded="1" loadname="nuts" cartype="40ft wood box" trk="134" dists="579"></car>
-<car t="5" id="100" rect="6539,8283,7259,8583" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM100" loadname="nuts" cartype="40ft wood box" trk="134" dists="1109"></car>
-<car t="5" id="101" rect="7069,8283,7789,8583" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM101" loaded="1" loadname="nuts" cartype="40ft wood box" trk="134" dists="1639"></car>
-</cars>
-</trn>
-<trn t="6" id="33" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="104" rect="10725,8282,11445,8582" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM104" loadname="green coffee" cartype="40ft wood box" trk="134" dists="5295" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="37" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="105" rect="16372,8531,17092,8831" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM105" loaded="1" loadname="cotton cloth" cartype="40ft wood box" trk="188" dists="1223"></car>
-<car t="5" id="106" rect="16902,8531,17622,8831" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM106" loaded="1" loadname="cotton cloth" cartype="40ft wood box" trk="188" dists="1753"></car>
-</cars>
-</trn>
-<trn t="6" id="42" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="107" rect="19708,8530,20428,8830" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM107" loadname="cotton" cartype="40ft wood box" trk="634" dists="995" gs="1"></car>
-<car t="5" id="108" rect="20238,8528,20958,8830" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM108" loaded="1" loadname="cotton cloth" cartype="40ft wood box" trk="634" dists="1525" gs="1"></car>
-<car t="5" id="103" rect="20768,8526,21488,8828" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM103" loadname="cotton" cartype="40ft wood box" trk="634" dists="2055" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="61" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="109" rect="23693,9009,24415,9325" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM109" loaded="1" loadname="wool" cartype="40ft wood box" trk="726" dists="88"></car>
-<car t="5" id="110" rect="24224,9024,24944,9328" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM110" loadname="green coffee" cartype="40ft wood box" trk="726" dists="618"></car>
-<car t="5" id="111" rect="24754,9028,25474,9332" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM111" loaded="1" loadname="wool" cartype="40ft wood box" trk="726" dists="1148"></car>
-<car t="5" id="112" rect="25284,9032,26004,9332" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM112" loadname="wool" cartype="40ft wood box" trk="726" dists="1678"></car>
-</cars>
-</trn>
-<trn t="6" id="11" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="6" rect="43346,9980,44078,10350" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM6" loadname="packages" cartype="40ft wood box" trk="882" dists="1113"></car>
-</cars>
-</trn>
-<trn t="6" id="12" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="1" rect="41645,10043,42373,10539" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM1" loadname="packages" cartype="40ft wood box" trk="900" dists="66"></car>
-<car t="5" id="8" rect="42148,10239,42882,10635" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM8" loaded="1" loadname="packages" cartype="40ft wood box" trk="904" dists="130"></car>
-<car t="5" id="9" rect="42674,10333,43424,10699" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM9" loaded="1" loadname="packages" cartype="40ft wood box" trk="906" dists="402"></car>
-<car t="5" id="5" rect="43220,10400,43970,10766" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM5" loadname="packages" cartype="40ft wood box" trk="906" dists="952"></car>
-</cars>
-</trn>
-<trn t="6" id="17" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="114" rect="41729,12130,42081,12878" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM114" loadname="packages" cartype="40ft wood box" trk="968" dists="613"></car>
-<car t="5" id="115" rect="41681,12678,42029,13406" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM115" loadname="packages" cartype="40ft wood box" trk="968" dists="1153"></car>
-</cars>
-</trn>
-<trn t="6" id="23" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="116" rect="41881,12160,42227,12908" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM116" loadname="packages" cartype="40ft wood box" trk="909" dists="816"></car>
-<car t="5" id="85" rect="41838,12708,42182,13436" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM85" loadname="packages" cartype="40ft wood box" trk="909" dists="276"></car>
-</cars>
-</trn>
-<trn t="6" id="24" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="130" rect="38794,9688,39544,10048" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM130" loaded="1" loadname="nuts" cartype="40ft wood box" trk="827" dists="1298"></car>
-<car t="5" id="131" rect="39341,9748,40071,10106" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM131" loaded="1" loadname="nuts" cartype="40ft wood box" trk="827" dists="1838"></car>
-<car t="5" id="113" rect="39867,9806,40597,10164" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM113" loaded="1" loadname="nuts" cartype="40ft wood box" trk="827" dists="2368"></car>
-</cars>
-</trn>
-<trn t="6" id="7" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="73" rect="36965,9821,37685,10123" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM73" loaded="1" loadname="green coffee" cartype="40ft wood box" trk="830" dists="285" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="10" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="118" rect="39236,9897,39986,10259" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM118" loaded="1" loadname="nuts" cartype="40ft wood box" trk="847" dists="766" gs="1"></car>
-<car t="5" id="129" rect="39783,9958,40513,10316" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM129" loadname="nuts" cartype="40ft wood box" trk="847" dists="1306" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="13" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="117" rect="35351,9396,36071,9696" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM117" loaded="1" loadname="wool" cartype="40ft wood box" trk="792" dists="950" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="15" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="52" rect="29820,9040,30540,9340" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM52" loadname="bananas" cartype="40ft wood box" trk="752" dists="1600" gs="1"></car>
-<car t="5" id="74" rect="30350,9040,31090,9340" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM74" loadname="wool" cartype="40ft wood box" trk="752" dists="2140" gs="1"></car>
-<car t="5" id="75" rect="30899,9039,31641,9351" flags="5246976" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM75" loadname="wool" cartype="40ft wood box" trk="770" dists="90" gs="1"></car>
-<car t="5" id="77" rect="31448,9052,32172,9374" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM77" loadname="wool" cartype="40ft wood box" trk="772" dists="98" gs="1"></car>
-<car t="5" id="82" rect="31976,9073,32722,9407" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM82" loadname="nuts" cartype="40ft wood box" trk="774" dists="215" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="2" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="3" rect="15217,1287,15553,2033" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM3" loadname="nuts" cartype="40ft wood box" trk="334" dists="2810" gs="1"></car>
-<car t="5" id="120" rect="15180,1836,15516,2582" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM120" loadname="nuts" cartype="40ft wood box" trk="334" dists="2260" gs="1"></car>
-<car t="5" id="121" rect="15145,2384,15481,3110" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM121" loadname="wool" cartype="40ft wood box" trk="334" dists="1720" gs="1"></car>
-<car t="5" id="122" rect="15108,2913,15444,3659" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM122" loadname="nuts" cartype="40ft wood box" trk="334" dists="1180" gs="1"></car>
-<car t="5" id="15" rect="15073,3462,15409,4188" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM15" loadname="nuts" cartype="40ft wood box" trk="334" dists="640" gs="1"></car>
-<car t="5" id="123" rect="15029,3990,15373,4718" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM123" loaded="1" loadname="packages" cartype="40ft wood box" trk="334" dists="110" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="3" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="28" rect="16405,1709,16741,2435" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM28" loadname="nuts" cartype="40ft wood box" trk="355" dists="338" gs="1"></car>
-<car t="5" id="29" rect="16370,2238,16706,2984" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM29" loadname="cocoa" cartype="40ft wood box" trk="355" dists="878" gs="1"></car>
-<car t="5" id="30" rect="16335,2786,16669,3512" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM30" loadname="nuts" cartype="40ft wood box" trk="355" dists="1418" gs="1"></car>
-<car t="5" id="18" rect="16300,3315,16636,4041" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM18" loadname="cocoa" cartype="40ft wood box" trk="360" dists="92" gs="1"></car>
-<car t="5" id="49" rect="16265,3844,16601,4570" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM49" loadname="green coffee" cartype="40ft wood box" trk="360" dists="622" gs="1"></car>
-<car t="5" id="51" rect="16221,4372,16565,5100" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM51" loadname="wool" cartype="40ft wood box" trk="360" dists="1152" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="9" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="19" rect="16123,1571,16459,2317" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM19" loadname="nuts" cartype="40ft wood box" trk="349" dists="240"></car>
-<car t="5" id="20" rect="16088,2120,16424,2846" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM20" loadname="cocoa" cartype="40ft wood box" trk="349" dists="780"></car>
-<car t="5" id="21" rect="16052,2649,16388,3395" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM21" loadname="cocoa" cartype="40ft wood box" trk="349" dists="1320"></car>
-<car t="5" id="16" rect="16017,3198,16353,3924" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM16" loadname="cotton" cartype="40ft wood box" trk="349" dists="1860"></car>
-<car t="5" id="17" rect="15981,3726,16317,4452" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM17" loadname="nuts" cartype="40ft wood box" trk="364" dists="497"></car>
-<car t="5" id="22" rect="15947,4255,16281,4981" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM22" loadname="nuts" cartype="40ft wood box" trk="364" dists="1027"></car>
-</cars>
-</trn>
-<trn t="6" id="21" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="124" rect="15072,1290,15410,2036" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM124" loadname="cotton cloth" cartype="40ft wood box" trk="326" dists="2838" gs="1"></car>
-<car t="5" id="4" rect="15036,1839,15372,2565" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM4" loadname="cotton cloth" cartype="40ft wood box" trk="326" dists="2298" gs="1"></car>
-<car t="5" id="11" rect="14999,2368,15337,3114" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM11" loadname="nuts" cartype="40ft wood box" trk="326" dists="1758" gs="1"></car>
-<car t="5" id="2" rect="14963,2916,15299,3642" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM2" loadname="wool" cartype="40ft wood box" trk="326" dists="1218" gs="1"></car>
-<car t="5" id="12" rect="14927,3445,15263,4171" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="XM12" loadname="packages" cartype="40ft wood box" trk="326" dists="688" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="51" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="127" rect="14924,1383,15260,2129" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM127" loadname="nuts" cartype="40ft wood box" trk="330" dists="2759"></car>
-<car t="5" id="128" rect="14887,1932,15223,2678" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM128" loadname="wool" cartype="40ft wood box" trk="330" dists="2209"></car>
-<car t="5" id="132" rect="14850,2480,15186,3226" flags="5242880" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM132" loadname="bananas" cartype="40ft wood box" trk="330" dists="1659"></car>
-<car t="5" id="133" rect="14813,3029,15149,3775" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM133" loadname="nuts" cartype="40ft wood box" trk="330" dists="1109"></car>
-<car t="5" id="134" rect="14776,3578,15112,4324" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM134" loadname="cocoa" cartype="40ft wood box" trk="330" dists="559"></car>
-<car t="5" id="135" rect="14751,4128,15075,4872" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM135" loadname="nuts" cartype="40ft wood box" trk="330" dists="9"></car>
-</cars>
-</trn>
-<trn t="6" id="6" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="141" rect="15584,3816,15922,4562" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM141" loaded="1" loadname="packages" cartype="40ft wood box" trk="343" dists="749"></car>
-<car t="5" id="142" rect="15547,4365,15885,5111" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM142" loadname="nuts" cartype="40ft wood box" trk="343" dists="1299"></car>
-<car t="5" id="143" rect="15510,4913,15848,5659" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM143" loadname="cotton cloth" cartype="40ft wood box" trk="343" dists="1849"></car>
-<car t="5" id="23" rect="15473,5462,15809,6208" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM23" loadname="cocoa" cartype="40ft wood box" trk="343" dists="2399"></car>
-</cars>
-</trn>
-<trn t="6" id="38" dspeed="0" rev="1" horntype="3">
-<cars>
-<car t="5" id="13" rect="15477,3243,15813,3989" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM13" loadname="green coffee" cartype="40ft wood box" trk="340" dists="210"></car>
-<car t="5" id="136" rect="15442,3791,15778,4537" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM136" loadname="cocoa" cartype="40ft wood box" trk="340" dists="760"></car>
-<car t="5" id="137" rect="15406,4340,15742,5086" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM137" loadname="bananas" cartype="40ft wood box" trk="340" dists="1310"></car>
-<car t="5" id="138" rect="15370,4889,15706,5635" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM138" loadname="green coffee" cartype="40ft wood box" trk="340" dists="1860"></car>
-<car t="5" id="139" rect="15335,5437,15671,6183" flags="4194304" type="8" outl="102,51,0" fill="204,102,0" len="570" wid="130" label="XM139" loadname="cocoa" cartype="40ft wood box" trk="340" dists="2410"></car>
-</cars>
-</trn>
-<trn t="6" id="18" dspeed="0" horntype="3">
-<cars>
-<car t="5" id="144" rect="16353,6206,16685,6882" flags="4194304" type="10" outl="102,51,0" fill="204,102,0" len="500" wid="130" label="MWF144" loadname="Milled timber" carnote="Idler Flat" collname="Special Cars" cartype="MOWflat" trk="358" dists="3751" gs="1"></car>
-<car t="5" id="159" rect="16325,6686,16653,7322" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="460" wid="130" label="244" carnote="cap 1500" cartype="0-6-0 tank switcher" trk="358" dists="4211" gs="1"></car>
-</cars>
-</trn>
-</saved_trains>]]></trains>
-<saved_jxns>54 1  114 1  156 1  162 1  277 1  285 1  310 1  379 1  389 1  403 1  426 1  448 1  458 1  468 1  491 1  561 1  621 1  737 1  785 1  797 1  799 1  833 1  873 1  889 1  920 1</saved_jxns>
-<saved_ttbls></saved_ttbls>
-<ao_settings active_train="0"><![CDATA[<ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>]]></ao_settings>
-</rewind_point>
 </scripts>
 <notes>
 <note autofit="1">
