@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="..\Layout Artwork\CNJ Bronx Terminal 1915.jpg" zoom="9.49038" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx.">
+<layout name="CNJ Bronx Terminal 1915" lid="CN1" scale="3" bitmap="..\Layout Artwork\CNJ Bronx Terminal 1915.jpg" zoom="6.07385" xdim="10857" ydim="7733" xoffset="0" yoffset="0" bmap_size="x:10857,y:7733" def_cars="DropKick" descr="Mott Haven, the Bronx.">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="7681,6594"></jxn>
@@ -469,7 +469,7 @@
 <str t="1" id="112" rect="4220,4980,4712,5199" js="121" jn="4"></str>
 </trks>
 </tracks>
-<trains selno="22" trk="0" dists="0">
+<trains selno="0" trk="0" dists="0">
 <trn t="6" id="7" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="8" rect="7472,4232,8192,4756" flags="1052672" type="5" outl="134,134,134" fill="255,255,255" len="550" wid="130" label="FGEX 6460" loadname="produce" dest="T" collname="Default Steam" cartype="ice reefer" trk="176" dists="265" gs="1"></car>
@@ -647,7 +647,7 @@
 <car t="5" id="37" rect="2819,2219,3143,2943" flags="1310720" type="8" outl="102,51,0" fill="204,102,0" len="550" wid="130" label="NYC 4278" loaded="1" loadname="LCL" dest="H" collname="Default Steam" cartype="40ft wood box" trk="31" dists="191"></car>
 </cars>
 </trn>
-<trn t="6" id="19" dspeed="0" horntype="0" selcarno="2">
+<trn t="6" id="19" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="84" rect="5631,1767,6003,2499" flags="4194304" type="8" outl="95,95,95" fill="255,0,0" len="550" wid="140" label="CNJMoW 304" loadname="Empty" dest="~" collname="mow_odd cars" cartype="mow flat" trk="51" dists="33"></car>
 <car t="5" id="90" rect="5758,2320,5928,2490" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="1" wid="1" label="." cartype="diesel" trk="286" dists="42"></car>
@@ -689,9 +689,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1271,b:585" zoom="0.10537" ctr="x:5429,y:3862" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1271,b:585" zoom="0.16464" ctr="x:5881,y:5316" vtype="596"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3999" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
+<script id="20" flags="6" cmdix="4029" wndrect="639,134,1281,946"><![CDATA[** CNJ Bronx Terminal 1915
 
 ** Assign a note to a subroutine
     Let NoteForPersonalizedSettings = 26
@@ -1003,7 +1003,7 @@ Use the Patterns subroutine to move additional cars between the yard and industr
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="1,171,568,315" otype="9" text=" " bktype="1" fill="R:186,G:204,B:212" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>189,12,413,579</wndrect>
+<wndrect>189,12,557,579</wndrect>
 </note>
 </notes>
 </layout>
