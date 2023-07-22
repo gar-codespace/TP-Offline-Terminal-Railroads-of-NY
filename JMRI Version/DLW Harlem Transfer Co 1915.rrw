@@ -96,7 +96,7 @@
 <jxn t="3" id="176" pt="5880,3904"></jxn>
 <jxn t="3" id="178" pt="6088,4008"></jxn>
 <jxn t="3" id="180" pt="6263,4136"></jxn>
-<jxn t="3" id="182" pt="6812,4576"></jxn>
+<jxn t="3" id="182" pt="6812,4576" swp="1"></jxn>
 <jxn t="3" id="184" pt="6978,4694"></jxn>
 <jxn t="3" id="187" pt="6268,3029"></jxn>
 <jxn t="3" id="188" pt="6273,3488"></jxn>
@@ -648,9 +648,10 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1904,b:851" zoom="0.109881" ctr="x:5742,y:3703" vtype="724" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="4059" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
+<script id="20" flags="6" cmdix="4119" wndrect="0,22,597,594"><![CDATA[** DL&W Harlem Transfer Co 1915
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 21
     Let NoteForPersonalizedSettings = 23
     Let NoteForPressX = 22
     Let NoteForPressY = 0
@@ -692,8 +693,8 @@ SPECIAL_1
 SPECIAL_2
 SPECIAL_3
 
-OPERATING_AAR
-HOME_AAR E ES ED EE EP N NE NM
+ENGINE_AAR E ES ED EE EP
+CABOOSE_AAR N NE NM
 MANIFEST_AAR F FA FA6 FB FC FCA FD FL FM FS FW G GA GB GD GBH GE GS GT H HM LG LO LP LT O RA RBL RP S SH SM T TA TL TW X XAR XMR XI XM XP
 PASS_AAR B BE BH BM BMR BMT BP BR BX CA CS D DA DB DC DL DO DP DPA MA MB MR P PA PAS PB PBC PBO PC PL PO PS PSA
 MW_AAR M MWB MWC MWD MWG MWF MWK MWR MWX

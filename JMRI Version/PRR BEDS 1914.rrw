@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="PRR BEDS-1914" lid="PR1" scale="3" bitmap="..\Layout Artwork\PRR BEDS 1914.jpg" zoom="8.02306" xdim="14963" ydim="5669" xoffset="0" yoffset="0" bmap_size="x:14963,y:5669" def_cars="DropKick" descr="Random Roads - Source Data&#013;&#010;&#013;&#010;OPERATING_ROAD PRR&#013;&#010;HOME_ROADS PRR&#013;&#010;MANIFEST_POOL PRR WJ&amp;S PRR PRR PL PL PL NYNH&amp;H P&amp;R B&amp;A B&amp;O NYC M&amp;P SP AT&amp;SF DL&amp;W CNJ ACL LV ER&#013;&#010;REEFER_POOL FGEX MDX&#013;&#010;TANK_POOL TCX PRR TELX UTLX&#013;&#010;HOPPER_POOL PRR PGCC P&amp;R B&amp;O WCC&#013;&#010;SPECIAL_1&#013;&#010;SPECIAL_2 HJH&#013;&#010;SPECIAL_3&#013;&#010;&#013;&#010;OPERATING_AAR&#013;&#010;HOME_AAR E ES ED EE EP N NE NM&#013;&#010;MANIFEST_AAR F FA FA6 FB FC FCA FD FL FM FS FW G GA GB GD GBH GE GS GT H HM LG LO LP LT O RA RBL RP S SH SM T TA TL TW X XAR XMR XI XM XP&#013;&#010;PASS_AAR B BE BH BM BMR BMT BP BR BX CA CS D DA DB DC DL DO DP DPA MA MB MR P PA PAS PB PBC PBO PC PL PO PS PSA&#013;&#010;MW_AAR M MWB MWC MWD MWG MWF MWK MWR MWX&#013;&#010;REEFER_AAR RS R RB&#013;&#010;TANK_AAR TG TM TO&#013;&#010;HOPPER_AAR HT HK&#013;&#010;SPECIAL_1_AAR&#013;&#010;SPECIAL_2_AAR TV RH&#013;&#010;SPECIAL_3_AAR&#013;&#010;&#013;&#010;HOME_LENGTH 3&#013;&#010;PASS_LENGTH 4&#013;&#010;FREIGHT_LENGTH 4&#013;&#010;MW_LENGTH 3">
+<layout name="PRR BEDS-1914" lid="PR1" scale="3" bitmap="..\Layout Artwork\PRR BEDS 1914.jpg" zoom="8.02304" xdim="14963" ydim="5669" xoffset="0" yoffset="0" bmap_size="x:14963,y:5669" def_cars="DropKick" descr="Random Roads - Source Data&#013;&#010;&#013;&#010;OPERATING_ROAD PRR&#013;&#010;HOME_ROADS PRR&#013;&#010;MANIFEST_POOL PRR WJ&amp;S PRR PRR PL PL PL NYNH&amp;H P&amp;R B&amp;A B&amp;O NYC M&amp;P SP AT&amp;SF DL&amp;W CNJ ACL LV ER&#013;&#010;REEFER_POOL FGEX MDX&#013;&#010;TANK_POOL TCX PRR TELX UTLX&#013;&#010;HOPPER_POOL PRR PGCC P&amp;R B&amp;O WCC&#013;&#010;SPECIAL_1&#013;&#010;SPECIAL_2 HJH&#013;&#010;SPECIAL_3&#013;&#010;&#013;&#010;OPERATING_AAR&#013;&#010;HOME_AAR E ES ED EE EP N NE NM&#013;&#010;MANIFEST_AAR F FA FA6 FB FC FCA FD FL FM FS FW G GA GB GD GBH GE GS GT H HM LG LO LP LT O RA RBL RP S SH SM T TA TL TW X XAR XMR XI XM XP&#013;&#010;PASS_AAR B BE BH BM BMR BMT BP BR BX CA CS D DA DB DC DL DO DP DPA MA MB MR P PA PAS PB PBC PBO PC PL PO PS PSA&#013;&#010;MW_AAR M MWB MWC MWD MWG MWF MWK MWR MWX&#013;&#010;REEFER_AAR RS R RB&#013;&#010;TANK_AAR TG TM TO&#013;&#010;HOPPER_AAR HT HK&#013;&#010;SPECIAL_1_AAR&#013;&#010;SPECIAL_2_AAR TV RH&#013;&#010;SPECIAL_3_AAR&#013;&#010;&#013;&#010;HOME_LENGTH 3&#013;&#010;PASS_LENGTH 4&#013;&#010;FREIGHT_LENGTH 4&#013;&#010;MW_LENGTH 3">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="1120,1841"></jxn>
@@ -130,7 +130,7 @@
 <str t="1" id="45" rect="8150,1758,8287,1813" js="41" jn="44"></str>
 <str t="1" id="47" rect="8287,1720,8467,1758" js="44" jn="46"></str>
 <str t="1" id="49" rect="8467,1706,8647,1720" js="46" jn="48"></str>
-<str t="1" id="53" rect="8665,1695,12645,1705" tag="TT" js="48" jn="52"></str>
+<str t="1" id="53" rect="8647,1704,12645,1707" tag="TT" js="48" jn="52"></str>
 <str t="1" id="55" rect="7601,2220,7911,2263" js="25" jn="54"></str>
 <str t="1" id="57" rect="7911,2263,8183,2295" js="54" jn="56"></str>
 <str t="1" id="59" rect="8183,2295,8681,2310" tag="TT" js="56" jn="58"></str>
@@ -404,9 +404,10 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1992,b:877" zoom="0.124641" ctr="x:7509,y:2835" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="4059" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
+<script id="11" flags="6" cmdix="4099" wndrect="171,301,768,990"><![CDATA[* PRR BEDS 1914
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 12
     Let NoteForPersonalizedSettings = 13
     Let NoteForPressX = 0
     Let NoteForPressY = 0
@@ -646,7 +647,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="2,153,689,529" otype="9" text=" " bktype="1" fill="R:211,G:205,B:161" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,700,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>185,33,537,650</wndrect>
+<wndrect>185,33,313,650</wndrect>
 </note>
 </notes>
 </layout>
