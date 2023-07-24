@@ -991,9 +991,10 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1121,t:0,r:2242,b:788" zoom="0.0664233" ctr="x:8491,y:6122" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3955" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1929
+<script id="11" flags="6" cmdix="4107" wndrect="0,22,597,406"><![CDATA[** LVRR Bronx Terminal 1929
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 98
     Let NoteForPersonalizedSettings = 97
     Let NoteForPressX = 12
     Let NoteForPressY = 0

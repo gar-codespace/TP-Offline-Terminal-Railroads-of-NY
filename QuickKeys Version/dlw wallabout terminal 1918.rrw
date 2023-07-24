@@ -491,11 +491,12 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1121,b:1100" zoom="0.0642136" ctr="x:5591,y:6332" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1121,b:1100" zoom="0.0642136" ctr="x:5606,y:6332" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3947" wndrect="0,22,597,406"><![CDATA[** DL&W Wallabout Terminal 1918
+<script id="11" flags="6" cmdix="4099" wndrect="0,22,597,406"><![CDATA[** DL&W Wallabout Terminal 1918
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 14
     Let NoteForPersonalizedSettings = 13
     Let NoteForPressX = 0
     Let NoteForPressY = 0

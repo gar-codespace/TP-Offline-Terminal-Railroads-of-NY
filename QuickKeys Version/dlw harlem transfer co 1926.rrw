@@ -86,7 +86,7 @@
 <jxn t="3" id="175" pt="6533,3941"></jxn>
 <jxn t="3" id="177" pt="6890,4096"></jxn>
 <jxn t="3" id="179" pt="7140,4263" swp="1"></jxn>
-<jxn t="3" id="181" pt="7528,4574" swp="1"></jxn>
+<jxn t="3" id="181" pt="7528,4574"></jxn>
 <jxn t="3" id="183" pt="7694,4692"></jxn>
 <jxn t="3" id="186" pt="6984,3027"></jxn>
 <jxn t="3" id="187" pt="6989,3486"></jxn>
@@ -551,9 +551,10 @@
 </roadstyles>
 <winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:1278,t:0,r:2556,b:1100" zoom="0.109838" ctr="x:6109,y:3703" vtype="84" fit="1"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="3960" wndrect="0,22,597,406"><![CDATA[** DL&W Harlem Transfer Co 1926
+<script id="20" flags="6" cmdix="4112" wndrect="0,22,597,406"><![CDATA[** DL&W Harlem Transfer Co 1926
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 28
     Let NoteForPersonalizedSettings = 26
     Let NoteForPressX = 23
     Let NoteForPressY = 0

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="Jay St Connecting RR 1920" lid="JA1" scale="3" bitmap="..\Layout Artwork\Jay Street Connecting RR.jpg" zoom="28.8614" xdim="43321" ydim="19002" xoffset="0" yoffset="0" bmap_size="x:43321,y:19002" def_cars="DropKick" descr="Pulls to Pier 2 track 1, 2, 3. Pier 2 track 1, 2, 3  to car float. Car float to yard. Yard to industry. Industries grouped into jobs (4 of them). Artwork © 2014 GA Ritacco.">
+<layout name="Jay St Connecting RR 1920" lid="JA1" scale="3" bitmap="..\Layout Artwork\Jay Street Connecting RR.jpg" zoom="29.0355" xdim="43321" ydim="19002" xoffset="0" yoffset="0" bmap_size="x:43321,y:19002" def_cars="DropKick" descr="Pulls to Pier 2 track 1, 2, 3. Pier 2 track 1, 2, 3  to car float. Car float to yard. Yard to industry. Industries grouped into jobs (4 of them). Artwork © 2014 GA Ritacco.">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="14488,18105"></jxn>
@@ -1856,11 +1856,12 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1386,b:788" zoom="0.0346483" ctr="x:21646,y:9501" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1386,b:788" zoom="0.0344406" ctr="x:21661,y:9501" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3947" wndrect="0,22,597,406"><![CDATA[** Jay St Connecting RR 1920
+<script id="11" flags="6" cmdix="4099" wndrect="0,22,597,406"><![CDATA[** Jay St Connecting RR 1920
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 15
     Let NoteForPersonalizedSettings = 14
     Let NoteForPressX = 0
     Let NoteForPressY = 0

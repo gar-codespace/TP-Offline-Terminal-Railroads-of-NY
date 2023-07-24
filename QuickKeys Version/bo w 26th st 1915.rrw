@@ -22,7 +22,7 @@
 <jxn t="3" id="34" pt="10756,1446"></jxn>
 <jxn t="3" id="36" pt="11080,1592"></jxn>
 <jxn t="3" id="38" pt="11454,1721"></jxn>
-<jxn t="3" id="41" pt="11595,1752"></jxn>
+<jxn t="3" id="41" pt="11595,1752" swp="1"></jxn>
 <jxn t="3" id="42" pt="12045,1795"></jxn>
 <jxn t="3" id="45" pt="14369,1795"></jxn>
 <jxn t="3" id="47" pt="13172,2078"></jxn>
@@ -310,11 +310,12 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:1100" zoom="0.0724595" ctr="x:10144,y:2529" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:1100" zoom="0.0724595" ctr="x:10157,y:2529" vtype="596"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3947" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
+<script id="11" flags="6" cmdix="4099" wndrect="0,22,597,406"><![CDATA[** B&O W 26th St 1915
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 15
     Let NoteForPersonalizedSettings = 13
     Let NoteForPressX = 0
     Let NoteForPressY = 0

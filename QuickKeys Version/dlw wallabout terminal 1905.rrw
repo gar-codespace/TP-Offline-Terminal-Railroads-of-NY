@@ -12,7 +12,7 @@
 <jxn t="3" id="14" pt="6646,6804"></jxn>
 <jxn t="3" id="16" pt="6760,6702"></jxn>
 <jxn t="3" id="18" pt="6916,6588"></jxn>
-<jxn t="3" id="20" pt="7579,6136" swp="1"></jxn>
+<jxn t="3" id="20" pt="7579,6136"></jxn>
 <jxn t="3" id="22" pt="6520,6968"></jxn>
 <jxn t="3" id="24" pt="6684,6888"></jxn>
 <jxn t="3" id="26" pt="6832,6816"></jxn>
@@ -372,11 +372,12 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:788" zoom="0.080866" ctr="x:6975,y:5029" vtype="84" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:0,t:0,r:1278,b:788" zoom="0.080866" ctr="x:6974,y:5029" vtype="84" fit="1"></winview>
 <scripts>
-<script id="11" flags="6" cmdix="3958" wndrect="0,22,597,406"><![CDATA[** DL&W Wallabout Terminal 1905
+<script id="11" flags="6" cmdix="4110" wndrect="0,22,597,406"><![CDATA[** DL&W Wallabout Terminal 1905
 
 ** Assign a note to a subroutine
+    Let NoteForRandomRoads = 15
     Let NoteForPersonalizedSettings = 14
     Let NoteForPressX = 0
     Let NoteForPressY = 0
